@@ -16,5 +16,12 @@ namespace ChuyenDe
 		{
 			InitializeComponent();
 		}
+
+		private void mnuSanPham_Click(object sender, EventArgs e)
+		{
+			frmSanPham fr = new frmSanPham();
+			fr.MdiParent = this;
+			fr.Show();
+		}
 	}
 }

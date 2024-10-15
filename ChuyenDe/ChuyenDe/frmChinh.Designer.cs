@@ -58,7 +58,7 @@
 			// chiTiếtHĐToolStripMenuItem
 			// 
 			this.chiTiếtHĐToolStripMenuItem.Name = "chiTiếtHĐToolStripMenuItem";
-			this.chiTiếtHĐToolStripMenuItem.Size = new System.Drawing.Size(99, 26);
+			this.chiTiếtHĐToolStripMenuItem.Size = new System.Drawing.Size(99, 24);
 			this.chiTiếtHĐToolStripMenuItem.Text = "Chi Tiết HĐ";
 			// 
 			// mnuThongKeLuongNV
@@ -86,7 +86,7 @@
             this.mnuThongKeSanPham,
             this.mnuThongKeLuongNV});
 			this.mnuThongKe.Name = "mnuThongKe";
-			this.mnuThongKe.Size = new System.Drawing.Size(86, 26);
+			this.mnuThongKe.Size = new System.Drawing.Size(86, 24);
 			this.mnuThongKe.Text = "Thống Kê";
 			// 
 			// mnuTimKiemNhanVien
@@ -122,7 +122,7 @@
             this.mnuTimKiemNhanVien,
             this.tìmKiếmKhoToolStripMenuItem});
 			this.mnuTimKiem.Name = "mnuTimKiem";
-			this.mnuTimKiem.Size = new System.Drawing.Size(86, 26);
+			this.mnuTimKiem.Size = new System.Drawing.Size(86, 24);
 			this.mnuTimKiem.Text = "Tìm Kiếm";
 			// 
 			// tìmKiếmKhoToolStripMenuItem
@@ -134,19 +134,19 @@
 			// mnuHoaDon
 			// 
 			this.mnuHoaDon.Name = "mnuHoaDon";
-			this.mnuHoaDon.Size = new System.Drawing.Size(83, 26);
+			this.mnuHoaDon.Size = new System.Drawing.Size(83, 24);
 			this.mnuHoaDon.Text = "Hóa Đơn";
 			// 
 			// mnuNhanVien
 			// 
 			this.mnuNhanVien.Name = "mnuNhanVien";
-			this.mnuNhanVien.Size = new System.Drawing.Size(91, 26);
+			this.mnuNhanVien.Size = new System.Drawing.Size(91, 24);
 			this.mnuNhanVien.Text = "Nhân Viên";
 			// 
 			// mnuKhachHang
 			// 
 			this.mnuKhachHang.Name = "mnuKhachHang";
-			this.mnuKhachHang.Size = new System.Drawing.Size(103, 26);
+			this.mnuKhachHang.Size = new System.Drawing.Size(103, 24);
 			this.mnuKhachHang.Text = "Khách Hàng";
 			// 
 			// mnuKho
@@ -178,6 +178,7 @@
 			this.mnuSanPham.Name = "mnuSanPham";
 			this.mnuSanPham.Size = new System.Drawing.Size(158, 26);
 			this.mnuSanPham.Text = "Sản Phẩm";
+			this.mnuSanPham.Click += new System.EventHandler(this.mnuSanPham_Click);
 			// 
 			// mnuDanhMuc
 			// 
@@ -188,7 +189,7 @@
             this.mnuCuaHang,
             this.mnuKho});
 			this.mnuDanhMuc.Name = "mnuDanhMuc";
-			this.mnuDanhMuc.Size = new System.Drawing.Size(90, 26);
+			this.mnuDanhMuc.Size = new System.Drawing.Size(90, 24);
 			this.mnuDanhMuc.Text = "Danh Mục";
 			// 
 			// mnuThoat
@@ -217,7 +218,7 @@
             this.mnuThongKe});
 			this.menuStrip1.Location = new System.Drawing.Point(0, 0);
 			this.menuStrip1.Name = "menuStrip1";
-			this.menuStrip1.Size = new System.Drawing.Size(1257, 30);
+			this.menuStrip1.Size = new System.Drawing.Size(1257, 28);
 			this.menuStrip1.TabIndex = 3;
 			this.menuStrip1.Text = "menuStrip1";
 			// 
@@ -227,7 +228,7 @@
             this.mnuDangXuat,
             this.mnuThoat});
 			this.mnuFile.Name = "mnuFile";
-			this.mnuFile.Size = new System.Drawing.Size(85, 26);
+			this.mnuFile.Size = new System.Drawing.Size(85, 24);
 			this.mnuFile.Text = "Hệ thống";
 			// 
 			// frmChinh
@@ -235,11 +236,12 @@
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackgroundImage = global::ChuyenDe.Properties.Resources.sharefb_v201908071702_637008562618462479;
-			this.ClientSize = new System.Drawing.Size(1257, 768);
+			this.ClientSize = new System.Drawing.Size(1257, 906);
 			this.Controls.Add(this.menuStrip1);
 			this.IsMdiContainer = true;
 			this.Name = "frmChinh";
 			this.Text = "Form1";
+			this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
 			this.menuStrip1.ResumeLayout(false);
 			this.menuStrip1.PerformLayout();
 			this.ResumeLayout(false);

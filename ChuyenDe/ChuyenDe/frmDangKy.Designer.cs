@@ -28,8 +28,7 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
-			this.cboMaNV = new System.Windows.Forms.ComboBox();
-			this.btnLogin = new System.Windows.Forms.Button();
+			this.btnDangNhap = new System.Windows.Forms.Button();
 			this.btnDangKy = new System.Windows.Forms.Button();
 			this.txtMatKhau = new System.Windows.Forms.TextBox();
 			this.txtTaiKhoan = new System.Windows.Forms.TextBox();
@@ -37,27 +36,19 @@
 			this.label3 = new System.Windows.Forms.Label();
 			this.label2 = new System.Windows.Forms.Label();
 			this.label1 = new System.Windows.Forms.Label();
+			this.txtMaNV = new System.Windows.Forms.TextBox();
 			this.SuspendLayout();
 			// 
-			// cboMaNV
+			// btnDangNhap
 			// 
-			this.cboMaNV.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-			this.cboMaNV.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.cboMaNV.FormattingEnabled = true;
-			this.cboMaNV.Location = new System.Drawing.Point(292, 242);
-			this.cboMaNV.Name = "cboMaNV";
-			this.cboMaNV.Size = new System.Drawing.Size(344, 33);
-			this.cboMaNV.TabIndex = 30;
-			// 
-			// btnLogin
-			// 
-			this.btnLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.btnLogin.Location = new System.Drawing.Point(473, 331);
-			this.btnLogin.Name = "btnLogin";
-			this.btnLogin.Size = new System.Drawing.Size(139, 35);
-			this.btnLogin.TabIndex = 29;
-			this.btnLogin.Text = "Đăng Nhập";
-			this.btnLogin.UseVisualStyleBackColor = true;
+			this.btnDangNhap.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnDangNhap.Location = new System.Drawing.Point(473, 331);
+			this.btnDangNhap.Name = "btnDangNhap";
+			this.btnDangNhap.Size = new System.Drawing.Size(139, 35);
+			this.btnDangNhap.TabIndex = 29;
+			this.btnDangNhap.Text = "Đăng Nhập";
+			this.btnDangNhap.UseVisualStyleBackColor = true;
+			this.btnDangNhap.Click += new System.EventHandler(this.btnDangNhap_Click);
 			// 
 			// btnDangKy
 			// 
@@ -68,6 +59,7 @@
 			this.btnDangKy.TabIndex = 28;
 			this.btnDangKy.Text = "Đăng ký";
 			this.btnDangKy.UseVisualStyleBackColor = true;
+			this.btnDangKy.Click += new System.EventHandler(this.btnDangKy_Click);
 			// 
 			// txtMatKhau
 			// 
@@ -127,6 +119,14 @@
 			this.label1.Text = "ĐĂNG KÝ";
 			this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
+			// txtMaNV
+			// 
+			this.txtMaNV.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.txtMaNV.Location = new System.Drawing.Point(292, 242);
+			this.txtMaNV.Name = "txtMaNV";
+			this.txtMaNV.Size = new System.Drawing.Size(344, 30);
+			this.txtMaNV.TabIndex = 30;
+			// 
 			// frmDangKy
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -134,8 +134,8 @@
 			this.BackgroundImage = global::ChuyenDe.Properties.Resources.sharefb_v201908071702_637008562618462479;
 			this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
 			this.ClientSize = new System.Drawing.Size(859, 457);
-			this.Controls.Add(this.cboMaNV);
-			this.Controls.Add(this.btnLogin);
+			this.Controls.Add(this.txtMaNV);
+			this.Controls.Add(this.btnDangNhap);
 			this.Controls.Add(this.btnDangKy);
 			this.Controls.Add(this.txtMatKhau);
 			this.Controls.Add(this.txtTaiKhoan);
@@ -151,9 +151,7 @@
 		}
 
 		#endregion
-
-		private System.Windows.Forms.ComboBox cboMaNV;
-		private System.Windows.Forms.Button btnLogin;
+		private System.Windows.Forms.Button btnDangNhap;
 		private System.Windows.Forms.Button btnDangKy;
 		private System.Windows.Forms.TextBox txtMatKhau;
 		private System.Windows.Forms.TextBox txtTaiKhoan;
@@ -161,5 +159,6 @@
 		private System.Windows.Forms.Label label3;
 		private System.Windows.Forms.Label label2;
 		private System.Windows.Forms.Label label1;
+		private System.Windows.Forms.TextBox txtMaNV;
 	}
 }
