@@ -47,6 +47,7 @@
 			this.btnThoat.TabIndex = 24;
 			this.btnThoat.Text = "Thoát";
 			this.btnThoat.UseVisualStyleBackColor = true;
+			this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
 			// 
 			// btnDangKy
 			// 
@@ -57,6 +58,7 @@
 			this.btnDangKy.TabIndex = 23;
 			this.btnDangKy.Text = "Đăng ký";
 			this.btnDangKy.UseVisualStyleBackColor = true;
+			this.btnDangKy.Click += new System.EventHandler(this.btnDangKy_Click);
 			// 
 			// btnDangNhap
 			// 
@@ -67,6 +69,7 @@
 			this.btnDangNhap.TabIndex = 22;
 			this.btnDangNhap.Text = "Đăng nhập";
 			this.btnDangNhap.UseVisualStyleBackColor = true;
+			this.btnDangNhap.Click += new System.EventHandler(this.btnDangNhap_Click);
 			// 
 			// txtMatKhau
 			// 
