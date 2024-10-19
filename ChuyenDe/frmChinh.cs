@@ -17,23 +17,27 @@ namespace ChuyenDe
 			InitializeComponent();
 		}
 
-        private void mnuCuaHang_Click(object sender, EventArgs e)
-        {
-			frmCuaHang frm = new frmCuaHang();
+		private void mnuSanPham_Click(object sender, EventArgs e)
+		{
 			frm.MdiParent = this;
 			frm.Show();
         }
 
-        private void mnuKho_Click(object sender, EventArgs e)
+			frmSanPham fr = new frmSanPham();
+			fr.MdiParent = this;
+			fr.Show();
+		}
+
+        private void mnuDanhMucHang_Click(object sender, EventArgs e)
         {
-			frmKho frm = new frmKho();
+			frmNhaCungCap frm = new frmNhaCungCap();
 			frm.MdiParent = this;
-			frm.Show();	
+			frm.Show();
         }
 
-        private void mnuNhanVien_Click(object sender, EventArgs e)
+        private void mnuDanhMucLoai_Click(object sender, EventArgs e)
         {
-			frmNhanVien frm = new frmNhanVien();
+			frmLoai frm = new frmLoai();
 			frm.MdiParent = this;
 			frm.Show();
         }

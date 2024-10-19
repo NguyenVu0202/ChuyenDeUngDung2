@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using BUS;
 
 namespace ChuyenDe
 {
@@ -16,5 +17,10 @@ namespace ChuyenDe
 		{
 			InitializeComponent();
 		}
-	}
+
+        private void dgvDanhSachKH_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+			BUSKhachHang.Instance.Load(txtMaKH,txtTenKH,r);
+        }
+    }
 }
