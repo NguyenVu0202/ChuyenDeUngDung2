@@ -1,0 +1,137 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tonga\\OneDrive\\M\u00E1y t\u00EDnh\\ChuyenDe\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B28102B4-A63A-4D91-93A7-3058447513E1}|DAO\\DAO.csproj|c:\\users\\tonga\\onedrive\\m\u00E1y t\u00EDnh\\chuyende\\dao\\daokhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B28102B4-A63A-4D91-93A7-3058447513E1}|DAO\\DAO.csproj|solutionrelative:dao\\daokhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B28102B4-A63A-4D91-93A7-3058447513E1}|DAO\\DAO.csproj|c:\\users\\tonga\\onedrive\\m\u00E1y t\u00EDnh\\chuyende\\dao\\daoloai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B28102B4-A63A-4D91-93A7-3058447513E1}|DAO\\DAO.csproj|solutionrelative:dao\\daoloai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|c:\\users\\tonga\\onedrive\\m\u00E1y t\u00EDnh\\chuyende\\chuyende\\frmkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|solutionrelative:chuyende\\frmkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|c:\\users\\tonga\\onedrive\\m\u00E1y t\u00EDnh\\chuyende\\chuyende\\frmkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|solutionrelative:chuyende\\frmkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9428D986-429C-40C9-BFCA-21FCA92C5A08}|BUS\\BUS.csproj|c:\\users\\tonga\\onedrive\\m\u00E1y t\u00EDnh\\chuyende\\bus\\buskhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9428D986-429C-40C9-BFCA-21FCA92C5A08}|BUS\\BUS.csproj|solutionrelative:bus\\buskhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9428D986-429C-40C9-BFCA-21FCA92C5A08}|BUS\\BUS.csproj|c:\\users\\tonga\\onedrive\\m\u00E1y t\u00EDnh\\chuyende\\bus\\busloai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9428D986-429C-40C9-BFCA-21FCA92C5A08}|BUS\\BUS.csproj|solutionrelative:bus\\busloai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmKhachHang.cs",
+              "DocumentMoniker": "C:\\Users\\tonga\\OneDrive\\M\u00E1y t\u00EDnh\\ChuyenDe\\ChuyenDe\\frmKhachHang.cs",
+              "RelativeDocumentMoniker": "ChuyenDe\\frmKhachHang.cs",
+              "ToolTip": "C:\\Users\\tonga\\OneDrive\\M\u00E1y t\u00EDnh\\ChuyenDe\\ChuyenDe\\frmKhachHang.cs",
+              "RelativeToolTip": "ChuyenDe\\frmKhachHang.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAowBYAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T03:26:01.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BUSKhachHang.cs",
+              "DocumentMoniker": "C:\\Users\\tonga\\OneDrive\\M\u00E1y t\u00EDnh\\ChuyenDe\\BUS\\BUSKhachHang.cs",
+              "RelativeDocumentMoniker": "BUS\\BUSKhachHang.cs",
+              "ToolTip": "C:\\Users\\tonga\\OneDrive\\M\u00E1y t\u00EDnh\\ChuyenDe\\BUS\\BUSKhachHang.cs",
+              "RelativeToolTip": "BUS\\BUSKhachHang.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAIwDwAAAB8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T02:59:52.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmKhachHang.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\tonga\\OneDrive\\M\u00E1y t\u00EDnh\\ChuyenDe\\ChuyenDe\\frmKhachHang.cs",
+              "RelativeDocumentMoniker": "ChuyenDe\\frmKhachHang.cs",
+              "ToolTip": "C:\\Users\\tonga\\OneDrive\\M\u00E1y t\u00EDnh\\ChuyenDe\\ChuyenDe\\frmKhachHang.cs [Design]",
+              "RelativeToolTip": "ChuyenDe\\frmKhachHang.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T02:19:42.026Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DAOKhachHang.cs",
+              "DocumentMoniker": "C:\\Users\\tonga\\OneDrive\\M\u00E1y t\u00EDnh\\ChuyenDe\\DAO\\DAOKhachHang.cs",
+              "RelativeDocumentMoniker": "DAO\\DAOKhachHang.cs",
+              "ToolTip": "C:\\Users\\tonga\\OneDrive\\M\u00E1y t\u00EDnh\\ChuyenDe\\DAO\\DAOKhachHang.cs",
+              "RelativeToolTip": "DAO\\DAOKhachHang.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAgwC4AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T02:11:33.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BUSLoai.cs",
+              "DocumentMoniker": "C:\\Users\\tonga\\OneDrive\\M\u00E1y t\u00EDnh\\ChuyenDe\\BUS\\BUSLoai.cs",
+              "RelativeDocumentMoniker": "BUS\\BUSLoai.cs",
+              "ToolTip": "C:\\Users\\tonga\\OneDrive\\M\u00E1y t\u00EDnh\\ChuyenDe\\BUS\\BUSLoai.cs",
+              "RelativeToolTip": "BUS\\BUSLoai.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAowCIAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T01:30:05.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DAOLoai.cs",
+              "DocumentMoniker": "C:\\Users\\tonga\\OneDrive\\M\u00E1y t\u00EDnh\\ChuyenDe\\DAO\\DAOLoai.cs",
+              "RelativeDocumentMoniker": "DAO\\DAOLoai.cs",
+              "ToolTip": "C:\\Users\\tonga\\OneDrive\\M\u00E1y t\u00EDnh\\ChuyenDe\\DAO\\DAOLoai.cs",
+              "RelativeToolTip": "DAO\\DAOLoai.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAgwGEAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T01:16:34.894Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
