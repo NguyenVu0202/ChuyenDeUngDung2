@@ -147,6 +147,7 @@
             // 
             // dgvCuaHang
             // 
+            this.dgvCuaHang.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvCuaHang.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvCuaHang.Location = new System.Drawing.Point(12, 26);
             this.dgvCuaHang.Name = "dgvCuaHang";
@@ -173,6 +174,7 @@
             this.Controls.Add(this.label1);
             this.Name = "frmCuaHang";
             this.Text = "frmKhachHang";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.groupBox1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvCuaHang)).EndInit();
             this.ResumeLayout(false);

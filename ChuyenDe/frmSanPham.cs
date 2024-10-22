@@ -99,16 +99,10 @@ namespace ChuyenDe
 				picHinhAnh.ImageLocation = openFileDialog.FileName;
 				txtHinhAnh.Text = openFileDialog.FileName;
 
-				// Get the selected file name and destination path
-				string selectedFileName = Path.GetFileNameWithoutExtension(openFileDialog.FileName);
-				string fileExtension = Path.GetExtension(openFileDialog.FileName);
-				string timestamp = DateTime.Now.ToString("yyyyMMdd_HHmmss");
-				string newFileName = $"{selectedFileName}{timestamp}{fileExtension}";
+                string selectedFileName = Path.GetFileName(openFileDialog.FileName);
+                string destinationPath = Path.Combine(Application.StartupPath, "Image", selectedFileName);
 
-				// Get the destination path with the new file name
-				string destinationPath = Path.Combine(Application.StartupPath, "Image", newFileName);
-
-				try
+                try
 				{
 					// Copy the selected file to the "Image" folder
 					File.Copy(openFileDialog.FileName, destinationPath, true);

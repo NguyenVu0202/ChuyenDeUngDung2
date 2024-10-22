@@ -113,7 +113,7 @@ namespace ChuyenDe
             DialogResult result = MessageBox.Show("Bạn có chắc chắn muốn thoát?", "Thông báo", MessageBoxButtons.YesNo);
             if (result == DialogResult.Yes)
             {
-                Application.Exit();
+                this.Close();
             }
         }
 

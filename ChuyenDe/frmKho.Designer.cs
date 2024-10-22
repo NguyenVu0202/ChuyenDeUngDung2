@@ -179,6 +179,7 @@
             // 
             // dgvKhoa
             // 
+            this.dgvKhoa.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvKhoa.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvKhoa.Location = new System.Drawing.Point(0, 26);
             this.dgvKhoa.Name = "dgvKhoa";
@@ -232,6 +233,7 @@
             this.Controls.Add(this.label2);
             this.Name = "frmKho";
             this.Text = "frmKho";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.frmKho_Load);
             this.groupBox1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvKhoa)).EndInit();

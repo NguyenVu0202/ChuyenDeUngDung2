@@ -44,5 +44,26 @@ namespace ChuyenDe
             frm.MdiParent = this;
             frm.Show();
         }
+
+        private void mnuKho_Click(object sender, EventArgs e)
+        {
+			frmKho frm = new frmKho();
+			frm.MdiParent = this;
+			frm.Show();
+        }
+
+        private void mnuNhanVien_Click(object sender, EventArgs e)
+        {
+			frmNhanVien frm = new frmNhanVien();
+			frm.MdiParent = this;
+			frm.Show();
+        }
+
+        private void mnuCuaHang_Click(object sender, EventArgs e)
+        {
+			frmCuaHang frm = new frmCuaHang();
+			frm.MdiParent = this;
+			frm.Show();
+        }
     }
 }
