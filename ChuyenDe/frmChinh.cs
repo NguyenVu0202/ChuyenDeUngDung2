@@ -19,10 +19,6 @@ namespace ChuyenDe
 
 		private void mnuSanPham_Click(object sender, EventArgs e)
 		{
-			frm.MdiParent = this;
-			frm.Show();
-        }
-
 			frmSanPham fr = new frmSanPham();
 			fr.MdiParent = this;
 			fr.Show();
@@ -40,6 +36,13 @@ namespace ChuyenDe
 			frmLoai frm = new frmLoai();
 			frm.MdiParent = this;
 			frm.Show();
+        }
+
+        private void mnuKhachHang_Click(object sender, EventArgs e)
+        {
+            frmKhachHang frm = new frmKhachHang();
+            frm.MdiParent = this;
+            frm.Show();
         }
     }
 }

@@ -42,6 +42,9 @@ namespace DAO
     partial void InsertHoaDon(HoaDon instance);
     partial void UpdateHoaDon(HoaDon instance);
     partial void DeleteHoaDon(HoaDon instance);
+    partial void InsertKho(Kho instance);
+    partial void UpdateKho(Kho instance);
+    partial void DeleteKho(Kho instance);
     partial void InsertKhachHang(KhachHang instance);
     partial void UpdateKhachHang(KhachHang instance);
     partial void DeleteKhachHang(KhachHang instance);
@@ -1641,7 +1644,6 @@ namespace DAO
 			entity.KhachHang = null;
 		}
 	}
-	
 	
 	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.Loai")]
 	public partial class Loai : INotifyPropertyChanging, INotifyPropertyChanged

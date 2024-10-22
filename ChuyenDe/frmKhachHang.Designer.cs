@@ -43,10 +43,14 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.btnXoa = new System.Windows.Forms.Button();
             this.btnSua = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.radSDT = new System.Windows.Forms.RadioButton();
+            this.radTen = new System.Windows.Forms.RadioButton();
+            this.radMa = new System.Windows.Forms.RadioButton();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.btnThoat = new System.Windows.Forms.Button();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDanhSachKH)).BeginInit();
@@ -62,7 +66,8 @@
             this.btnTimKiem.Size = new System.Drawing.Size(152, 62);
             this.btnTimKiem.TabIndex = 32;
             this.btnTimKiem.Text = "TÌM KIẾM";
-            this.btnTimKiem.UseVisualStyleBackColor = true;
+            this.btnTimKiem.UseVisualStyleBackColor = false;
+            this.btnTimKiem.Click += new System.EventHandler(this.btnTimKiem_Click);
             // 
             // label1
             // 
@@ -86,6 +91,7 @@
             this.btnThem.TabIndex = 30;
             this.btnThem.Text = "THÊM";
             this.btnThem.UseVisualStyleBackColor = true;
+            this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
             // 
             // groupBox2
             // 
@@ -205,15 +211,6 @@
             this.label3.TabIndex = 1;
             this.label3.Text = "Giới Tính:";
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(21, 58);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(83, 25);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Mã KH:";
-            // 
             // btnXoa
             // 
             this.btnXoa.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -224,6 +221,7 @@
             this.btnXoa.TabIndex = 33;
             this.btnXoa.Text = "XÓA";
             this.btnXoa.UseVisualStyleBackColor = true;
+            this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
             // 
             // btnSua
             // 
@@ -235,9 +233,14 @@
             this.btnSua.TabIndex = 31;
             this.btnSua.Text = "SỬA";
             this.btnSua.UseVisualStyleBackColor = true;
+            this.btnSua.Click += new System.EventHandler(this.btnSua_Click);
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.radSDT);
+            this.groupBox1.Controls.Add(this.radTen);
+            this.groupBox1.Controls.Add(this.radMa);
+            this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.Controls.Add(this.radNu);
             this.groupBox1.Controls.Add(this.radNam);
             this.groupBox1.Controls.Add(this.txtDiaChi);
@@ -259,6 +262,63 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông Tin Khách Hàng";
             // 
+            // radSDT
+            // 
+            this.radSDT.AutoSize = true;
+            this.radSDT.Location = new System.Drawing.Point(974, 181);
+            this.radSDT.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.radSDT.Name = "radSDT";
+            this.radSDT.Size = new System.Drawing.Size(79, 29);
+            this.radSDT.TabIndex = 15;
+            this.radSDT.TabStop = true;
+            this.radSDT.Text = "SDT";
+            this.radSDT.UseVisualStyleBackColor = true;
+            this.radSDT.CheckedChanged += new System.EventHandler(this.radSDT_CheckedChanged);
+            // 
+            // radTen
+            // 
+            this.radTen.AutoSize = true;
+            this.radTen.Location = new System.Drawing.Point(887, 181);
+            this.radTen.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.radTen.Name = "radTen";
+            this.radTen.Size = new System.Drawing.Size(74, 29);
+            this.radTen.TabIndex = 14;
+            this.radTen.TabStop = true;
+            this.radTen.Text = "Tên";
+            this.radTen.UseVisualStyleBackColor = true;
+            this.radTen.CheckedChanged += new System.EventHandler(this.radTen_CheckedChanged);
+            // 
+            // radMa
+            // 
+            this.radMa.AutoSize = true;
+            this.radMa.Location = new System.Drawing.Point(796, 181);
+            this.radMa.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.radMa.Name = "radMa";
+            this.radMa.Size = new System.Drawing.Size(67, 29);
+            this.radMa.TabIndex = 13;
+            this.radMa.TabStop = true;
+            this.radMa.Text = "Mã";
+            this.radMa.UseVisualStyleBackColor = true;
+            this.radMa.CheckedChanged += new System.EventHandler(this.radMa_CheckedChanged);
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(636, 183);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(152, 25);
+            this.label7.TabIndex = 12;
+            this.label7.Text = "Tìm kiếm theo:";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(21, 58);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(83, 25);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "Mã KH:";
+            // 
             // btnThoat
             // 
             this.btnThoat.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -269,6 +329,7 @@
             this.btnThoat.TabIndex = 34;
             this.btnThoat.Text = "THOÁT";
             this.btnThoat.UseVisualStyleBackColor = true;
+            this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
             // 
             // frmKhachHang
             // 
@@ -286,6 +347,7 @@
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "frmKhachHang";
             this.Text = "frmKhachHang";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.groupBox2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvDanhSachKH)).EndInit();
             this.groupBox1.ResumeLayout(false);
@@ -295,8 +357,6 @@
 		}
 
 		#endregion
-
-		private System.Windows.Forms.Button btnTimKiem;
 		private System.Windows.Forms.Label label1;
 		private System.Windows.Forms.Button btnThem;
 		private System.Windows.Forms.GroupBox groupBox2;
@@ -311,10 +371,15 @@
 		private System.Windows.Forms.Label label5;
 		private System.Windows.Forms.Label label4;
 		private System.Windows.Forms.Label label3;
-		private System.Windows.Forms.Label label2;
 		private System.Windows.Forms.Button btnXoa;
 		private System.Windows.Forms.Button btnSua;
 		private System.Windows.Forms.GroupBox groupBox1;
 		private System.Windows.Forms.Button btnThoat;
-	}
+        public System.Windows.Forms.Button btnTimKiem;
+        private System.Windows.Forms.RadioButton radSDT;
+        private System.Windows.Forms.RadioButton radTen;
+        private System.Windows.Forms.RadioButton radMa;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label2;
+    }
 }

@@ -46,14 +46,16 @@ namespace DAO
             }
             return list;
         }
-        public void Them(TextBox makh, TextBox tenkh, RadioButton gioitinh, TextBox diachi, TextBox sdt)
+        public void Them(TextBox makh, TextBox tenkh, RadioButton gtNam, RadioButton gtNu, TextBox sdt, TextBox diachi)
         {
             try
             {
+                string gioitinh;
+                gioitinh = gtNam.Checked ? gtNam.Text : gtNu.Text;
                 KhachHang kh = new KhachHang();
                 kh.MaKH = makh.Text;
                 kh.TenKH = tenkh.Text;
-                kh.GioiTinh = gioitinh.Checked.ToString();
+                kh.GioiTinh = gioitinh;
                 kh.DiaChi = diachi.Text;
                 kh.SDT = sdt.Text;
                 db.KhachHangs.InsertOnSubmit(kh);
@@ -67,20 +69,12 @@ namespace DAO
         }
         public void Xoa(string maKH)
         {
-            try
-            {
                 var dtKH = db.KhachHangs.FirstOrDefault(a => a.MaKH == maKH);
-                if(dtKH == null)
+                if(dtKH != null)
                 {
                     db.KhachHangs.DeleteOnSubmit(dtKH);
                     db.SubmitChanges();
                 }
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Lỗi" + ex);
-            }
         }
         public bool Sua(KhachHang khachHang)
         {
@@ -93,22 +87,80 @@ namespace DAO
                 edit.DiaChi = khachHang.DiaChi;
                 edit.SDT = khachHang.SDT;
                 db.SubmitChanges();
-                MessageBox.Show("Sửa Khách Hàng Thành Công");
                 return true;
-            }
-            else {
-                MessageBox.Show("Sửa Khách Hàng Không  Thành Công"); 
             } return false; 
         }
-        public void Load(TextBox makh, TextBox tenkh, RadioButton gioitinh, TextBox diachi, TextBox sdt, DataGridView data)
+        public void Load(TextBox makh, TextBox tenkh, RadioButton gtNam,RadioButton gtNu, TextBox sdt, TextBox diachi, DataGridView data)
         {
             var rowInDex = data.SelectedCells[0].RowIndex;
             var row = data.Rows[rowInDex];
             makh.Text = row.Cells[0].Value.ToString().Trim();
             tenkh.Text = row.Cells[1].Value.ToString().Trim();
-            gioitinh.Text = row.Cells[2].Value.ToString().Trim();
+            if (row.Cells["GioiTinh"].Value.ToString().Trim() == "Nam")
+                gtNam.Checked = true;
+            else gtNu.Checked = true;
             diachi.Text = row.Cells[3].Value.ToString().Trim();
             sdt.Text = row.Cells[4].Value.ToString().Trim();
+        }
+
+        public List<KhachHang> TimKiemTheoMa(string makh)
+        {
+            List<KhachHang> list = new List<KhachHang>();
+            var kh = db.KhachHangs.SingleOrDefault(p => p.MaKH == makh);
+            if (kh != null)
+            {
+                KhachHang khachhang = new KhachHang
+                {
+                    MaKH = kh.MaKH,
+                    TenKH = kh.TenKH,
+                    GioiTinh = kh.GioiTinh,
+                    SDT = kh.SDT,
+                    DiaChi = kh.DiaChi
+                };
+                list.Add(khachhang);
+            }
+            else MessageBox.Show("Không có mã khách hàng này!");
+            return list;
+        }
+
+        public List<KhachHang> TimKiemTheoTen(string tenkh)
+        {
+            List<KhachHang> list = new List<KhachHang>();
+            var kh = db.KhachHangs.SingleOrDefault(p => p.TenKH == tenkh);
+            if (kh != null)
+            {
+                KhachHang khachhang = new KhachHang
+                {
+                    MaKH = kh.MaKH,
+                    TenKH = kh.TenKH,
+                    GioiTinh = kh.GioiTinh,
+                    SDT = kh.SDT,
+                    DiaChi = kh.DiaChi
+                };
+                list.Add(khachhang);
+            }
+            else MessageBox.Show("Không có tên khách hàng này!");
+            return list;
+        }
+
+        public List<KhachHang> TimKiemTheoSDT(string sdt)
+        {
+            List<KhachHang> list = new List<KhachHang>();
+            var kh = db.KhachHangs.SingleOrDefault(p => p.SDT == sdt);
+            if (kh != null)
+            {
+                KhachHang khachhang = new KhachHang
+                {
+                    MaKH = kh.MaKH,
+                    TenKH = kh.TenKH,
+                    GioiTinh = kh.GioiTinh,
+                    SDT = kh.SDT,
+                    DiaChi = kh.DiaChi
+                };
+                list.Add(khachhang);
+            }
+            else MessageBox.Show("Không có số điện thoại khách hàng này!");
+            return list;
         }
     }
 }

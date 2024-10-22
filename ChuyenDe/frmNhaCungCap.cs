@@ -26,7 +26,7 @@ namespace ChuyenDe
         }
         private void btnThoat_Click(object sender, EventArgs e)
         {
-            DialogResult kq = MessageBox.Show("Ban co muon Thoat ko???", "Thong Bao",
+            DialogResult kq = MessageBox.Show("Bạn chắc chắn muốn thoát?", "Thông báo",
                             MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             if (kq == DialogResult.Yes)
             {
@@ -36,29 +36,40 @@ namespace ChuyenDe
 
         private void btnThem_Click(object sender, EventArgs e)
         {
-            BUSNhaCungCap.Instance.Them(txtMaHang,txtTenHang);
-            Load();
+            if (string.IsNullOrWhiteSpace(txtMaHang.Text) ||
+                string.IsNullOrWhiteSpace(txtTenHang.Text))
+            {
+                MessageBox.Show("Vui lòng điền đầy đủ thông tin!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return; 
+            }
+
+            BUSNhaCungCap.Instance.Them(txtMaHang, txtTenHang);
             txtMaHang.Text = string.Empty;
             txtTenHang.Text = string.Empty;
             txtMaHang.Focus();
+            Load();
         }
 
         private void btnXoa_Click(object sender, EventArgs e)
         {
-            DialogResult kq = MessageBox.Show("Ban co muon xoa ko???", "Thong Bao",
-                                           MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-            if (kq == DialogResult.Yes)
+            if (txtMaHang.Text != "" && txtTenHang.Text != "")
             {
-                BUSNhaCungCap.Instance.Xoa(txtMaHang);
-                Load();
-                txtMaHang.Text = string.Empty;
-                txtTenHang.Text = string.Empty;
-                txtMaHang.Focus();
+                DialogResult kq = MessageBox.Show("Bạn có chắc chắn muốn xóa?", "Thông báo",
+                           MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                if (kq == DialogResult.Yes)
+                {
+                    BUSNhaCungCap.Instance.Xoa(txtMaHang);
+                    Load();
+                    txtMaHang.Text = string.Empty;
+                    txtTenHang.Text = string.Empty;
+                    txtMaHang.Focus();
+                }
+                else
+                {
+                    MessageBox.Show("Xóa không thành công!");
+                }
             }
-            else
-            {
-                MessageBox.Show("Xóa không thành công!");
-            }
+            else MessageBox.Show("Vui lòng chọn dữ liệu để xóa!");
         }
 
         private void dgvHang_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -68,11 +79,15 @@ namespace ChuyenDe
 
         private void btnSua_Click(object sender, EventArgs e)
         {
-            BUSNhaCungCap.Instance.Sua(txtMaHang, txtTenHang);
-            Load();
-            txtMaHang.Text = string.Empty;
-            txtTenHang.Text = string.Empty;
-            txtMaHang.Focus();
+            if (txtMaHang.Text != "" && txtTenHang.Text != "")
+            {
+                BUSNhaCungCap.Instance.Sua(txtMaHang, txtTenHang);
+                Load();
+                txtMaHang.Text = string.Empty;
+                txtTenHang.Text = string.Empty;
+                txtMaHang.Focus();
+            }
+            else MessageBox.Show("Vui lòng chọn dữ liệu để sửa!");    
         }
     }
 }

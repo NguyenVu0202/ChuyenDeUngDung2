@@ -37,29 +37,34 @@ namespace BUS
             data.DataSource = dt;
         }
 
-        public void Them(TextBox makh, TextBox tenkh, RadioButton gioitinh, TextBox diachi, TextBox sdt)
+        public void Them(TextBox makh, TextBox tenkh, RadioButton gtNam, RadioButton gtNu, TextBox diachi, TextBox sdt)
         {
-            DAOKhachHang.Instance.Them(makh, tenkh, gioitinh, diachi, sdt);
+            DAOKhachHang.Instance.Them(makh, tenkh, gtNam, gtNu, diachi, sdt);
         }
-        public void Sua(TextBox makh, TextBox tenkh, RadioButton gioitinh, TextBox diachi, TextBox sdt)
+        public bool Sua(KhachHang khachhang)
         {
-            KhachHang kh = new KhachHang
-            {
-                MaKH = makh.Text,
-                TenKH = makh.Text,
-                GioiTinh = makh.Text,
-                DiaChi = makh.Text,
-                SDT = makh.Text
-            };
-            DAOKhachHang.Instance.Sua(kh);
+            return DAOKhachHang.Instance.Sua(khachhang);
         }
         public void Xoa(TextBox maKhachHang)
         {
             DAOKhachHang.Instance.Xoa(maKhachHang.Text);
         }
 
-        public void Load(TextBox makh, TextBox tenkh, RadioButton  gioitinh, TextBox diachi,  TextBox sdt, DataGridView data) {
-            DAOKhachHang.Instance.Load(makh, tenkh, gioitinh, diachi, sdt, data);
+        public void Load(TextBox makh, TextBox tenkh, RadioButton  gtNam, RadioButton gtNu, TextBox diachi,  TextBox sdt, DataGridView data) {
+            DAOKhachHang.Instance.Load(makh, tenkh, gtNam, gtNu, diachi, sdt, data);
+        }
+        public void TimKhachHangTheoMa(TextBox maKhachHang, DataGridView data)
+        {
+            data.DataSource = DAOKhachHang.Instance.TimKiemTheoMa(maKhachHang.Text);
+        }
+
+        public void TimKhachHangTheoTen(TextBox tenkhachhang, DataGridView data)
+        {
+            data.DataSource = DAOKhachHang.Instance.TimKiemTheoTen(tenkhachhang.Text);
+        }
+        public void TimKhachHangTheoSDT(TextBox sdtkhachhang, DataGridView data)
+        {
+            data.DataSource = DAOKhachHang.Instance.TimKiemTheoSDT(sdtkhachhang.Text);
         }
     }
 }

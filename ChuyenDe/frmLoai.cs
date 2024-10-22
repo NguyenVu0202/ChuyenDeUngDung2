@@ -31,7 +31,7 @@ namespace ChuyenDe
 
         private void btnThoat_Click(object sender, EventArgs e)
         {
-            DialogResult kq = MessageBox.Show("Ban co muon Thoat ko???", "Thong Bao",
+            DialogResult kq = MessageBox.Show("Bạn có chắc chắn muốn thoát?", "Thông báo",
                             MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             if (kq == DialogResult.Yes)
             {
@@ -41,37 +41,51 @@ namespace ChuyenDe
 
         private void btnThem_Click(object sender, EventArgs e)
         {
+            if (string.IsNullOrWhiteSpace(txtMaLoai.Text) ||
+                string.IsNullOrWhiteSpace(txtTenLoai.Text))
+            {
+                MessageBox.Show("Vui lòng điền đầy đủ thông tin!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
             BUSLoai.Instance.Them(txtMaLoai, txtTenLoai);
-            View();
             txtMaLoai.Text = string.Empty;
             txtTenLoai.Text = string.Empty;
             txtMaLoai.Focus();
+            View();
         }
 
         private void btnSua_Click(object sender, EventArgs e)
         {
-            BUSLoai.Instance.Sua(txtMaLoai,txtTenLoai);
-            View();
-            txtMaLoai.Text = string.Empty;
-            txtTenLoai.Text= string.Empty;
-            txtMaLoai.Focus();
-        }
-
-        private void btnXoa_Click(object sender, EventArgs e)
-        {
-            DialogResult result = MessageBox.Show("Bạn có chắc chắn muốn xóa?", "Thông báo", MessageBoxButtons.YesNo);
-            if (result == DialogResult.Yes)
+            if (txtMaLoai.Text != "" && txtTenLoai.Text != "")
             {
-                BUSLoai.Instance.Xoa(txtMaLoai);
+                BUSLoai.Instance.Sua(txtMaLoai, txtTenLoai);
                 View();
                 txtMaLoai.Text = string.Empty;
                 txtTenLoai.Text = string.Empty;
                 txtMaLoai.Focus();
             }
-            else
+            else MessageBox.Show("Vui lòng chọn dữ liệu để xóa!");
+        }
+
+        private void btnXoa_Click(object sender, EventArgs e)
+        {
+            if (txtMaLoai.Text != "" && txtTenLoai.Text != "")
             {
-                MessageBox.Show("Xóa không thành công!");
+                DialogResult result = MessageBox.Show("Bạn có chắc chắn muốn xóa?", "Thông báo", MessageBoxButtons.YesNo);
+                if (result == DialogResult.Yes)
+                {
+                    BUSLoai.Instance.Xoa(txtMaLoai);
+                    View();
+                    txtMaLoai.Text = string.Empty;
+                    txtTenLoai.Text = string.Empty;
+                    txtMaLoai.Focus();
+                }
+                else
+                {
+                    MessageBox.Show("Xóa không thành công!");
+                }
             }
+            else MessageBox.Show("Vui lòng chọn dữ liệu để xóa!");
         }
     }
 }

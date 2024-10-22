@@ -148,37 +148,38 @@
             this.mnuKhachHang.Name = "mnuKhachHang";
             this.mnuKhachHang.Size = new System.Drawing.Size(123, 29);
             this.mnuKhachHang.Text = "Khách Hàng";
+            this.mnuKhachHang.Click += new System.EventHandler(this.mnuKhachHang_Click);
             // 
             // mnuKho
             // 
             this.mnuKho.Name = "mnuKho";
-            this.mnuKho.Size = new System.Drawing.Size(270, 34);
+            this.mnuKho.Size = new System.Drawing.Size(193, 34);
             this.mnuKho.Text = "Kho";
             // 
             // mnuCuaHang
             // 
             this.mnuCuaHang.Name = "mnuCuaHang";
-            this.mnuCuaHang.Size = new System.Drawing.Size(270, 34);
+            this.mnuCuaHang.Size = new System.Drawing.Size(193, 34);
             this.mnuCuaHang.Text = "Cửa Hàng";
             // 
             // mnuDanhMucLoai
             // 
             this.mnuDanhMucLoai.Name = "mnuDanhMucLoai";
-            this.mnuDanhMucLoai.Size = new System.Drawing.Size(270, 34);
+            this.mnuDanhMucLoai.Size = new System.Drawing.Size(193, 34);
             this.mnuDanhMucLoai.Text = "Loại";
             this.mnuDanhMucLoai.Click += new System.EventHandler(this.mnuDanhMucLoai_Click);
             // 
             // mnuDanhMucHang
             // 
             this.mnuDanhMucHang.Name = "mnuDanhMucHang";
-            this.mnuDanhMucHang.Size = new System.Drawing.Size(270, 34);
+            this.mnuDanhMucHang.Size = new System.Drawing.Size(193, 34);
             this.mnuDanhMucHang.Text = "Hãng";
             this.mnuDanhMucHang.Click += new System.EventHandler(this.mnuDanhMucHang_Click);
             // 
             // mnuSanPham
             // 
             this.mnuSanPham.Name = "mnuSanPham";
-            this.mnuSanPham.Size = new System.Drawing.Size(270, 34);
+            this.mnuSanPham.Size = new System.Drawing.Size(193, 34);
             this.mnuSanPham.Text = "Sản Phẩm";
             this.mnuSanPham.Click += new System.EventHandler(this.mnuSanPham_Click);
             // 
