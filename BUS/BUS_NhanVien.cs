@@ -32,7 +32,7 @@ namespace BUS
         }
 
         //Thêm nhân viên
-        public void ThemNhanVien(TextBox manv, TextBox tennv, RadioButton gtnam, RadioButton gtnu, DateTimePicker ngaysinh, TextBox sdt, TextBox diachi, TextBox luong, ComboBox mach)
+        public void ThemNhanVien(TextBox manv, TextBox tennv, RadioButton gtnam, RadioButton gtnu, DateTimePicker ngaysinh, TextBox sdt, TextBox diachi, TextBox luong, ComboBox mach, TextBox chucvu)
         {
             string gioitinh;
             if (gtnam.Checked == true)
@@ -52,7 +52,8 @@ namespace BUS
                 SDT = sdt.Text,
                 DiaChi = diachi.Text,
                 Luong = int.Parse(luong.Text),
-                MaCH = mach.Text
+                MaCH = mach.Text,
+                ChucVu = chucvu.Text,
             };
             DAO_NhanVien.Instance.ThemNhanVien(nhanVien);
         }
@@ -64,13 +65,20 @@ namespace BUS
         }
 
         //Hiển thị dữ liệu xuống dgv
-        public void LoadDgvLenForm(TextBox manv, TextBox tennv, RadioButton gtnam, RadioButton gtnu, DateTimePicker ngaysinh, TextBox sdt, TextBox diachi, TextBox luong, ComboBox mach, DataGridView data)
+        public void LoadDgvLenForm(TextBox manv, TextBox tennv, RadioButton gtnam, RadioButton gtnu, DateTimePicker ngaysinh, TextBox sdt, TextBox diachi, TextBox luong, ComboBox mach,TextBox chucvu, DataGridView data)
         {
-            DAO.DAO_NhanVien.Instance.LoadDgvLenForm(manv, tennv, gtnam, gtnu, ngaysinh, sdt, diachi, luong, mach, data);
+            try
+            {
+                DAO.DAO_NhanVien.Instance.LoadDgvLenForm(manv, tennv, gtnam, gtnu, ngaysinh, sdt, diachi, luong, mach, chucvu, data);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.Message);
+            }
         }
 
         //Sửa nhân viên
-        public void SuaNV(TextBox manv, TextBox tennv, RadioButton gtnam, RadioButton gtnu, DateTimePicker ngaysinh, TextBox sdt, TextBox diachi, TextBox luong, ComboBox mach)
+        public void SuaNV(TextBox manv, TextBox tennv, RadioButton gtnam, RadioButton gtnu, DateTimePicker ngaysinh, TextBox sdt, TextBox diachi, TextBox luong, ComboBox mach, TextBox chucvu)
         {
             string gioitinh;
             if (gtnam.Checked == true)
@@ -90,7 +98,8 @@ namespace BUS
                 SDT = sdt.Text,
                 DiaChi = diachi.Text,
                 Luong = int.Parse(luong.Text),
-                MaCH = mach.Text
+                MaCH = mach.Text,
+                ChucVu = chucvu.Text,
             };
             DAO_NhanVien.Instance.SuaNV(nhanVien);
         }
@@ -115,7 +124,8 @@ namespace BUS
                     t.DiaChi,
                     t.SDT,
                     t.Luong,
-                    t.MaCH
+                    t.MaCH,
+                    t.ChucVu,
                 };
             }).ToList();
             data.DataSource = dt;
@@ -135,13 +145,13 @@ namespace BUS
                     t.DiaChi,
                     t.SDT,
                     t.Luong,
-                    t.MaCH
+                    t.MaCH,
+                    t.ChucVu
                 };
             }).ToList();
             data.DataSource = dt;
         }
 
-     
 
     }
 }

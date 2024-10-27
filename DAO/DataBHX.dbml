@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?><Database Name="BachHoaXanh" Class="DataBHXDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
-  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-L5A96KD;Initial Catalog=BachHoaXanh;Integrated Security=True;Encrypt=True;Trust Server Certificate=True" SettingsObjectName="DAO.Properties.Settings" SettingsPropertyName="BachHoaXanhConnectionString2" Provider="System.Data.SqlClient" />
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-V24NSMF\SQLEXPRESS;Initial Catalog=BachHoaXanh;Integrated Security=True;Encrypt=True;Trust Server Certificate=True" SettingsObjectName="DAO.Properties.Settings" SettingsPropertyName="BachHoaXanhConnectionString5" Provider="System.Data.SqlClient" />
   <Table Name="dbo.Account" Member="Accounts">
     <Type Name="Account">
       <Column Name="TaiKhoan" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
@@ -11,8 +11,7 @@
   </Table>
   <Table Name="dbo.ChiTietHoaDon" Member="ChiTietHoaDons">
     <Type Name="ChiTietHoaDon">
-      <Column Name="MaChiTietHD" Type="System.String" DbType="NVarChar(20) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
-      <Column Name="MaHD" Type="System.String" DbType="NVarChar(20) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="MaHD" Type="System.String" DbType="NVarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
       <Column Name="MaSP" Type="System.String" DbType="NVarChar(20) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
       <Column Name="SoLuong" Type="System.Int32" DbType="Int" CanBeNull="true" />
       <Column Name="GiaSP" Type="System.Int32" DbType="Int" CanBeNull="true" />
@@ -32,7 +31,9 @@
   </Table>
   <Table Name="dbo.HoaDon" Member="HoaDons">
     <Type Name="HoaDon">
-      <Column Name="MaHD" Type="System.String" DbType="NVarChar(20) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PreFix" Type="System.String" DbType="NVarChar(3) NOT NULL" CanBeNull="false" />
+      <Column Name="MaHD" Type="System.String" DbType="NVarChar(10) NOT NULL" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" UpdateCheck="Never" />
       <Column Name="NgayBan" Type="System.DateTime" DbType="Date" CanBeNull="true" />
       <Column Name="TongTien" Type="System.Int32" DbType="Int" CanBeNull="true" />
       <Column Name="MaKH" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
@@ -86,6 +87,7 @@
       <Column Name="Luong" Type="System.Int32" DbType="Int" CanBeNull="true" />
       <Column Name="DiaChi" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
       <Column Name="MaCH" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="ChucVu" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
       <Association Name="NhanVien_Account" Member="Accounts" ThisKey="MaNV" OtherKey="MaNV" Type="Account" />
       <Association Name="NhanVien_HoaDon" Member="HoaDons" ThisKey="MaNV" OtherKey="MaNV" Type="HoaDon" />
       <Association Name="CuaHang_NhanVien" Member="CuaHang" ThisKey="MaCH" OtherKey="MaCH" Type="CuaHang" IsForeignKey="true" />
