@@ -61,7 +61,23 @@ namespace BUS
         //Hiển thị danh sách nhân viên
         public void LoadNV(DataGridView data)
         {
-            data.DataSource = DAO_NhanVien.Instance.LoadNV();
+            var dt = DAO_NhanVien.Instance.LoadNV().Select(s =>
+            {
+                return new
+                {
+                    s.MaNV,
+                    s.TenNV,
+                    s.GioiTinh,
+                    s.NgaySinh,
+                    s.SDT,
+                    s.DiaChi,
+                    s.Luong,
+                    s.MaCH,
+                    s.ChucVu
+
+                };
+            }).ToList();
+            data.DataSource = dt;
         }
 
         //Hiển thị dữ liệu xuống dgv

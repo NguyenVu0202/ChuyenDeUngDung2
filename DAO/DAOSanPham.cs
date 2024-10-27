@@ -58,7 +58,6 @@ namespace DAO
 
 					sp.Add(sanPham);
 				}
-
 			return sp;
 		}
 		public void LoadComBoBoxTenLoai(ComboBox cb)
