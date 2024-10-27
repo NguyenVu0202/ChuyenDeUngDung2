@@ -6,6 +6,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -20,23 +21,31 @@ namespace ChuyenDe
 
 		private void btnDangKy_Click(object sender, EventArgs e)
 		{
-			if (txtTaiKhoan.Text.Length > 0 && txtMatKhau.Text.Length > 0 && txtMaNV.Text.Length > 0)
-			{
-				BUSAccount.Instance.Register(txtTaiKhoan, txtMatKhau, txtMaNV);
-			}
-			else if (txtMaNV.Text.Length == 0)
-			{
-				MessageBox.Show("Không được để trống thông tin");
-			}
-			else if (txtMatKhau.Text.Length == 0)
-			{
-				MessageBox.Show("Không được để trống thông tin");
-			}
-			else if (txtTaiKhoan.Text.Length == 0)
-			{
-				MessageBox.Show("Không được để trống thông tin");
-			}
-		}
+            if (string.IsNullOrWhiteSpace(txtTaiKhoan.Text) || string.IsNullOrWhiteSpace(txtMatKhau.Text) ||
+                string.IsNullOrWhiteSpace(txtMaNV.Text))
+            {
+                MessageBox.Show("Vui lòng điền đầy đủ thông tin để đăng ký!");
+                return; // Dừng lại nếu có trường bị bỏ trống
+            }
+
+            // Kiểm tra khoảng trắng đầu và cuối
+            if (txtTaiKhoan.Text != txtTaiKhoan.Text.Trim() || txtMatKhau.Text != txtMatKhau.Text.Trim() ||
+                txtMaNV.Text != txtMaNV.Text.Trim())
+            {
+                MessageBox.Show("Không được có khoảng trắng ở đầu hoặc cuối.");
+                return; // Dừng lại nếu có khoảng trắng đầu hoặc cuối
+            }
+
+            // Kiểm tra khoảng trắng liên tiếp trong chuỗi
+            if (Regex.IsMatch(txtTaiKhoan.Text, @"\s{2,}") || Regex.IsMatch(txtMatKhau.Text, @"\s{2,}") ||
+                Regex.IsMatch(txtMaNV.Text, @"\s{2,}"))
+            {
+                MessageBox.Show("Không được có hai khoảng trắng liên tiếp.");
+                return; // Dừng lại nếu có hai khoảng trắng liên tiếp
+            }
+
+            BUSAccount.Instance.Register(txtTaiKhoan, txtMatKhau, txtMaNV);
+        }
 		private void btnDangNhap_Click(object sender, EventArgs e)
 		{
 			this.Hide();

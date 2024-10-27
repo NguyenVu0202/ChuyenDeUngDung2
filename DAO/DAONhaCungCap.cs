@@ -59,9 +59,9 @@ namespace DAO
                 db.SubmitChanges();
                 MessageBox.Show("Thêm Nhà Cung Cấp Thành Công");
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-                MessageBox.Show("Lỗi " + ex);
+                MessageBox.Show("Lỗi trùng mã");
             }
         }
         public void Xoa(string mancc)

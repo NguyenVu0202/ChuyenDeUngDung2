@@ -65,5 +65,14 @@ namespace ChuyenDe
 			frm.MdiParent = this;
 			frm.Show();
         }
+
+        private void mnuThoat_Click(object sender, EventArgs e)
+        {
+			DialogResult result = MessageBox.Show("Bạn muốn thoát ứng dụng?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+			if (result == DialogResult.Yes)
+			{
+				Application.Exit();
+			}
+        }
     }
 }

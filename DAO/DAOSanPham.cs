@@ -93,39 +93,58 @@ namespace DAO
 		}
 		public void Them(TextBox masp, TextBox tensp, ComboBox tenloai, ComboBox tenncc, TextBox giaban, TextBox hinhanh, TextBox ghichu)
 		{
-			try
-			{
-					string[] cattenanh = hinhanh.Text.Split('\\');
-					int lastIndex = cattenanh.Length - 1;
-					string tenanh = cattenanh[lastIndex];
-					string duongdan = Path.Combine(Application.StartupPath, "Image");
-					string duongdanmoi = duongdan + "\\" + tenanh;
-					SanPham sp = new SanPham();
-					sp.MaSP = masp.Text;
-					sp.TenSP = tensp.Text;
-					sp.MaLoai = tenloai.SelectedValue.ToString().Trim();
-					sp.MaNCC = tenncc.SelectedValue.ToString().Trim();
-					sp.GiaBan = int.Parse(giaban.Text);
-					sp.HinhAnh = duongdanmoi;
-					sp.GhiChu = ghichu.Text;
-					db.SanPhams.InsertOnSubmit(sp);
-					db.SubmitChanges();
-					MessageBox.Show("Thêm Sản Phẩm Thành Công");
-			}
-			catch (Exception ex)
-			{
-				MessageBox.Show("Lỗi " + ex);
-			}
-		}
+            try
+            {
+                // Kiểm tra xem mã sản phẩm đã tồn tại hay chưa
+                var existingProduct = db.SanPhams.FirstOrDefault(x => x.MaSP == masp.Text);
+                if (existingProduct != null)
+                {
+                    MessageBox.Show("Mã sản phẩm đã tồn tại. Vui lòng nhập mã sản phẩm khác.");
+                    return; // Ngừng thực hiện nếu mã sản phẩm đã tồn tại
+                }
+
+                // Nếu không có sản phẩm trùng mã, tiếp tục thêm sản phẩm mới
+                string[] cattenanh = hinhanh.Text.Split('\\');
+                int lastIndex = cattenanh.Length - 1;
+                string tenanh = cattenanh[lastIndex];
+                string duongdan = Path.Combine(Application.StartupPath, "Image");
+                string duongdanmoi = duongdan + "\\" + tenanh;
+
+                SanPham sp = new SanPham
+                {
+                    MaSP = masp.Text,
+                    TenSP = tensp.Text,
+                    MaLoai = tenloai.SelectedValue.ToString().Trim(),
+                    MaNCC = tenncc.SelectedValue.ToString().Trim(),
+                    GiaBan = int.Parse(giaban.Text),
+                    HinhAnh = duongdanmoi,
+                    GhiChu = ghichu.Text
+                };
+
+                db.SanPhams.InsertOnSubmit(sp);
+                db.SubmitChanges();
+                MessageBox.Show("Thêm Sản Phẩm Thành Công");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi: " + ex.Message);
+            }
+        }
 		public void Xoa(string masp)
 		{
-				var spdelete = db.SanPhams.FirstOrDefault(a => a.MaSP == masp);
-				if (spdelete != null)
-				{
-					db.SanPhams.DeleteOnSubmit(spdelete);
-					db.SubmitChanges();
-				}
-		}
+            var spdelete = db.SanPhams.FirstOrDefault(a => a.MaSP == masp);
+            if (spdelete != null)
+            {
+                db.SanPhams.DeleteOnSubmit(spdelete);
+                db.SubmitChanges();
+                MessageBox.Show("Xóa sản phẩm thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+            else
+            {
+                // Hiển thị hộp thoại thông báo
+                MessageBox.Show("Mã sản phẩm không tồn tại, không thể xóa.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+        }
 		public bool Sua(SanPham sp)
 		{
 				var spupdate = db.SanPhams.SingleOrDefault(a => a.MaSP == sp.MaSP);

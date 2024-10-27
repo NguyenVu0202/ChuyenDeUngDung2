@@ -33,7 +33,7 @@ namespace DAO
 			}
 			catch (Exception ex)
 			{
-				MessageBox.Show("Đăng Ký Thất Bại" + ex.Message);
+				MessageBox.Show("Mã nhân viên không tồn tại, vui lòng nhập lại!");
 			}
 		}
 

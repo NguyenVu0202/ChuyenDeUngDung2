@@ -55,5 +55,27 @@ namespace DAO.Properties {
                 return ((string)(this["BachHoaXanhConnectionString2"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=B202A-PC16\\SQLEXPRESS;Initial Catalog=BachHoaXanh;Integrated Security" +
+            "=True")]
+        public string BachHoaXanhConnectionString3 {
+            get {
+                return ((string)(this["BachHoaXanhConnectionString3"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=TNgan_2884\\SQLEXPRESS;Initial Catalog=BachHoaXanh;Integrated Security" +
+            "=True;Encrypt=True;TrustServerCertificate=True")]
+        public string BachHoaXanhConnectionString4 {
+            get {
+                return ((string)(this["BachHoaXanhConnectionString4"]));
+            }
+        }
     }
 }

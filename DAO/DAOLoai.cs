@@ -60,7 +60,7 @@ namespace DAO
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Lỗi " + ex);
+                MessageBox.Show("Lỗi trùng mã!!!");
             }
         }
         public void Xoa(string maloai)

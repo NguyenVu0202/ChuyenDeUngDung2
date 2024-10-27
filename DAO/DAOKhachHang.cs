@@ -62,9 +62,9 @@ namespace DAO
                 db.SubmitChanges();
                 MessageBox.Show("Thêm Khách Hàng Thành Công");
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-                MessageBox.Show("Lỗi" + ex);
+                MessageBox.Show("Lỗi trùng mã!!!");
             }
         }
         public void Xoa(string maKH)
@@ -126,40 +126,62 @@ namespace DAO
         public List<KhachHang> TimKiemTheoTen(string tenkh)
         {
             List<KhachHang> list = new List<KhachHang>();
-            var kh = db.KhachHangs.SingleOrDefault(p => p.TenKH == tenkh);
-            if (kh != null)
+
+            // Tìm tất cả khách hàng có tên tương ứng
+            var khachHangs = db.KhachHangs.Where(p => p.TenKH.Contains(tenkh)).ToList();
+
+            // Kiểm tra nếu có khách hàng tìm thấy
+            if (khachHangs.Any())
             {
-                KhachHang khachhang = new KhachHang
+                foreach (var kh in khachHangs)
                 {
-                    MaKH = kh.MaKH,
-                    TenKH = kh.TenKH,
-                    GioiTinh = kh.GioiTinh,
-                    SDT = kh.SDT,
-                    DiaChi = kh.DiaChi
-                };
-                list.Add(khachhang);
+                    KhachHang khachhang = new KhachHang
+                    {
+                        MaKH = kh.MaKH,
+                        TenKH = kh.TenKH,
+                        GioiTinh = kh.GioiTinh,
+                        SDT = kh.SDT,
+                        DiaChi = kh.DiaChi
+                    };
+                    list.Add(khachhang);
+                }
             }
-            else MessageBox.Show("Không có tên khách hàng này!");
+            else
+            {
+                MessageBox.Show("Không có tên khách hàng này!");
+            }
+
             return list;
         }
 
         public List<KhachHang> TimKiemTheoSDT(string sdt)
         {
             List<KhachHang> list = new List<KhachHang>();
-            var kh = db.KhachHangs.SingleOrDefault(p => p.SDT == sdt);
-            if (kh != null)
+
+            // Tìm tất cả khách hàng có số điện thoại tương ứng
+            var khachHangs = db.KhachHangs.Where(p => p.SDT.Contains(sdt)).ToList();
+
+            // Kiểm tra nếu có khách hàng tìm thấy
+            if (khachHangs.Any())
             {
-                KhachHang khachhang = new KhachHang
+                foreach (var kh in khachHangs)
                 {
-                    MaKH = kh.MaKH,
-                    TenKH = kh.TenKH,
-                    GioiTinh = kh.GioiTinh,
-                    SDT = kh.SDT,
-                    DiaChi = kh.DiaChi
-                };
-                list.Add(khachhang);
+                    KhachHang khachhang = new KhachHang
+                    {
+                        MaKH = kh.MaKH,
+                        TenKH = kh.TenKH,
+                        GioiTinh = kh.GioiTinh,
+                        SDT = kh.SDT,
+                        DiaChi = kh.DiaChi
+                    };
+                    list.Add(khachhang);
+                }
             }
-            else MessageBox.Show("Không có số điện thoại khách hàng này!");
+            else
+            {
+                MessageBox.Show("Không có số điện thoại khách hàng này!");
+            }
+
             return list;
         }
     }

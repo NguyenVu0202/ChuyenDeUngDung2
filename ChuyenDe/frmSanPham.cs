@@ -11,6 +11,7 @@ using System.Windows.Media;
 using System.Drawing.Imaging;
 using BUS;
 using System.IO;
+using System.Text.RegularExpressions;
 
 namespace ChuyenDe
 {
@@ -31,23 +32,43 @@ namespace ChuyenDe
 
 		private void btnTaoMa_Click(object sender, EventArgs e)
 		{
-			isGenerate = true;
-			picBarcode.SizeMode = PictureBoxSizeMode.AutoSize;
-			Zen.Barcode.Code128BarcodeDraw barcode = Zen.Barcode.BarcodeDrawFactory.Code128WithChecksum;
+            if (string.IsNullOrEmpty(txtMaSP.Text))
+            {
+                MessageBox.Show("Vui lòng nhập mã sản phẩm để tạo mã barcode!");
+            }
+            else
+            {
+                isGenerate = true;
+                picBarcode.SizeMode = PictureBoxSizeMode.AutoSize;
+                Zen.Barcode.Code128BarcodeDraw barcode = Zen.Barcode.BarcodeDrawFactory.Code128WithChecksum;
 
-			picBarcode.Image = barcode.Draw(txtMaSP.Text, 200);
-		}
+                picBarcode.Image = barcode.Draw(txtMaSP.Text, 200);
+            }
+        }
 
 		private void btnLuuMa_Click(object sender, EventArgs e)
 		{
-			if (isGenerate)
-			{
-				string path = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
+            if (isGenerate)
+            {
+                if (picBarcode.Image == null)
+                {
+                    MessageBox.Show("Không có hình barcode để lưu mã!");
+                }
+                else
+                {
+                    string path = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
+                    string fileName = $"{DateTime.Now.Second}_{DateTime.Now.Millisecond}.jpg";
+                    string fullPath = System.IO.Path.Combine(path, fileName);
 
-				picBarcode.Image.Save(path + "\\" + DateTime.Now.Second.ToString() + DateTime.Now.Millisecond.ToString() +
-					".jpg", ImageFormat.Jpeg);
-			}
-		}
+                    picBarcode.Image.Save(fullPath, ImageFormat.Jpeg);
+                    MessageBox.Show($"Mã barcode đã được lưu tại: {fullPath}");
+                }
+            }
+            else
+            {
+                MessageBox.Show("Vui lòng tạo mã barcode trước khi lưu!");
+            }
+        }
 
 		public void LoadTenLoai()
 		{
@@ -89,30 +110,18 @@ namespace ChuyenDe
 
 		private void btnChonAnh_Click_1(object sender, EventArgs e)
 		{
-			OpenFileDialog openFileDialog = new OpenFileDialog();
-			openFileDialog.Filter = "Image Files(*.gif; *.jpg; *.jpeg; *.bmp; *.wmf; *.png)|*.gif; *.jpg; *.jpeg; *.bmp; *.wmf; *.png";
-			openFileDialog.FilterIndex = 1;
-			openFileDialog.RestoreDirectory = true;
-			if (openFileDialog.ShowDialog() == DialogResult.OK)
-			{
-				// Set the image location and display it in PictureBox
-				picHinhAnh.ImageLocation = openFileDialog.FileName;
-				txtHinhAnh.Text = openFileDialog.FileName;
+            OpenFileDialog openFileDialog = new OpenFileDialog();
+            openFileDialog.Filter = "Image Files(*.gif; *.jpg; *.jpeg; *.bmp; *.wmf; *.png)|*.gif; *.jpg; *.jpeg; *.bmp; *.wmf; *.png";
+            openFileDialog.FilterIndex = 1;
+            openFileDialog.RestoreDirectory = true;
 
-                string selectedFileName = Path.GetFileName(openFileDialog.FileName);
-                string destinationPath = Path.Combine(Application.StartupPath, "Image", selectedFileName);
-
-                try
-				{
-					// Copy the selected file to the "Image" folder
-					File.Copy(openFileDialog.FileName, destinationPath, true);
-				}
-				catch (Exception ex)
-				{
-					MessageBox.Show("Đã xảy ra lỗi khi sao chép hình ảnh: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
-				}
-			}
-		}
+            if (openFileDialog.ShowDialog() == DialogResult.OK)
+            {
+                // Set the image location and display it in PictureBox
+                picHinhAnh.ImageLocation = openFileDialog.FileName;
+                txtHinhAnh.Text = openFileDialog.FileName;
+            }
+        }
 
 		private void btnXoa_Click_1(object sender, EventArgs e)
 		{
@@ -123,18 +132,50 @@ namespace ChuyenDe
 				BUSSanPham.Instance.Xoa(txtMaSP);
 				LoadSanPham();
 			}
-			else
-			{
-				MessageBox.Show("Lỗi!");
-			}
 		}
 
 		private void btnSua_Click_1(object sender, EventArgs e)
 		{
-			LayHinhAnhBangMaSP();
+            if (string.IsNullOrWhiteSpace(txtMaSP.Text) || string.IsNullOrWhiteSpace(txtGhiChu.Text) ||
+                string.IsNullOrWhiteSpace(txtGiaBan.Text) || string.IsNullOrWhiteSpace(txtTenSP.Text))
+            {
+                MessageBox.Show("Vui lòng điền đầy đủ thông tin");
+                return; // Dừng lại nếu có trường bị bỏ trống
+            }
+
+            if (txtMaSP.Text != txtMaSP.Text.Trim() || txtGhiChu.Text != txtGhiChu.Text.Trim() ||
+                txtGiaBan.Text != txtGiaBan.Text.Trim() || txtTenSP.Text != txtTenSP.Text.Trim() ||
+                txtHinhAnh.Text != txtHinhAnh.Text.Trim())
+            {
+                MessageBox.Show("Không được có khoảng trắng ở đầu hoặc cuối.");
+                return; // Dừng lại nếu có khoảng trắng đầu hoặc cuối
+            }
+
+            if (Regex.IsMatch(txtMaSP.Text, @"\s{2,}") || Regex.IsMatch(txtGhiChu.Text, @"\s{2,}") ||
+                Regex.IsMatch(txtGiaBan.Text, @"\s{2,}") || Regex.IsMatch(txtTenSP.Text, @"\s{2,}") ||
+                Regex.IsMatch(txtHinhAnh.Text, @"\s{2,}"))
+            {
+                MessageBox.Show("Không được có hai khoảng trắng liên tiếp.");
+                return; // Dừng lại nếu có hai khoảng trắng liên tiếp
+            }
+
+            if (!decimal.TryParse(txtGiaBan.Text, out _))
+            {
+                MessageBox.Show("Giá bán chỉ được là số.");
+                return; // Dừng lại nếu giá bán không phải là số
+            }
+
+            LayHinhAnhBangMaSP();
 			BUSSanPham.Instance.Sua(txtMaSP, txtTenSP, cboTenLoai, cboTenHang, txtGiaBan, txtHinhAnh, txtGhiChu);
 			LoadSanPham();
-		}
+            txtMaSP.Text = null;
+            txtTenSP.Text = null;
+            cboTenLoai.SelectedIndex = 0;
+            cboTenHang.SelectedIndex = 0;
+            txtGiaBan.Text = null;
+            txtHinhAnh.Text = null;
+            txtGhiChu.Text = null;
+        }
 
 		private void dgvSanPham_CellContentClick(object sender, DataGridViewCellEventArgs e)
 		{
@@ -143,9 +184,68 @@ namespace ChuyenDe
 
 		private void btnThem_Click_1(object sender, EventArgs e)
 		{
+            if (string.IsNullOrWhiteSpace(txtMaSP.Text) || string.IsNullOrWhiteSpace(txtGhiChu.Text) ||
+				string.IsNullOrWhiteSpace(txtGiaBan.Text) || string.IsNullOrWhiteSpace(txtTenSP.Text) ||
+				string.IsNullOrWhiteSpace(txtHinhAnh.Text))
+            {
+                MessageBox.Show("Vui lòng điền đầy đủ thông tin");
+                return; // Dừng lại nếu có trường bị bỏ trống
+            }
 
-			BUSSanPham.Instance.Them(txtMaSP, txtTenSP, cboTenLoai, cboTenHang, txtGiaBan, txtHinhAnh, txtGhiChu);
-			LoadSanPham();
-		}
+            if (txtMaSP.Text != txtMaSP.Text.Trim() || txtGhiChu.Text != txtGhiChu.Text.Trim() ||
+                txtGiaBan.Text != txtGiaBan.Text.Trim() || txtTenSP.Text != txtTenSP.Text.Trim() ||
+                txtHinhAnh.Text != txtHinhAnh.Text.Trim())
+            {
+                MessageBox.Show("Không được có khoảng trắng ở đầu hoặc cuối.");
+                return; // Dừng lại nếu có khoảng trắng đầu hoặc cuối
+            }
+
+            if (Regex.IsMatch(txtMaSP.Text, @"\s{2,}") || Regex.IsMatch(txtGhiChu.Text, @"\s{2,}") ||
+                Regex.IsMatch(txtGiaBan.Text, @"\s{2,}") || Regex.IsMatch(txtTenSP.Text, @"\s{2,}") ||
+                Regex.IsMatch(txtHinhAnh.Text, @"\s{2,}"))
+            {
+                MessageBox.Show("Không được có hai khoảng trắng liên tiếp.");
+                return; // Dừng lại nếu có hai khoảng trắng liên tiếp
+            }
+
+            if (!decimal.TryParse(txtGiaBan.Text, out _))
+            {
+                MessageBox.Show("Giá bán chỉ được là số.");
+                return; // Dừng lại nếu giá bán không phải là số
+            }
+
+            // Lưu hình ảnh vào thư mục khi thêm sản phẩm
+            string selectedFileName = Path.GetFileName(txtHinhAnh.Text);
+            string destinationPath = Path.Combine(Application.StartupPath, "Image", selectedFileName);
+
+            // Kiểm tra xem hình ảnh đã tồn tại trong thư mục không
+            if (File.Exists(destinationPath))
+            {
+                MessageBox.Show("Hình ảnh đã tồn tại. Vui lòng chọn hình ảnh khác.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return; // Ngừng thực hiện nếu hình ảnh đã tồn tại
+            }			
+
+            try
+            {
+                // Copy the selected file to the "Image" folder
+                File.Copy(txtHinhAnh.Text, destinationPath, true);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Đã xảy ra lỗi khi sao chép hình ảnh: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return; // Ngừng thực hiện nếu có lỗi
+            }
+
+            // Thêm sản phẩm
+            BUSSanPham.Instance.Them(txtMaSP, txtTenSP, cboTenLoai, cboTenHang, txtGiaBan, txtHinhAnh, txtGhiChu);
+            LoadSanPham();
+            txtMaSP.Text = null;
+            txtTenSP.Text = null;
+            cboTenLoai.SelectedIndex = 0;
+            cboTenHang.SelectedIndex = 0;
+            txtGiaBan.Text = null;
+            txtHinhAnh.Text = null;
+            txtGhiChu.Text = null;
+        }
 	}
 }

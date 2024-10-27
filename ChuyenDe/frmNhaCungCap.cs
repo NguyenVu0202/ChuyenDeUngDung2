@@ -42,14 +42,37 @@ namespace ChuyenDe
                 MessageBox.Show("Vui lòng điền đầy đủ thông tin!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return; 
             }
-
+            //Viết hoa chữ cái đầu tiên khi thêm
+            txtMaHang.Text = txtMaHang.Text.ToUpper();
+            txtTenHang.Text = char.ToUpper(txtMaHang.Text[0]) + txtTenHang.Text.Substring(1).ToLower();
             BUSNhaCungCap.Instance.Them(txtMaHang, txtTenHang);
             txtMaHang.Text = string.Empty;
             txtTenHang.Text = string.Empty;
             txtMaHang.Focus();
             Load();
         }
+        private void CheckInput(TextBox textBox)
+        {
+            // Reset ErrorProvider cho TextBox hiện tại
+            errorProvider1.SetError(textBox, string.Empty);
 
+            // Lấy giá trị từ TextBox
+            string input = textBox.Text;
+
+            // Kiểm tra khoảng trắng đầu/cuối
+            if (input != input.Trim())
+            {
+                errorProvider1.SetError(textBox, "Không được chứa khoảng trắng đầu/cuối.");
+                return;
+            }
+
+            // Kiểm tra hai khoảng trắng liên tiếp
+            if (input.Contains("  "))
+            {
+                errorProvider1.SetError(textBox, "Không được có hai khoảng trắng liên tiếp.");
+                return;
+            }
+        }
         private void btnXoa_Click(object sender, EventArgs e)
         {
             if (txtMaHang.Text != "" && txtTenHang.Text != "")
@@ -81,13 +104,28 @@ namespace ChuyenDe
         {
             if (txtMaHang.Text != "" && txtTenHang.Text != "")
             {
+                // Viết hoa toàn bộ mã loại
+                txtMaHang.Text = txtMaHang.Text.ToUpper();
+
+                // Viết hoa chữ cái đầu tiên của tên loại và chuyển các chữ cái còn lại thành chữ thường
+                txtTenHang.Text = char.ToUpper(txtTenHang.Text[0]) + txtTenHang.Text.Substring(1).ToLower();
                 BUSNhaCungCap.Instance.Sua(txtMaHang, txtTenHang);
                 Load();
                 txtMaHang.Text = string.Empty;
                 txtTenHang.Text = string.Empty;
                 txtMaHang.Focus();
             }
-            else MessageBox.Show("Vui lòng chọn dữ liệu để sửa!");    
+            else MessageBox.Show("Vui lòng chọn dữ liệu để sửa!","Thông báo",MessageBoxButtons.OK,MessageBoxIcon.Warning);    
+        }
+
+        private void txtMaHang_TextChanged(object sender, EventArgs e)
+        {
+            CheckInput(txtMaHang);
+        }
+
+        private void txtTenHang_TextChanged(object sender, EventArgs e)
+        {
+            CheckInput(txtTenHang);
         }
     }
 }
