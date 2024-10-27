@@ -77,6 +77,7 @@ namespace DAO
                     nhanVien.DiaChi = item.DiaChi;
                     nhanVien.Luong = item.Luong;
                     nhanVien.MaCH = item.MaCH;
+                    nhanVien.ChucVu = item.ChucVu;
                     listnv.Add(nhanVien);
                 }
             }
@@ -88,13 +89,13 @@ namespace DAO
         }
 
         //Hiển thị dữ liệu xuống dgv
-        public void LoadDgvLenForm(TextBox manv, TextBox tennv, RadioButton gtnam, RadioButton gtnu, DateTimePicker ngaysinh, TextBox sdt, TextBox diachi, TextBox luong, ComboBox mach, DataGridView data)
+        public void LoadDgvLenForm(TextBox manv, TextBox tennv, RadioButton gtnam, RadioButton gtnu, DateTimePicker ngaysinh, TextBox sdt, TextBox diachi, TextBox luong, ComboBox mach, TextBox chucvu, DataGridView data)
         {
             var rowIndex = data.SelectedCells[0].RowIndex;
             var row = data.Rows[rowIndex];
-            manv.Text = row.Cells["MaNV"].Value.ToString().Trim();
-            tennv.Text = row.Cells["TenNV"].Value.ToString().Trim();
-            if (row.Cells["GioiTinh"].Value.ToString().Trim() == "Nam")
+            manv.Text = row.Cells["MaNV"].Value?.ToString().Trim() ?? "";
+            tennv.Text = row.Cells["TenNV"].Value?.ToString().Trim() ?? "";
+            if (row.Cells["GioiTinh"].Value?.ToString().Trim() == "Nam")
             {
                 gtnam.Checked = true;
             }
@@ -102,11 +103,15 @@ namespace DAO
             {
                 gtnu.Checked = true;
             }
-            ngaysinh.Text = ((DateTime)row.Cells["NgaySinh"].Value).ToString("yyyy-MM-dd");
-            sdt.Text = row.Cells["SDT"].Value.ToString().Trim();
-            luong.Text = row.Cells["Luong"].Value.ToString().Trim();
-            diachi.Text = row.Cells["DiaChi"].Value.ToString().Trim();
-            mach.Text = row.Cells["MaCH"].Value.ToString().Trim();
+            ngaysinh.Text = row.Cells["NgaySinh"].Value != null
+                ? ((DateTime)row.Cells["NgaySinh"].Value).ToString("yyyy-MM-dd")
+                : "";
+            sdt.Text = row.Cells["SDT"].Value?.ToString().Trim() ?? "";
+            luong.Text = row.Cells["Luong"].Value?.ToString().Trim() ?? "";
+            diachi.Text = row.Cells["DiaChi"].Value?.ToString().Trim() ?? "";
+            mach.Text = row.Cells["MaCH"].Value?.ToString().Trim() ?? "";
+            chucvu.Text = row.Cells["ChucVu"].Value?.ToString().Trim() ?? "";
+
         }
 
         //Sửa nhân viên
@@ -129,6 +134,7 @@ namespace DAO
                     nv.Luong = nhanVien.Luong;
                     nv.DiaChi = nhanVien.DiaChi;
                     nv.MaCH = nhanVien.MaCH;
+                    nv.ChucVu = nhanVien.ChucVu;
 
                     // Lưu thay đổi vào cơ sở dữ liệu
                     db.SubmitChanges();
@@ -183,7 +189,8 @@ namespace DAO
                     SDT = nv.SDT,
                     NgaySinh = nv.NgaySinh,
                     Luong = nv.Luong,
-                    MaCH = nv.MaCH
+                    MaCH = nv.MaCH,
+                    ChucVu = nv.ChucVu,
                 };
                 list.Add(nhanvien);
             }
@@ -216,7 +223,8 @@ namespace DAO
                         SDT = nv.SDT,
                         NgaySinh = nv.NgaySinh,
                         Luong = nv.Luong,
-                        MaCH = nv.MaCH
+                        MaCH = nv.MaCH,
+                        ChucVu = nv.ChucVu,
                     };
                     list.Add(nhanvien);
                 }

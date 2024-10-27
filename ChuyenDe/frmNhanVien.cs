@@ -52,13 +52,14 @@ namespace ChuyenDe
                 string diaChi = txtDiaChi.Text;
                 string luong = txtLuong.Text;
                 string maCH = cbMaCH.SelectedValue?.ToString() ?? "";
+                string chucvu = txtChucVu.Text;
 
                 // Kiểm tra các trường không được bỏ trống
                 if (string.IsNullOrWhiteSpace(maNV) || string.IsNullOrWhiteSpace(tenNV) ||
                     (!rdNam.Checked && !rdNu.Checked) || string.IsNullOrWhiteSpace(diaChi) ||
-                    string.IsNullOrWhiteSpace(sDT) || string.IsNullOrWhiteSpace(luong))
+                    string.IsNullOrWhiteSpace(sDT) || string.IsNullOrWhiteSpace(luong) || string.IsNullOrWhiteSpace(chucvu))
                 {
-                    MessageBox.Show("Vui lòng điền đầy đủ thông tin các trường MaNV, TenNV, Giới Tính, SĐT, Lương, Địa Chỉ.");
+                    MessageBox.Show("Vui lòng điền đầy đủ thông tin các trường MaNV, TenNV, Giới Tính, SĐT, Lương, Địa Chỉ, Chức vụ");
                     return; // Dừng lại nếu có trường bị bỏ trống
                 }
 
@@ -97,6 +98,13 @@ namespace ChuyenDe
                     return;
                 }
 
+                // Kiểm tra khoảng trắng đầu và cuối trong Chuc Vu
+                if (chucvu != chucvu.Trim())
+                {
+                    MessageBox.Show("Chức Vụ không được có khoảng trắng ở đầu hoặc cuối.");
+                    return;
+                }
+
                 // Kiểm tra khoảng trắng liên tiếp trong MaNV
                 if (Regex.IsMatch(maNV, @"\s{2,}"))
                 {
@@ -129,6 +137,13 @@ namespace ChuyenDe
                 if (Regex.IsMatch(luong, @"\s{2,}"))
                 {
                     MessageBox.Show("Lương không được có hai khoảng trắng liên tiếp.");
+                    return;
+                }
+
+                // Kiểm tra khoảng trắng liên tiếp trong ChucVu
+                if (Regex.IsMatch(chucvu, @"\s{2,}"))
+                {
+                    MessageBox.Show("Chức Vụ không được có hai khoảng trắng liên tiếp.");
                     return;
                 }
 
@@ -171,11 +186,12 @@ namespace ChuyenDe
                     SDT = sDT,
                     DiaChi = diaChi,
                     Luong = int.Parse(luong),
-                    MaCH = maCH
+                    MaCH = maCH,
+                    ChucVu = chucvu
                 };
 
                 // Thêm nhân viên vào cơ sở dữ liệu
-                BUS_NhanVien.Instance.ThemNhanVien(txtMaNV, txtTenNV, rdNam, rdNu, dtpNgaySinh, txtSĐT, txtDiaChi, txtLuong, cbMaCH);
+                BUS_NhanVien.Instance.ThemNhanVien(txtMaNV, txtTenNV, rdNam, rdNu, dtpNgaySinh, txtSĐT, txtDiaChi, txtLuong, cbMaCH, txtChucVu);
 
                 // Tải lại dữ liệu sau khi thêm
                 LoadNhanVien();
@@ -189,6 +205,7 @@ namespace ChuyenDe
                 txtSĐT.Text = string.Empty;
                 txtDiaChi.Text = string.Empty;
                 txtLuong.Text = string.Empty;
+                txtChucVu.Text = string.Empty;
 
                 txtMaNV.Focus();
             }
@@ -216,13 +233,13 @@ namespace ChuyenDe
                 string diaChi = txtDiaChi.Text;
                 string luong = txtLuong.Text;
                 string maCH = cbMaCH.SelectedValue?.ToString() ?? "";
-
+                string chucvu = txtChucVu.Text;
                 // Kiểm tra các trường không được bỏ trống
                 if (string.IsNullOrWhiteSpace(maNV) || string.IsNullOrWhiteSpace(tenNV) ||
                     (!rdNam.Checked && !rdNu.Checked) || string.IsNullOrWhiteSpace(diaChi) ||
-                    string.IsNullOrWhiteSpace(sDT) || string.IsNullOrWhiteSpace(luong))
+                    string.IsNullOrWhiteSpace(sDT) || string.IsNullOrWhiteSpace(luong) || string.IsNullOrWhiteSpace(chucvu))
                 {
-                    MessageBox.Show("Vui lòng điền đầy đủ thông tin các trường MaNV, TenNV, Giới Tính, SĐT, Lương, Địa Chỉ.");
+                    MessageBox.Show("Vui lòng điền đầy đủ thông tin các trường MaNV, TenNV, Giới Tính, SĐT, Lương, Địa Chỉ, Chức vụ");
                     return; // Dừng lại nếu có trường bị bỏ trống
                 }
 
@@ -261,6 +278,13 @@ namespace ChuyenDe
                     return;
                 }
 
+                // Kiểm tra khoảng trắng đầu và cuối trong Chuc Vu
+                if (chucvu != chucvu.Trim())
+                {
+                    MessageBox.Show("Chức Vụ không được có khoảng trắng ở đầu hoặc cuối.");
+                    return;
+                }
+
                 // Kiểm tra khoảng trắng liên tiếp trong MaNV
                 if (Regex.IsMatch(maNV, @"\s{2,}"))
                 {
@@ -293,6 +317,13 @@ namespace ChuyenDe
                 if (Regex.IsMatch(luong, @"\s{2,}"))
                 {
                     MessageBox.Show("Lương không được có hai khoảng trắng liên tiếp.");
+                    return;
+                }
+
+                // Kiểm tra khoảng trắng liên tiếp trong ChucVu
+                if (Regex.IsMatch(chucvu, @"\s{2,}"))
+                {
+                    MessageBox.Show("Chức Vụ không được có hai khoảng trắng liên tiếp.");
                     return;
                 }
 
@@ -335,11 +366,12 @@ namespace ChuyenDe
                     SDT = sDT,
                     DiaChi = diaChi,
                     Luong = int.Parse(luong),
-                    MaCH = maCH
+                    MaCH = maCH,
+                    ChucVu = chucvu
                 };
 
                 // Thêm nhân viên vào cơ sở dữ liệu
-                BUS_NhanVien.Instance.SuaNV(txtMaNV, txtTenNV, rdNam, rdNu, dtpNgaySinh, txtSĐT, txtDiaChi, txtLuong, cbMaCH);
+                BUS_NhanVien.Instance.SuaNV(txtMaNV, txtTenNV, rdNam, rdNu, dtpNgaySinh, txtSĐT, txtDiaChi, txtLuong, cbMaCH, txtChucVu);
 
                 // Tải lại dữ liệu sau khi thêm
                 LoadNhanVien();
@@ -353,6 +385,7 @@ namespace ChuyenDe
                 txtSĐT.Text = string.Empty;
                 txtDiaChi.Text = string.Empty;
                 txtLuong.Text = string.Empty;
+                txtChucVu.Text = string.Empty;
 
                 txtMaNV.Focus();
             }
@@ -364,6 +397,7 @@ namespace ChuyenDe
             {
                 btnThem.Enabled = true;
             }
+
         }
 
         private void btnXoa_Click(object sender, EventArgs e)
@@ -382,6 +416,7 @@ namespace ChuyenDe
                 txtSĐT.Text = string.Empty;
                 txtDiaChi.Text = string.Empty;
                 txtLuong.Text = string.Empty;
+                txtChucVu.Text = string.Empty;
 
                 txtMaNV.Focus();
                 LoadNhanVien();
@@ -439,7 +474,6 @@ namespace ChuyenDe
         }
 
 
-
         private void btnThoat_Click(object sender, EventArgs e)
         {
             DialogResult kq = MessageBox.Show("Bạn muốn thoát không????", "Thong Bao",
@@ -450,9 +484,10 @@ namespace ChuyenDe
             }
         }
 
-        private void dgvThongTinNhanVien_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void dgvThongTinNhanVien_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
         {
-            BUS_NhanVien.Instance.LoadDgvLenForm(txtMaNV, txtTenNV, rdNam, rdNu, dtpNgaySinh, txtSĐT, txtDiaChi, txtLuong, cbMaCH, dgvThongTinNhanVien);
+            BUS_NhanVien.Instance.LoadDgvLenForm(txtMaNV, txtTenNV, rdNam, rdNu, dtpNgaySinh, txtSĐT, txtDiaChi, txtLuong, cbMaCH, txtChucVu, dgvThongTinNhanVien);
+
         }
     }
 }
