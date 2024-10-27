@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DAO;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,7 +13,8 @@ namespace ChuyenDe
 {
 	public partial class frmDangNhap : Form
 	{
-		public frmDangNhap()
+        DataBHXDataContext db = new DataBHXDataContext();
+        public frmDangNhap()
 		{
 			InitializeComponent();
 		}
@@ -28,11 +30,20 @@ namespace ChuyenDe
 		private void btnDangNhap_Click(object sender, EventArgs e)
 		{
 			bool check = BUS.BUSAccount.Instance.CheckAccount(txtTaiKhoan, txtMatKhau);
-			if (check == true || txtTaiKhoan.Text == "admin" && txtMatKhau.Text == "admin")
+
+            var manv = (from a in db.Accounts
+                        where a.TaiKhoan == txtTaiKhoan.Text && a.MatKhau == txtMatKhau.Text
+                        select a.MaNV).FirstOrDefault();
+
+            var quyen = (from q in db.NhanViens
+                         where q.MaNV == manv
+                         select q.ChucVu).FirstOrDefault();
+
+            if (check == true || txtTaiKhoan.Text == "admin" && txtMatKhau.Text == "admin")
 			{
 				this.Hide();
-				frmChinh frmChinh = new frmChinh();
-				frmChinh.ShowDialog();
+				frmChinh frmChinh = new frmChinh(quyen);
+                frmChinh.ShowDialog();
 				this.Close();			
 			}
 			else

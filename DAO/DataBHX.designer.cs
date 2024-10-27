@@ -63,7 +63,7 @@ namespace DAO
     #endregion
 		
 		public DataBHXDataContext() : 
-				base(global::DAO.Properties.Settings.Default.BachHoaXanhConnectionString5, mappingSource)
+				base(global::DAO.Properties.Settings.Default.BachHoaXanhConnectionString2, mappingSource)
 		{
 			OnCreated();
 		}
@@ -354,7 +354,9 @@ namespace DAO
 		
 		private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
 		
-		private string _MaHD;
+		private int _MaChiTietHD;
+		
+		private int _MaHD;
 		
 		private string _MaSP;
 		
@@ -374,7 +376,9 @@ namespace DAO
     partial void OnLoaded();
     partial void OnValidate(System.Data.Linq.ChangeAction action);
     partial void OnCreated();
-    partial void OnMaHDChanging(string value);
+    partial void OnMaChiTietHDChanging(int value);
+    partial void OnMaChiTietHDChanged();
+    partial void OnMaHDChanging(int value);
     partial void OnMaHDChanged();
     partial void OnMaSPChanging(string value);
     partial void OnMaSPChanged();
@@ -395,8 +399,28 @@ namespace DAO
 			OnCreated();
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MaHD", DbType="NVarChar(10) NOT NULL", CanBeNull=false, IsPrimaryKey=true)]
-		public string MaHD
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MaChiTietHD", AutoSync=AutoSync.OnInsert, DbType="Int NOT NULL IDENTITY", IsPrimaryKey=true, IsDbGenerated=true)]
+		public int MaChiTietHD
+		{
+			get
+			{
+				return this._MaChiTietHD;
+			}
+			set
+			{
+				if ((this._MaChiTietHD != value))
+				{
+					this.OnMaChiTietHDChanging(value);
+					this.SendPropertyChanging();
+					this._MaChiTietHD = value;
+					this.SendPropertyChanged("MaChiTietHD");
+					this.OnMaChiTietHDChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MaHD", DbType="Int NOT NULL", IsPrimaryKey=true)]
+		public int MaHD
 		{
 			get
 			{
@@ -550,7 +574,7 @@ namespace DAO
 					}
 					else
 					{
-						this._MaHD = default(string);
+						this._MaHD = default(int);
 					}
 					this.SendPropertyChanged("HoaDon");
 				}
@@ -760,11 +784,7 @@ namespace DAO
 		
 		private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
 		
-		private int _id;
-		
-		private string _PreFix;
-		
-		private string _MaHD;
+		private int _MaHD;
 		
 		private System.Nullable<System.DateTime> _NgayBan;
 		
@@ -784,11 +804,7 @@ namespace DAO
     partial void OnLoaded();
     partial void OnValidate(System.Data.Linq.ChangeAction action);
     partial void OnCreated();
-    partial void OnidChanging(int value);
-    partial void OnidChanged();
-    partial void OnPreFixChanging(string value);
-    partial void OnPreFixChanged();
-    partial void OnMaHDChanging(string value);
+    partial void OnMaHDChanging(int value);
     partial void OnMaHDChanged();
     partial void OnNgayBanChanging(System.Nullable<System.DateTime> value);
     partial void OnNgayBanChanged();
@@ -808,48 +824,8 @@ namespace DAO
 			OnCreated();
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_id", AutoSync=AutoSync.Always, DbType="Int NOT NULL IDENTITY", IsDbGenerated=true)]
-		public int id
-		{
-			get
-			{
-				return this._id;
-			}
-			set
-			{
-				if ((this._id != value))
-				{
-					this.OnidChanging(value);
-					this.SendPropertyChanging();
-					this._id = value;
-					this.SendPropertyChanged("id");
-					this.OnidChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_PreFix", DbType="NVarChar(3) NOT NULL", CanBeNull=false)]
-		public string PreFix
-		{
-			get
-			{
-				return this._PreFix;
-			}
-			set
-			{
-				if ((this._PreFix != value))
-				{
-					this.OnPreFixChanging(value);
-					this.SendPropertyChanging();
-					this._PreFix = value;
-					this.SendPropertyChanged("PreFix");
-					this.OnPreFixChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MaHD", AutoSync=AutoSync.OnInsert, DbType="NVarChar(10) NOT NULL", CanBeNull=false, IsPrimaryKey=true, IsDbGenerated=true, UpdateCheck=UpdateCheck.Never)]
-		public string MaHD
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MaHD", AutoSync=AutoSync.OnInsert, DbType="Int NOT NULL IDENTITY", IsPrimaryKey=true, IsDbGenerated=true)]
+		public int MaHD
 		{
 			get
 			{
@@ -1926,7 +1902,7 @@ namespace DAO
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_ChucVu", DbType="NVarChar(200)")]
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_ChucVu", DbType="NVarChar(500)")]
 		public string ChucVu
 		{
 			get

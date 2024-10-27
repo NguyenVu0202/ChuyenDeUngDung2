@@ -12,12 +12,19 @@ namespace ChuyenDe
 {
 	public partial class frmChinh : Form
 	{
+		string quyen = "";
 		public frmChinh()
 		{
 			InitializeComponent();
 		}
 
-		private void mnuSanPham_Click(object sender, EventArgs e)
+        public frmChinh(string quyen)
+        {
+            InitializeComponent();
+			this.quyen = quyen;
+        }
+
+        private void mnuSanPham_Click(object sender, EventArgs e)
 		{
 			frmSanPham fr = new frmSanPham();
 			fr.MdiParent = this;
@@ -73,6 +80,40 @@ namespace ChuyenDe
 			{
 				Application.Exit();
 			}
+        }
+
+        private void frmChinh_Load(object sender, EventArgs e)
+        {
+            if(quyen == "1")
+            {
+                mnuSanPham.Enabled = false;
+                mnuDanhMucHang.Enabled = false;
+                mnuDanhMucLoai.Enabled = false;
+                mnuCuaHang.Enabled = false;
+                mnuKho.Enabled = false;
+                mnuNhanVien.Enabled = false;
+            }
+            else
+            {
+                mnuSanPham.Enabled = true;
+                mnuDanhMucHang.Enabled = true;
+                mnuDanhMucLoai.Enabled = true;
+                mnuCuaHang.Enabled = true;
+                mnuKho.Enabled = true;
+                mnuNhanVien.Enabled = true;
+            }    
+        }
+
+        private void mnuDangXuat_Click(object sender, EventArgs e)
+        {
+            DialogResult result = MessageBox.Show("Bạn muốn đăng xuất?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (result == DialogResult.Yes)
+            {
+                this.Hide();
+                frmDangNhap frmDangNhap  = new frmDangNhap();
+                frmDangNhap.ShowDialog();
+                this.Close();
+            }
         }
     }
 }
