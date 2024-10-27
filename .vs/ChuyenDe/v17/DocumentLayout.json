@@ -3,60 +3,110 @@
   "WorkspaceRootPath": "D:\\HK6\\Chuy\u00EAn \u0110\u1EC1 \u1EE8ng D\u1EE5ng 1\\B\u00E1ch H\u00F3a Xanh\\ChuyenDe\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9428D986-429C-40C9-BFCA-21FCA92C5A08}|BUS\\BUS.csproj|D:\\HK6\\Chuy\u00EAn \u0110\u1EC1 \u1EE8ng D\u1EE5ng 1\\B\u00E1ch H\u00F3a Xanh\\ChuyenDe\\bus\\bus_nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9428D986-429C-40C9-BFCA-21FCA92C5A08}|BUS\\BUS.csproj|solutionrelative:bus\\bus_nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9428D986-429C-40C9-BFCA-21FCA92C5A08}|BUS\\BUS.csproj|d:\\hk6\\chuy\u00EAn \u0111\u1EC1 \u1EE9ng d\u1EE5ng 1\\b\u00E1ch h\u00F3a xanh\\chuyende\\bus\\bussanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9428D986-429C-40C9-BFCA-21FCA92C5A08}|BUS\\BUS.csproj|solutionrelative:bus\\bussanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B28102B4-A63A-4D91-93A7-3058447513E1}|DAO\\DAO.csproj|D:\\HK6\\Chuy\u00EAn \u0110\u1EC1 \u1EE8ng D\u1EE5ng 1\\B\u00E1ch H\u00F3a Xanh\\ChuyenDe\\dao\\dao_nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B28102B4-A63A-4D91-93A7-3058447513E1}|DAO\\DAO.csproj|solutionrelative:dao\\dao_nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B28102B4-A63A-4D91-93A7-3058447513E1}|DAO\\DAO.csproj|d:\\hk6\\chuy\u00EAn \u0111\u1EC1 \u1EE9ng d\u1EE5ng 1\\b\u00E1ch h\u00F3a xanh\\chuyende\\dao\\daosanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B28102B4-A63A-4D91-93A7-3058447513E1}|DAO\\DAO.csproj|solutionrelative:dao\\daosanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|D:\\HK6\\Chuy\u00EAn \u0110\u1EC1 \u1EE8ng D\u1EE5ng 1\\B\u00E1ch H\u00F3a Xanh\\ChuyenDe\\chuyende\\frmnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|solutionrelative:chuyende\\frmnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|d:\\hk6\\chuy\u00EAn \u0111\u1EC1 \u1EE9ng d\u1EE5ng 1\\b\u00E1ch h\u00F3a xanh\\chuyende\\chuyende\\frmsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|solutionrelative:chuyende\\frmsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|d:\\hk6\\chuy\u00EAn \u0111\u1EC1 \u1EE9ng d\u1EE5ng 1\\b\u00E1ch h\u00F3a xanh\\chuyende\\chuyende\\frmnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|solutionrelative:chuyende\\frmnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|d:\\hk6\\chuy\u00EAn \u0111\u1EC1 \u1EE9ng d\u1EE5ng 1\\b\u00E1ch h\u00F3a xanh\\chuyende\\chuyende\\frmnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|solutionrelative:chuyende\\frmnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9428D986-429C-40C9-BFCA-21FCA92C5A08}|BUS\\BUS.csproj|d:\\hk6\\chuy\u00EAn \u0111\u1EC1 \u1EE9ng d\u1EE5ng 1\\b\u00E1ch h\u00F3a xanh\\chuyende\\bus\\bus_nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9428D986-429C-40C9-BFCA-21FCA92C5A08}|BUS\\BUS.csproj|solutionrelative:bus\\bus_nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B28102B4-A63A-4D91-93A7-3058447513E1}|DAO\\DAO.csproj|d:\\hk6\\chuy\u00EAn \u0111\u1EC1 \u1EE9ng d\u1EE5ng 1\\b\u00E1ch h\u00F3a xanh\\chuyende\\dao\\databhx.dbml||{B465B5AD-8799-4507-B90A-EE29ACF36AF9}|",
+      "AbsoluteMoniker": "D:0:0:{B28102B4-A63A-4D91-93A7-3058447513E1}|DAO\\DAO.csproj|D:\\HK6\\Chuy\u00EAn \u0110\u1EC1 \u1EE8ng D\u1EE5ng 1\\B\u00E1ch H\u00F3a Xanh\\ChuyenDe\\dao\\databhx.dbml||{B465B5AD-8799-4507-B90A-EE29ACF36AF9}|",
       "RelativeMoniker": "D:0:0:{B28102B4-A63A-4D91-93A7-3058447513E1}|DAO\\DAO.csproj|solutionrelative:dao\\databhx.dbml||{B465B5AD-8799-4507-B90A-EE29ACF36AF9}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B28102B4-A63A-4D91-93A7-3058447513E1}|DAO\\DAO.csproj|d:\\hk6\\chuy\u00EAn \u0111\u1EC1 \u1EE9ng d\u1EE5ng 1\\b\u00E1ch h\u00F3a xanh\\chuyende\\dao\\dao_nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B28102B4-A63A-4D91-93A7-3058447513E1}|DAO\\DAO.csproj|solutionrelative:dao\\dao_nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|d:\\hk6\\chuy\u00EAn \u0111\u1EC1 \u1EE9ng d\u1EE5ng 1\\b\u00E1ch h\u00F3a xanh\\chuyende\\chuyende\\frmkho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|D:\\HK6\\Chuy\u00EAn \u0110\u1EC1 \u1EE8ng D\u1EE5ng 1\\B\u00E1ch H\u00F3a Xanh\\ChuyenDe\\chuyende\\frmkho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|solutionrelative:chuyende\\frmkho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
     {
-      "Orientation": 0,
+      "Orientation": 1,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BUS_NhanVien.cs",
+              "DocumentMoniker": "D:\\HK6\\Chuy\u00EAn \u0110\u1EC1 \u1EE8ng D\u1EE5ng 1\\B\u00E1ch H\u00F3a Xanh\\ChuyenDe\\BUS\\BUS_NhanVien.cs",
+              "RelativeDocumentMoniker": "BUS\\BUS_NhanVien.cs",
+              "ToolTip": "D:\\HK6\\Chuy\u00EAn \u0110\u1EC1 \u1EE8ng D\u1EE5ng 1\\B\u00E1ch H\u00F3a Xanh\\ChuyenDe\\BUS\\BUS_NhanVien.cs",
+              "RelativeToolTip": "BUS\\BUS_NhanVien.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAqwEsAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T07:37:24.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BUSSanPham.cs",
+              "DocumentMoniker": "D:\\HK6\\Chuy\u00EAn \u0110\u1EC1 \u1EE8ng D\u1EE5ng 1\\B\u00E1ch H\u00F3a Xanh\\ChuyenDe\\BUS\\BUSSanPham.cs",
+              "RelativeDocumentMoniker": "BUS\\BUSSanPham.cs",
+              "ToolTip": "D:\\HK6\\Chuy\u00EAn \u0110\u1EC1 \u1EE8ng D\u1EE5ng 1\\B\u00E1ch H\u00F3a Xanh\\ChuyenDe\\BUS\\BUSSanPham.cs",
+              "RelativeToolTip": "BUS\\BUSSanPham.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAYwCgAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T13:29:59.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "DAOSanPham.cs",
+              "DocumentMoniker": "D:\\HK6\\Chuy\u00EAn \u0110\u1EC1 \u1EE8ng D\u1EE5ng 1\\B\u00E1ch H\u00F3a Xanh\\ChuyenDe\\DAO\\DAOSanPham.cs",
+              "RelativeDocumentMoniker": "DAO\\DAOSanPham.cs",
+              "ToolTip": "D:\\HK6\\Chuy\u00EAn \u0110\u1EC1 \u1EE8ng D\u1EE5ng 1\\B\u00E1ch H\u00F3a Xanh\\ChuyenDe\\DAO\\DAOSanPham.cs",
+              "RelativeToolTip": "DAO\\DAOSanPham.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAQwDYAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T13:23:22.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "DataBHX.dbml",
               "DocumentMoniker": "D:\\HK6\\Chuy\u00EAn \u0110\u1EC1 \u1EE8ng D\u1EE5ng 1\\B\u00E1ch H\u00F3a Xanh\\ChuyenDe\\DAO\\DataBHX.dbml",
               "RelativeDocumentMoniker": "DAO\\DataBHX.dbml",
               "ToolTip": "D:\\HK6\\Chuy\u00EAn \u0110\u1EC1 \u1EE8ng D\u1EE5ng 1\\B\u00E1ch H\u00F3a Xanh\\ChuyenDe\\DAO\\DataBHX.dbml",
               "RelativeToolTip": "DAO\\DataBHX.dbml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001722|",
-              "WhenOpened": "2024-10-27T07:54:07.597Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-27T07:54:07.597Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "DAO_NhanVien.cs",
               "DocumentMoniker": "D:\\HK6\\Chuy\u00EAn \u0110\u1EC1 \u1EE8ng D\u1EE5ng 1\\B\u00E1ch H\u00F3a Xanh\\ChuyenDe\\DAO\\DAO_NhanVien.cs",
               "RelativeDocumentMoniker": "DAO\\DAO_NhanVien.cs",
               "ToolTip": "D:\\HK6\\Chuy\u00EAn \u0110\u1EC1 \u1EE8ng D\u1EE5ng 1\\B\u00E1ch H\u00F3a Xanh\\ChuyenDe\\DAO\\DAO_NhanVien.cs",
               "RelativeToolTip": "DAO\\DAO_NhanVien.cs",
-              "ViewState": "AQIAAFsAAAAAAAAAAAD4v2UAAAAQAAAA",
+              "ViewState": "AQIAADcAAAAAAAAAAAAkwEoAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-27T07:47:32.65Z",
               "EditorCaption": ""
@@ -64,6 +114,18 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "frmSanPham.cs [Design]",
+              "DocumentMoniker": "D:\\HK6\\Chuy\u00EAn \u0110\u1EC1 \u1EE8ng D\u1EE5ng 1\\B\u00E1ch H\u00F3a Xanh\\ChuyenDe\\ChuyenDe\\frmSanPham.cs",
+              "RelativeDocumentMoniker": "ChuyenDe\\frmSanPham.cs",
+              "ToolTip": "D:\\HK6\\Chuy\u00EAn \u0110\u1EC1 \u1EE8ng D\u1EE5ng 1\\B\u00E1ch H\u00F3a Xanh\\ChuyenDe\\ChuyenDe\\frmSanPham.cs [Design]",
+              "RelativeToolTip": "ChuyenDe\\frmSanPham.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T13:17:47.906Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "frmKho.cs",
               "DocumentMoniker": "D:\\HK6\\Chuy\u00EAn \u0110\u1EC1 \u1EE8ng D\u1EE5ng 1\\B\u00E1ch H\u00F3a Xanh\\ChuyenDe\\ChuyenDe\\frmKho.cs",
               "RelativeDocumentMoniker": "ChuyenDe\\frmKho.cs",
@@ -71,12 +133,11 @@
               "RelativeToolTip": "ChuyenDe\\frmKho.cs",
               "ViewState": "AQIAAI4AAAAAAAAAAAAwwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T07:44:59.644Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-27T07:44:59.644Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "frmNhanVien.cs",
               "DocumentMoniker": "D:\\HK6\\Chuy\u00EAn \u0110\u1EC1 \u1EE8ng D\u1EE5ng 1\\B\u00E1ch H\u00F3a Xanh\\ChuyenDe\\ChuyenDe\\frmNhanVien.cs",
               "RelativeDocumentMoniker": "ChuyenDe\\frmNhanVien.cs",
@@ -89,7 +150,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "frmNhanVien.cs [Design]",
               "DocumentMoniker": "D:\\HK6\\Chuy\u00EAn \u0110\u1EC1 \u1EE8ng D\u1EE5ng 1\\B\u00E1ch H\u00F3a Xanh\\ChuyenDe\\ChuyenDe\\frmNhanVien.cs",
               "RelativeDocumentMoniker": "ChuyenDe\\frmNhanVien.cs",
@@ -98,19 +159,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-27T07:39:50.261Z",
               "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BUS_NhanVien.cs",
-              "DocumentMoniker": "D:\\HK6\\Chuy\u00EAn \u0110\u1EC1 \u1EE8ng D\u1EE5ng 1\\B\u00E1ch H\u00F3a Xanh\\ChuyenDe\\BUS\\BUS_NhanVien.cs",
-              "RelativeDocumentMoniker": "BUS\\BUS_NhanVien.cs",
-              "ToolTip": "D:\\HK6\\Chuy\u00EAn \u0110\u1EC1 \u1EE8ng D\u1EE5ng 1\\B\u00E1ch H\u00F3a Xanh\\ChuyenDe\\BUS\\BUS_NhanVien.cs",
-              "RelativeToolTip": "BUS\\BUS_NhanVien.cs",
-              "ViewState": "AQIAADkAAAAAAAAAAAAowD4AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T07:37:24.039Z",
-              "EditorCaption": ""
             }
           ]
         }

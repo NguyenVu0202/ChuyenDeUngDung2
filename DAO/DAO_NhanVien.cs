@@ -60,12 +60,22 @@ namespace DAO
         public List<NhanVien> LoadNV()
         {
             List<NhanVien> listnv = new List<NhanVien>();
+            DataBHXDataContext db = new DataBHXDataContext();
+            var nv = (from s in db.NhanViens
+                      select new
+                      {
+                          s.MaNV,
+                          s.TenNV,
+                          s.GioiTinh,
+                          s.NgaySinh,
+                          s.SDT,
+                          s.DiaChi,
+                          s.Luong,
+                          s.MaCH,
+                          s.ChucVu
 
-            try
-            {
-                DataBHXDataContext db = new DataBHXDataContext();
-                var nv = (from s in db.NhanViens
-                          select s).ToList();
+                      }).ToList();
+                
                 foreach (var item in nv)
                 {
                     NhanVien nhanVien = new NhanVien();
@@ -80,11 +90,6 @@ namespace DAO
                     nhanVien.ChucVu = item.ChucVu;
                     listnv.Add(nhanVien);
                 }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Không hiển thị được thông tin nhân viên" + ex.Message);
-            }
             return listnv;
         }
 
@@ -93,8 +98,8 @@ namespace DAO
         {
             var rowIndex = data.SelectedCells[0].RowIndex;
             var row = data.Rows[rowIndex];
-            manv.Text = row.Cells["MaNV"].Value?.ToString().Trim() ?? "";
-            tennv.Text = row.Cells["TenNV"].Value?.ToString().Trim() ?? "";
+            manv.Text = row.Cells["MaNV"].Value?.ToString().Trim();
+            tennv.Text = row.Cells["TenNV"].Value?.ToString().Trim();
             if (row.Cells["GioiTinh"].Value?.ToString().Trim() == "Nam")
             {
                 gtnam.Checked = true;
@@ -106,11 +111,11 @@ namespace DAO
             ngaysinh.Text = row.Cells["NgaySinh"].Value != null
                 ? ((DateTime)row.Cells["NgaySinh"].Value).ToString("yyyy-MM-dd")
                 : "";
-            sdt.Text = row.Cells["SDT"].Value?.ToString().Trim() ?? "";
-            luong.Text = row.Cells["Luong"].Value?.ToString().Trim() ?? "";
-            diachi.Text = row.Cells["DiaChi"].Value?.ToString().Trim() ?? "";
-            mach.Text = row.Cells["MaCH"].Value?.ToString().Trim() ?? "";
-            chucvu.Text = row.Cells["ChucVu"].Value?.ToString().Trim() ?? "";
+            sdt.Text = row.Cells["SDT"].Value?.ToString().Trim();
+            luong.Text = row.Cells["Luong"].Value?.ToString().Trim();
+            diachi.Text = row.Cells["DiaChi"].Value?.ToString().Trim();
+            mach.Text = row.Cells["MaCH"].Value?.ToString().Trim();
+            chucvu.Text = row.Cells["ChucVu"].Value?.ToString().Trim();
 
         }
 
