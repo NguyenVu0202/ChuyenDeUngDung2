@@ -43,6 +43,7 @@ namespace DAO
 			var account = (from ac in db.Accounts
 						   where ac.TaiKhoan == taikhoan && ac.MatKhau == matkhau
 						   select ac).FirstOrDefault();
+
 			if (account != null)
 			{
 				ketqua = true;
