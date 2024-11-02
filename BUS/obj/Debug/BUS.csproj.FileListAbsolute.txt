@@ -461,3 +461,13 @@ D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\BUS\obj\Debug\BUS.c
 D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\BUS\obj\Debug\BUS.csproj.Up2Date
 D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\BUS\obj\Debug\BUS.exe
 D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\BUS\obj\Debug\BUS.pdb
+C:\Users\NGUYEN VU\Desktop\New folder\BUS\bin\Debug\AForge.dll
+C:\Users\NGUYEN VU\Desktop\New folder\BUS\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\NGUYEN VU\Desktop\New folder\BUS\bin\Debug\AForge.Video.dll
+C:\Users\NGUYEN VU\Desktop\New folder\BUS\bin\Debug\zxing.dll
+C:\Users\NGUYEN VU\Desktop\New folder\BUS\bin\Debug\zxing.presentation.dll
+C:\Users\NGUYEN VU\Desktop\New folder\BUS\bin\Debug\AForge.xml
+C:\Users\NGUYEN VU\Desktop\New folder\BUS\bin\Debug\AForge.Video.xml
+C:\Users\NGUYEN VU\Desktop\New folder\BUS\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\NGUYEN VU\Desktop\New folder\BUS\bin\Debug\zxing.xml
+C:\Users\NGUYEN VU\Desktop\New folder\BUS\bin\Debug\zxing.presentation.xml

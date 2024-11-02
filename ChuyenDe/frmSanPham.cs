@@ -30,8 +30,8 @@ namespace ChuyenDe
 			InitializeComponent();
 		}
 
-		private void btnTaoMa_Click(object sender, EventArgs e)
-		{
+        private void TaoMa()
+        {
             if (string.IsNullOrEmpty(txtMaSP.Text))
             {
                 MessageBox.Show("Vui lòng nhập mã sản phẩm để tạo mã barcode!");
@@ -44,6 +44,11 @@ namespace ChuyenDe
 
                 picBarcode.Image = barcode.Draw(txtMaSP.Text, 200);
             }
+        }
+
+		private void btnTaoMa_Click(object sender, EventArgs e)
+		{
+            TaoMa();
         }
 
 		private void btnLuuMa_Click(object sender, EventArgs e)
@@ -180,6 +185,7 @@ namespace ChuyenDe
 		private void dgvSanPham_CellContentClick(object sender, DataGridViewCellEventArgs e)
 		{
 			BUSSanPham.Instance.LoadDgvLenForm(txtMaSP, txtTenSP, cboTenLoai, cboTenHang, txtGiaBan, picHinhAnh, txtGhiChu, dgvSanPham);
+            TaoMa();
 		}
 
 		private void btnThem_Click_1(object sender, EventArgs e)

@@ -356,17 +356,17 @@ namespace DAO
 		
 		private int _MaChiTietHD;
 		
-		private int _MaHD;
+		private System.Nullable<int> _MaHD;
 		
 		private string _MaSP;
 		
-		private System.Nullable<int> _SoLuong;
+		private System.Nullable<decimal> _SoLuong;
 		
-		private System.Nullable<int> _GiaSP;
+		private System.Nullable<decimal> _GiaSP;
 		
 		private System.Nullable<int> _GiamGia;
 		
-		private System.Nullable<int> _ThanhTien;
+		private System.Nullable<decimal> _ThanhTien;
 		
 		private EntityRef<HoaDon> _HoaDon;
 		
@@ -378,17 +378,17 @@ namespace DAO
     partial void OnCreated();
     partial void OnMaChiTietHDChanging(int value);
     partial void OnMaChiTietHDChanged();
-    partial void OnMaHDChanging(int value);
+    partial void OnMaHDChanging(System.Nullable<int> value);
     partial void OnMaHDChanged();
     partial void OnMaSPChanging(string value);
     partial void OnMaSPChanged();
-    partial void OnSoLuongChanging(System.Nullable<int> value);
+    partial void OnSoLuongChanging(System.Nullable<decimal> value);
     partial void OnSoLuongChanged();
-    partial void OnGiaSPChanging(System.Nullable<int> value);
+    partial void OnGiaSPChanging(System.Nullable<decimal> value);
     partial void OnGiaSPChanged();
     partial void OnGiamGiaChanging(System.Nullable<int> value);
     partial void OnGiamGiaChanged();
-    partial void OnThanhTienChanging(System.Nullable<int> value);
+    partial void OnThanhTienChanging(System.Nullable<decimal> value);
     partial void OnThanhTienChanged();
     #endregion
 		
@@ -419,8 +419,8 @@ namespace DAO
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MaHD", DbType="Int NOT NULL", IsPrimaryKey=true)]
-		public int MaHD
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MaHD", DbType="Int")]
+		public System.Nullable<int> MaHD
 		{
 			get
 			{
@@ -443,7 +443,7 @@ namespace DAO
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MaSP", DbType="NVarChar(20) NOT NULL", CanBeNull=false, IsPrimaryKey=true)]
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MaSP", DbType="NVarChar(20)")]
 		public string MaSP
 		{
 			get
@@ -467,8 +467,8 @@ namespace DAO
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_SoLuong", DbType="Int")]
-		public System.Nullable<int> SoLuong
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_SoLuong", DbType="Decimal(18,0)")]
+		public System.Nullable<decimal> SoLuong
 		{
 			get
 			{
@@ -487,8 +487,8 @@ namespace DAO
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_GiaSP", DbType="Int")]
-		public System.Nullable<int> GiaSP
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_GiaSP", DbType="Decimal(18,0)")]
+		public System.Nullable<decimal> GiaSP
 		{
 			get
 			{
@@ -527,8 +527,8 @@ namespace DAO
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_ThanhTien", DbType="Int")]
-		public System.Nullable<int> ThanhTien
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_ThanhTien", DbType="Decimal(18,0)")]
+		public System.Nullable<decimal> ThanhTien
 		{
 			get
 			{
@@ -574,7 +574,7 @@ namespace DAO
 					}
 					else
 					{
-						this._MaHD = default(int);
+						this._MaHD = default(Nullable<int>);
 					}
 					this.SendPropertyChanged("HoaDon");
 				}
@@ -788,7 +788,7 @@ namespace DAO
 		
 		private System.Nullable<System.DateTime> _NgayBan;
 		
-		private System.Nullable<int> _TongTien;
+		private System.Nullable<decimal> _TongTien;
 		
 		private string _MaKH;
 		
@@ -808,7 +808,7 @@ namespace DAO
     partial void OnMaHDChanged();
     partial void OnNgayBanChanging(System.Nullable<System.DateTime> value);
     partial void OnNgayBanChanged();
-    partial void OnTongTienChanging(System.Nullable<int> value);
+    partial void OnTongTienChanging(System.Nullable<decimal> value);
     partial void OnTongTienChanged();
     partial void OnMaKHChanging(string value);
     partial void OnMaKHChanged();
@@ -864,8 +864,8 @@ namespace DAO
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_TongTien", DbType="Int")]
-		public System.Nullable<int> TongTien
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_TongTien", DbType="Decimal(18,0)")]
+		public System.Nullable<decimal> TongTien
 		{
 			get
 			{
@@ -1244,7 +1244,7 @@ namespace DAO
 		
 		private string _MaSP;
 		
-		private System.Nullable<int> _SoLuong;
+		private System.Nullable<decimal> _SoLuong;
 		
 		private EntityRef<CuaHang> _CuaHang;
 		
@@ -1260,7 +1260,7 @@ namespace DAO
     partial void OnMaCHChanged();
     partial void OnMaSPChanging(string value);
     partial void OnMaSPChanged();
-    partial void OnSoLuongChanging(System.Nullable<int> value);
+    partial void OnSoLuongChanging(System.Nullable<decimal> value);
     partial void OnSoLuongChanged();
     #endregion
 		
@@ -1339,8 +1339,8 @@ namespace DAO
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_SoLuong", DbType="Int")]
-		public System.Nullable<int> SoLuong
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_SoLuong", DbType="Decimal(18,0)")]
+		public System.Nullable<decimal> SoLuong
 		{
 			get
 			{
@@ -1692,7 +1692,7 @@ namespace DAO
 		
 		private string _SDT;
 		
-		private System.Nullable<int> _Luong;
+		private System.Nullable<decimal> _Luong;
 		
 		private string _DiaChi;
 		
@@ -1720,7 +1720,7 @@ namespace DAO
     partial void OnNgaySinhChanged();
     partial void OnSDTChanging(string value);
     partial void OnSDTChanged();
-    partial void OnLuongChanging(System.Nullable<int> value);
+    partial void OnLuongChanging(System.Nullable<decimal> value);
     partial void OnLuongChanged();
     partial void OnDiaChiChanging(string value);
     partial void OnDiaChiChanged();
@@ -1838,8 +1838,8 @@ namespace DAO
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Luong", DbType="Int")]
-		public System.Nullable<int> Luong
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Luong", DbType="Decimal(18,0)")]
+		public System.Nullable<decimal> Luong
 		{
 			get
 			{
@@ -2041,7 +2041,7 @@ namespace DAO
 		
 		private string _TenSP;
 		
-		private System.Nullable<int> _GiaBan;
+		private System.Nullable<decimal> _GiaBan;
 		
 		private string _HinhAnh;
 		
@@ -2067,7 +2067,7 @@ namespace DAO
     partial void OnMaNCCChanged();
     partial void OnTenSPChanging(string value);
     partial void OnTenSPChanged();
-    partial void OnGiaBanChanging(System.Nullable<int> value);
+    partial void OnGiaBanChanging(System.Nullable<decimal> value);
     partial void OnGiaBanChanged();
     partial void OnHinhAnhChanging(string value);
     partial void OnHinhAnhChanged();
@@ -2172,8 +2172,8 @@ namespace DAO
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_GiaBan", DbType="Int")]
-		public System.Nullable<int> GiaBan
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_GiaBan", DbType="Decimal(18,0)")]
+		public System.Nullable<decimal> GiaBan
 		{
 			get
 			{

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BUS;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -13,15 +14,17 @@ namespace ChuyenDe
 	public partial class frmChinh : Form
 	{
 		string quyen = "";
+        string manv = "";
 		public frmChinh()
 		{
 			InitializeComponent();
 		}
 
-        public frmChinh(string quyen)
+        public frmChinh(string quyen, string manv)
         {
             InitializeComponent();
 			this.quyen = quyen;
+            this.manv = manv;
         }
 
         private void mnuSanPham_Click(object sender, EventArgs e)
@@ -114,6 +117,25 @@ namespace ChuyenDe
                 frmDangNhap.ShowDialog();
                 this.Close();
             }
+        }
+
+        private void mnuHoaDon_Click(object sender, EventArgs e)
+        {
+            frmHoaDon frm = new frmHoaDon(manv);
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void frmChinh_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            BUSHoaDon.Instance.XoaHoaDon();
+        }
+
+        private void mnuTimKiemHoaDon_Click(object sender, EventArgs e)
+        {
+            frmTimKiemHoaDon frm = new frmTimKiemHoaDon();
+            frm.MdiParent = this;
+            frm.Show();
         }
     }
 }

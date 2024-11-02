@@ -50,5 +50,25 @@ namespace DAO
 			}
 			return ketqua;
 		}
+
+		public string quyen(string taikhoan)
+		{
+            var manv = (from a in db.Accounts
+                        where a.TaiKhoan == taikhoan
+                        select a.MaNV).FirstOrDefault();
+
+            var quyen = (from q in db.NhanViens
+                         where q.MaNV == manv
+                         select q.ChucVu).FirstOrDefault();
+			return quyen;
+        }
+
+		public string manv(string taikhoan)
+		{
+            var manv = (from a in db.Accounts
+                        where a.TaiKhoan == taikhoan
+                        select a.MaNV).FirstOrDefault();
+			return manv;
+        }
 	}
 }

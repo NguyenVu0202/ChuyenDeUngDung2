@@ -44,5 +44,13 @@ namespace BUS
 				return false;
 			}
 		}
-	}
+		public string quyen(TextBox taikhoan)
+		{
+			return DAOAccount.Instance.quyen(taikhoan.Text);
+		}
+        public string manv(TextBox taikhoan)
+        {
+            return DAOAccount.Instance.manv(taikhoan.Text);
+        }
+    }
 }
