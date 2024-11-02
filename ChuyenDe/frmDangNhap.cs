@@ -1,4 +1,5 @@
-﻿using DAO;
+﻿using BUS;
+using DAO;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -31,18 +32,14 @@ namespace ChuyenDe
 		{
 			bool check = BUS.BUSAccount.Instance.CheckAccount(txtTaiKhoan, txtMatKhau);
 
-            var manv = (from a in db.Accounts
-                        where a.TaiKhoan == txtTaiKhoan.Text && a.MatKhau == txtMatKhau.Text
-                        select a.MaNV).FirstOrDefault();
+			string quyen = BUSAccount.Instance.quyen(txtTaiKhoan);
 
-            var quyen = (from q in db.NhanViens
-                         where q.MaNV == manv
-                         select q.ChucVu).FirstOrDefault();
+            string manv = BUSAccount.Instance.manv(txtTaiKhoan);
 
             if (check == true || txtTaiKhoan.Text == "admin" && txtMatKhau.Text == "admin")
 			{
 				this.Hide();
-				frmChinh frmChinh = new frmChinh(quyen);
+				frmChinh frmChinh = new frmChinh(quyen, manv);
                 frmChinh.ShowDialog();
 				this.Close();			
 			}

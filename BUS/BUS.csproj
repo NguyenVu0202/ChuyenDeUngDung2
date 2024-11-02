@@ -33,6 +33,15 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AForge, Version=2.2.5.0, Culture=neutral, PublicKeyToken=c1db6ff4eaa06aeb, processorArchitecture=MSIL">
+      <HintPath>..\packages\AForge.2.2.5\lib\AForge.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video, Version=2.2.5.0, Culture=neutral, PublicKeyToken=cbfb6e07d173c401, processorArchitecture=MSIL">
+      <HintPath>..\packages\AForge.Video.2.2.5\lib\AForge.Video.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video.DirectShow, Version=2.2.5.0, Culture=neutral, PublicKeyToken=61ea4348d43881b7, processorArchitecture=MSIL">
+      <HintPath>..\packages\AForge.Video.DirectShow.2.2.5\lib\AForge.Video.DirectShow.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1652.0\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
     </Reference>
@@ -63,15 +72,23 @@
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="Zen.Barcode.Core, Version=3.1.0.0, Culture=neutral, PublicKeyToken=b5ae55aa76d2d9de, processorArchitecture=MSIL">
-      <HintPath>..\packages\Zen.Barcode.Core.2.0.0\lib\net45\Zen.Barcode.Core.dll</HintPath>
+      <HintPath>..\packages\Zen.Barcode.Rendering.Framework.3.1.10729.1\lib\Zen.Barcode.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="zxing, Version=0.16.9.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60, processorArchitecture=MSIL">
+      <HintPath>..\packages\ZXing.Net.0.16.9\lib\net48\zxing.dll</HintPath>
+    </Reference>
+    <Reference Include="zxing.presentation, Version=0.16.9.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60, processorArchitecture=MSIL">
+      <HintPath>..\packages\ZXing.Net.0.16.9\lib\net48\zxing.presentation.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BUSAccount.cs" />
+    <Compile Include="BUSHoaDon.cs" />
     <Compile Include="BUSKhachHang.cs" />
     <Compile Include="BUSLoai.cs" />
     <Compile Include="BUSNhaCungCap.cs" />
     <Compile Include="BUSSanPham.cs" />
+    <Compile Include="BUSTimKiemHoaDon.cs" />
     <Compile Include="BUS_CuaHang.cs" />
     <Compile Include="BUS_Kho.cs" />
     <Compile Include="BUS_NhanVien.cs" />

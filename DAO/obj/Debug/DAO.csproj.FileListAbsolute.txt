@@ -440,3 +440,13 @@ D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\DAO\obj\Debug\DAO.c
 D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\DAO\obj\Debug\DAO.csproj.Up2Date
 D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\DAO\obj\Debug\DAO.exe
 D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\DAO\obj\Debug\DAO.pdb
+C:\Users\NGUYEN VU\Desktop\New folder\DAO\bin\Debug\AForge.dll
+C:\Users\NGUYEN VU\Desktop\New folder\DAO\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\NGUYEN VU\Desktop\New folder\DAO\bin\Debug\AForge.Video.dll
+C:\Users\NGUYEN VU\Desktop\New folder\DAO\bin\Debug\zxing.dll
+C:\Users\NGUYEN VU\Desktop\New folder\DAO\bin\Debug\zxing.presentation.dll
+C:\Users\NGUYEN VU\Desktop\New folder\DAO\bin\Debug\AForge.xml
+C:\Users\NGUYEN VU\Desktop\New folder\DAO\bin\Debug\AForge.Video.xml
+C:\Users\NGUYEN VU\Desktop\New folder\DAO\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\NGUYEN VU\Desktop\New folder\DAO\bin\Debug\zxing.xml
+C:\Users\NGUYEN VU\Desktop\New folder\DAO\bin\Debug\zxing.presentation.xml
