@@ -148,9 +148,9 @@ namespace BUS
         }
 
         //Tìm kiếm nhân viên theo Tên NV
-        public void TimKiemNVTheoTenNV(TextBox tenNV, DataGridView data)
+        public void TimKiemNVTheoSDTNV(TextBox sdt, DataGridView data)
         {
-            var dt = DAO_NhanVien.Instance.TimKiemNVTheoTenNV(tenNV.Text).Select(t =>
+            var dt = DAO_NhanVien.Instance.TimKiemNVTheoSĐTNV(sdt.Text).Select(t =>
             {
                 return new
                 {
@@ -162,12 +162,11 @@ namespace BUS
                     t.SDT,
                     t.Luong,
                     t.MaCH,
-                    t.ChucVu
+                    t.ChucVu,
                 };
             }).ToList();
             data.DataSource = dt;
+
         }
-
-
     }
 }

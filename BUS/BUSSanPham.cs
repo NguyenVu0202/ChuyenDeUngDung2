@@ -28,30 +28,50 @@ namespace BUS
 
 		}
 		private BUSSanPham() { }
-		public void Xem(DataGridView data)
-		{
-			var dt = DAOSanPham.Instance.Xem().Select(t =>
-			{
-				var HinhAnh = Image.FromFile(t.HinhAnh);
+        public void Xem(DataGridView data)
+        {
+            var dt = DAOSanPham.Instance.Xem().Select(t =>
+            {
+                Image HinhAnh = null;
+                try
+                {
+                    // Check if the image path is not null or empty
+                    if (!string.IsNullOrWhiteSpace(t.HinhAnh))
+                    {
+                        // Attempt to load the image
+                        HinhAnh = Image.FromFile(t.HinhAnh);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    // Handle exceptions (e.g., file not found, invalid path)
+                    Console.WriteLine($"Error loading image for product {t.MaSP}: {ex.Message}");
+                    // You might want to set a default image or leave it as null
+                    // HinhAnh = Properties.Resources.DefaultImage; // Example of setting a default image
+                }
 
-				return new
-				{
-					t.MaSP,
-					t.TenSP,
-					t.MaLoai,
-					t.MaNCC,
-					t.GiaBan,
-					HinhAnh,
-					t.GhiChu
+                return new
+                {
+                    t.MaSP,
+                    t.TenSP,
+                    t.MaLoai,
+                    t.MaNCC,
+                    t.GiaBan,
+                    HinhAnh, // HinhAnh can be null if loading failed
+                    t.GhiChu
+                };
+            }).ToList();
 
-				};
-			}).ToList();
-			data.DataSource = dt;
-			DataGridViewImageColumn pic = new DataGridViewImageColumn();
-			pic = (DataGridViewImageColumn)data.Columns[5];
-			pic.ImageLayout = DataGridViewImageCellLayout.Zoom;
-		}
-		public void Them(TextBox masp, TextBox tensp, ComboBox tenloai, ComboBox tenhang, TextBox giaban, TextBox hinhanh, TextBox ghichu)
+            data.DataSource = dt;
+
+            // Ensure the image column is set up correctly
+            if (data.Columns.Count > 5 && data.Columns[5] is DataGridViewImageColumn pic)
+            {
+                pic.ImageLayout = DataGridViewImageCellLayout.Zoom;
+            }
+        }
+
+        public void Them(TextBox masp, TextBox tensp, ComboBox tenloai, ComboBox tenhang, TextBox giaban, TextBox hinhanh, TextBox ghichu)
 		{
 			DAOSanPham.Instance.Them(masp, tensp, tenloai, tenhang, giaban, hinhanh, ghichu);
 		}

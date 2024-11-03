@@ -161,5 +161,7 @@ namespace ChuyenDe
             txtCH.Text = row.Cells["MaCH"].Value.ToString();
             txtDC.Text = row.Cells["DiaChi"].Value.ToString();
         }
+
+       
     }
 }

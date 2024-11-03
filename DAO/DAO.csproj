@@ -76,6 +76,8 @@
     <Compile Include="DAO_CuaHang.cs" />
     <Compile Include="DAO_Kho.cs" />
     <Compile Include="DAO_NhanVien.cs" />
+    <Compile Include="DAO_ThongKeDoanhThu.cs" />
+    <Compile Include="DAO_ThongKeLuongNhanVienTheoCH.cs" />
     <Compile Include="DataBHX.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>

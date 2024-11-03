@@ -75,6 +75,8 @@
     <Compile Include="BUS_CuaHang.cs" />
     <Compile Include="BUS_Kho.cs" />
     <Compile Include="BUS_NhanVien.cs" />
+    <Compile Include="BUS_ThongKeDoanhThu.cs" />
+    <Compile Include="BUS_ThongKeLuongNhanVienTheoCH.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>

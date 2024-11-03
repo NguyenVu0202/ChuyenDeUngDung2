@@ -115,5 +115,19 @@ namespace ChuyenDe
                 this.Close();
             }
         }
+
+        private void mnuThongKeDanhThu_Click(object sender, EventArgs e)
+        {
+            frmThongKeDoanhThu frm = new frmThongKeDoanhThu();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void mnuThongKeLuongNV_Click(object sender, EventArgs e)
+        {
+            frmThongKeLuongNhanVien frm = new frmThongKeLuongNhanVien();
+            frm.MdiParent = this;
+            frm.Show();
+        }
     }
 }
