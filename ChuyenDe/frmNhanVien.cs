@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
@@ -36,9 +37,26 @@ namespace ChuyenDe
 
         private void frmNhanVien_Load(object sender, EventArgs e)
         {
+            // Cấu hình AutoComplete cho TextBox txtMaNV
+            txtMaNV.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
+            txtMaNV.AutoCompleteSource = AutoCompleteSource.CustomSource;
 
+            // Tạo AutoCompleteStringCollection để chứa dữ liệu
+            AutoCompleteStringCollection dataMaNV = new AutoCompleteStringCollection();
+            dataMaNV.AddRange(LayDanhSachMaNV()); // Lấy danh sách mã nhân viên và thêm vào AutoComplete
+            txtMaNV.AutoCompleteCustomSource = dataMaNV;
+
+            // Cấu hình AutoComplete cho TextBox txtTenNV
+            txtSĐT.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
+            txtSĐT.AutoCompleteSource = AutoCompleteSource.CustomSource;
+
+            // Tạo AutoCompleteStringCollection cho tên nhân viên
+            AutoCompleteStringCollection dataTenNV = new AutoCompleteStringCollection();
+            dataTenNV.AddRange(LayDanhSachSĐTNV()); // Lấy danh sách tên nhân viên và thêm vào AutoComplete
+            txtSĐT.AutoCompleteCustomSource = dataTenNV;
         }
 
+        //Btn Thêm
         private void btnThem_Click(object sender, EventArgs e)
         {
             btnThem.Enabled = false;
@@ -147,9 +165,9 @@ namespace ChuyenDe
                     return;
                 }
 
-                if (!decimal.TryParse(luong, out decimal luongDecimal))
+                if (!decimal.TryParse(luong, out decimal luongDecimal) || luongDecimal < 0)
                 {
-                    MessageBox.Show("Lương phải là số hợp lệ.");
+                    MessageBox.Show("Lương phải là số hợp lệ và không được âm");
                     return;
                 }
 
@@ -159,8 +177,24 @@ namespace ChuyenDe
                     return;
                 }
 
-                //Sđt phải đúng 10 chữ số 
-                if (sDT.Length != 10)
+                // Kiểm tra tuổi
+                if (!DateTime.TryParse(ngaySinh, out DateTime dateOfBirth))
+                {
+                    MessageBox.Show("Ngày sinh không hợp lệ.");
+                    return;
+                }
+
+                int age = DateTime.Now.Year - dateOfBirth.Year;
+                if (dateOfBirth > DateTime.Now.AddYears(-age)) age--; // Điều chỉnh nếu chưa qua sinh nhật trong năm
+
+                if (age < 18)
+                {
+                    MessageBox.Show("Nhân viên phải đủ 18 tuổi.");
+                    return;
+                }
+
+                //Sdt phải đúng 10 chữ số 
+                if (sDT.Length != 10 )
                 {
                     MessageBox.Show("Số điện thoại phải có đúng 10 chữ số.");
                     return;
@@ -198,7 +232,7 @@ namespace ChuyenDe
 
                 // Xóa các trường
                 txtMaNV.Text = string.Empty;
-                cbMaCH.SelectedIndex = -1; // Đặt lại lựa chọn
+                cbMaCH.SelectedIndex = -1; // Reset selection
                 rdNam.Checked = false;
                 rdNu.Checked = false;
                 txtTenNV.Text = string.Empty;
@@ -206,6 +240,7 @@ namespace ChuyenDe
                 txtDiaChi.Text = string.Empty;
                 txtLuong.Text = string.Empty;
                 txtChucVu.Text = string.Empty;
+                dtpNgaySinh.Value = DateTime.Now; // Set to current date or desired default date
 
                 txtMaNV.Focus();
             }
@@ -220,6 +255,7 @@ namespace ChuyenDe
 
         }
 
+        //Btn Sửa
         private void btnSua_Click(object sender, EventArgs e)
         {
             btnThem.Enabled = false;
@@ -327,15 +363,15 @@ namespace ChuyenDe
                     return;
                 }
 
-                if (!decimal.TryParse(luong, out decimal luongDecimal))
+                if (!decimal.TryParse(luong, out decimal luongDecimal) || luongDecimal < 0)
                 {
-                    MessageBox.Show("Lương phải là số hợp lệ.");
+                    MessageBox.Show("Lương phải là số hợp lệ và không được âm");
                     return;
                 }
 
-                if (!long.TryParse(sDT, out long soDienThoai))
+                if (!long.TryParse(sDT, out long soDienThoai) || soDienThoai < 10)
                 {
-                    MessageBox.Show("Số điện thoại phải là số hợp lệ.");
+                    MessageBox.Show("Số điện thoại phải là số hợp lệ và phải đủ 10 số");
                     return;
                 }
 
@@ -375,10 +411,9 @@ namespace ChuyenDe
 
                 // Tải lại dữ liệu sau khi thêm
                 LoadNhanVien();
-
-                // Xóa các trường
+                // Clear fields
                 txtMaNV.Text = string.Empty;
-                cbMaCH.SelectedIndex = -1; // Đặt lại lựa chọn
+                cbMaCH.SelectedIndex = -1; // Reset selection
                 rdNam.Checked = false;
                 rdNu.Checked = false;
                 txtTenNV.Text = string.Empty;
@@ -386,6 +421,7 @@ namespace ChuyenDe
                 txtDiaChi.Text = string.Empty;
                 txtLuong.Text = string.Empty;
                 txtChucVu.Text = string.Empty;
+                dtpNgaySinh.Value = DateTime.Now; // Set to current date or desired default date
 
                 txtMaNV.Focus();
             }
@@ -399,7 +435,7 @@ namespace ChuyenDe
             }
 
         }
-
+        //Btn Xóa
         private void btnXoa_Click(object sender, EventArgs e)
         {
             DialogResult kq = MessageBox.Show("Bạn có muốn xóa không???", "Thông Báo",
@@ -407,9 +443,10 @@ namespace ChuyenDe
             if (kq == DialogResult.Yes)
             {
                 BUS_NhanVien.Instance.XoaNV(txtMaNV);
-               
+
+                // Clear fields
                 txtMaNV.Text = string.Empty;
-                cbMaCH.SelectedIndex = -1; // Đặt lại lựa chọn
+                cbMaCH.SelectedIndex = -1; // Reset selection
                 rdNam.Checked = false;
                 rdNu.Checked = false;
                 txtTenNV.Text = string.Empty;
@@ -417,6 +454,8 @@ namespace ChuyenDe
                 txtDiaChi.Text = string.Empty;
                 txtLuong.Text = string.Empty;
                 txtChucVu.Text = string.Empty;
+                dtpNgaySinh.Value = DateTime.Now; // Set to current date or desired default date
+
 
                 txtMaNV.Focus();
                 LoadNhanVien();
@@ -427,53 +466,47 @@ namespace ChuyenDe
             }
         }
 
+        //Btn Tìm kiếm
         private void btnTimKiem_Click(object sender, EventArgs e)
         {
-            // Reset chế độ chỉ đọc trước khi kiểm tra
-            txtTenNV.ReadOnly = false;
-            txtMaNV.ReadOnly = false;
-
-            // Kiểm tra điều kiện tìm kiếm
-            if (txtMaNV.Text.Length > 0)
+            if (!string.IsNullOrWhiteSpace(txtMaNV.Text) || !string.IsNullOrWhiteSpace(txtSĐT.Text) )
             {
-                // Kiểm tra xem có nhân viên với mã này không
-                if (!DAO_NhanVien.Instance.KiemTraMaNV(txtMaNV.Text))
+                txtMaNV.Text = txtMaNV.Text.ToUpper();
+                txtSĐT.Text = CultureInfo.CurrentCulture.TextInfo.ToTitleCase(txtSĐT.Text.ToLower());
+             
+                if (!string.IsNullOrWhiteSpace(txtMaNV.Text))
                 {
-                    MessageBox.Show("Không có mã nhân viên này. Vui lòng nhập tên nhân viên để tìm kiếm.");
-                    txtMaNV.Text = string.Empty;
-                    txtTenNV.Focus(); // Đặt con trỏ vào trường Tên nhân viên
-                    return;
+                    btnTimKiem.Enabled = true;
+                    BUS_NhanVien.Instance.TimKiemNVTheoMaNV(txtMaNV, dgvThongTinNhanVien);
+                   
                 }
-
-                // Nếu có mã nhân viên, tìm kiếm theo mã nhân viên
-                BUS_NhanVien.Instance.TimKiemNVTheoMaNV(txtMaNV, dgvThongTinNhanVien); 
-                txtTenNV.ReadOnly = false; // Mở khóa trường Tên nhân viên
-                txtMaNV.ReadOnly = false;   // Khóa trường Mã nhân viên
-            }
-            else if (txtTenNV.Text.Length > 0)
-            {
-                // Kiểm tra xem có nhân viên với tên này không
-                if (!DAO_NhanVien.Instance.KiemTraTenNV(txtTenNV.Text))
+                if (!string.IsNullOrWhiteSpace(txtSĐT.Text))
                 {
-                    MessageBox.Show("Không có tên nhân viên này. Vui lòng nhập mã nhân viên để tìm kiếm.");
-                    txtMaNV.Focus(); // Đặt con trỏ vào trường Mã nhân viên
-                    return;
+                    btnTimKiem.Enabled = true;
+                    BUS_NhanVien.Instance.TimKiemNVTheoSDTNV(txtSĐT, dgvThongTinNhanVien);
+                    
                 }
-
-                // Nếu có tên nhân viên, tìm kiếm theo tên nhân viên
-                BUS_NhanVien.Instance.TimKiemNVTheoTenNV(txtTenNV, dgvThongTinNhanVien);
-                txtTenNV.Text = string.Empty;
-                txtMaNV.ReadOnly = false; // Mở khóa trường Mã nhân viên
-                txtTenNV.ReadOnly = false; // Khóa trường Tên nhân viên
+               
             }
-            else
-            {
-                MessageBox.Show("Vui lòng nhập Mã nhân viên hoặc Tên nhân viên để tìm kiếm.");
-            }
-
+            else MessageBox.Show("Vui lòng nhập dữ liệu cần tìm kiếm!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
         }
 
 
+        private string[] LayDanhSachMaNV()
+        {
+            // Giả sử phương thức LoadMaNV() trả về danh sách mã nhân viên từ cơ sở dữ liệu
+            List<string> danhSachMaNV = DAO_NhanVien.Instance.LoadMaNV();
+            return danhSachMaNV.ToArray();
+        }
+
+        private string[] LayDanhSachSĐTNV()
+        {
+            // Giả sử phương thức LoadTenNV() trả về danh sách tên nhân viên từ cơ sở dữ liệu
+            List<string> danhSachTenNV = DAO_NhanVien.Instance.LoadSDTNV();
+            return danhSachTenNV.ToArray();
+        }
+
+        //Btn Thoát
         private void btnThoat_Click(object sender, EventArgs e)
         {
             DialogResult kq = MessageBox.Show("Bạn muốn thoát không????", "Thong Bao",
@@ -484,10 +517,162 @@ namespace ChuyenDe
             }
         }
 
+        //dgv load lên form
         private void dgvThongTinNhanVien_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
         {
             BUS_NhanVien.Instance.LoadDgvLenForm(txtMaNV, txtTenNV, rdNam, rdNu, dtpNgaySinh, txtSĐT, txtDiaChi, txtLuong, cbMaCH, txtChucVu, dgvThongTinNhanVien);
 
+        }
+
+        private void rdMaNV_CheckedChanged(object sender, EventArgs e)
+        {
+            if (rdMaNV.Checked)
+            {
+                // Thiết lập các trường không thể chỉnh sửa
+                txtTenNV.Enabled = false;
+                rdNam.Enabled = false;
+                rdNu.Enabled = false;
+                btnThem.Enabled = false;
+                btnSua.Enabled = false;
+                btnXoa.Enabled = false;
+                dtpNgaySinh.Enabled = false;
+                txtSĐT.Enabled = false;
+                txtDiaChi.Enabled = false;
+                txtLuong.Enabled = false;
+                cbMaCH.Enabled = false;
+                txtChucVu.Enabled = false;
+
+                // Đảm bảo chỉ một trong hai radio button được chọn
+                if (rdNam.Checked)
+                    rdNu.Checked = false;
+
+                txtMaNV.Focus();
+            }
+            else if (rdSĐT.Checked) // Nếu radio button cho số điện thoại được chọn
+            {
+                // Xóa nội dung txtMaNV
+                txtMaNV.Text = string.Empty;
+
+                // Thiết lập các trường có thể chỉnh sửa
+                txtTenNV.Enabled = true;
+                rdNam.Enabled = true;
+                rdNu.Enabled = true;
+                btnThem.Enabled = true;
+                btnSua.Enabled = true;
+                btnXoa.Enabled = true;
+                dtpNgaySinh.Enabled = true;
+                txtSĐT.Enabled = true;
+                txtDiaChi.Enabled = true;
+                txtLuong.Enabled = true;
+                cbMaCH.Enabled = true;
+                txtChucVu.Enabled = true;
+
+                txtTenNV.Focus(); // Đặt con trỏ vào txtTenNV
+            }
+            else if (rdSĐT.Checked) // Nếu radio button cho tên nhân viên được chọn
+            {
+                // Mở khóa các trường nhập liệu
+                txtMaNV.Enabled = true; // Nếu bạn cần mở khóa mã nhân viên để chỉnh sửa
+                txtTenNV.Enabled = true;
+                rdNam.Enabled = true;
+                rdNu.Enabled = true;
+                btnThem.Enabled = true;
+                btnSua.Enabled = true;
+                btnXoa.Enabled = true;
+                dtpNgaySinh.Enabled = true;
+                txtSĐT.Enabled = true;
+                txtDiaChi.Enabled = true;
+                txtLuong.Enabled = true;
+                cbMaCH.Enabled = true;
+                txtChucVu.Enabled = true;
+
+                // Đặt con trỏ vào txtTenNV hoặc trường khác bạn muốn
+                txtTenNV.Focus();
+            }
+        }
+
+
+        private void rdTenNV_CheckedChanged(object sender, EventArgs e)
+        {
+            // Thiết lập trạng thái ban đầu cho tất cả các trường
+            bool isReadOnly = false;
+
+            if (rdSĐT.Checked)
+            {
+                // Khi chọn tìm kiếm theo số điện thoại
+                isReadOnly = true; // Thiết lập chế độ chỉ đọc
+
+                txtSĐT.Focus(); // Đặt con trỏ vào txtSĐT
+            }
+            else if (rdMaNV.Checked)
+            {
+                // Khi chọn tìm kiếm theo mã nhân viên
+                txtSĐT.Text = string.Empty; // Xóa nội dung txtSĐT
+                txtMaNV.Focus(); // Đặt con trỏ vào txtMaNV
+            }
+            else if (rdSĐT.Checked)
+            {
+                // Khi chọn tìm kiếm theo tên nhân viên
+                txtSĐT.Text = string.Empty; // Xóa nội dung txtSĐT
+                txtMaNV.Text = string.Empty; // Xóa nội dung txtMaNV
+                txtTenNV.Focus(); // Đặt con trỏ vào txtTenNV
+            }
+
+            // Thiết lập các trường dựa trên chế độ chỉ đọc
+            txtMaNV.Enabled = !isReadOnly;
+            txtTenNV.Enabled = !isReadOnly;
+            rdNam.Enabled = !isReadOnly;
+            rdNu.Enabled = !isReadOnly;
+            btnThem.Enabled = !isReadOnly;
+            btnSua.Enabled = !isReadOnly;
+            btnXoa.Enabled = !isReadOnly;
+            dtpNgaySinh.Enabled = !isReadOnly;
+            txtDiaChi.Enabled = !isReadOnly;
+            txtLuong.Enabled = !isReadOnly;
+            cbMaCH.Enabled = !isReadOnly;
+            txtChucVu.Enabled = !isReadOnly;
+        }
+
+        private void btnLamMoi_Click(object sender, EventArgs e)
+        {
+            // Xóa nội dung các ô nhập liệu
+            txtMaNV.Text = string.Empty;
+            txtTenNV.Text = string.Empty;
+            txtSĐT.Text = string.Empty;
+            txtLuong.Text = string.Empty;
+            txtDiaChi.Text = string.Empty;
+            txtChucVu.Text = string.Empty;
+
+            // Đặt lại các lựa chọn cho ComboBox
+            cbMaCH.SelectedIndex = -1; // Không chọn mục nào
+
+            // Bỏ chọn các radio button
+            rdNam.Checked = false;
+            rdNu.Checked = false;
+
+            // Đặt lại ngày sinh
+            dtpNgaySinh.Value = DateTime.Now; // Hoặc đặt thành giá trị mặc định khác
+
+            // Mở khóa tất cả các trường nhập liệu
+            txtMaNV.Enabled = true;
+            txtTenNV.Enabled = true;
+            txtSĐT.Enabled = true;
+            txtLuong.Enabled = true;
+            txtDiaChi.Enabled = true;
+            txtChucVu.Enabled = true;
+            cbMaCH.Enabled = true;
+            rdNam.Enabled = true;
+            rdNu.Enabled = true;
+            btnThem.Enabled = true;
+            btnSua.Enabled = true;
+            btnXoa.Enabled = true;
+            dtpNgaySinh.Enabled = true;
+
+            // Tải lại danh sách nhân viên
+            LoadNhanVien();
+
+            // Đặt con trỏ vào ô mã nhân viên hoặc ô khác bạn muốn
+            txtMaNV.Focus();
         }
     }
 }

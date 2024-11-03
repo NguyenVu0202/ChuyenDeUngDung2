@@ -61,20 +61,22 @@
             // mnuThongKeLuongNV
             // 
             this.mnuThongKeLuongNV.Name = "mnuThongKeLuongNV";
-            this.mnuThongKeLuongNV.Size = new System.Drawing.Size(206, 26);
+            this.mnuThongKeLuongNV.Size = new System.Drawing.Size(224, 26);
             this.mnuThongKeLuongNV.Text = "Lương Nhân Viên";
+            this.mnuThongKeLuongNV.Click += new System.EventHandler(this.mnuThongKeLuongNV_Click);
             // 
             // mnuThongKeSanPham
             // 
             this.mnuThongKeSanPham.Name = "mnuThongKeSanPham";
-            this.mnuThongKeSanPham.Size = new System.Drawing.Size(206, 26);
+            this.mnuThongKeSanPham.Size = new System.Drawing.Size(224, 26);
             this.mnuThongKeSanPham.Text = "Sản Phẩm";
             // 
             // mnuThongKeDanhThu
             // 
             this.mnuThongKeDanhThu.Name = "mnuThongKeDanhThu";
-            this.mnuThongKeDanhThu.Size = new System.Drawing.Size(206, 26);
+            this.mnuThongKeDanhThu.Size = new System.Drawing.Size(224, 26);
             this.mnuThongKeDanhThu.Text = "Danh Thu";
+            this.mnuThongKeDanhThu.Click += new System.EventHandler(this.mnuThongKeDanhThu_Click);
             // 
             // mnuThongKe
             // 
@@ -223,7 +225,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::ChuyenDe.Properties.Resources.sharefb_v201908071702_637008562618462479;
-            this.ClientSize = new System.Drawing.Size(1257, 839);
+            this.ClientSize = new System.Drawing.Size(1257, 840);
             this.Controls.Add(this.menuStrip1);
             this.IsMdiContainer = true;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);

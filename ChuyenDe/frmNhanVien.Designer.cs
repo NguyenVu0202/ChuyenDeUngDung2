@@ -59,6 +59,10 @@
             this.label1 = new System.Windows.Forms.Label();
             this.dgvThongTinNhanVien = new System.Windows.Forms.DataGridView();
             this.label12 = new System.Windows.Forms.Label();
+            this.rdSĐT = new System.Windows.Forms.RadioButton();
+            this.rdMaNV = new System.Windows.Forms.RadioButton();
+            this.label13 = new System.Windows.Forms.Label();
+            this.btnLamMoi = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvThongTinNhanVien)).BeginInit();
             this.SuspendLayout();
             // 
@@ -291,9 +295,9 @@
             // btnThoat
             // 
             this.btnThoat.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnThoat.Location = new System.Drawing.Point(1074, 253);
+            this.btnThoat.Location = new System.Drawing.Point(1084, 285);
             this.btnThoat.Name = "btnThoat";
-            this.btnThoat.Size = new System.Drawing.Size(161, 39);
+            this.btnThoat.Size = new System.Drawing.Size(161, 55);
             this.btnThoat.TabIndex = 23;
             this.btnThoat.Text = "Thoát";
             this.btnThoat.UseVisualStyleBackColor = true;
@@ -302,9 +306,9 @@
             // btnSua
             // 
             this.btnSua.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSua.Location = new System.Drawing.Point(457, 253);
+            this.btnSua.Location = new System.Drawing.Point(467, 285);
             this.btnSua.Name = "btnSua";
-            this.btnSua.Size = new System.Drawing.Size(161, 39);
+            this.btnSua.Size = new System.Drawing.Size(161, 55);
             this.btnSua.TabIndex = 22;
             this.btnSua.Text = "Sửa";
             this.btnSua.UseVisualStyleBackColor = true;
@@ -313,9 +317,9 @@
             // btnXoa
             // 
             this.btnXoa.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnXoa.Location = new System.Drawing.Point(671, 253);
+            this.btnXoa.Location = new System.Drawing.Point(681, 285);
             this.btnXoa.Name = "btnXoa";
-            this.btnXoa.Size = new System.Drawing.Size(161, 39);
+            this.btnXoa.Size = new System.Drawing.Size(161, 55);
             this.btnXoa.TabIndex = 21;
             this.btnXoa.Text = "Xóa";
             this.btnXoa.UseVisualStyleBackColor = true;
@@ -324,9 +328,9 @@
             // btnThem
             // 
             this.btnThem.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnThem.Location = new System.Drawing.Point(240, 253);
+            this.btnThem.Location = new System.Drawing.Point(250, 285);
             this.btnThem.Name = "btnThem";
-            this.btnThem.Size = new System.Drawing.Size(161, 39);
+            this.btnThem.Size = new System.Drawing.Size(161, 55);
             this.btnThem.TabIndex = 20;
             this.btnThem.Text = "Thêm";
             this.btnThem.UseVisualStyleBackColor = true;
@@ -335,9 +339,9 @@
             // btnTimKiem
             // 
             this.btnTimKiem.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTimKiem.Location = new System.Drawing.Point(879, 253);
+            this.btnTimKiem.Location = new System.Drawing.Point(889, 285);
             this.btnTimKiem.Name = "btnTimKiem";
-            this.btnTimKiem.Size = new System.Drawing.Size(161, 39);
+            this.btnTimKiem.Size = new System.Drawing.Size(161, 55);
             this.btnTimKiem.TabIndex = 25;
             this.btnTimKiem.Text = "Tìm kiếm";
             this.btnTimKiem.UseVisualStyleBackColor = true;
@@ -350,7 +354,7 @@
             this.label11.Location = new System.Drawing.Point(-2, 0);
             this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(1500, 53);
+            this.label11.Size = new System.Drawing.Size(1518, 53);
             this.label11.TabIndex = 33;
             this.label11.Text = "THÔNG TIN NHÂN VIÊN";
             this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -402,7 +406,7 @@
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dgvThongTinNhanVien.DefaultCellStyle = dataGridViewCellStyle2;
-            this.dgvThongTinNhanVien.Location = new System.Drawing.Point(3, 347);
+            this.dgvThongTinNhanVien.Location = new System.Drawing.Point(3, 411);
             this.dgvThongTinNhanVien.Name = "dgvThongTinNhanVien";
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
@@ -414,7 +418,7 @@
             this.dgvThongTinNhanVien.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
             this.dgvThongTinNhanVien.RowHeadersWidth = 51;
             this.dgvThongTinNhanVien.RowTemplate.Height = 24;
-            this.dgvThongTinNhanVien.Size = new System.Drawing.Size(1495, 325);
+            this.dgvThongTinNhanVien.Size = new System.Drawing.Size(1495, 261);
             this.dgvThongTinNhanVien.TabIndex = 37;
             this.dgvThongTinNhanVien.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvThongTinNhanVien_CellContentClick_1);
             // 
@@ -425,17 +429,77 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(12, 308);
+            this.label12.Location = new System.Drawing.Point(12, 368);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(184, 25);
             this.label12.TabIndex = 38;
             this.label12.Text = "Thông tin nhân viên";
+            // 
+            // rdSĐT
+            // 
+            this.rdSĐT.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.rdSĐT.AutoSize = true;
+            this.rdSĐT.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdSĐT.Location = new System.Drawing.Point(322, 230);
+            this.rdSĐT.Name = "rdSĐT";
+            this.rdSĐT.Size = new System.Drawing.Size(74, 29);
+            this.rdSĐT.TabIndex = 41;
+            this.rdSĐT.TabStop = true;
+            this.rdSĐT.Text = "SĐT";
+            this.rdSĐT.UseVisualStyleBackColor = true;
+            this.rdSĐT.CheckedChanged += new System.EventHandler(this.rdTenNV_CheckedChanged);
+            // 
+            // rdMaNV
+            // 
+            this.rdMaNV.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.rdMaNV.AutoSize = true;
+            this.rdMaNV.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdMaNV.Location = new System.Drawing.Point(208, 229);
+            this.rdMaNV.Name = "rdMaNV";
+            this.rdMaNV.Size = new System.Drawing.Size(89, 29);
+            this.rdMaNV.TabIndex = 40;
+            this.rdMaNV.TabStop = true;
+            this.rdMaNV.Text = "MaNV";
+            this.rdMaNV.UseVisualStyleBackColor = true;
+            this.rdMaNV.CheckedChanged += new System.EventHandler(this.rdMaNV_CheckedChanged);
+            // 
+            // label13
+            // 
+            this.label13.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(85, 230);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(95, 25);
+            this.label13.TabIndex = 39;
+            this.label13.Text = "Tìm Kiếm";
+            // 
+            // btnLamMoi
+            // 
+            this.btnLamMoi.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLamMoi.Location = new System.Drawing.Point(1293, 285);
+            this.btnLamMoi.Name = "btnLamMoi";
+            this.btnLamMoi.Size = new System.Drawing.Size(161, 55);
+            this.btnLamMoi.TabIndex = 42;
+            this.btnLamMoi.Text = "Làm Mới";
+            this.btnLamMoi.UseVisualStyleBackColor = true;
+            this.btnLamMoi.Click += new System.EventHandler(this.btnLamMoi_Click);
             // 
             // frmNhanVien
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1505, 674);
+            this.Controls.Add(this.btnLamMoi);
+            this.Controls.Add(this.rdSĐT);
+            this.Controls.Add(this.rdMaNV);
+            this.Controls.Add(this.label13);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.dgvThongTinNhanVien);
             this.Controls.Add(this.txtChucVu);
@@ -504,5 +568,9 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView dgvThongTinNhanVien;
         private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.RadioButton rdSĐT;
+        private System.Windows.Forms.RadioButton rdMaNV;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Button btnLamMoi;
     }
 }

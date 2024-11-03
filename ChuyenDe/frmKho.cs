@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -24,83 +25,99 @@ namespace ChuyenDe
             LoadKho();
         }
 
-        public void LoadKho()
-        {
-            BUS_Kho.Instance.Xem(dgvKhoa);
-        }
+        //public void LoadKho()
+        //{
+        //    BUS_Kho.Instance.Xem(dgvKhoa);
+        //}
 
+        private void LoadKho()
+        {
+            BUS_Kho khoBUS = new BUS_Kho();
+            dgvKhoa.DataSource = khoBUS.GetKhoWithProductName();
+        }
 
         private void btnThem_Click(object sender, EventArgs e)
         {
-            btnThem.Enabled = false;
+            btnThem.Enabled = false; // Vô hiệu hóa nút thêm
             try
             {
-                // Lấy giá trị từ các trường
+                // Lấy giá trị từ các trường nhập
                 string maKho = txtMaKho.Text;
                 string maCH = cbMaCH.SelectedValue?.ToString() ?? "";
                 string maSP = cbSP.SelectedValue?.ToString() ?? "";
                 string soLuong = txtSoLuong.Text;
 
-                // Kiểm tra các trường không được bỏ trống
+                // Kiểm tra rằng tất cả các trường bắt buộc đã được điền
                 if (string.IsNullOrWhiteSpace(maKho) || string.IsNullOrWhiteSpace(soLuong))
                 {
-                    MessageBox.Show("Vui lòng điền đầy đủ thông tin cho cả bốn trường MaKho, MaCH, MaSP và Số Lượng");
-                    return; // Dừng lại nếu có trường bị bỏ trống
+                    ShowMessage("Vui lòng điền đầy đủ thông tin cho cả bốn trường MaKho, MaCH, MaSP và Số Lượng");
+                    return;
                 }
 
                 // Kiểm tra khoảng trắng đầu và cuối
                 if (maKho != maKho.Trim() || soLuong != soLuong.Trim())
                 {
-                    MessageBox.Show("Không được có khoảng trắng ở đầu hoặc cuối.");
-                    return; // Dừng lại nếu có khoảng trắng đầu hoặc cuối
-                }
-
-                // Kiểm tra khoảng trắng liên tiếp trong chuỗi
-                if (Regex.IsMatch(maKho, @"\s{2,}") || Regex.IsMatch(soLuong, @"\s{2,}"))
-                {
-                    MessageBox.Show("Không được có hai khoảng trắng liên tiếp.");
-                    return; // Dừng lại nếu có hai khoảng trắng liên tiếp
-                }
-
-                if (!int.TryParse(soLuong, out int soLuongInt))
-                {
-                    MessageBox.Show("Số lượng phải là số nguyên hợp lệ.");
+                    ShowMessage("Không được có khoảng trắng ở đầu hoặc cuối.");
                     return;
                 }
 
-                // Nếu tất cả điều kiện đều thỏa mãn, tiến hành thêm thông tin vào cơ sở dữ liệu
+                // Kiểm tra khoảng trắng liên tiếp
+                if (Regex.IsMatch(maKho, @"\s{2,}") || Regex.IsMatch(soLuong, @"\s{2,}"))
+                {
+                    ShowMessage("Không được có hai khoảng trắng liên tiếp.");
+                    return;
+                }
+
+                // Xác thực số lượng là một số nguyên không âm
+                if (!int.TryParse(soLuong, out int soLuongInt) || soLuongInt < 0)
+                {
+                    ShowMessage("Số lượng phải là số nguyên hợp lệ và không được âm");
+                    return;
+                }
+
+                // Kiểm tra xem mã kho có tồn tại trong cửa hàng này không
+                if (!BUS_Kho.Instance.KiemTraTonTaiKho(maKho, maCH))
+                {
+                    ShowMessage("Mã kho không tồn tại trong cửa hàng này. Không thể thêm sản phẩm mới.");
+                    return;
+                }
+
+                // Tạo một mục hàng tồn kho mới nếu tất cả các kiểm tra thành công
                 Kho ch = new Kho
                 {
                     MaKho = maKho,
                     MaCH = maCH,
                     MaSP = maSP,
-                    SoLuong = int.Parse(soLuong),
-
+                    SoLuong = soLuongInt,
                 };
 
-                BUS_Kho.Instance.ThemKho(txtMaKho, cbMaCH, cbSP, txtSoLuong);
-              
+                // Thêm hàng tồn kho mới vào cơ sở dữ liệu
+                BUS_Kho.Instance.ThemKho(maKho, maCH, maSP, soLuongInt); // Cập nhật với đối tượng kho vừa tạo
 
-                // Tải lại dữ liệu sau khi thêm
+                // Tải lại dữ liệu và đặt lại các trường nhập
                 LoadKho();
                 txtMaKho.Text = string.Empty;
-                cbMaCH.SelectedIndex = -1; // Đặt lại lựa chọn
-                cbSP.SelectedIndex = -1;   // Đặt lại lựa chọn
+                cbMaCH.SelectedIndex = -1;
+                cbSP.SelectedIndex = -1;
                 txtSoLuong.Text = "";
                 txtMaKho.Focus();
-                // Mã thêm kho vào cơ sở dữ liệu
-              
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Thêm không thành công!!!");
+                ShowMessage("Thêm không thành công: " + ex.Message);
             }
             finally
             {
-                btnThem.Enabled = true;
+                btnThem.Enabled = true; // Bật lại nút thêm
             }
-
         }
+
+        // Phương thức trợ giúp để hiển thị thông báo
+        private void ShowMessage(string message)
+        {
+            MessageBox.Show(message);
+        }
+
 
         private void btnXoa_Click(object sender, EventArgs e)
         {
@@ -122,7 +139,6 @@ namespace ChuyenDe
             }
         }
 
-
         private void btnThoat_Click(object sender, EventArgs e)
         {
             DialogResult kq = MessageBox.Show("Bạn muốn thoát không????", "Thong Bao",
@@ -135,7 +151,24 @@ namespace ChuyenDe
 
         private void frmKho_Load(object sender, EventArgs e)
         {
-           
+
+           // Cấu hình AutoComplete cho TextBox txtMaNV
+            txtMaKho.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
+            txtMaKho.AutoCompleteSource = AutoCompleteSource.CustomSource;
+
+            //Tạo AutoCompleteStringCollection để chứa dữ liệu
+            AutoCompleteStringCollection dataMaKho = new AutoCompleteStringCollection();
+            dataMaKho.AddRange(LayDanhSachMaKho()); // Lấy danh sách mã nhân viên và thêm vào AutoComplete
+            txtMaKho.AutoCompleteCustomSource = dataMaKho;
+
+        }
+
+        //Tim kiem kho
+        private string[] LayDanhSachMaKho()
+        {
+            // Giả sử phương thức LoadMaNV() trả về danh sách mã nhân viên từ cơ sở dữ liệu
+            List<string> danhSachMaNV = DAO_Kho.Instance.LoadMaKho();
+            return danhSachMaNV.ToArray();
         }
 
         public void LoadCbMaSP()
@@ -160,7 +193,15 @@ namespace ChuyenDe
 
         private void btnLamMoi_Click(object sender, EventArgs e)
         {
-            txtMaKho.Text = "";
+            // Xóa nội dung của các trường nhập liệu
+            txtMaKho.Text = string.Empty;
+            txtSoLuong.Text = string.Empty;
+
+            // Đặt lại lựa chọn cho các combo box
+            cbMaCH.SelectedIndex = -1; // Không chọn mục nào
+            cbSP.SelectedIndex = -1;   // Không chọn mục nào
+
+            // Tải lại danh sách kho
             LoadKho();
         }
 
@@ -168,6 +209,8 @@ namespace ChuyenDe
         {
             LoadKho();
         }
+
+        
     }
     
 }

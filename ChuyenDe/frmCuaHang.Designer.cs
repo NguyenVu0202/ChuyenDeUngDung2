@@ -37,54 +37,57 @@
             this.btnSua = new System.Windows.Forms.Button();
             this.btnThoat = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.dgvCuaHang = new System.Windows.Forms.DataGridView();
-            this.groupBox1.SuspendLayout();
+            this.label6 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCuaHang)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
             // 
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(331, 94);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(702, 101);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(62, 20);
+            this.label1.Size = new System.Drawing.Size(86, 29);
             this.label1.TabIndex = 0;
             this.label1.Text = "Mã CH";
             // 
             // txtCH
             // 
-            this.txtCH.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCH.Location = new System.Drawing.Point(445, 89);
+            this.txtCH.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCH.Location = new System.Drawing.Point(816, 96);
             this.txtCH.Name = "txtCH";
-            this.txtCH.Size = new System.Drawing.Size(323, 27);
+            this.txtCH.Size = new System.Drawing.Size(463, 34);
             this.txtCH.TabIndex = 1;
             // 
             // txtDC
             // 
-            this.txtDC.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDC.Location = new System.Drawing.Point(445, 145);
+            this.txtDC.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDC.Location = new System.Drawing.Point(816, 152);
             this.txtDC.Name = "txtDC";
-            this.txtDC.Size = new System.Drawing.Size(323, 27);
+            this.txtDC.Size = new System.Drawing.Size(463, 34);
             this.txtDC.TabIndex = 3;
             // 
             // label2
             // 
+            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(331, 150);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(702, 157);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(64, 20);
+            this.label2.Size = new System.Drawing.Size(91, 29);
             this.label2.TabIndex = 2;
             this.label2.Text = "Địa Chỉ";
             // 
             // btnThem
             // 
-            this.btnThem.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnThem.Location = new System.Drawing.Point(257, 215);
+            this.btnThem.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnThem.Location = new System.Drawing.Point(610, 224);
             this.btnThem.Name = "btnThem";
-            this.btnThem.Size = new System.Drawing.Size(117, 50);
+            this.btnThem.Size = new System.Drawing.Size(150, 50);
             this.btnThem.TabIndex = 4;
             this.btnThem.Text = "Thêm";
             this.btnThem.UseVisualStyleBackColor = true;
@@ -92,10 +95,10 @@
             // 
             // btnXoa
             // 
-            this.btnXoa.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnXoa.Location = new System.Drawing.Point(446, 215);
+            this.btnXoa.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnXoa.Location = new System.Drawing.Point(799, 224);
             this.btnXoa.Name = "btnXoa";
-            this.btnXoa.Size = new System.Drawing.Size(117, 50);
+            this.btnXoa.Size = new System.Drawing.Size(150, 50);
             this.btnXoa.TabIndex = 5;
             this.btnXoa.Text = "Xóa";
             this.btnXoa.UseVisualStyleBackColor = true;
@@ -103,10 +106,10 @@
             // 
             // btnSua
             // 
-            this.btnSua.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSua.Location = new System.Drawing.Point(645, 215);
+            this.btnSua.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSua.Location = new System.Drawing.Point(998, 224);
             this.btnSua.Name = "btnSua";
-            this.btnSua.Size = new System.Drawing.Size(117, 50);
+            this.btnSua.Size = new System.Drawing.Size(150, 50);
             this.btnSua.TabIndex = 6;
             this.btnSua.Text = "Sửa";
             this.btnSua.UseVisualStyleBackColor = true;
@@ -114,10 +117,10 @@
             // 
             // btnThoat
             // 
-            this.btnThoat.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnThoat.Location = new System.Drawing.Point(840, 215);
+            this.btnThoat.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnThoat.Location = new System.Drawing.Point(1193, 224);
             this.btnThoat.Name = "btnThoat";
-            this.btnThoat.Size = new System.Drawing.Size(117, 50);
+            this.btnThoat.Size = new System.Drawing.Size(150, 50);
             this.btnThoat.TabIndex = 7;
             this.btnThoat.Text = "Thoát";
             this.btnThoat.UseVisualStyleBackColor = true;
@@ -125,44 +128,49 @@
             // 
             // label3
             // 
+            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(-5, -2);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(1186, 64);
+            this.label3.Size = new System.Drawing.Size(1378, 64);
             this.label3.TabIndex = 40;
             this.label3.Text = "THÔNG TIN CỬA HÀNG";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.dgvCuaHang);
-            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(0, 280);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(1181, 301);
-            this.groupBox1.TabIndex = 41;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Thông tin cửa hàng";
-            // 
             // dgvCuaHang
             // 
+            this.dgvCuaHang.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.dgvCuaHang.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvCuaHang.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvCuaHang.Location = new System.Drawing.Point(12, 26);
+            this.dgvCuaHang.Location = new System.Drawing.Point(0, 331);
             this.dgvCuaHang.Name = "dgvCuaHang";
             this.dgvCuaHang.RowHeadersWidth = 51;
             this.dgvCuaHang.RowTemplate.Height = 24;
-            this.dgvCuaHang.Size = new System.Drawing.Size(1163, 269);
+            this.dgvCuaHang.Size = new System.Drawing.Size(1361, 269);
             this.dgvCuaHang.TabIndex = 0;
             this.dgvCuaHang.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvCuaHang_CellContentClick);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(30, 288);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(254, 29);
+            this.label6.TabIndex = 41;
+            this.label6.Text = "Thông Tin Cửa Hàng";
             // 
             // frmCuaHang
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1178, 579);
-            this.Controls.Add(this.groupBox1);
+            this.ClientSize = new System.Drawing.Size(1369, 579);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.dgvCuaHang);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.btnThoat);
             this.Controls.Add(this.btnSua);
@@ -175,7 +183,6 @@
             this.Name = "frmCuaHang";
             this.Text = "frmKhachHang";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            this.groupBox1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvCuaHang)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -193,7 +200,7 @@
         private System.Windows.Forms.Button btnSua;
         private System.Windows.Forms.Button btnThoat;
 		private System.Windows.Forms.Label label3;
-		private System.Windows.Forms.GroupBox groupBox1;
-		private System.Windows.Forms.DataGridView dgvCuaHang;
-	}
+        private System.Windows.Forms.DataGridView dgvCuaHang;
+        private System.Windows.Forms.Label label6;
+    }
 }

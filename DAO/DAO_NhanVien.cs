@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -207,41 +208,33 @@ namespace DAO
         }
 
         //Tìm kiếm Nhân Viên theo tên nhân viên
-        public List<NhanVien> TimKiemNVTheoTenNV(string tenNV)
+        public List<NhanVien> TimKiemNVTheoSĐTNV(string MaNV)
         {
             List<NhanVien> list = new List<NhanVien>();
             DataBHXDataContext db = new DataBHXDataContext();
-
-            // Thay SingleOrDefault bằng Where để lấy tất cả nhân viên có tên khớp
-            var nhanViens = db.NhanViens.Where(p => p.TenNV == tenNV).ToList();
-
-            if (nhanViens.Count > 0)
+            var nv = db.NhanViens.SingleOrDefault(p => p.SDT == MaNV);
+            if (nv != null)
             {
-                foreach (var nv in nhanViens)
+                NhanVien nhanvien = new NhanVien
                 {
-                    NhanVien nhanvien = new NhanVien
-                    {
-                        MaNV = nv.MaNV,
-                        TenNV = nv.TenNV,
-                        GioiTinh = nv.GioiTinh,
-                        DiaChi = nv.DiaChi,
-                        SDT = nv.SDT,
-                        NgaySinh = nv.NgaySinh,
-                        Luong = nv.Luong,
-                        MaCH = nv.MaCH,
-                        ChucVu = nv.ChucVu,
-                    };
-                    list.Add(nhanvien);
-                }
+                    MaNV = nv.MaNV,
+                    TenNV = nv.TenNV,
+                    GioiTinh = nv.GioiTinh,
+                    DiaChi = nv.DiaChi,
+                    SDT = nv.SDT,
+                    NgaySinh = nv.NgaySinh,
+                    Luong = nv.Luong,
+                    MaCH = nv.MaCH,
+                    ChucVu = nv.ChucVu,
+                };
+                list.Add(nhanvien);
             }
             else
             {
-                MessageBox.Show("Không Có Tên Nhân Viên");
+                MessageBox.Show("Không Có SĐT cần tìm");
             }
-
             return list;
         }
-
 
         public bool KiemTraMaNV(string maNV)
         {
@@ -251,13 +244,32 @@ namespace DAO
             }
         }
 
-        public bool KiemTraTenNV(string tenNV)
+      
+
+        //Load Mã Nhân Viên
+        public List<string> LoadMaNV()
         {
             using (DataBHXDataContext db = new DataBHXDataContext())
             {
-                return db.NhanViens.Any(nv => nv.TenNV.ToLower() == tenNV.ToLower());
+                // Lấy danh sách MaNV từ bảng NhanVien và chuyển thành List<string>
+                return db.NhanViens
+                              .Select(nv => nv.MaNV)
+                              .ToList();
             }
         }
+
+        //Load Tên Nhân Viên
+        public List<string> LoadSDTNV()
+        {
+            using (DataBHXDataContext db = new DataBHXDataContext())
+            {
+                // Lấy danh sách số điện thoại từ bảng NhanVien và chuyển thành List<string>
+                return db.NhanViens
+                         .Select(nv => nv.SDT)
+                         .ToList();
+            }
+        }
+
 
 
     }

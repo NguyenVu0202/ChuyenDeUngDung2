@@ -1,26 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\NGUYEN VU\\Desktop\\New folder\\",
+  "WorkspaceRootPath": "D:\\HK6\\Chuy\u00EAn \u0110\u1EC1 \u1EE8ng D\u1EE5ng 1\\B\u00E1ch H\u00F3a Xanh\\ChuyenDe\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B28102B4-A63A-4D91-93A7-3058447513E1}|DAO\\DAO.csproj|c:\\users\\nguyen vu\\desktop\\new folder\\dao\\daotimkiemhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B28102B4-A63A-4D91-93A7-3058447513E1}|DAO\\DAO.csproj|solutionrelative:dao\\daotimkiemhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9428D986-429C-40C9-BFCA-21FCA92C5A08}|BUS\\BUS.csproj|d:\\hk6\\chuy\u00EAn \u0111\u1EC1 \u1EE9ng d\u1EE5ng 1\\b\u00E1ch h\u00F3a xanh\\chuyende\\bus\\bus_kho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9428D986-429C-40C9-BFCA-21FCA92C5A08}|BUS\\BUS.csproj|solutionrelative:bus\\bus_kho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|c:\\users\\nguyen vu\\desktop\\new folder\\chuyende\\frmtimkiemhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|solutionrelative:chuyende\\frmtimkiemhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B28102B4-A63A-4D91-93A7-3058447513E1}|DAO\\DAO.csproj|D:\\HK6\\Chuy\u00EAn \u0110\u1EC1 \u1EE8ng D\u1EE5ng 1\\B\u00E1ch H\u00F3a Xanh\\ChuyenDe\\dao\\dao_kho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B28102B4-A63A-4D91-93A7-3058447513E1}|DAO\\DAO.csproj|solutionrelative:dao\\dao_kho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|c:\\users\\nguyen vu\\desktop\\new folder\\chuyende\\frmhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|solutionrelative:chuyende\\frmhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|D:\\HK6\\Chuy\u00EAn \u0110\u1EC1 \u1EE8ng D\u1EE5ng 1\\B\u00E1ch H\u00F3a Xanh\\ChuyenDe\\chuyende\\frmkho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|solutionrelative:chuyende\\frmkho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|c:\\users\\nguyen vu\\desktop\\new folder\\chuyende\\frmtimkiemhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|solutionrelative:chuyende\\frmtimkiemhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|D:\\HK6\\Chuy\u00EAn \u0110\u1EC1 \u1EE8ng D\u1EE5ng 1\\B\u00E1ch H\u00F3a Xanh\\ChuyenDe\\chuyende\\frmthongkeluongnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|solutionrelative:chuyende\\frmthongkeluongnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9428D986-429C-40C9-BFCA-21FCA92C5A08}|BUS\\BUS.csproj|c:\\users\\nguyen vu\\desktop\\new folder\\bus\\bustimkiemhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9428D986-429C-40C9-BFCA-21FCA92C5A08}|BUS\\BUS.csproj|solutionrelative:bus\\bustimkiemhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B28102B4-A63A-4D91-93A7-3058447513E1}|DAO\\DAO.csproj|D:\\HK6\\Chuy\u00EAn \u0110\u1EC1 \u1EE8ng D\u1EE5ng 1\\B\u00E1ch H\u00F3a Xanh\\ChuyenDe\\dao\\dao_thongkeluongnhanvientheoch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B28102B4-A63A-4D91-93A7-3058447513E1}|DAO\\DAO.csproj|solutionrelative:dao\\dao_thongkeluongnhanvientheoch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|D:\\HK6\\Chuy\u00EAn \u0110\u1EC1 \u1EE8ng D\u1EE5ng 1\\B\u00E1ch H\u00F3a Xanh\\ChuyenDe\\chuyende\\frmnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|solutionrelative:chuyende\\frmnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9428D986-429C-40C9-BFCA-21FCA92C5A08}|BUS\\BUS.csproj|D:\\HK6\\Chuy\u00EAn \u0110\u1EC1 \u1EE8ng D\u1EE5ng 1\\B\u00E1ch H\u00F3a Xanh\\ChuyenDe\\bus\\bus_thongkeluongnhanvientheoch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9428D986-429C-40C9-BFCA-21FCA92C5A08}|BUS\\BUS.csproj|solutionrelative:bus\\bus_thongkeluongnhanvientheoch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|D:\\HK6\\Chuy\u00EAn \u0110\u1EC1 \u1EE8ng D\u1EE5ng 1\\B\u00E1ch H\u00F3a Xanh\\ChuyenDe\\chuyende\\frmthongkeluongnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|solutionrelative:chuyende\\frmthongkeluongnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,75 +42,104 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "frmHoaDon.cs",
-              "DocumentMoniker": "C:\\Users\\NGUYEN VU\\Desktop\\New folder\\ChuyenDe\\frmHoaDon.cs",
-              "RelativeDocumentMoniker": "ChuyenDe\\frmHoaDon.cs",
-              "ToolTip": "C:\\Users\\NGUYEN VU\\Desktop\\New folder\\ChuyenDe\\frmHoaDon.cs",
-              "RelativeToolTip": "ChuyenDe\\frmHoaDon.cs",
-              "ViewState": "AQIAAK0AAAAAAAAAAAAmwL0AAAANAAAA",
+              "Title": "frmKho.cs",
+              "DocumentMoniker": "D:\\HK6\\Chuy\u00EAn \u0110\u1EC1 \u1EE8ng D\u1EE5ng 1\\B\u00E1ch H\u00F3a Xanh\\ChuyenDe\\ChuyenDe\\frmKho.cs",
+              "RelativeDocumentMoniker": "ChuyenDe\\frmKho.cs",
+              "ToolTip": "D:\\HK6\\Chuy\u00EAn \u0110\u1EC1 \u1EE8ng D\u1EE5ng 1\\B\u00E1ch H\u00F3a Xanh\\ChuyenDe\\ChuyenDe\\frmKho.cs",
+              "RelativeToolTip": "ChuyenDe\\frmKho.cs",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAAwGQAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T11:53:16.592Z",
+              "WhenOpened": "2024-11-02T10:23:19.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BUS_Kho.cs",
+              "DocumentMoniker": "D:\\HK6\\Chuy\u00EAn \u0110\u1EC1 \u1EE8ng D\u1EE5ng 1\\B\u00E1ch H\u00F3a Xanh\\ChuyenDe\\BUS\\BUS_Kho.cs",
+              "RelativeDocumentMoniker": "BUS\\BUS_Kho.cs",
+              "ToolTip": "D:\\HK6\\Chuy\u00EAn \u0110\u1EC1 \u1EE8ng D\u1EE5ng 1\\B\u00E1ch H\u00F3a Xanh\\ChuyenDe\\BUS\\BUS_Kho.cs",
+              "RelativeToolTip": "BUS\\BUS_Kho.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAqwFMAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T10:22:59.999Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "frmTimKiemHoaDon.cs",
-              "DocumentMoniker": "C:\\Users\\NGUYEN VU\\Desktop\\New folder\\ChuyenDe\\frmTimKiemHoaDon.cs",
-              "RelativeDocumentMoniker": "ChuyenDe\\frmTimKiemHoaDon.cs",
-              "ToolTip": "C:\\Users\\NGUYEN VU\\Desktop\\New folder\\ChuyenDe\\frmTimKiemHoaDon.cs",
-              "RelativeToolTip": "ChuyenDe\\frmTimKiemHoaDon.cs",
-              "ViewState": "AQIAACwAAAAAAAAAAAAwwDoAAAAzAAAA",
+              "Title": "DAO_Kho.cs",
+              "DocumentMoniker": "D:\\HK6\\Chuy\u00EAn \u0110\u1EC1 \u1EE8ng D\u1EE5ng 1\\B\u00E1ch H\u00F3a Xanh\\ChuyenDe\\DAO\\DAO_Kho.cs",
+              "RelativeDocumentMoniker": "DAO\\DAO_Kho.cs",
+              "ToolTip": "D:\\HK6\\Chuy\u00EAn \u0110\u1EC1 \u1EE8ng D\u1EE5ng 1\\B\u00E1ch H\u00F3a Xanh\\ChuyenDe\\DAO\\DAO_Kho.cs",
+              "RelativeToolTip": "DAO\\DAO_Kho.cs",
+              "ViewState": "AQIAAF8AAAAAAAAAAAAAwG4AAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T11:44:45.578Z",
+              "WhenOpened": "2024-11-02T10:18:22.93Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmNhanVien.cs",
+              "DocumentMoniker": "D:\\HK6\\Chuy\u00EAn \u0110\u1EC1 \u1EE8ng D\u1EE5ng 1\\B\u00E1ch H\u00F3a Xanh\\ChuyenDe\\ChuyenDe\\frmNhanVien.cs",
+              "RelativeDocumentMoniker": "ChuyenDe\\frmNhanVien.cs",
+              "ToolTip": "D:\\HK6\\Chuy\u00EAn \u0110\u1EC1 \u1EE8ng D\u1EE5ng 1\\B\u00E1ch H\u00F3a Xanh\\ChuyenDe\\ChuyenDe\\frmNhanVien.cs",
+              "RelativeToolTip": "ChuyenDe\\frmNhanVien.cs",
+              "ViewState": "AQIAAOEBAAAAAAAAAADwv/MBAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T09:57:14.472Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "frmTimKiemHoaDon.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\NGUYEN VU\\Desktop\\New folder\\ChuyenDe\\frmTimKiemHoaDon.cs",
-              "RelativeDocumentMoniker": "ChuyenDe\\frmTimKiemHoaDon.cs",
-              "ToolTip": "C:\\Users\\NGUYEN VU\\Desktop\\New folder\\ChuyenDe\\frmTimKiemHoaDon.cs [Design]",
-              "RelativeToolTip": "ChuyenDe\\frmTimKiemHoaDon.cs [Design]",
+              "Title": "frmThongKeLuongNhanVien.cs",
+              "DocumentMoniker": "D:\\HK6\\Chuy\u00EAn \u0110\u1EC1 \u1EE8ng D\u1EE5ng 1\\B\u00E1ch H\u00F3a Xanh\\ChuyenDe\\ChuyenDe\\frmThongKeLuongNhanVien.cs",
+              "RelativeDocumentMoniker": "ChuyenDe\\frmThongKeLuongNhanVien.cs",
+              "ToolTip": "D:\\HK6\\Chuy\u00EAn \u0110\u1EC1 \u1EE8ng D\u1EE5ng 1\\B\u00E1ch H\u00F3a Xanh\\ChuyenDe\\ChuyenDe\\frmThongKeLuongNhanVien.cs",
+              "RelativeToolTip": "ChuyenDe\\frmThongKeLuongNhanVien.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAwCYAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T11:44:29.481Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-02T09:46:44.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BUS_ThongKeLuongNhanVienTheoCH.cs",
+              "DocumentMoniker": "D:\\HK6\\Chuy\u00EAn \u0110\u1EC1 \u1EE8ng D\u1EE5ng 1\\B\u00E1ch H\u00F3a Xanh\\ChuyenDe\\BUS\\BUS_ThongKeLuongNhanVienTheoCH.cs",
+              "RelativeDocumentMoniker": "BUS\\BUS_ThongKeLuongNhanVienTheoCH.cs",
+              "ToolTip": "D:\\HK6\\Chuy\u00EAn \u0110\u1EC1 \u1EE8ng D\u1EE5ng 1\\B\u00E1ch H\u00F3a Xanh\\ChuyenDe\\BUS\\BUS_ThongKeLuongNhanVienTheoCH.cs",
+              "RelativeToolTip": "BUS\\BUS_ThongKeLuongNhanVienTheoCH.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAhwBsAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T09:45:52.165Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "BUSTimKiemHoaDon.cs",
-              "DocumentMoniker": "C:\\Users\\NGUYEN VU\\Desktop\\New folder\\BUS\\BUSTimKiemHoaDon.cs",
-              "RelativeDocumentMoniker": "BUS\\BUSTimKiemHoaDon.cs",
-              "ToolTip": "C:\\Users\\NGUYEN VU\\Desktop\\New folder\\BUS\\BUSTimKiemHoaDon.cs",
-              "RelativeToolTip": "BUS\\BUSTimKiemHoaDon.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEYAAAASAAAA",
+              "Title": "DAO_ThongKeLuongNhanVienTheoCH.cs",
+              "DocumentMoniker": "D:\\HK6\\Chuy\u00EAn \u0110\u1EC1 \u1EE8ng D\u1EE5ng 1\\B\u00E1ch H\u00F3a Xanh\\ChuyenDe\\DAO\\DAO_ThongKeLuongNhanVienTheoCH.cs",
+              "RelativeDocumentMoniker": "DAO\\DAO_ThongKeLuongNhanVienTheoCH.cs",
+              "ToolTip": "D:\\HK6\\Chuy\u00EAn \u0110\u1EC1 \u1EE8ng D\u1EE5ng 1\\B\u00E1ch H\u00F3a Xanh\\ChuyenDe\\DAO\\DAO_ThongKeLuongNhanVienTheoCH.cs",
+              "RelativeToolTip": "DAO\\DAO_ThongKeLuongNhanVienTheoCH.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAAQwDcAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T11:40:30.928Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-02T09:43:23.554Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DAOTimKiemHoaDon.cs",
-              "DocumentMoniker": "C:\\Users\\NGUYEN VU\\Desktop\\New folder\\DAO\\DAOTimKiemHoaDon.cs",
-              "RelativeDocumentMoniker": "DAO\\DAOTimKiemHoaDon.cs",
-              "ToolTip": "C:\\Users\\NGUYEN VU\\Desktop\\New folder\\DAO\\DAOTimKiemHoaDon.cs",
-              "RelativeToolTip": "DAO\\DAOTimKiemHoaDon.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAF4AAABEAAAA",
+              "DocumentIndex": 7,
+              "Title": "frmThongKeLuongNhanVien.cs [Design]",
+              "DocumentMoniker": "D:\\HK6\\Chuy\u00EAn \u0110\u1EC1 \u1EE8ng D\u1EE5ng 1\\B\u00E1ch H\u00F3a Xanh\\ChuyenDe\\ChuyenDe\\frmThongKeLuongNhanVien.cs",
+              "RelativeDocumentMoniker": "ChuyenDe\\frmThongKeLuongNhanVien.cs",
+              "ToolTip": "D:\\HK6\\Chuy\u00EAn \u0110\u1EC1 \u1EE8ng D\u1EE5ng 1\\B\u00E1ch H\u00F3a Xanh\\ChuyenDe\\ChuyenDe\\frmThongKeLuongNhanVien.cs [Design]",
+              "RelativeToolTip": "ChuyenDe\\frmThongKeLuongNhanVien.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T11:40:19.332Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-02T09:40:31.374Z"
             }
           ]
         }

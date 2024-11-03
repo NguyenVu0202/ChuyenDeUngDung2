@@ -25,22 +25,27 @@ namespace BUS
         }
 
         // Load dgv
-        public void Xem(DataGridView data)
+        //public void Xem(DataGridView data)
+        //{
+        //    var dt = DAO_Kho.Instance.Xem().Select(t =>
+        //    {
+
+
+        //        return new
+        //        {
+        //            t.MaKho,
+        //            t.MaCH,
+        //            t.MaSP,
+        //            t.SoLuong,
+
+        //        };
+        //    }).ToList();
+        //    data.DataSource = dt;
+        //}
+
+        public List<object> GetKhoWithProductName()
         {
-            var dt = DAO_Kho.Instance.Xem().Select(t =>
-            {
-
-
-                return new
-                {
-                    t.MaKho,
-                    t.MaCH,
-                    t.MaSP,
-                    t.SoLuong,
-
-                };
-            }).ToList();
-            data.DataSource = dt;
+            return DAO_Kho.Instance.GetKhoWithProductName();
         }
 
         //Load Combobox San Pham
@@ -56,16 +61,35 @@ namespace BUS
         }
 
         //Them Kho
-        public void ThemKho(TextBox maKho, ComboBox maCH, ComboBox maSP, TextBox soLuong)
+        public void ThemKho(string maKho, string maCH, string maSP, decimal soLuong)
         {
+            // Kiểm tra xem tên sản phẩm có tồn tại hay không
+            string tenSanPham = DAO_Kho.Instance.GetTenSanPham(maSP);
+            if (string.IsNullOrEmpty(tenSanPham))
+            {
+                MessageBox.Show("Mã sản phẩm không tồn tại");
+                return;
+            }
+
+            // Tạo đối tượng Kho và gán các giá trị
             Kho kho = new Kho
             {
-                MaKho = maKho.Text,
-                MaCH = maCH.Text,
-                MaSP = maSP.SelectedValue.ToString().Trim(),
-                SoLuong = int.Parse(soLuong.Text)
+                MaKho = maKho,
+                MaCH = maCH,
+                MaSP = maSP,
+                SoLuong = soLuong
             };
-            DAO_Kho.Instance.ThemKho(kho);
+
+            // Thêm vào kho qua lớp DAO_Kho
+            bool isSuccess = DAO_Kho.Instance.ThemKho(kho);
+            if (isSuccess)
+            {
+                MessageBox.Show("Thêm Thành Công.");
+            }
+            else
+            {
+                MessageBox.Show("Thêm Thất Bại Trùng Sản Phẩm");
+            }
         }
 
         //Xoa Kho
@@ -84,5 +108,11 @@ namespace BUS
         {
             data.DataSource = DAO.DAO_Kho.Instance.TimKiemMaKho(makho.Text);
         }
+
+        public bool KiemTraTonTaiKho(string maCH, string maKho)
+        {
+            return DAO_Kho.Instance.KiemTraTonTaiKho(maCH, maKho);
+        }
+
     }
 }
