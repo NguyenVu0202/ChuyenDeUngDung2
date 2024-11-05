@@ -10,6 +10,7 @@ namespace BUS
 {
     public class BUSKhachHang
     {
+        private DAOKhachHang kh = new DAOKhachHang();
         private static BUSKhachHang instance;
         public static BUSKhachHang Instance
         {
@@ -50,7 +51,8 @@ namespace BUS
             DAOKhachHang.Instance.Xoa(maKhachHang.Text);
         }
 
-        public void Load(TextBox makh, TextBox tenkh, RadioButton  gtNam, RadioButton gtNu, TextBox diachi,  TextBox sdt, DataGridView data) {
+        public void Load(TextBox makh, TextBox tenkh, RadioButton gtNam, RadioButton gtNu, TextBox diachi, TextBox sdt, DataGridView data)
+        {
             DAOKhachHang.Instance.Load(makh, tenkh, gtNam, gtNu, diachi, sdt, data);
         }
         public void TimKhachHangTheoMa(TextBox maKhachHang, DataGridView data)
@@ -58,13 +60,11 @@ namespace BUS
             data.DataSource = DAOKhachHang.Instance.TimKiemTheoMa(maKhachHang.Text);
         }
 
-        public void TimKhachHangTheoTen(TextBox tenkhachhang, DataGridView data)
-        {
-            data.DataSource = DAOKhachHang.Instance.TimKiemTheoTen(tenkhachhang.Text);
-        }
         public void TimKhachHangTheoSDT(TextBox sdtkhachhang, DataGridView data)
         {
             data.DataSource = DAOKhachHang.Instance.TimKiemTheoSDT(sdtkhachhang.Text);
         }
+        public List<KhachHang> TimKhachHangMa(string khachhang) { return kh.TimKhachHangMa(khachhang); }
+        public List<KhachHang> TimKhachHangSDT(string khachhang) { return kh.TimKhachHangSDT(khachhang); }
     }
 }

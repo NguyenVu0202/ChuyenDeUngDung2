@@ -75,24 +75,8 @@ namespace ChuyenDe
                     return;
                 }
 
-                // Kiểm tra xem mã kho có tồn tại trong cửa hàng này không
-                if (!BUS_Kho.Instance.KiemTraTonTaiKho(maKho, maCH))
-                {
-                    ShowMessage("Mã kho không tồn tại trong cửa hàng này. Không thể thêm sản phẩm mới.");
-                    return;
-                }
 
-                // Tạo một mục hàng tồn kho mới nếu tất cả các kiểm tra thành công
-                Kho ch = new Kho
-                {
-                    MaKho = maKho,
-                    MaCH = maCH,
-                    MaSP = maSP,
-                    SoLuong = soLuongInt,
-                };
-
-                // Thêm hàng tồn kho mới vào cơ sở dữ liệu
-                BUS_Kho.Instance.ThemKho(maKho, maCH, maSP, soLuongInt); // Cập nhật với đối tượng kho vừa tạo
+                BUS_Kho.Instance.Them(maCH, maKho, maSP, soLuongInt);
 
                 // Tải lại dữ liệu và đặt lại các trường nhập
                 LoadKho();
@@ -104,7 +88,7 @@ namespace ChuyenDe
             }
             catch (Exception ex)
             {
-                ShowMessage("Thêm không thành công: " + ex.Message);
+                ShowMessage("Thêm không thành công.Cửa hàng đã có kho! ");
             }
             finally
             {

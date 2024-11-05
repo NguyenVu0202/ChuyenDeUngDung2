@@ -649,6 +649,8 @@ namespace ChuyenDe
             // Bỏ chọn các radio button
             rdNam.Checked = false;
             rdNu.Checked = false;
+            rdMaNV.Checked = false;
+            rdSĐT.Checked = false;
 
             // Đặt lại ngày sinh
             dtpNgaySinh.Value = DateTime.Now; // Hoặc đặt thành giá trị mặc định khác

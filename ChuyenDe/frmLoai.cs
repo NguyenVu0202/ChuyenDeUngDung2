@@ -24,7 +24,7 @@ namespace ChuyenDe
         }
         private void View()
         {
-            BUSLoai.Instance.View(dgvLoai);            
+            BUSLoai.Instance.View(dgvLoai);
         }
 
         private void dgvLoai_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -44,22 +44,27 @@ namespace ChuyenDe
 
         private void btnThem_Click(object sender, EventArgs e)
         {
-            if (string.IsNullOrWhiteSpace(txtMaLoai.Text) ||
-                string.IsNullOrWhiteSpace(txtTenLoai.Text))
+            // Kiểm tra đầu vào cho txtMaLoai và txtTenLoai
+            if (!CheckInput(txtMaLoai) || !CheckInput(txtTenLoai))
             {
-                MessageBox.Show("Vui lòng điền đầy đủ thông tin!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Vui lòng điền đầy đủ thông tin hợp lệ!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
-            //Viết hoa chữ cái đầu tiên khi thêm
+
+            // Viết hoa chữ cái đầu tiên khi thêm
             txtMaLoai.Text = txtMaLoai.Text.ToUpper();
             txtTenLoai.Text = char.ToUpper(txtTenLoai.Text[0]) + txtTenLoai.Text.Substring(1).ToLower();
-            BUSLoai.Instance.Them(txtMaLoai, txtTenLoai);
+
+            // Gọi phương thức thêm loại
+            BUSLoai.Instance.Them(txtMaLoai, txtTenLoai); // Chuyển giá trị thành chuỗi
+
+            // Xóa các TextBox và lấy lại focus
             txtMaLoai.Text = string.Empty;
             txtTenLoai.Text = string.Empty;
             txtMaLoai.Focus();
             View();
         }
-        private void CheckInput(TextBox textBox)
+        private bool CheckInput(TextBox textBox)
         {
             // Reset ErrorProvider cho TextBox hiện tại
             errorProvider1.SetError(textBox, string.Empty);
@@ -71,18 +76,36 @@ namespace ChuyenDe
             if (input != input.Trim())
             {
                 errorProvider1.SetError(textBox, "Không được chứa khoảng trắng đầu/cuối.");
-                return;
+                return false; // Trả về false nếu không hợp lệ
             }
 
             // Kiểm tra hai khoảng trắng liên tiếp
             if (input.Contains("  "))
             {
                 errorProvider1.SetError(textBox, "Không được có hai khoảng trắng liên tiếp.");
-                return;
+                return false; // Trả về false nếu không hợp lệ
             }
+
+            // Kiểm tra ký tự đặc biệt
+            string chars = @"[!@#$%^&*()_\-+=;""'.>\/?|\{\}\[\]\\,']";
+            if (Regex.IsMatch(input, chars))
+            {
+                errorProvider1.SetError(textBox, "Đầu vào không được chứa ký tự đặc biệt!");
+                return false; // Trả về false nếu không hợp lệ
+            }
+
+            return true; // Trả về true nếu tất cả các kiểm tra đều hợp lệ
         }
+
         private void btnSua_Click(object sender, EventArgs e)
         {
+            // Kiểm tra đầu vào cho txtMaLoai và txtTenLoai
+            if (!CheckInput(txtMaLoai) || !CheckInput(txtTenLoai))
+            {
+                MessageBox.Show("Vui lòng điền đầy đủ thông tin hợp lệ!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
             if (!string.IsNullOrWhiteSpace(txtMaLoai.Text) && !string.IsNullOrWhiteSpace(txtTenLoai.Text))
             {
                 // Viết hoa toàn bộ mã loại
@@ -92,7 +115,7 @@ namespace ChuyenDe
                 txtTenLoai.Text = char.ToUpper(txtTenLoai.Text[0]) + txtTenLoai.Text.Substring(1).ToLower();
 
                 // Gọi phương thức sửa thông tin loại
-                BUSLoai.Instance.Sua(txtMaLoai, txtTenLoai);
+                BUSLoai.Instance.Sua(txtMaLoai, txtTenLoai); // Chuyển giá trị thành chuỗi
 
                 // Cập nhật giao diện
                 View();
@@ -112,7 +135,7 @@ namespace ChuyenDe
         {
             if (txtMaLoai.Text != "" && txtTenLoai.Text != "")
             {
-                DialogResult result = MessageBox.Show("Bạn có chắc chắn muốn xóa?", "Thông báo", MessageBoxButtons.YesNo,MessageBoxIcon.Warning);
+                DialogResult result = MessageBox.Show("Bạn có chắc chắn muốn xóa?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
                 if (result == DialogResult.Yes)
                 {
                     BUSLoai.Instance.Xoa(txtMaLoai);
@@ -132,11 +155,21 @@ namespace ChuyenDe
         private void txtMaLoai_TextChanged(object sender, EventArgs e)
         {
             CheckInput(txtMaLoai);
+            // Kiểm tra ký tự đặc biệt
+            if (Regex.IsMatch(txtMaLoai.Text, @"[!@#$%^&*()_\-+=;""'.>\/?|\{\}\[\]\\]"))
+            {
+                errorProvider1.SetError(txtMaLoai, "Đầu vào không được chứa ký tự đặc biệt!");
+            }
         }
 
         private void txtTenLoai_TextChanged(object sender, EventArgs e)
         {
             CheckInput(txtTenLoai);
+            // Kiểm tra ký tự đặc biệt
+            if (Regex.IsMatch(txtTenLoai.Text, @"[!@#$%^&*()_\-+=;""'.>\/?|\{\}\[\]\\]"))
+            {
+                errorProvider1.SetError(txtTenLoai, "Đầu vào không được chứa ký tự đặc biệt!");
+            }
         }
     }
 }

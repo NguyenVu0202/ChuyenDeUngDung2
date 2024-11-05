@@ -24,24 +24,6 @@ namespace BUS
             }
         }
 
-        // Load dgv
-        //public void Xem(DataGridView data)
-        //{
-        //    var dt = DAO_Kho.Instance.Xem().Select(t =>
-        //    {
-
-
-        //        return new
-        //        {
-        //            t.MaKho,
-        //            t.MaCH,
-        //            t.MaSP,
-        //            t.SoLuong,
-
-        //        };
-        //    }).ToList();
-        //    data.DataSource = dt;
-        //}
 
         public List<object> GetKhoWithProductName()
         {
@@ -60,37 +42,6 @@ namespace BUS
             DAO_Kho.Instance.LoadCbMaCH(cb);
         }
 
-        //Them Kho
-        public void ThemKho(string maKho, string maCH, string maSP, decimal soLuong)
-        {
-            // Kiểm tra xem tên sản phẩm có tồn tại hay không
-            string tenSanPham = DAO_Kho.Instance.GetTenSanPham(maSP);
-            if (string.IsNullOrEmpty(tenSanPham))
-            {
-                MessageBox.Show("Mã sản phẩm không tồn tại");
-                return;
-            }
-
-            // Tạo đối tượng Kho và gán các giá trị
-            Kho kho = new Kho
-            {
-                MaKho = maKho,
-                MaCH = maCH,
-                MaSP = maSP,
-                SoLuong = soLuong
-            };
-
-            // Thêm vào kho qua lớp DAO_Kho
-            bool isSuccess = DAO_Kho.Instance.ThemKho(kho);
-            if (isSuccess)
-            {
-                MessageBox.Show("Thêm Thành Công.");
-            }
-            else
-            {
-                MessageBox.Show("Thêm Thất Bại Trùng Sản Phẩm");
-            }
-        }
 
         //Xoa Kho
         public void XoaKho(TextBox maKho)
@@ -109,10 +60,18 @@ namespace BUS
             data.DataSource = DAO.DAO_Kho.Instance.TimKiemMaKho(makho.Text);
         }
 
-        public bool KiemTraTonTaiKho(string maCH, string maKho)
-        {
-            return DAO_Kho.Instance.KiemTraTonTaiKho(maCH, maKho);
-        }
+      
 
+        public void Them(string maCH, string maKho, string maSP, decimal soLuong)
+        {
+            Kho kho = new Kho { 
+                MaKho = maKho,
+                MaCH = maCH,
+                MaSP = maSP,
+                SoLuong = soLuong
+            
+            };
+            DAO_Kho.Instance.Them(maKho,kho);
+        }
     }
 }
