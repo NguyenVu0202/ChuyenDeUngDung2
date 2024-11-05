@@ -88,7 +88,9 @@
     <Compile Include="BUSLoai.cs" />
     <Compile Include="BUSNhaCungCap.cs" />
     <Compile Include="BUSSanPham.cs" />
+    <Compile Include="BUSThongKeSanPhamDaBan.cs" />
     <Compile Include="BUSTimKiemHoaDon.cs" />
+    <Compile Include="BUSTimSanPham.cs" />
     <Compile Include="BUS_CuaHang.cs" />
     <Compile Include="BUS_Kho.cs" />
     <Compile Include="BUS_NhanVien.cs" />

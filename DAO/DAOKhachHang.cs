@@ -69,12 +69,12 @@ namespace DAO
         }
         public void Xoa(string maKH)
         {
-                var dtKH = db.KhachHangs.FirstOrDefault(a => a.MaKH == maKH);
-                if(dtKH != null)
-                {
-                    db.KhachHangs.DeleteOnSubmit(dtKH);
-                    db.SubmitChanges();
-                }
+            var dtKH = db.KhachHangs.FirstOrDefault(a => a.MaKH == maKH);
+            if (dtKH != null)
+            {
+                db.KhachHangs.DeleteOnSubmit(dtKH);
+                db.SubmitChanges();
+            }
         }
         public bool Sua(KhachHang khachHang)
         {
@@ -88,9 +88,10 @@ namespace DAO
                 edit.SDT = khachHang.SDT;
                 db.SubmitChanges();
                 return true;
-            } return false; 
+            }
+            return false;
         }
-        public void Load(TextBox makh, TextBox tenkh, RadioButton gtNam,RadioButton gtNu, TextBox sdt, TextBox diachi, DataGridView data)
+        public void Load(TextBox makh, TextBox tenkh, RadioButton gtNam, RadioButton gtNu, TextBox sdt, TextBox diachi, DataGridView data)
         {
             var rowInDex = data.SelectedCells[0].RowIndex;
             var row = data.Rows[rowInDex];
@@ -106,29 +107,9 @@ namespace DAO
         public List<KhachHang> TimKiemTheoMa(string makh)
         {
             List<KhachHang> list = new List<KhachHang>();
-            var kh = db.KhachHangs.SingleOrDefault(p => p.MaKH == makh);
-            if (kh != null)
-            {
-                KhachHang khachhang = new KhachHang
-                {
-                    MaKH = kh.MaKH,
-                    TenKH = kh.TenKH,
-                    GioiTinh = kh.GioiTinh,
-                    SDT = kh.SDT,
-                    DiaChi = kh.DiaChi
-                };
-                list.Add(khachhang);
-            }
-            else MessageBox.Show("Không có mã khách hàng này!");
-            return list;
-        }
 
-        public List<KhachHang> TimKiemTheoTen(string tenkh)
-        {
-            List<KhachHang> list = new List<KhachHang>();
-
-            // Tìm tất cả khách hàng có tên tương ứng
-            var khachHangs = db.KhachHangs.Where(p => p.TenKH.Contains(tenkh)).ToList();
+            // Tìm tất cả khách hàng có số điện thoại tương ứng
+            var khachHangs = db.KhachHangs.Where(p => p.MaKH == makh).ToList();
 
             // Kiểm tra nếu có khách hàng tìm thấy
             if (khachHangs.Any())
@@ -148,18 +129,19 @@ namespace DAO
             }
             else
             {
-                MessageBox.Show("Không có tên khách hàng này!");
+                MessageBox.Show("Không có mã khách hàng này!");
             }
-
             return list;
         }
+
+
 
         public List<KhachHang> TimKiemTheoSDT(string sdt)
         {
             List<KhachHang> list = new List<KhachHang>();
 
             // Tìm tất cả khách hàng có số điện thoại tương ứng
-            var khachHangs = db.KhachHangs.Where(p => p.SDT.Contains(sdt)).ToList();
+            var khachHangs = db.KhachHangs.Where(p => p.SDT == sdt).ToList();
 
             // Kiểm tra nếu có khách hàng tìm thấy
             if (khachHangs.Any())
@@ -183,6 +165,18 @@ namespace DAO
             }
 
             return list;
+        }
+        public List<KhachHang> TimKhachHangMa(string khachhang)
+        {
+            return db.KhachHangs
+                .Where(kh => kh.MaKH.Contains(khachhang))
+                .ToList();
+        }
+        public List<KhachHang> TimKhachHangSDT(string khachhang)
+        {
+            return db.KhachHangs
+                .Where(kh => kh.SDT.Contains(khachhang))
+                .ToList();
         }
     }
 }

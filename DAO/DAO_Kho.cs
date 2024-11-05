@@ -113,25 +113,6 @@ namespace DAO
             }
         }
 
-        //Them Kho
-        public bool ThemKho(Kho kho)
-        {
-            try
-            {
-                using (DataBHXDataContext db = new DataBHXDataContext())
-                {
-                    // Thêm đối tượng Kho vào cơ sở dữ liệu
-                    db.Khos.InsertOnSubmit(kho);
-                    db.SubmitChanges();
-                    return true;
-                }
-            }
-            catch
-            {
-                return false;
-            }
-        }
-
         public string GetTenSanPham(string maSP)
         {
             using (DataBHXDataContext db = new DataBHXDataContext())
@@ -141,16 +122,6 @@ namespace DAO
             }
         }
 
-
-        public bool KiemTraTonTaiKho(string maKho, string maCH)
-        {
-            // Sử dụng LINQ to SQL để kiểm tra sự tồn tại của MaKho và MaCH trong bảng Kho
-            using (DataBHXDataContext db = new DataBHXDataContext())
-            {
-                // Kiểm tra xem có bản ghi nào trong Kho có MaKho và MaCH tương ứng không
-                return db.Khos.Any(k => k.MaKho == maKho && k.MaCH == maCH);
-            }
-        }
 
         //Xoa Kho
         public void XoaKho(string maKho)
@@ -244,6 +215,40 @@ namespace DAO
                               .Select(nv => nv.MaKho)
                               .ToList();
             }
+        }
+
+        public void Them(string maKho,Kho kho)
+        { DataBHXDataContext db = new DataBHXDataContext();
+            var mch = db.Khos.FirstOrDefault(x => x.MaKho == maKho);
+
+            if (mch == null)
+            {
+                var mach = db.Khos.Any(x => x.MaCH == null && x.MaKho != maKho);
+                if (mach == false)
+                {
+                    db.Khos.InsertOnSubmit(kho);
+                    db.SubmitChanges();
+                }
+                else
+                {
+                    MessageBox.Show("Loi!!!");
+                }
+            }
+            else
+            {
+                var mach = db.Khos.Any(x => x.MaCH == mch.MaCH && x.MaKho == maKho);
+                if (mach == false )
+                {
+                    db.Khos.InsertOnSubmit(kho);
+                    db.SubmitChanges();
+                }
+                else
+                {
+                    MessageBox.Show("Mã kho không tồn tại trong cửa hàng này.!!!");
+                }
+            }
+
+
         }
     }
 }

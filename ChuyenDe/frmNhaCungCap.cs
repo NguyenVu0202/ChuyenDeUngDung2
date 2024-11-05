@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using BUS;
@@ -36,22 +37,26 @@ namespace ChuyenDe
 
         private void btnThem_Click(object sender, EventArgs e)
         {
-            if (string.IsNullOrWhiteSpace(txtMaHang.Text) ||
-                string.IsNullOrWhiteSpace(txtTenHang.Text))
+            // Kiểm tra khoảng trắng và ký tự đặc biệt trước khi thêm
+            if (!CheckInput(txtMaHang) || !CheckInput(txtTenHang))
             {
-                MessageBox.Show("Vui lòng điền đầy đủ thông tin!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                return; 
+                MessageBox.Show("Vui lòng điền đầy đủ thông tin hợp lệ!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
             }
-            //Viết hoa chữ cái đầu tiên khi thêm
+
+            // Viết hoa chữ cái đầu tiên khi thêm
             txtMaHang.Text = txtMaHang.Text.ToUpper();
-            txtTenHang.Text = char.ToUpper(txtMaHang.Text[0]) + txtTenHang.Text.Substring(1).ToLower();
-            BUSNhaCungCap.Instance.Them(txtMaHang, txtTenHang);
+            txtTenHang.Text = char.ToUpper(txtTenHang.Text[0]) + txtTenHang.Text.Substring(1).ToLower();
+
+            // Thêm nhà cung cấp
+            BUSNhaCungCap.Instance.Them(txtMaHang, txtTenHang); // Chuyển giá trị thành chuỗi
             txtMaHang.Text = string.Empty;
             txtTenHang.Text = string.Empty;
             txtMaHang.Focus();
             Load();
         }
-        private void CheckInput(TextBox textBox)
+
+        private bool CheckInput(TextBox textBox)
         {
             // Reset ErrorProvider cho TextBox hiện tại
             errorProvider1.SetError(textBox, string.Empty);
@@ -63,16 +68,27 @@ namespace ChuyenDe
             if (input != input.Trim())
             {
                 errorProvider1.SetError(textBox, "Không được chứa khoảng trắng đầu/cuối.");
-                return;
+                return false; // Trả về false nếu không hợp lệ
             }
 
             // Kiểm tra hai khoảng trắng liên tiếp
             if (input.Contains("  "))
             {
                 errorProvider1.SetError(textBox, "Không được có hai khoảng trắng liên tiếp.");
-                return;
+                return false; // Trả về false nếu không hợp lệ
             }
+
+            // Kiểm tra ký tự đặc biệt
+            string specialCharactersPattern = @"[!@#$%^&*()_\-+=;""'.>\/?|\{\}\[\]\\,']";
+            if (Regex.IsMatch(input, specialCharactersPattern))
+            {
+                errorProvider1.SetError(textBox, "Đầu vào không được chứa ký tự đặc biệt!");
+                return false; // Trả về false nếu không hợp lệ
+            }
+
+            return true; // Trả về true nếu tất cả các kiểm tra đều hợp lệ
         }
+
         private void btnXoa_Click(object sender, EventArgs e)
         {
             if (txtMaHang.Text != "" && txtTenHang.Text != "")
@@ -97,35 +113,57 @@ namespace ChuyenDe
 
         private void dgvHang_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            BUSNhaCungCap.Instance.Load(txtMaHang, txtTenHang,dgvHang);
+            BUSNhaCungCap.Instance.Load(txtMaHang, txtTenHang, dgvHang);
         }
 
         private void btnSua_Click(object sender, EventArgs e)
         {
-            if (txtMaHang.Text != "" && txtTenHang.Text != "")
+            // Kiểm tra khoảng trắng và ký tự đặc biệt trước khi sửa
+            if (!CheckInput(txtMaHang) || !CheckInput(txtTenHang))
             {
-                // Viết hoa toàn bộ mã loại
+                MessageBox.Show("Vui lòng điền đầy đủ thông tin hợp lệ!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            if (!string.IsNullOrWhiteSpace(txtMaHang.Text) && !string.IsNullOrWhiteSpace(txtTenHang.Text))
+            {
+                // Viết hoa toàn bộ mã hàng
                 txtMaHang.Text = txtMaHang.Text.ToUpper();
 
-                // Viết hoa chữ cái đầu tiên của tên loại và chuyển các chữ cái còn lại thành chữ thường
+                // Viết hoa chữ cái đầu tiên của tên hàng và chuyển các chữ cái còn lại thành chữ thường
                 txtTenHang.Text = char.ToUpper(txtTenHang.Text[0]) + txtTenHang.Text.Substring(1).ToLower();
-                BUSNhaCungCap.Instance.Sua(txtMaHang, txtTenHang);
+
+                // Gọi phương thức sửa thông tin nhà cung cấp
+                BUSNhaCungCap.Instance.Sua(txtMaHang, txtTenHang); // Chuyển giá trị thành chuỗi
                 Load();
                 txtMaHang.Text = string.Empty;
                 txtTenHang.Text = string.Empty;
                 txtMaHang.Focus();
             }
-            else MessageBox.Show("Vui lòng chọn dữ liệu để sửa!","Thông báo",MessageBoxButtons.OK,MessageBoxIcon.Warning);    
+            else
+            {
+                MessageBox.Show("Vui lòng chọn dữ liệu để sửa!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
         }
 
         private void txtMaHang_TextChanged(object sender, EventArgs e)
         {
             CheckInput(txtMaHang);
+            // Kiểm tra ký tự đặc biệt
+            if (Regex.IsMatch(txtMaHang.Text, @"[!@#$%^&*()_\-+=;""'.>\/?|\{\}\[\]\\]"))
+            {
+                errorProvider1.SetError(txtMaHang, "Đầu vào không được chứa ký tự đặc biệt!");
+            }
         }
 
         private void txtTenHang_TextChanged(object sender, EventArgs e)
         {
             CheckInput(txtTenHang);
+            // Kiểm tra ký tự đặc biệt
+            if (Regex.IsMatch(txtTenHang.Text, @"[!@#$%^&*()_\-+=;""'.>\/?|\{\}\[\]\\]"))
+            {
+                errorProvider1.SetError(txtTenHang, "Đầu vào không được chứa ký tự đặc biệt!");
+            }
         }
     }
 }

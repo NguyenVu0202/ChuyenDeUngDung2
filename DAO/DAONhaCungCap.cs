@@ -31,11 +31,11 @@ namespace DAO
             List<NCC> list = new List<NCC>();
 
             var ncc = (from el in db.NCCs
-                                  select new
-                                  {
-                                      el.MaNCC,
-                                      el.TenNCC,                                    
-                                  }).ToList();
+                       select new
+                       {
+                           el.MaNCC,
+                           el.TenNCC,
+                       }).ToList();
 
             foreach (var item in ncc)
             {
@@ -51,9 +51,9 @@ namespace DAO
         public void Them(TextBox mancc, TextBox tenncc)
         {
             try
-            {              
+            {
                 NCC ncc = new NCC();
-                ncc.MaNCC = mancc.Text;            
+                ncc.MaNCC = mancc.Text;
                 ncc.TenNCC = tenncc.Text;
                 db.NCCs.InsertOnSubmit(ncc);
                 db.SubmitChanges();
@@ -79,7 +79,7 @@ namespace DAO
             if (edit != null)
             {
                 edit.MaNCC = ncc.MaNCC;
-                edit.TenNCC = ncc.TenNCC;          
+                edit.TenNCC = ncc.TenNCC;
                 db.SubmitChanges();
                 MessageBox.Show("Sửa Nhà Cung Cấp Thành Công");
                 return true;
@@ -90,13 +90,13 @@ namespace DAO
             }
             return false;
         }
-       
+
         public void Load(TextBox mancc, TextBox tenncc, DataGridView data)
         {
             var rowIndex = data.SelectedCells[0].RowIndex;
             var row = data.Rows[rowIndex];
             mancc.Text = row.Cells[0].Value.ToString().Trim();
-            tenncc.Text = row.Cells[1].Value.ToString().Trim();            
+            tenncc.Text = row.Cells[1].Value.ToString().Trim();
         }
     }
 }

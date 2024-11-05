@@ -450,3 +450,150 @@ C:\Users\NGUYEN VU\Desktop\New folder\DAO\bin\Debug\AForge.Video.xml
 C:\Users\NGUYEN VU\Desktop\New folder\DAO\bin\Debug\AForge.Video.DirectShow.xml
 C:\Users\NGUYEN VU\Desktop\New folder\DAO\bin\Debug\zxing.xml
 C:\Users\NGUYEN VU\Desktop\New folder\DAO\bin\Debug\zxing.presentation.xml
+D:\ChuyenDeUngDung2-main\DAO\obj\Debug\DAO.csproj.AssemblyReference.cache
+D:\ChuyenDeUngDung2-main\DAO\obj\Debug\DAO.csproj.SuggestedBindingRedirects.cache
+D:\ChuyenDeUngDung2-main\DAO\obj\Debug\DAO.Properties.Resources.resources
+D:\ChuyenDeUngDung2-main\DAO\obj\Debug\DAO.csproj.GenerateResource.cache
+D:\ChuyenDeUngDung2-main\DAO\obj\Debug\DAO.csproj.CoreCompileInputs.cache
+D:\ChuyenDeUngDung2-main\DAO\obj\Debug\DAO.exe
+D:\ChuyenDeUngDung2-main\DAO\obj\Debug\DAO.pdb
+D:\ChuyenDeUngDung2-main\DAO\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+D:\ChuyenDeUngDung2-main\DAO\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+D:\ChuyenDeUngDung2-main\DAO\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+D:\ChuyenDeUngDung2-main\DAO\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+D:\ChuyenDeUngDung2-main\DAO\bin\Debug\DAO.exe.config
+D:\ChuyenDeUngDung2-main\DAO\bin\Debug\DAO.exe
+D:\ChuyenDeUngDung2-main\DAO\bin\Debug\DAO.pdb
+D:\ChuyenDeUngDung2-main\DAO\bin\Debug\AForge.dll
+D:\ChuyenDeUngDung2-main\DAO\bin\Debug\AForge.Video.DirectShow.dll
+D:\ChuyenDeUngDung2-main\DAO\bin\Debug\AForge.Video.dll
+D:\ChuyenDeUngDung2-main\DAO\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\ChuyenDeUngDung2-main\DAO\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+D:\ChuyenDeUngDung2-main\DAO\bin\Debug\Microsoft.ReportViewer.Design.dll
+D:\ChuyenDeUngDung2-main\DAO\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\ChuyenDeUngDung2-main\DAO\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\ChuyenDeUngDung2-main\DAO\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\ChuyenDeUngDung2-main\DAO\bin\Debug\Zen.Barcode.Core.dll
+D:\ChuyenDeUngDung2-main\DAO\bin\Debug\zxing.dll
+D:\ChuyenDeUngDung2-main\DAO\bin\Debug\zxing.presentation.dll
+D:\ChuyenDeUngDung2-main\DAO\bin\Debug\EnvDTE.dll
+D:\ChuyenDeUngDung2-main\DAO\bin\Debug\stdole.dll
+D:\ChuyenDeUngDung2-main\DAO\bin\Debug\AForge.xml
+D:\ChuyenDeUngDung2-main\DAO\bin\Debug\AForge.Video.xml
+D:\ChuyenDeUngDung2-main\DAO\bin\Debug\AForge.Video.DirectShow.xml
+D:\ChuyenDeUngDung2-main\DAO\bin\Debug\zxing.xml
+D:\ChuyenDeUngDung2-main\DAO\bin\Debug\zxing.presentation.xml
+D:\ChuyenDeUngDung2-main\DAO\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+D:\ChuyenDeUngDung2-main\DAO\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+D:\ChuyenDeUngDung2-main\DAO\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\ChuyenDeUngDung2-main\DAO\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+D:\ChuyenDeUngDung2-main\DAO\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\ChuyenDeUngDung2-main\DAO\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\ChuyenDeUngDung2-main\DAO\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\ChuyenDeUngDung2-main\DAO\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\ChuyenDeUngDung2-main\DAO\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\ChuyenDeUngDung2-main\DAO\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\ChuyenDeUngDung2-main\DAO\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\ChuyenDeUngDung2-main\DAO\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\ChuyenDeUngDung2-main\DAO\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\ChuyenDeUngDung2-main\DAO\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\ChuyenDeUngDung2-main\DAO\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\ChuyenDeUngDung2-main\DAO\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\ChuyenDeUngDung2-main\DAO\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\ChuyenDeUngDung2-main\DAO\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\ChuyenDeUngDung2-main\DAO\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\ChuyenDeUngDung2-main\DAO\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\ChuyenDeUngDung2-main\DAO\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+D:\ChuyenDeUngDung2-main\DAO\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+D:\ChuyenDeUngDung2-main\DAO\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\ChuyenDeUngDung2-main\DAO\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+D:\ChuyenDeUngDung2-main\DAO\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\ChuyenDeUngDung2-main\DAO\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\ChuyenDeUngDung2-main\DAO\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\ChuyenDeUngDung2-main\DAO\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\ChuyenDeUngDung2-main\DAO\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\ChuyenDeUngDung2-main\DAO\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\ChuyenDeUngDung2-main\DAO\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\ChuyenDeUngDung2-main\DAO\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\ChuyenDeUngDung2-main\DAO\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\ChuyenDeUngDung2-main\DAO\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\ChuyenDeUngDung2-main\DAO\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\ChuyenDeUngDung2-main\DAO\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\ChuyenDeUngDung2-main\DAO\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\ChuyenDeUngDung2-main\DAO\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\ChuyenDeUngDung2-main\DAO\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\ChuyenDeUngDung2-main\DAO\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\ChuyenDeUngDung2-main\DAO\obj\Debug\DAO.csproj.CopyComplete
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\DAO\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\DAO\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\DAO\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\DAO\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\DAO\bin\Debug\DAO.exe.config
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\DAO\bin\Debug\DAO.exe
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\DAO\bin\Debug\DAO.pdb
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\DAO\bin\Debug\AForge.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\DAO\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\DAO\bin\Debug\AForge.Video.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\DAO\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\DAO\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\DAO\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\DAO\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\DAO\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\DAO\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\DAO\bin\Debug\Zen.Barcode.Core.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\DAO\bin\Debug\zxing.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\DAO\bin\Debug\zxing.presentation.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\DAO\bin\Debug\EnvDTE.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\DAO\bin\Debug\stdole.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\DAO\bin\Debug\AForge.xml
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\DAO\bin\Debug\AForge.Video.xml
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\DAO\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\DAO\bin\Debug\zxing.xml
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\DAO\bin\Debug\zxing.presentation.xml
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\DAO\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\DAO\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\DAO\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\DAO\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\DAO\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\DAO\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\DAO\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\DAO\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\DAO\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\DAO\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\DAO\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\DAO\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\DAO\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\DAO\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\DAO\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\DAO\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\DAO\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\DAO\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\DAO\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\DAO\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\DAO\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\DAO\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\DAO\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\DAO\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\DAO\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\DAO\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\DAO\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\DAO\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\DAO\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\DAO\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\DAO\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\DAO\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\DAO\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\DAO\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\DAO\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\DAO\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\DAO\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\DAO\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\DAO\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\DAO\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\DAO\obj\Debug\DAO.csproj.AssemblyReference.cache
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\DAO\obj\Debug\DAO.Properties.Resources.resources
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\DAO\obj\Debug\DAO.csproj.GenerateResource.cache
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\DAO\obj\Debug\DAO.csproj.CoreCompileInputs.cache
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\DAO\obj\Debug\DAO.csproj.Up2Date
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\DAO\obj\Debug\DAO.exe
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\DAO\obj\Debug\DAO.pdb

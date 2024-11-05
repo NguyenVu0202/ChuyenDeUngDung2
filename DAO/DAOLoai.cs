@@ -30,11 +30,11 @@ namespace DAO
             List<Loai> list = new List<Loai>();
 
             var loai = (from el in db.Loais
-                       select new
-                       {
-                           el.MaLoai,
-                           el.TenLoai,
-                       }).ToList();
+                        select new
+                        {
+                            el.MaLoai,
+                            el.TenLoai,
+                        }).ToList();
 
             foreach (var item in loai)
             {
