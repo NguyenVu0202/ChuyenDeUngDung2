@@ -24,32 +24,42 @@ namespace DAO
         }
 
         public DAOTimKiemHoaDon() { }
-        public List<HoaDon> TimKiemHoaDonTheoMaHD(string mahd)
+        public class HoaDonDTO
         {
-            List<HoaDon> lst = new List<HoaDon>();
+            public int MaHD { get; set; }
+            public DateTime? NgayBan { get; set; }
+            public decimal TongTien { get; set; }
+            public string MaKH { get; set; }
+            public string TenNV { get; set; }
+        }
+        public List<HoaDonDTO> TimKiemHoaDonTheoMaHD(string mahd, string mach)
+        {
+            List<HoaDonDTO> lst = new List<HoaDonDTO>();
 
             using (DataBHXDataContext db = new DataBHXDataContext())
             {
                 var hoadon = (from hd in db.HoaDons
-                              where hd.MaHD == int.Parse(mahd)
+                              join nv in db.NhanViens on hd.MaNV equals nv.MaNV
+                              join ch in db.CuaHangs on nv.MaCH equals ch.MaCH
+                              where hd.MaHD == int.Parse(mahd) && ch.MaCH == mach
                               select new
                               {
                                   hd.MaHD,
                                   hd.NgayBan,
                                   hd.TongTien,
                                   hd.MaKH,
-                                  hd.MaNV
+                                  nv.TenNV,
                               }).ToList();
                 if(hoadon.Count > 0)
                 {
                     foreach (var item in hoadon)
                     {
-                        HoaDon h = new HoaDon();
+                        HoaDonDTO h = new HoaDonDTO();
                         h.MaHD = item.MaHD;
                         h.NgayBan = item.NgayBan;
-                        h.TongTien = item.TongTien;
+                        h.TongTien = (decimal)item.TongTien;
                         h.MaKH = item.MaKH;
-                        h.MaNV = item.MaNV;
+                        h.TenNV = item.TenNV;
                         lst.Add(h);
                     }
                 }    
@@ -61,32 +71,34 @@ namespace DAO
             return lst;
         }
 
-        public List<HoaDon> TimKiemHoaDonTheoMaKH(string makh)
+        public List<HoaDonDTO> TimKiemHoaDonTheoMaKH(string makh, string mach)
         {
-            List<HoaDon> lst = new List<HoaDon>();
+            List<HoaDonDTO> lst = new List<HoaDonDTO>();
 
             using (DataBHXDataContext db = new DataBHXDataContext())
             {
                 var hoadon = (from hd in db.HoaDons
-                              where hd.MaKH == makh
+                              join nv in db.NhanViens on hd.MaNV equals nv.MaNV
+                              join ch in db.CuaHangs on nv.MaCH equals ch.MaCH
+                              where hd.MaKH == makh && ch.MaCH == mach
                               select new
                               {
                                   hd.MaHD,
                                   hd.NgayBan,
                                   hd.TongTien,
                                   hd.MaKH,
-                                  hd.MaNV
+                                  nv.TenNV,
                               }).ToList();
                 if(hoadon.Count > 0)
                 {
                     foreach (var item in hoadon)
                     {
-                        HoaDon h = new HoaDon();
+                        HoaDonDTO h = new HoaDonDTO();
                         h.MaHD = item.MaHD;
                         h.NgayBan = item.NgayBan;
-                        h.TongTien = item.TongTien;
+                        h.TongTien = (decimal)item.TongTien;
                         h.MaKH = item.MaKH;
-                        h.MaNV = item.MaNV;
+                        h.TenNV = item.TenNV;
                         lst.Add(h);
                     }
                 }
@@ -98,35 +110,46 @@ namespace DAO
             return lst;
         }
 
-        public List<HoaDon> TimKiemHoaDonTheoNgayBan(string ngayban)
+        public List<HoaDonDTO> TimKiemHoaDonTheoNgayBan(string ngayban, string mach)
         {
-            List<HoaDon> lst = new List<HoaDon>();
+            List<HoaDonDTO> lst = new List<HoaDonDTO>();
 
             using (DataBHXDataContext db = new DataBHXDataContext())
             {
                 var ngayBanFormatted = Convert.ToDateTime(ngayban).ToString("yyyy/MM/dd");
                 var hoadon = (from hd in db.HoaDons
-                              where hd.NgayBan == Convert.ToDateTime(ngayBanFormatted)
+                              join nv in db.NhanViens on hd.MaNV equals nv.MaNV
+                              join ch in db.CuaHangs on nv.MaCH equals ch.MaCH
+                              where hd.NgayBan == Convert.ToDateTime(ngayBanFormatted) && ch.MaCH == mach
                               select new
                               {
                                   hd.MaHD,
                                   hd.NgayBan,
                                   hd.TongTien,
                                   hd.MaKH,
-                                  hd.MaNV
+                                  nv.TenNV
                               }).ToList();
                 foreach (var item in hoadon)
                 {
-                    HoaDon h = new HoaDon();
+                    HoaDonDTO h = new HoaDonDTO();
                     h.MaHD = item.MaHD;
                     h.NgayBan = item.NgayBan;
-                    h.TongTien = item.TongTien;
+                    h.TongTien = (decimal)item.TongTien;
                     h.MaKH = item.MaKH;
-                    h.MaNV = item.MaNV;
+                    h.TenNV = item.TenNV;
                     lst.Add(h);
                 }
             }
             return lst;
+        }
+        public string MaCuaHang(string manv)
+        {
+            using (DataBHXDataContext db = new DataBHXDataContext())
+            {
+                var mch = db.NhanViens.FirstOrDefault(x => x.MaNV ==  manv);
+                string mach = mch.MaCH;
+                return mach;
+            }
         }
     }
 }

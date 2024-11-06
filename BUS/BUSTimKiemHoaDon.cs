@@ -25,9 +25,9 @@ namespace BUS
         }
 
         public BUSTimKiemHoaDon() { }
-        public void TimKiemHoaDonTheoMaHD(TextBox mahd, DataGridView data)
+        public void TimKiemHoaDonTheoMaHD(TextBox mahd, DataGridView data, string mach)
         {
-            var dt = DAOTimKiemHoaDon.Instance.TimKiemHoaDonTheoMaHD(mahd.Text).Select(t =>
+            var dt = DAOTimKiemHoaDon.Instance.TimKiemHoaDonTheoMaHD(mahd.Text, mach).Select(t =>
             {
                 return new
                 {
@@ -35,15 +35,15 @@ namespace BUS
                     t.NgayBan,
                     t.TongTien,
                     t.MaKH,
-                    t.MaNV
+                    t.TenNV
                 };
             }).ToList();
             data.DataSource = dt;
         }
 
-        public void TimKiemHoaDonTheoMaKH(TextBox makh, DataGridView data)
+        public void TimKiemHoaDonTheoMaKH(TextBox makh, DataGridView data, string mach)
         {
-            var dt = DAOTimKiemHoaDon.Instance.TimKiemHoaDonTheoMaKH(makh.Text).Select(t =>
+            var dt = DAOTimKiemHoaDon.Instance.TimKiemHoaDonTheoMaKH(makh.Text, mach).Select(t =>
             {
                 return new
                 {
@@ -51,15 +51,15 @@ namespace BUS
                     t.NgayBan,
                     t.TongTien,
                     t.MaKH,
-                    t.MaNV
+                    t.TenNV
                 };
             }).ToList();
             data.DataSource = dt;
         }
 
-        public void TimKiemHoaDonTheoNgayBan(DateTimePicker ngayban, DataGridView data)
+        public void TimKiemHoaDonTheoNgayBan(DateTimePicker ngayban, DataGridView data, string mach)
         {
-            var dt = DAOTimKiemHoaDon.Instance.TimKiemHoaDonTheoNgayBan(ngayban.Text).Select(t =>
+            var dt = DAOTimKiemHoaDon.Instance.TimKiemHoaDonTheoNgayBan(ngayban.Text, mach).Select(t =>
             {
                 return new
                 {
@@ -67,10 +67,14 @@ namespace BUS
                     t.NgayBan,
                     t.TongTien,
                     t.MaKH,
-                    t.MaNV
+                    t.TenNV
                 };
             }).ToList();
             data.DataSource = dt;
+        }
+        public string MaCuaHang(string manv)
+        {
+            return DAOTimKiemHoaDon.Instance.MaCuaHang(manv);
         }
     }
 }
