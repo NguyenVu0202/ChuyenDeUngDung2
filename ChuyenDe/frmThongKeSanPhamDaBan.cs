@@ -23,7 +23,9 @@ namespace ChuyenDe
       
         private void dgvBanSP_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            
+            dgvBanSP.Columns["GiaSP"].Visible = false;
+
+            dgvBanSP.Columns["GiamGia"].Visible = false;
         }
 
         private void btnThongKeTheoSP_Click(object sender, EventArgs e)
@@ -48,6 +50,17 @@ namespace ChuyenDe
             {
                 // Hiển thị kết quả trong DataGridView
                 dgvBanSP.DataSource = thongKeResult;
+
+                // Ẩn cột GiaSP và GiamGia nếu chúng tồn tại
+                if (dgvBanSP.Columns["GiaSP"] != null)
+                {
+                    dgvBanSP.Columns["GiaSP"].Visible = false;
+                }
+                if (dgvBanSP.Columns["GiamGia"] != null)
+                {
+                    dgvBanSP.Columns["GiamGia"].Visible = false;
+                }
+
                 listBox1.Visible = false;
             }
             else

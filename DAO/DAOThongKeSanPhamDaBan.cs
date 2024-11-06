@@ -25,6 +25,7 @@ namespace DAO
         }
 
         public DAOThongKeSanPhamDaBan() { }
+
         public List<ChiTietHoaDonDTO> ThongKe(string maCH, DateTime startDate, DateTime endDate)
         {
             List<ChiTietHoaDonDTO> thongke = new List<ChiTietHoaDonDTO>();
@@ -42,9 +43,10 @@ namespace DAO
                                 g.Key.TenSP,
                                 tongsluong = g.Sum(x => x.ct.SoLuong),
                                 tongtien = g.Sum(x => x.ct.ThanhTien), // Nếu bạn có trường ThanhTien trong ChiTietHoaDon
-                                gia = g.Key.GiaBan, // Lấy giá từ sản phẩm
-                                giam = g.Key.GiamGia // Lấy giảm giá từ sản phẩm
-                            };
+                            }; 
+
+            // Tạo một danh sách tạm để lưu trữ kết quả
+            var tempList = new List<ChiTietHoaDonDTO>();
 
             foreach (var item in salesData)
             {
@@ -54,48 +56,30 @@ namespace DAO
                     TenSP = item.TenSP,
                     SoLuong = (decimal)item.tongsluong,
                     ThanhTien = (decimal)item.tongtien,
-                    GiaSP = (decimal)item.gia, // Gán giá
-                    GiamGia = (decimal)item.giam // Gán giảm giá
                 };
-                thongke.Add(statistic);
+
+                // Kiểm tra xem sản phẩm đã tồn tại trong danh sách tạm chưa
+                var existingItem = tempList.FirstOrDefault(x => x.MaSP == statistic.MaSP);
+                if (existingItem != null)
+                {
+                    // Nếu đã tồn tại, cộng dồn số lượng và thành tiền
+                    existingItem.SoLuong += statistic.SoLuong;
+                    existingItem.ThanhTien += statistic.ThanhTien;
+                }
+                else
+                {
+                    // Nếu chưa tồn tại, thêm mới vào danh sách
+                    tempList.Add(statistic);
+                }
             }
+
+            // Gán lại danh sách tạm vào danh sách cuối cùng
+            thongke = tempList;
 
             return thongke;
         }
 
-        public List<SanPham> TimSanPham(string maSP, string tenSP)
-        {
-            var sanPhams = (from sp in db.SanPhams
-                            where (string.IsNullOrWhiteSpace(maSP) || sp.MaSP == maSP) &&
-                                  (string.IsNullOrWhiteSpace(tenSP) || sp.TenSP == tenSP) // Tìm kiếm bằng mã và tên sản phẩm
-                            select new
-                            {
-                                sp.MaSP,
-                                sp.TenSP,
-                                sp.MaLoai,
-                                sp.MaNCC,
-                                sp.GiaBan,
-                                sp.HinhAnh,
-                                sp.GhiChu
-                            }).ToList();
-
-            List<SanPham> result = new List<SanPham>();
-            foreach (var item in sanPhams)
-            {
-                SanPham sanPham = new SanPham
-                {
-                    MaSP = item.MaSP,
-                    TenSP = item.TenSP,
-                    MaLoai = item.MaLoai,
-                    MaNCC = item.MaNCC,
-                    GiaBan = item.GiaBan,
-                    HinhAnh = item.HinhAnh,
-                    GhiChu = item.GhiChu
-                };
-                result.Add(sanPham);
-            }
-            return result;
-        }
+    
         public List<CuaHang> CuaHangByMa(string cuahang)
         {
             return db.CuaHangs
