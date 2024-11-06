@@ -15,15 +15,22 @@ namespace ChuyenDe
 {
 	public partial class frmTimKiemHoaDon : Form
 	{
+        string manv = "";
+        string mach = "";
 		public frmTimKiemHoaDon()
 		{
 			InitializeComponent();
 		}
-
+        public frmTimKiemHoaDon(string manv)
+        {
+            InitializeComponent();
+            this.manv = manv;
+        }
         private void btnTimKiem_Click(object sender, EventArgs e)
         {
             string mahd = txtMaHD.Text;
             string makh = txtMaKH.Text;
+            mach = BUSTimKiemHoaDon.Instance.MaCuaHang(manv);
 
             if (txtMaKH.ReadOnly == true)
             {
@@ -45,7 +52,7 @@ namespace ChuyenDe
                     MessageBox.Show("Mã hóa đơn chỉ được là số.");
                     return;
                 }
-                BUSTimKiemHoaDon.Instance.TimKiemHoaDonTheoMaHD(txtMaHD, dgvTimKiemHoaDon);
+                BUSTimKiemHoaDon.Instance.TimKiemHoaDonTheoMaHD(txtMaHD, dgvTimKiemHoaDon, mach);
             }
             else if (txtMaHD.ReadOnly == true)
             {
@@ -61,11 +68,11 @@ namespace ChuyenDe
                     MessageBox.Show("Mã khách hàng không được có hai khoảng trắng liên tiếp.");
                     return;
                 }
-                BUSTimKiemHoaDon.Instance.TimKiemHoaDonTheoMaKH(txtMaKH, dgvTimKiemHoaDon);
+                BUSTimKiemHoaDon.Instance.TimKiemHoaDonTheoMaKH(txtMaKH, dgvTimKiemHoaDon, mach);
             }
             else
             {
-                BUSTimKiemHoaDon.Instance.TimKiemHoaDonTheoNgayBan(dtpNgay, dgvTimKiemHoaDon);
+                BUSTimKiemHoaDon.Instance.TimKiemHoaDonTheoNgayBan(dtpNgay, dgvTimKiemHoaDon, mach);
             }
         }
 

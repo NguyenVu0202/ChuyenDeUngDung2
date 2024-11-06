@@ -1,26 +1,12 @@
-﻿<?xml version="1.0" encoding="utf-8"?><Database Name="BachHoaXanh1" Class="DataBHXDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
-  <Connection Mode="AppSettings" ConnectionString="Data Source=TNgan_2884\SQLEXPRESS;Initial Catalog=BachHoaXanh1;Integrated Security=True;Encrypt=True;Trust Server Certificate=True" SettingsObjectName="DAO.Properties.Settings" SettingsPropertyName="BachHoaXanh1ConnectionString" Provider="System.Data.SqlClient" />
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="BachHoaXanh" Class="DataBHXDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-L5A96KD;Initial Catalog=BachHoaXanh;Integrated Security=True;Encrypt=True;Trust Server Certificate=True" SettingsObjectName="DAO.Properties.Settings" SettingsPropertyName="BachHoaXanhConnectionString2" Provider="System.Data.SqlClient" />
   <Table Name="dbo.Account" Member="Accounts">
     <Type Name="Account">
       <Column Name="TaiKhoan" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
       <Column Name="MatKhau" Type="System.String" DbType="NVarChar(12)" CanBeNull="true" />
       <Column Name="MaNV" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="Role" Type="System.Int32" DbType="Int" CanBeNull="true" />
       <Association Name="NhanVien_Account" Member="NhanVien" ThisKey="MaNV" OtherKey="MaNV" Type="NhanVien" IsForeignKey="true" />
-    </Type>
-  </Table>
-  <Table Name="dbo.SanPham" Member="SanPhams">
-    <Type Name="SanPham">
-      <Column Name="MaSP" Type="System.String" DbType="NVarChar(20) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
-      <Column Name="MaLoai" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
-      <Column Name="MaNCC" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
-      <Column Name="TenSP" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
-      <Column Name="GiaBan" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
-      <Column Name="HinhAnh" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
-      <Column Name="GhiChu" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
-      <Association Name="SanPham_ChiTietHoaDon" Member="ChiTietHoaDons" ThisKey="MaSP" OtherKey="MaSP" Type="ChiTietHoaDon" />
-      <Association Name="SanPham_Kho" Member="Khos" ThisKey="MaSP" OtherKey="MaSP" Type="Kho" />
-      <Association Name="Loai_SanPham" Member="Loai" ThisKey="MaLoai" OtherKey="MaLoai" Type="Loai" IsForeignKey="true" />
-      <Association Name="NCC_SanPham" Member="NCC" ThisKey="MaNCC" OtherKey="MaNCC" Type="NCC" IsForeignKey="true" />
     </Type>
   </Table>
   <Table Name="dbo.ChiTietHoaDon" Member="ChiTietHoaDons">
@@ -32,8 +18,8 @@
       <Column Name="GiaSP" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
       <Column Name="GiamGia" Type="System.Int32" DbType="Int" CanBeNull="true" />
       <Column Name="ThanhTien" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
-      <Association Name="SanPham_ChiTietHoaDon" Member="SanPham" ThisKey="MaSP" OtherKey="MaSP" Type="SanPham" IsForeignKey="true" />
       <Association Name="HoaDon_ChiTietHoaDon" Member="HoaDon" ThisKey="MaHD" OtherKey="MaHD" Type="HoaDon" IsForeignKey="true" />
+      <Association Name="SanPham_ChiTietHoaDon" Member="SanPham" ThisKey="MaSP" OtherKey="MaSP" Type="SanPham" IsForeignKey="true" />
     </Type>
   </Table>
   <Table Name="dbo.CuaHang" Member="CuaHangs">
@@ -41,7 +27,6 @@
       <Column Name="MaCH" Type="System.String" DbType="NVarChar(20) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
       <Column Name="DiaChi" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
       <Association Name="CuaHang_Kho" Member="Khos" ThisKey="MaCH" OtherKey="MaCH" Type="Kho" />
-      <Association Name="CuaHang_Kho1" Member="Khos1" ThisKey="MaCH" OtherKey="MaCH" Type="Kho" />
       <Association Name="CuaHang_NhanVien" Member="NhanViens" ThisKey="MaCH" OtherKey="MaCH" Type="NhanVien" />
     </Type>
   </Table>
@@ -74,7 +59,6 @@
       <Column Name="MaSP" Type="System.String" DbType="NVarChar(20) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
       <Column Name="SoLuong" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
       <Association Name="CuaHang_Kho" Member="CuaHang" ThisKey="MaCH" OtherKey="MaCH" Type="CuaHang" IsForeignKey="true" />
-      <Association Name="CuaHang_Kho1" Member="CuaHang1" ThisKey="MaCH" OtherKey="MaCH" Type="CuaHang" IsForeignKey="true" />
       <Association Name="SanPham_Kho" Member="SanPham" ThisKey="MaSP" OtherKey="MaSP" Type="SanPham" IsForeignKey="true" />
     </Type>
   </Table>
@@ -106,6 +90,21 @@
       <Association Name="NhanVien_Account" Member="Accounts" ThisKey="MaNV" OtherKey="MaNV" Type="Account" />
       <Association Name="NhanVien_HoaDon" Member="HoaDons" ThisKey="MaNV" OtherKey="MaNV" Type="HoaDon" />
       <Association Name="CuaHang_NhanVien" Member="CuaHang" ThisKey="MaCH" OtherKey="MaCH" Type="CuaHang" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SanPham" Member="SanPhams">
+    <Type Name="SanPham">
+      <Column Name="MaSP" Type="System.String" DbType="NVarChar(20) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="MaLoai" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="MaNCC" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="TenSP" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="GiaBan" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="HinhAnh" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Column Name="GhiChu" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Association Name="SanPham_ChiTietHoaDon" Member="ChiTietHoaDons" ThisKey="MaSP" OtherKey="MaSP" Type="ChiTietHoaDon" />
+      <Association Name="SanPham_Kho" Member="Khos" ThisKey="MaSP" OtherKey="MaSP" Type="Kho" />
+      <Association Name="NCC_SanPham" Member="NCC" ThisKey="MaNCC" OtherKey="MaNCC" Type="NCC" IsForeignKey="true" />
+      <Association Name="Loai_SanPham" Member="Loai" ThisKey="MaLoai" OtherKey="MaLoai" Type="Loai" IsForeignKey="true" />
     </Type>
   </Table>
 </Database>

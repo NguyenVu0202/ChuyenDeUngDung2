@@ -133,7 +133,7 @@ namespace ChuyenDe
 
         private void mnuTimKiemHoaDon_Click(object sender, EventArgs e)
         {
-            frmTimKiemHoaDon frm = new frmTimKiemHoaDon();
+            frmTimKiemHoaDon frm = new frmTimKiemHoaDon(manv);
             frm.MdiParent = this;
             frm.Show();
         }

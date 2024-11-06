@@ -143,24 +143,34 @@ namespace DAO
             }
             return 0;
         }
-        public void ThanhToan()
+        public void ThanhToan(string makh)
         {
             HoaDon hd = db.HoaDons.FirstOrDefault(x => x.TongTien == 0);
             var cthd = (from ct in db.ChiTietHoaDons
                                              where ct.MaHD == null
                                              select ct).ToList();
+            var cthd1 = (from ct in db.ChiTietHoaDons
+                        where ct.MaHD == null
+                        select ct).FirstOrDefault();
+
             var tt = db.ChiTietHoaDons
                            .Where(x => x.MaHD == null)
                            .Sum(x => (decimal?)x.ThanhTien)
                            .GetValueOrDefault();
-            hd.TongTien = tt;
 
-            foreach (var ct in cthd)
+            if (hd != null)
             {
-                ct.MaHD = hd.MaHD;
-                
+                hd.TongTien = tt;
+                hd.MaKH = string.IsNullOrEmpty(makh) ? null : makh;
+
+                foreach (var ct in cthd)
+                {
+                    ct.MaHD = hd.MaHD;
+                }
+
+                db.SubmitChanges();
             }
-            db.SubmitChanges();
+
         }
         public void XoaCTHD(string masp)
         {

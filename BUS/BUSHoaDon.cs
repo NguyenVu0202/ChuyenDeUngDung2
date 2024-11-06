@@ -65,9 +65,9 @@ namespace BUS
         {
             return DAOHoaDon.Instance.TinhTongTienHD();
         }
-        public void ThanhToan()
+        public void ThanhToan(string makh)
         {
-            DAOHoaDon.Instance.ThanhToan();
+            DAOHoaDon.Instance.ThanhToan(makh);
         }
         public void XoaCTHD(string masp)
         {

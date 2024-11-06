@@ -23,6 +23,7 @@ namespace ChuyenDe
 		private string manv = "";
         private string masp = "";
         private string soluong = "";
+        private string makh = "";
         private string mabarcode;
         private FilterInfoCollection FilterInfoCollection; //bien luu thong tin cac thiet bi video
         private VideoCaptureDevice VideoCaptureDevice; //bien tuong tac voi cac thiet bi video
@@ -132,7 +133,7 @@ namespace ChuyenDe
             string masp = txtMaSP.Text;
             string soluong = txtSoLuong.Text;
             string giamgia = txtGiamGia.Text;
-            string makh = txtMaKH.Text;
+            makh = txtMaKH.Text;
             decimal sl = KiemtraslSanPham();
 
             if (string.IsNullOrWhiteSpace(masp) || string.IsNullOrWhiteSpace(soluong))
@@ -251,7 +252,7 @@ namespace ChuyenDe
 
         private void btnThanhToan_Click(object sender, EventArgs e)
         {
-            BUSHoaDon.Instance.ThanhToan();
+            BUSHoaDon.Instance.ThanhToan(makh);
             LoadChiTietHoaDon();
             txtMaSP.Text = "";
             txtTenSP.Text = "";
