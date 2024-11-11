@@ -27,7 +27,7 @@ namespace DAO
         public void LoadCbMaCH(ComboBox cb)
         {
             List<string> lst = new List<string>();
-            using (DataBHXDataContext db = new DataBHXDataContext())
+            using (DataBHXDataContext db = new DataBHXDataContext(DAODoiChuoiKetNoi.Instance.ThayDoiChuoiKetNoi()))
             {
                 var mach = from k in db.CuaHangs
                            select new { k.MaCH };
@@ -44,7 +44,7 @@ namespace DAO
         {
             try
             {
-                using (DataBHXDataContext db = new DataBHXDataContext())
+                using (DataBHXDataContext db = new DataBHXDataContext(DAODoiChuoiKetNoi.Instance.ThayDoiChuoiKetNoi()))
                 {
                     db.NhanViens.InsertOnSubmit(nhanVien);
                     db.SubmitChanges();
@@ -61,7 +61,7 @@ namespace DAO
         public List<NhanVien> LoadNV()
         {
             List<NhanVien> listnv = new List<NhanVien>();
-            DataBHXDataContext db = new DataBHXDataContext();
+            DataBHXDataContext db = new DataBHXDataContext(DAODoiChuoiKetNoi.Instance.ThayDoiChuoiKetNoi());
             var nv = (from s in db.NhanViens
                       select new
                       {
@@ -125,7 +125,7 @@ namespace DAO
         {
             try
             {
-                DataBHXDataContext db = new DataBHXDataContext();
+                DataBHXDataContext db = new DataBHXDataContext(DAODoiChuoiKetNoi.Instance.ThayDoiChuoiKetNoi());
 
                 // Tìm nhân viên dựa trên mã nhân viên (MaNV)
                 NhanVien nv = db.NhanViens.SingleOrDefault(p => p.MaNV == nhanVien.MaNV);
@@ -166,7 +166,7 @@ namespace DAO
         {
             try
             {
-                DataBHXDataContext db = new DataBHXDataContext();
+                DataBHXDataContext db = new DataBHXDataContext(DAODoiChuoiKetNoi.Instance.ThayDoiChuoiKetNoi());
                 var nv = db.NhanViens.FirstOrDefault(p => p.MaNV == maNV);
                 db.NhanViens.DeleteOnSubmit(nv);
                 db.SubmitChanges();
@@ -182,7 +182,7 @@ namespace DAO
         public List<NhanVien> TimKiemNVTheoMaNV(string MaNV)
         {
             List<NhanVien> list = new List<NhanVien>();
-            DataBHXDataContext db = new DataBHXDataContext();
+            DataBHXDataContext db = new DataBHXDataContext(DAODoiChuoiKetNoi.Instance.ThayDoiChuoiKetNoi());
             var nv = db.NhanViens.SingleOrDefault(p => p.MaNV == MaNV);
             if (nv != null)
             {
@@ -211,7 +211,7 @@ namespace DAO
         public List<NhanVien> TimKiemNVTheoSĐTNV(string MaNV)
         {
             List<NhanVien> list = new List<NhanVien>();
-            DataBHXDataContext db = new DataBHXDataContext();
+            DataBHXDataContext db = new DataBHXDataContext(DAODoiChuoiKetNoi.Instance.ThayDoiChuoiKetNoi());
             var nv = db.NhanViens.SingleOrDefault(p => p.SDT == MaNV);
             if (nv != null)
             {
@@ -238,7 +238,7 @@ namespace DAO
 
         public bool KiemTraMaNV(string maNV)
         {
-            using (DataBHXDataContext db = new DataBHXDataContext())
+            using (DataBHXDataContext db = new DataBHXDataContext(DAODoiChuoiKetNoi.Instance.ThayDoiChuoiKetNoi()))
             {
                 return db.NhanViens.Any(nv => nv.MaNV == maNV);
             }
@@ -249,7 +249,7 @@ namespace DAO
         //Load Mã Nhân Viên
         public List<string> LoadMaNV()
         {
-            using (DataBHXDataContext db = new DataBHXDataContext())
+            using (DataBHXDataContext db = new DataBHXDataContext(DAODoiChuoiKetNoi.Instance.ThayDoiChuoiKetNoi()))
             {
                 // Lấy danh sách MaNV từ bảng NhanVien và chuyển thành List<string>
                 return db.NhanViens
@@ -261,7 +261,7 @@ namespace DAO
         //Load Tên Nhân Viên
         public List<string> LoadSDTNV()
         {
-            using (DataBHXDataContext db = new DataBHXDataContext())
+            using (DataBHXDataContext db = new DataBHXDataContext(DAODoiChuoiKetNoi.Instance.ThayDoiChuoiKetNoi()))
             {
                 // Lấy danh sách số điện thoại từ bảng NhanVien và chuyển thành List<string>
                 return db.NhanViens

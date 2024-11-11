@@ -10,7 +10,7 @@ namespace DAO
     public class DAOHoaDon
     {
         private static DAOHoaDon instance;
-        DataBHXDataContext db = new DataBHXDataContext();
+        DataBHXDataContext db = new DataBHXDataContext(DAODoiChuoiKetNoi.Instance.ThayDoiChuoiKetNoi());
         public static DAOHoaDon Instance
         {
             get
@@ -237,11 +237,15 @@ namespace DAO
         }
         public decimal KiemtraslSanPham(string manv, string masp)
         {
-            var sl = (from k in db.Khos
-                      join nv in db.NhanViens on k.MaCH equals nv.MaCH
-                      where nv.MaNV == manv && k.MaSP == masp
-                      select k.SoLuong).FirstOrDefault();
-            return (decimal)sl;
+            if (!string.IsNullOrEmpty(manv) && !string.IsNullOrEmpty(masp))
+            {
+				var sl = (from k in db.Khos
+						  join nv in db.NhanViens on k.MaCH equals nv.MaCH
+						  where nv.MaNV == manv && k.MaSP == masp
+						  select k.SoLuong).FirstOrDefault();
+				return (decimal)sl;
+			}
+            return 0;
         }
     }
 }

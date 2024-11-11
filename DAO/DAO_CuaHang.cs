@@ -29,7 +29,7 @@ namespace DAO
         public List<CuaHang> Xem()
         {
             List<CuaHang>  cuaHang = new List<CuaHang>();
-            using (DataBHXDataContext db = new DataBHXDataContext())
+            using (DataBHXDataContext db = new DataBHXDataContext(DAODoiChuoiKetNoi.Instance.ThayDoiChuoiKetNoi()))
             {
                 cuaHang = db.CuaHangs.Select(x => x).ToList();
             }
@@ -39,7 +39,7 @@ namespace DAO
         //Them Cua Hang
         public void Them(CuaHang cuaHang)
         {
-            using (DataBHXDataContext db = new DataBHXDataContext())
+            using (DataBHXDataContext db = new DataBHXDataContext(DAODoiChuoiKetNoi.Instance.ThayDoiChuoiKetNoi()))
             {
                 db.CuaHangs.InsertOnSubmit(cuaHang);
                 db.SubmitChanges();
@@ -50,7 +50,7 @@ namespace DAO
         //Xoa Cua Hang
         public void Xoa(TextBox cuaHang)
         {
-            using (DataBHXDataContext db = new DataBHXDataContext())
+            using (DataBHXDataContext db = new DataBHXDataContext(DAODoiChuoiKetNoi.Instance.ThayDoiChuoiKetNoi()))
             {
                 try
                 {
@@ -72,7 +72,7 @@ namespace DAO
         //Sua Cua Hang
         public bool Sua(string maCH, CuaHang ch)
         {
-            using (DataBHXDataContext db = new DataBHXDataContext())
+            using (DataBHXDataContext db = new DataBHXDataContext(DAODoiChuoiKetNoi.Instance.ThayDoiChuoiKetNoi()))
             {
                 var chupdate = db.CuaHangs.SingleOrDefault(a => a.MaCH == maCH);
                 if (chupdate != null)

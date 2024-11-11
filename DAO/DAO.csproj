@@ -84,6 +84,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DAOAccount.cs" />
+    <Compile Include="DAODoiChuoiKetNoi.cs" />
     <Compile Include="DAOHoaDon.cs" />
     <Compile Include="DAOKhachHang.cs" />
     <Compile Include="DAOLoai.cs" />

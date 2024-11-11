@@ -10,7 +10,7 @@ namespace DAO
     public class DAOLoai
     {
         private static DAOLoai instance;
-        DataBHXDataContext db = new DataBHXDataContext();
+        DataBHXDataContext db = new DataBHXDataContext(DAODoiChuoiKetNoi.Instance.ThayDoiChuoiKetNoi());
         public static DAOLoai Instance
         {
             get

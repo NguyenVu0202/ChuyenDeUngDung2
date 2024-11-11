@@ -83,6 +83,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BUSAccount.cs" />
+    <Compile Include="BUSDoiChuoiKetNoi.cs" />
     <Compile Include="BUSHoaDon.cs" />
     <Compile Include="BUSKhachHang.cs" />
     <Compile Include="BUSLoai.cs" />

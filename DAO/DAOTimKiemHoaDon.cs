@@ -36,7 +36,7 @@ namespace DAO
         {
             List<HoaDonDTO> lst = new List<HoaDonDTO>();
 
-            using (DataBHXDataContext db = new DataBHXDataContext())
+            using (DataBHXDataContext db = new DataBHXDataContext(DAODoiChuoiKetNoi.Instance.ThayDoiChuoiKetNoi()))
             {
                 var hoadon = (from hd in db.HoaDons
                               join nv in db.NhanViens on hd.MaNV equals nv.MaNV
@@ -75,7 +75,7 @@ namespace DAO
         {
             List<HoaDonDTO> lst = new List<HoaDonDTO>();
 
-            using (DataBHXDataContext db = new DataBHXDataContext())
+            using (DataBHXDataContext db = new DataBHXDataContext(DAODoiChuoiKetNoi.Instance.ThayDoiChuoiKetNoi()))
             {
                 var hoadon = (from hd in db.HoaDons
                               join nv in db.NhanViens on hd.MaNV equals nv.MaNV
@@ -114,7 +114,7 @@ namespace DAO
         {
             List<HoaDonDTO> lst = new List<HoaDonDTO>();
 
-            using (DataBHXDataContext db = new DataBHXDataContext())
+            using (DataBHXDataContext db = new DataBHXDataContext(DAODoiChuoiKetNoi.Instance.ThayDoiChuoiKetNoi()))
             {
                 var ngayBanFormatted = Convert.ToDateTime(ngayban).ToString("yyyy/MM/dd");
                 var hoadon = (from hd in db.HoaDons
@@ -144,7 +144,7 @@ namespace DAO
         }
         public string MaCuaHang(string manv)
         {
-            using (DataBHXDataContext db = new DataBHXDataContext())
+            using (DataBHXDataContext db = new DataBHXDataContext(DAODoiChuoiKetNoi.Instance.ThayDoiChuoiKetNoi()))
             {
                 var mch = db.NhanViens.FirstOrDefault(x => x.MaNV ==  manv);
                 string mach = mch.MaCH;
