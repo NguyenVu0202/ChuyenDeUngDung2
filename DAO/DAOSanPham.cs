@@ -13,7 +13,7 @@ namespace DAO
 	public class DAOSanPham
 	{
 		private static DAOSanPham instance;
-		DataBHXDataContext db = new DataBHXDataContext();
+		DataBHXDataContext db = new DataBHXDataContext(DAODoiChuoiKetNoi.Instance.ThayDoiChuoiKetNoi());
 
 		public static DAOSanPham Instance
 		{

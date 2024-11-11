@@ -11,7 +11,7 @@ namespace DAO
     public class DAOKhachHang
     {
         private static DAOKhachHang instance;
-        DataBHXDataContext db = new DataBHXDataContext();
+        DataBHXDataContext db = new DataBHXDataContext(DAODoiChuoiKetNoi.Instance.ThayDoiChuoiKetNoi());
         public static DAOKhachHang Instance
         {
             get

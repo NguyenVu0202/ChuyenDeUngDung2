@@ -11,7 +11,7 @@ namespace DAO
 	public class DAOAccount
 	{
 		private static DAOAccount instance;
-		DataBHXDataContext db = new DataBHXDataContext();
+		DataBHXDataContext db = new DataBHXDataContext(DAODoiChuoiKetNoi.Instance.ThayDoiChuoiKetNoi());
 		public static DAOAccount Instance
 		{
 			get

@@ -29,7 +29,7 @@ namespace DAO
         {
             List<string> list = new List<string>();
 
-            using (DataBHXDataContext db = new DataBHXDataContext())
+            using (DataBHXDataContext db = new DataBHXDataContext(DAODoiChuoiKetNoi.Instance.ThayDoiChuoiKetNoi()))
             {
                 var mach = (from ch in db.CuaHangs
                             select new
@@ -55,7 +55,7 @@ namespace DAO
             table.Columns.Add("TuNgay", typeof(string));
             table.Columns.Add("DenNgay", typeof(string));
 
-            using (DataBHXDataContext db = new DataBHXDataContext())
+            using (DataBHXDataContext db = new DataBHXDataContext(DAODoiChuoiKetNoi.Instance.ThayDoiChuoiKetNoi()))
             {
                 var tuNgayFormatted = Convert.ToDateTime(tungay);
                 var toiNgayFormatted = Convert.ToDateTime(toingay);

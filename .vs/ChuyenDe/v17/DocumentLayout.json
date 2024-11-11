@@ -1,20 +1,7 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "F:\\New folder\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{9428D986-429C-40C9-BFCA-21FCA92C5A08}|BUS\\BUS.csproj|f:\\new folder\\bus\\bustimkiemhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9428D986-429C-40C9-BFCA-21FCA92C5A08}|BUS\\BUS.csproj|solutionrelative:bus\\bustimkiemhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|f:\\new folder\\chuyende\\frmtimkiemhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|solutionrelative:chuyende\\frmtimkiemhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B28102B4-A63A-4D91-93A7-3058447513E1}|DAO\\DAO.csproj|f:\\new folder\\dao\\daotimkiemhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B28102B4-A63A-4D91-93A7-3058447513E1}|DAO\\DAO.csproj|solutionrelative:dao\\daotimkiemhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "WorkspaceRootPath": "C:\\Users\\NGUYEN VU\\Desktop\\New folder\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
@@ -22,50 +9,11 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DAOTimKiemHoaDon.cs",
-              "DocumentMoniker": "F:\\New folder\\DAO\\DAOTimKiemHoaDon.cs",
-              "RelativeDocumentMoniker": "DAO\\DAOTimKiemHoaDon.cs",
-              "ToolTip": "F:\\New folder\\DAO\\DAOTimKiemHoaDon.cs",
-              "RelativeToolTip": "DAO\\DAOTimKiemHoaDon.cs",
-              "ViewState": "AQIAAFkAAAAAAAAAAADwv1kAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T14:10:59.554Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frmTimKiemHoaDon.cs",
-              "DocumentMoniker": "F:\\New folder\\ChuyenDe\\frmTimKiemHoaDon.cs",
-              "RelativeDocumentMoniker": "ChuyenDe\\frmTimKiemHoaDon.cs",
-              "ToolTip": "F:\\New folder\\ChuyenDe\\frmTimKiemHoaDon.cs",
-              "RelativeToolTip": "ChuyenDe\\frmTimKiemHoaDon.cs",
-              "ViewState": "AQIAADoAAAAAAAAAAAAwwEkAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T14:14:51.594Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BUSTimKiemHoaDon.cs",
-              "DocumentMoniker": "F:\\New folder\\BUS\\BUSTimKiemHoaDon.cs",
-              "RelativeDocumentMoniker": "BUS\\BUSTimKiemHoaDon.cs",
-              "ToolTip": "F:\\New folder\\BUS\\BUSTimKiemHoaDon.cs",
-              "RelativeToolTip": "BUS\\BUSTimKiemHoaDon.cs",
-              "ViewState": "AQIAADMAAAAAAAAAAAAkwEAAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T14:13:50.726Z",
-              "EditorCaption": ""
             }
           ]
         }

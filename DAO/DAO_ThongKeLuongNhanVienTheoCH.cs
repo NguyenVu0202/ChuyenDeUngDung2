@@ -25,7 +25,7 @@ namespace DAO
         {
             List<string> list = new List<string>();
 
-            using (DataBHXDataContext db = new DataBHXDataContext())
+            using (DataBHXDataContext db = new DataBHXDataContext(DAODoiChuoiKetNoi.Instance.ThayDoiChuoiKetNoi()))
             {
                 var mach = (from ch in db.CuaHangs
                             select new
@@ -44,7 +44,7 @@ namespace DAO
         public List<NhanVien> ThongKeLuongNVTheoCH(string maCH)
         {
             List<NhanVien> list = new List<NhanVien>();
-            using (DataBHXDataContext db = new DataBHXDataContext())
+            using (DataBHXDataContext db = new DataBHXDataContext(DAODoiChuoiKetNoi.Instance.ThayDoiChuoiKetNoi()))
             {
                 // Truy vấn để lấy nhân viên theo MaCH và sắp xếp theo Luong giảm dần
                 var nhanvien = (from nv in db.NhanViens

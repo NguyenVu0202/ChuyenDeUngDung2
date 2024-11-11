@@ -30,7 +30,7 @@ namespace DAO
         public void LoadCbMaSP(ComboBox cb)
         {
             Dictionary<string, string> lst = new Dictionary<string, string>();
-            using (DataBHXDataContext db = new DataBHXDataContext())
+            using (DataBHXDataContext db = new DataBHXDataContext(DAODoiChuoiKetNoi.Instance.ThayDoiChuoiKetNoi()))
             {
                 var tenSP = from sp in db.SanPhams
                             select new
@@ -52,7 +52,7 @@ namespace DAO
         public void LoadCbMaCH(ComboBox cb)
         {
             List<string> lst = new List<string>();
-            using (DataBHXDataContext db = new DataBHXDataContext())
+            using (DataBHXDataContext db = new DataBHXDataContext(DAODoiChuoiKetNoi.Instance.ThayDoiChuoiKetNoi()))
             {
                 var mach = from k in db.CuaHangs
                            select new { k.MaCH };
@@ -97,7 +97,7 @@ namespace DAO
 
         public List<object> GetKhoWithProductName()
         {
-            using (DataBHXDataContext db = new DataBHXDataContext())
+            using (DataBHXDataContext db = new DataBHXDataContext(DAODoiChuoiKetNoi.Instance.ThayDoiChuoiKetNoi()))
             {
                 var query = from kho in db.Khos
                             join sanPham in db.SanPhams on kho.MaSP equals sanPham.MaSP
@@ -115,7 +115,7 @@ namespace DAO
 
         public string GetTenSanPham(string maSP)
         {
-            using (DataBHXDataContext db = new DataBHXDataContext())
+            using (DataBHXDataContext db = new DataBHXDataContext(DAODoiChuoiKetNoi.Instance.ThayDoiChuoiKetNoi()))
             {
                 var sanPham = db.SanPhams.FirstOrDefault(sp => sp.MaSP == maSP);
                 return sanPham?.TenSP; // Trả về tên sản phẩm hoặc null nếu không tìm thấy
@@ -128,7 +128,7 @@ namespace DAO
         {
                 try
                 {
-                    using (DataBHXDataContext db = new DataBHXDataContext())
+                    using (DataBHXDataContext db = new DataBHXDataContext(DAODoiChuoiKetNoi.Instance.ThayDoiChuoiKetNoi()))
                     {
                         var kho = db.Khos.FirstOrDefault(p => p.MaKho == maKho);
                         db.Khos.DeleteOnSubmit(kho);
@@ -144,7 +144,7 @@ namespace DAO
 
         public void LoadDgvLenForm(TextBox maKho, ComboBox maCH, ComboBox maSP, TextBox soLuong, DataGridView data)
         {
-            using (DataBHXDataContext db = new DataBHXDataContext())
+            using (DataBHXDataContext db = new DataBHXDataContext(DAODoiChuoiKetNoi.Instance.ThayDoiChuoiKetNoi()))
             {
                 var rowIndex = data.SelectedCells[0].RowIndex;
                 var row = data.Rows[rowIndex];
@@ -171,7 +171,7 @@ namespace DAO
             table.Columns.Add("TenSP", typeof(string));
             table.Columns.Add("HinhAnh", typeof(string));
             table.Columns.Add("SoLuong", typeof(decimal));
-            DataBHXDataContext db = new DataBHXDataContext();
+            DataBHXDataContext db = new DataBHXDataContext(DAODoiChuoiKetNoi.Instance.ThayDoiChuoiKetNoi());
             var kho = (from sp in db.SanPhams
                        join k in db.Khos on sp.MaSP equals k.MaSP
                        join ch in db.CuaHangs on k.MaCH equals ch.MaCH
@@ -208,7 +208,7 @@ namespace DAO
 
         public List<string> LoadMaKho()
         {
-            using (DataBHXDataContext db = new DataBHXDataContext())
+            using (DataBHXDataContext db = new DataBHXDataContext(DAODoiChuoiKetNoi.Instance.ThayDoiChuoiKetNoi()))
             {
                 // Lấy danh sách MaNV từ bảng NhanVien và chuyển thành List<string>
                 return db.Khos
@@ -218,37 +218,44 @@ namespace DAO
         }
 
         public void Them(string maKho,Kho kho)
-        { DataBHXDataContext db = new DataBHXDataContext();
-            var mch = db.Khos.FirstOrDefault(x => x.MaKho == maKho);
+        {
+			DataBHXDataContext db = new DataBHXDataContext(DAODoiChuoiKetNoi.Instance.ThayDoiChuoiKetNoi());
 
-            if (mch == null)
-            {
-                var mach = db.Khos.Any(x => x.MaCH == null && x.MaKho != maKho);
-                if (mach == false)
-                {
-                    db.Khos.InsertOnSubmit(kho);
-                    db.SubmitChanges();
-                }
-                else
-                {
-                    MessageBox.Show("Loi!!!");
-                }
-            }
-            else
-            {
-                var mach = db.Khos.Any(x => x.MaCH == mch.MaCH && x.MaKho == maKho);
-                if (mach == false )
-                {
-                    db.Khos.InsertOnSubmit(kho);
-                    db.SubmitChanges();
-                }
-                else
-                {
-                    MessageBox.Show("Mã kho không tồn tại trong cửa hàng này.!!!");
-                }
-            }
+			// Kiểm tra xem cửa hàng đã có kho chưa
+			var khoTonTai = db.Khos.FirstOrDefault(x => x.MaCH == kho.MaCH);
 
+			if (khoTonTai != null)
+			{
+				// Nếu cửa hàng đã có kho, thêm sản phẩm mới vào kho hiện có
+				var sanPhamMoi = new Kho
+				{
+					MaKho = khoTonTai.MaKho,
+					MaCH = khoTonTai.MaCH,
+					MaSP = kho.MaSP,
+					SoLuong = kho.SoLuong
+				};
 
-        }
-    }
+				db.Khos.InsertOnSubmit(sanPhamMoi);
+				db.SubmitChanges();
+			}
+			else
+			{
+				// Nếu cửa hàng chưa có kho, kiểm tra xem MaKho đã tồn tại chưa
+				var khoDaTonTai = db.Khos.FirstOrDefault(x => x.MaKho == kho.MaKho);
+
+				if (khoDaTonTai != null)
+				{
+
+					MessageBox.Show("Mã kho này đã tồn tại trong một cửa hàng, không thể thêm vào cửa hàng này!");
+				}
+				else
+				{
+
+					db.Khos.InsertOnSubmit(kho);
+					db.SubmitChanges();
+				}
+			}
+
+		}
+	}
 }

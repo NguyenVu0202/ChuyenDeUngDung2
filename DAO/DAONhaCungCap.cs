@@ -11,7 +11,7 @@ namespace DAO
     public class DAONhaCungCap
     {
         private static DAONhaCungCap instance;
-        DataBHXDataContext db = new DataBHXDataContext();
+        DataBHXDataContext db = new DataBHXDataContext(DAODoiChuoiKetNoi.Instance.ThayDoiChuoiKetNoi());
         public static DAONhaCungCap Instance
         {
             get
