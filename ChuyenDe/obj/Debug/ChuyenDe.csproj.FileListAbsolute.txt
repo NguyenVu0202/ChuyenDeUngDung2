@@ -1328,3 +1328,5 @@ C:\Users\Hp\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.exe
 C:\Users\Hp\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.pdb
 C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmReportHoaDon.resources
 C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmReportTimKiemHoaDon.resources
+F:\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmReportTimKiemHoaDon.resources
+F:\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmReportHoaDon.resources

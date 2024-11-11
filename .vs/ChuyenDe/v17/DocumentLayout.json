@@ -1,9 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\NGUYEN VU\\Desktop\\New folder\\",
+  "WorkspaceRootPath": "F:\\New folder\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|c:\\users\\nguyen vu\\desktop\\new folder\\chuyende\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|f:\\new folder\\chuyende\\rpthoadon.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}",
+      "RelativeMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|solutionrelative:chuyende\\rpthoadon.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|f:\\new folder\\chuyende\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|solutionrelative:chuyende\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -23,14 +27,26 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "rptHoaDon.rdlc [Design]",
+              "DocumentMoniker": "F:\\New folder\\ChuyenDe\\rptHoaDon.rdlc",
+              "RelativeDocumentMoniker": "ChuyenDe\\rptHoaDon.rdlc",
+              "ToolTip": "F:\\New folder\\ChuyenDe\\rptHoaDon.rdlc [Design]",
+              "RelativeToolTip": "ChuyenDe\\rptHoaDon.rdlc [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001755|",
+              "WhenOpened": "2024-11-11T17:09:39.076Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\NGUYEN VU\\Desktop\\New folder\\ChuyenDe\\Program.cs",
+              "DocumentMoniker": "F:\\New folder\\ChuyenDe\\Program.cs",
               "RelativeDocumentMoniker": "ChuyenDe\\Program.cs",
-              "ToolTip": "C:\\Users\\NGUYEN VU\\Desktop\\New folder\\ChuyenDe\\Program.cs",
+              "ToolTip": "F:\\New folder\\ChuyenDe\\Program.cs",
               "RelativeToolTip": "ChuyenDe\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T16:43:42.863Z",
+              "WhenOpened": "2024-11-11T17:08:06.29Z",
               "EditorCaption": ""
             }
           ]
