@@ -347,5 +347,13 @@ namespace ChuyenDe
         {
             return BUSHoaDon.Instance.KiemtraslSanPham(manv, txtMaSP);
         }
+
+        private void btnIn_Click(object sender, EventArgs e)
+        {
+            frmReportHoaDon frm = new frmReportHoaDon();
+            this.Hide();
+            frm.ShowDialog();
+            this.Close();
+        }
     }
 }

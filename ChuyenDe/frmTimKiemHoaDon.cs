@@ -111,5 +111,13 @@ namespace ChuyenDe
                 this.Close();
             }
         }
+
+        private void btnIn_Click(object sender, EventArgs e)
+        {
+            frmReportTimKiemHoaDon frm = new frmReportTimKiemHoaDon();
+            this.Hide();
+            frm.ShowDialog();
+            this.Close();
+        }
     }
 }

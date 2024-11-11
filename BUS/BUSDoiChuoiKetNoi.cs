@@ -21,9 +21,9 @@ namespace BUS
         }
 
         private BUSDoiChuoiKetNoi() { }
-        public void ThayDoiChuoiKetNoi()
+        public string ThayDoiChuoiKetNoi()
         {
-            DAODoiChuoiKetNoi.Instance.ThayDoiChuoiKetNoi();
+            return DAODoiChuoiKetNoi.Instance.ThayDoiChuoiKetNoi();
         }
     }
 }
