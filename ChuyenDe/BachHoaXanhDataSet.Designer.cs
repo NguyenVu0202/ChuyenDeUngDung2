@@ -332,6 +332,12 @@ namespace ChuyenDe {
             
             private global::System.Data.DataColumn columnSoLuong;
             
+            private global::System.Data.DataColumn columnMaHD;
+            
+            private global::System.Data.DataColumn columnMaKH;
+            
+            private global::System.Data.DataColumn columnTenKH;
+            
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public ReportHoaDonDataTable() {
@@ -439,6 +445,30 @@ namespace ChuyenDe {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public global::System.Data.DataColumn MaHDColumn {
+                get {
+                    return this.columnMaHD;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public global::System.Data.DataColumn MaKHColumn {
+                get {
+                    return this.columnMaKH;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public global::System.Data.DataColumn TenKHColumn {
+                get {
+                    return this.columnTenKH;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             [global::System.ComponentModel.Browsable(false)]
             public int Count {
                 get {
@@ -474,7 +504,7 @@ namespace ChuyenDe {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public ReportHoaDonRow AddReportHoaDonRow(string DiaChi, System.DateTime NgayBan, string TenNV, string TenSP, decimal GiaBan, int GiamGia, decimal ThanhTien, decimal TongTien, decimal SoLuong) {
+            public ReportHoaDonRow AddReportHoaDonRow(string DiaChi, System.DateTime NgayBan, string TenNV, string TenSP, decimal GiaBan, int GiamGia, decimal ThanhTien, decimal TongTien, decimal SoLuong, string MaKH, string TenKH) {
                 ReportHoaDonRow rowReportHoaDonRow = ((ReportHoaDonRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         DiaChi,
@@ -485,7 +515,10 @@ namespace ChuyenDe {
                         GiamGia,
                         ThanhTien,
                         TongTien,
-                        SoLuong};
+                        SoLuong,
+                        null,
+                        MaKH,
+                        TenKH};
                 rowReportHoaDonRow.ItemArray = columnValuesArray;
                 this.Rows.Add(rowReportHoaDonRow);
                 return rowReportHoaDonRow;
@@ -517,6 +550,9 @@ namespace ChuyenDe {
                 this.columnThanhTien = base.Columns["ThanhTien"];
                 this.columnTongTien = base.Columns["TongTien"];
                 this.columnSoLuong = base.Columns["SoLuong"];
+                this.columnMaHD = base.Columns["MaHD"];
+                this.columnMaKH = base.Columns["MaKH"];
+                this.columnTenKH = base.Columns["TenKH"];
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -540,9 +576,20 @@ namespace ChuyenDe {
                 base.Columns.Add(this.columnTongTien);
                 this.columnSoLuong = new global::System.Data.DataColumn("SoLuong", typeof(decimal), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnSoLuong);
+                this.columnMaHD = new global::System.Data.DataColumn("MaHD", typeof(int), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnMaHD);
+                this.columnMaKH = new global::System.Data.DataColumn("MaKH", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnMaKH);
+                this.columnTenKH = new global::System.Data.DataColumn("TenKH", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnTenKH);
                 this.columnDiaChi.MaxLength = 200;
                 this.columnTenNV.MaxLength = 50;
                 this.columnTenSP.MaxLength = 1000;
+                this.columnMaHD.AutoIncrement = true;
+                this.columnMaHD.AllowDBNull = false;
+                this.columnMaHD.ReadOnly = true;
+                this.columnMaKH.MaxLength = 20;
+                this.columnTenKH.MaxLength = 50;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -694,6 +741,12 @@ namespace ChuyenDe {
             
             private global::System.Data.DataColumn columnSoLuong;
             
+            private global::System.Data.DataColumn columnMaHD;
+            
+            private global::System.Data.DataColumn columnMaKH;
+            
+            private global::System.Data.DataColumn columnTenKH;
+            
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public ReportTimKiemHoaDonDataTable() {
@@ -801,6 +854,30 @@ namespace ChuyenDe {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public global::System.Data.DataColumn MaHDColumn {
+                get {
+                    return this.columnMaHD;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public global::System.Data.DataColumn MaKHColumn {
+                get {
+                    return this.columnMaKH;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public global::System.Data.DataColumn TenKHColumn {
+                get {
+                    return this.columnTenKH;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             [global::System.ComponentModel.Browsable(false)]
             public int Count {
                 get {
@@ -836,7 +913,7 @@ namespace ChuyenDe {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public ReportTimKiemHoaDonRow AddReportTimKiemHoaDonRow(string DiaChi, System.DateTime NgayBan, string TenNV, string TenSP, decimal GiaBan, int GiamGia, decimal ThanhTien, decimal TongTien, decimal SoLuong) {
+            public ReportTimKiemHoaDonRow AddReportTimKiemHoaDonRow(string DiaChi, System.DateTime NgayBan, string TenNV, string TenSP, decimal GiaBan, int GiamGia, decimal ThanhTien, decimal TongTien, decimal SoLuong, string MaKH, string TenKH) {
                 ReportTimKiemHoaDonRow rowReportTimKiemHoaDonRow = ((ReportTimKiemHoaDonRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         DiaChi,
@@ -847,7 +924,10 @@ namespace ChuyenDe {
                         GiamGia,
                         ThanhTien,
                         TongTien,
-                        SoLuong};
+                        SoLuong,
+                        null,
+                        MaKH,
+                        TenKH};
                 rowReportTimKiemHoaDonRow.ItemArray = columnValuesArray;
                 this.Rows.Add(rowReportTimKiemHoaDonRow);
                 return rowReportTimKiemHoaDonRow;
@@ -879,6 +959,9 @@ namespace ChuyenDe {
                 this.columnThanhTien = base.Columns["ThanhTien"];
                 this.columnTongTien = base.Columns["TongTien"];
                 this.columnSoLuong = base.Columns["SoLuong"];
+                this.columnMaHD = base.Columns["MaHD"];
+                this.columnMaKH = base.Columns["MaKH"];
+                this.columnTenKH = base.Columns["TenKH"];
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -902,9 +985,20 @@ namespace ChuyenDe {
                 base.Columns.Add(this.columnTongTien);
                 this.columnSoLuong = new global::System.Data.DataColumn("SoLuong", typeof(decimal), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnSoLuong);
+                this.columnMaHD = new global::System.Data.DataColumn("MaHD", typeof(int), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnMaHD);
+                this.columnMaKH = new global::System.Data.DataColumn("MaKH", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnMaKH);
+                this.columnTenKH = new global::System.Data.DataColumn("TenKH", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnTenKH);
                 this.columnDiaChi.MaxLength = 200;
                 this.columnTenNV.MaxLength = 50;
                 this.columnTenSP.MaxLength = 1000;
+                this.columnMaHD.AutoIncrement = true;
+                this.columnMaHD.AllowDBNull = false;
+                this.columnMaHD.ReadOnly = true;
+                this.columnMaKH.MaxLength = 20;
+                this.columnTenKH.MaxLength = 50;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -1191,6 +1285,49 @@ namespace ChuyenDe {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public int MaHD {
+                get {
+                    return ((int)(this[this.tableReportHoaDon.MaHDColumn]));
+                }
+                set {
+                    this[this.tableReportHoaDon.MaHDColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public string MaKH {
+                get {
+                    try {
+                        return ((string)(this[this.tableReportHoaDon.MaKHColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'MaKH\' in table \'ReportHoaDon\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableReportHoaDon.MaKHColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public string TenKH {
+                get {
+                    try {
+                        return ((string)(this[this.tableReportHoaDon.TenKHColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'TenKH\' in table \'ReportHoaDon\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableReportHoaDon.TenKHColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public bool IsDiaChiNull() {
                 return this.IsNull(this.tableReportHoaDon.DiaChiColumn);
             }
@@ -1295,6 +1432,30 @@ namespace ChuyenDe {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public void SetSoLuongNull() {
                 this[this.tableReportHoaDon.SoLuongColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public bool IsMaKHNull() {
+                return this.IsNull(this.tableReportHoaDon.MaKHColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public void SetMaKHNull() {
+                this[this.tableReportHoaDon.MaKHColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public bool IsTenKHNull() {
+                return this.IsNull(this.tableReportHoaDon.TenKHColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public void SetTenKHNull() {
+                this[this.tableReportHoaDon.TenKHColumn] = global::System.Convert.DBNull;
             }
         }
         
@@ -1458,6 +1619,49 @@ namespace ChuyenDe {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public int MaHD {
+                get {
+                    return ((int)(this[this.tableReportTimKiemHoaDon.MaHDColumn]));
+                }
+                set {
+                    this[this.tableReportTimKiemHoaDon.MaHDColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public string MaKH {
+                get {
+                    try {
+                        return ((string)(this[this.tableReportTimKiemHoaDon.MaKHColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'MaKH\' in table \'ReportTimKiemHoaDon\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableReportTimKiemHoaDon.MaKHColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public string TenKH {
+                get {
+                    try {
+                        return ((string)(this[this.tableReportTimKiemHoaDon.TenKHColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'TenKH\' in table \'ReportTimKiemHoaDon\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableReportTimKiemHoaDon.TenKHColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public bool IsDiaChiNull() {
                 return this.IsNull(this.tableReportTimKiemHoaDon.DiaChiColumn);
             }
@@ -1562,6 +1766,30 @@ namespace ChuyenDe {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public void SetSoLuongNull() {
                 this[this.tableReportTimKiemHoaDon.SoLuongColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public bool IsMaKHNull() {
+                return this.IsNull(this.tableReportTimKiemHoaDon.MaKHColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public void SetMaKHNull() {
+                this[this.tableReportTimKiemHoaDon.MaKHColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public bool IsTenKHNull() {
+                return this.IsNull(this.tableReportTimKiemHoaDon.TenKHColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public void SetTenKHNull() {
+                this[this.tableReportTimKiemHoaDon.TenKHColumn] = global::System.Convert.DBNull;
             }
         }
         
@@ -1767,6 +1995,9 @@ namespace ChuyenDe.BachHoaXanhDataSetTableAdapters {
             tableMapping.ColumnMappings.Add("ThanhTien", "ThanhTien");
             tableMapping.ColumnMappings.Add("TongTien", "TongTien");
             tableMapping.ColumnMappings.Add("SoLuong", "SoLuong");
+            tableMapping.ColumnMappings.Add("MaHD", "MaHD");
+            tableMapping.ColumnMappings.Add("MaKH", "MaKH");
+            tableMapping.ColumnMappings.Add("TenKH", "TenKH");
             this._adapter.TableMappings.Add(tableMapping);
         }
         
@@ -1943,6 +2174,9 @@ namespace ChuyenDe.BachHoaXanhDataSetTableAdapters {
             tableMapping.ColumnMappings.Add("ThanhTien", "ThanhTien");
             tableMapping.ColumnMappings.Add("TongTien", "TongTien");
             tableMapping.ColumnMappings.Add("SoLuong", "SoLuong");
+            tableMapping.ColumnMappings.Add("MaHD", "MaHD");
+            tableMapping.ColumnMappings.Add("MaKH", "MaKH");
+            tableMapping.ColumnMappings.Add("TenKH", "TenKH");
             this._adapter.TableMappings.Add(tableMapping);
         }
         
