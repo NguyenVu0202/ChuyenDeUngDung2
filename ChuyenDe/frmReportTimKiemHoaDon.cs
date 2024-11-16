@@ -24,10 +24,17 @@ namespace ChuyenDe
         }
         private void btnIn_Click(object sender, EventArgs e)
         {
-            BachHoaXanhDataSetTableAdapters.ReportTimKiemHoaDonTableAdapter tableAdapter = new BachHoaXanhDataSetTableAdapters.ReportTimKiemHoaDonTableAdapter();
-            tableAdapter.Connection.ConnectionString = BUSDoiChuoiKetNoi.Instance.ThayDoiChuoiKetNoi();
-            tableAdapter.Fill(bachHoaXanhDataSet.ReportTimKiemHoaDon, int.Parse(txtMaHoaDon.Text.ToString()));
-            this.rptvTimKiemHoaDon.RefreshReport();
+            if (txtMaHoaDon.Text == "")
+            {
+                MessageBox.Show("Vui lòng nhập mã hóa đơn muốn in!!!");
+            }
+            else
+            {
+                BachHoaXanhDataSetTableAdapters.ReportTimKiemHoaDonTableAdapter tableAdapter = new BachHoaXanhDataSetTableAdapters.ReportTimKiemHoaDonTableAdapter();
+                tableAdapter.Connection.ConnectionString = BUSDoiChuoiKetNoi.Instance.ThayDoiChuoiKetNoi();
+                tableAdapter.Fill(bachHoaXanhDataSet.ReportTimKiemHoaDon, int.Parse(txtMaHoaDon.Text.ToString()));
+                this.rptvTimKiemHoaDon.RefreshReport();
+            }    
         }
     }
 }

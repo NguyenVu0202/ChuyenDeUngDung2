@@ -121,5 +121,16 @@ namespace DAO.Properties {
                 return ((string)(this["BachHoaXanh1ConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-L5A96KD;Initial Catalog=BachHoaXanh;Integrated Security=True;" +
+            "Connect Timeout=30;Encrypt=True;TrustServerCertificate=True")]
+        public string BachHoaXanhConnectionString8 {
+            get {
+                return ((string)(this["BachHoaXanhConnectionString8"]));
+            }
+        }
     }
 }
