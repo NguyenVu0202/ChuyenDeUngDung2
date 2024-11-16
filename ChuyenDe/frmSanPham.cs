@@ -171,7 +171,7 @@ namespace ChuyenDe
             }
 
             LayHinhAnhBangMaSP();
-			BUSSanPham.Instance.Sua(txtMaSP, txtTenSP, cboTenLoai, cboTenHang, txtGiaBan, txtHinhAnh, txtGhiChu);
+			BUSSanPham.Instance.Sua(txtMaSP, txtTenSP, cboTenLoai, cboTenHang, txtGiaBan, txtHinhAnh, txtGhiChu, txtGiamGia);
 			LoadSanPham();
             txtMaSP.Text = null;
             txtTenSP.Text = null;
@@ -184,7 +184,7 @@ namespace ChuyenDe
 
 		private void dgvSanPham_CellContentClick(object sender, DataGridViewCellEventArgs e)
 		{
-			BUSSanPham.Instance.LoadDgvLenForm(txtMaSP, txtTenSP, cboTenLoai, cboTenHang, txtGiaBan, picHinhAnh, txtGhiChu, dgvSanPham);
+			BUSSanPham.Instance.LoadDgvLenForm(txtMaSP, txtTenSP, cboTenLoai, cboTenHang, txtGiaBan, picHinhAnh, txtGhiChu, dgvSanPham, txtGiamGia);
             TaoMa();
 		}
 
@@ -243,7 +243,7 @@ namespace ChuyenDe
             }
 
             // Thêm sản phẩm
-            BUSSanPham.Instance.Them(txtMaSP, txtTenSP, cboTenLoai, cboTenHang, txtGiaBan, txtHinhAnh, txtGhiChu);
+            BUSSanPham.Instance.Them(txtMaSP, txtTenSP, cboTenLoai, cboTenHang, txtGiaBan, txtHinhAnh, txtGhiChu, txtGiamGia);
             LoadSanPham();
             txtMaSP.Text = null;
             txtTenSP.Text = null;

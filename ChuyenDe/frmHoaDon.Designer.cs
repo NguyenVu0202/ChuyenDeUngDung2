@@ -275,6 +275,7 @@
             this.txtSoLuong.Name = "txtSoLuong";
             this.txtSoLuong.Size = new System.Drawing.Size(291, 27);
             this.txtSoLuong.TabIndex = 2;
+            this.txtSoLuong.Leave += new System.EventHandler(this.txtSoLuong_Leave);
             // 
             // txtGiaSP
             // 
@@ -353,9 +354,9 @@
             this.txtGiamGia.Location = new System.Drawing.Point(175, 260);
             this.txtGiamGia.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtGiamGia.Name = "txtGiamGia";
+            this.txtGiamGia.ReadOnly = true;
             this.txtGiamGia.Size = new System.Drawing.Size(291, 27);
             this.txtGiamGia.TabIndex = 3;
-            this.txtGiamGia.Leave += new System.EventHandler(this.txtGiamGia_Leave);
             // 
             // label2
             // 

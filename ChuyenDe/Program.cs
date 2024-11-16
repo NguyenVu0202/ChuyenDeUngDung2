@@ -16,7 +16,7 @@ namespace ChuyenDe
 		{
 			Application.EnableVisualStyles();
 			Application.SetCompatibleTextRenderingDefault(false);
-			Application.Run(new frmReportHoaDon());
+			Application.Run(new frmDangNhap());
 		}
 	}
 }

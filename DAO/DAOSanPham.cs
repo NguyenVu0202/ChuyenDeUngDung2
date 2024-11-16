@@ -41,6 +41,7 @@ namespace DAO
 										  sp1.MaLoai,
 										  sp1.MaNCC,
 										  sp1.GiaBan,
+										  sp1.GiamGia,
 										  sp1.HinhAnh, // Assuming HinhAnh is of type Binary in the database
 										  sp1.GhiChu
 									  }).ToList();
@@ -53,6 +54,7 @@ namespace DAO
 					sanPham.MaNCC = item.MaNCC;
 					sanPham.TenSP = item.TenSP;
 					sanPham.GiaBan = item.GiaBan;
+					sanPham.GiamGia = item.GiamGia;
 					sanPham.GhiChu = item.GhiChu;
 					sanPham.HinhAnh = item.HinhAnh;
 
@@ -90,7 +92,7 @@ namespace DAO
 				cb.ValueMember = "Key";
 
 		}
-		public void Them(TextBox masp, TextBox tensp, ComboBox tenloai, ComboBox tenncc, TextBox giaban, TextBox hinhanh, TextBox ghichu)
+		public void Them(TextBox masp, TextBox tensp, ComboBox tenloai, ComboBox tenncc, TextBox giaban, TextBox hinhanh, TextBox ghichu, TextBox giamGia)
 		{
             try
             {
@@ -109,20 +111,42 @@ namespace DAO
                 string duongdan = Path.Combine(Application.StartupPath, "Image");
                 string duongdanmoi = duongdan + "\\" + tenanh;
 
-                SanPham sp = new SanPham
-                {
-                    MaSP = masp.Text,
-                    TenSP = tensp.Text,
-                    MaLoai = tenloai.SelectedValue.ToString().Trim(),
-                    MaNCC = tenncc.SelectedValue.ToString().Trim(),
-                    GiaBan = int.Parse(giaban.Text),
-                    HinhAnh = duongdanmoi,
-                    GhiChu = ghichu.Text
-                };
+				if (giamGia.Text == "")
+				{
+					SanPham sp = new SanPham
+					{
+						MaSP = masp.Text,
+						TenSP = tensp.Text,
+						MaLoai = tenloai.SelectedValue.ToString().Trim(),
+						MaNCC = tenncc.SelectedValue.ToString().Trim(),
+						GiaBan = int.Parse(giaban.Text),
+						HinhAnh = duongdanmoi,
+						GhiChu = ghichu.Text,
+						GiamGia = 0
+					};
 
-                db.SanPhams.InsertOnSubmit(sp);
-                db.SubmitChanges();
-                MessageBox.Show("Thêm Sản Phẩm Thành Công");
+					db.SanPhams.InsertOnSubmit(sp);
+					db.SubmitChanges();
+					MessageBox.Show("Thêm Sản Phẩm Thành Công");
+				}
+				else
+				{
+                    SanPham sp = new SanPham
+                    {
+                        MaSP = masp.Text,
+                        TenSP = tensp.Text,
+                        MaLoai = tenloai.SelectedValue.ToString().Trim(),
+                        MaNCC = tenncc.SelectedValue.ToString().Trim(),
+                        GiaBan = int.Parse(giaban.Text),
+                        HinhAnh = duongdanmoi,
+                        GhiChu = ghichu.Text,
+                        GiamGia = int.Parse(giamGia.Text)
+                    };
+
+                    db.SanPhams.InsertOnSubmit(sp);
+                    db.SubmitChanges();
+                    MessageBox.Show("Thêm Sản Phẩm Thành Công");
+                }	
             }
             catch (Exception ex)
             {
@@ -155,6 +179,7 @@ namespace DAO
 					spupdate.GiaBan = sp.GiaBan;
 					spupdate.HinhAnh = sp.HinhAnh;
 					spupdate.GhiChu = sp.GhiChu;
+					spupdate.GiamGia = sp.GiamGia;
 					db.SubmitChanges();
 					MessageBox.Show("Sửa Sản Phẩm Thành Công");
 					return true;
@@ -177,7 +202,7 @@ namespace DAO
 					return "";
 				}
 		}
-		public void LoadDgvLenForm(TextBox masp, TextBox tensp, ComboBox tenloai, ComboBox tenhang, TextBox giaban, PictureBox picHinhAnh, TextBox ghichu, DataGridView data)
+		public void LoadDgvLenForm(TextBox masp, TextBox tensp, ComboBox tenloai, ComboBox tenhang, TextBox giaban, PictureBox picHinhAnh, TextBox ghichu, DataGridView data, TextBox giamGia)
 		{
 				var rowIndex = data.SelectedCells[0].RowIndex;
 				var row = data.Rows[rowIndex];
@@ -192,9 +217,10 @@ namespace DAO
 							select h.TenNCC).FirstOrDefault();
 				tenhang.Text = hang.ToString();
 				giaban.Text = row.Cells[4].Value.ToString().Trim();
-				var anh = row.Cells[5].Value as Image;
+				giamGia.Text = row.Cells[5].Value.ToString().Trim();
+				var anh = row.Cells[6].Value as Image;
 				picHinhAnh.Image = anh;
-				ghichu.Text = row.Cells[6].Value.ToString().Trim();
+				ghichu.Text = row.Cells[7].Value.ToString().Trim();
 		}
 	}
 }

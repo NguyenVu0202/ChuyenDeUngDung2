@@ -30,27 +30,15 @@
         {
             this.components = new System.ComponentModel.Container();
             Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
-            this.reportHoaDonBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.bachHoaXanhDataSet = new ChuyenDe.BachHoaXanhDataSet();
-            this.reportHoaDonTableAdapter = new ChuyenDe.BachHoaXanhDataSetTableAdapters.ReportHoaDonTableAdapter();
             this.rptvHoaDon = new Microsoft.Reporting.WinForms.ReportViewer();
-            ((System.ComponentModel.ISupportInitialize)(this.reportHoaDonBindingSource)).BeginInit();
+            this.bachHoaXanhDataSet = new ChuyenDe.BachHoaXanhDataSet();
+            this.bachHoaXanhDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.reportHoaDonBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.reportHoaDonTableAdapter = new ChuyenDe.BachHoaXanhDataSetTableAdapters.ReportHoaDonTableAdapter();
             ((System.ComponentModel.ISupportInitialize)(this.bachHoaXanhDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bachHoaXanhDataSetBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.reportHoaDonBindingSource)).BeginInit();
             this.SuspendLayout();
-            // 
-            // reportHoaDonBindingSource
-            // 
-            this.reportHoaDonBindingSource.DataMember = "ReportHoaDon";
-            this.reportHoaDonBindingSource.DataSource = this.bachHoaXanhDataSet;
-            // 
-            // bachHoaXanhDataSet
-            // 
-            this.bachHoaXanhDataSet.DataSetName = "BachHoaXanhDataSet";
-            this.bachHoaXanhDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // reportHoaDonTableAdapter
-            // 
-            this.reportHoaDonTableAdapter.ClearBeforeFill = true;
             // 
             // rptvHoaDon
             // 
@@ -67,26 +55,47 @@
             this.rptvHoaDon.Size = new System.Drawing.Size(1667, 874);
             this.rptvHoaDon.TabIndex = 0;
             // 
-            // RpHoaDon
+            // bachHoaXanhDataSet
+            // 
+            this.bachHoaXanhDataSet.DataSetName = "BachHoaXanhDataSet";
+            this.bachHoaXanhDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // bachHoaXanhDataSetBindingSource
+            // 
+            this.bachHoaXanhDataSetBindingSource.DataSource = this.bachHoaXanhDataSet;
+            this.bachHoaXanhDataSetBindingSource.Position = 0;
+            // 
+            // reportHoaDonBindingSource
+            // 
+            this.reportHoaDonBindingSource.DataMember = "ReportHoaDon";
+            this.reportHoaDonBindingSource.DataSource = this.bachHoaXanhDataSetBindingSource;
+            // 
+            // reportHoaDonTableAdapter
+            // 
+            this.reportHoaDonTableAdapter.ClearBeforeFill = true;
+            // 
+            // frmReportHoaDon
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1691, 898);
             this.Controls.Add(this.rptvHoaDon);
-            this.Name = "RpHoaDon";
+            this.Name = "frmReportHoaDon";
             this.Text = "RpHoaDon";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.RpHoaDon_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.reportHoaDonBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bachHoaXanhDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bachHoaXanhDataSetBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.reportHoaDonBindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
+        private Microsoft.Reporting.WinForms.ReportViewer rptvHoaDon;
         private BachHoaXanhDataSet bachHoaXanhDataSet;
+        private System.Windows.Forms.BindingSource bachHoaXanhDataSetBindingSource;
         private System.Windows.Forms.BindingSource reportHoaDonBindingSource;
         private BachHoaXanhDataSetTableAdapters.ReportHoaDonTableAdapter reportHoaDonTableAdapter;
-        private Microsoft.Reporting.WinForms.ReportViewer rptvHoaDon;
     }
 }

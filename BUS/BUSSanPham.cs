@@ -57,6 +57,7 @@ namespace BUS
                     t.MaLoai,
                     t.MaNCC,
                     t.GiaBan,
+					t.GiamGia,
                     HinhAnh, // HinhAnh can be null if loading failed
                     t.GhiChu
                 };
@@ -65,15 +66,15 @@ namespace BUS
             data.DataSource = dt;
 
             // Ensure the image column is set up correctly
-            if (data.Columns.Count > 5 && data.Columns[5] is DataGridViewImageColumn pic)
+            if (data.Columns.Count > 6 && data.Columns[6] is DataGridViewImageColumn pic)
             {
                 pic.ImageLayout = DataGridViewImageCellLayout.Zoom;
             }
         }
 
-        public void Them(TextBox masp, TextBox tensp, ComboBox tenloai, ComboBox tenhang, TextBox giaban, TextBox hinhanh, TextBox ghichu)
+        public void Them(TextBox masp, TextBox tensp, ComboBox tenloai, ComboBox tenhang, TextBox giaban, TextBox hinhanh, TextBox ghichu, TextBox giamGia)
 		{
-			DAOSanPham.Instance.Them(masp, tensp, tenloai, tenhang, giaban, hinhanh, ghichu);
+			DAOSanPham.Instance.Them(masp, tensp, tenloai, tenhang, giaban, hinhanh, ghichu, giamGia);
 		}
 		public void LoadTenLoai(ComboBox cb)
 		{
@@ -83,7 +84,7 @@ namespace BUS
 		{
 			DAOSanPham.Instance.LoadComBoxTenNCC(cb);
 		}
-		public void Sua(TextBox masp, TextBox tensp, ComboBox tenloai, ComboBox tenhang, TextBox giaban, TextBox hinhanh, TextBox ghichu)
+		public void Sua(TextBox masp, TextBox tensp, ComboBox tenloai, ComboBox tenhang, TextBox giaban, TextBox hinhanh, TextBox ghichu, TextBox giamGia)
 		{
 			if (!string.IsNullOrEmpty(hinhanh.Text))
 			{
@@ -101,7 +102,7 @@ namespace BUS
 					GiaBan = int.Parse(giaban.Text),
 					HinhAnh = duongdanmoi,
 					GhiChu = ghichu.Text,
-
+					GiamGia = int.Parse(giamGia.Text)
 				};
 				DAOSanPham.Instance.Sua(sp);
 			}
@@ -116,8 +117,8 @@ namespace BUS
 					GiaBan = int.Parse(giaban.Text),
 					HinhAnh = LayHinhAnhBangMaSP(masp),
 					GhiChu = ghichu.Text,
-
-				};
+                    GiamGia = int.Parse(giamGia.Text)
+                };
 				DAOSanPham.Instance.Sua(sp);
 			}
 		}
@@ -130,9 +131,9 @@ namespace BUS
 			DAOSanPham.Instance.Xoa(masp.Text);
 		}
 
-		public void LoadDgvLenForm(TextBox masp, TextBox tensp, ComboBox tenloai, ComboBox tenhang, TextBox giaban, PictureBox picHinhAnh, TextBox ghichu, DataGridView data)
+		public void LoadDgvLenForm(TextBox masp, TextBox tensp, ComboBox tenloai, ComboBox tenhang, TextBox giaban, PictureBox picHinhAnh, TextBox ghichu, DataGridView data, TextBox giamGia)
 		{
-			DAOSanPham.Instance.LoadDgvLenForm(masp, tensp, tenloai, tenhang, giaban, picHinhAnh, ghichu, data);
+			DAOSanPham.Instance.LoadDgvLenForm(masp, tensp, tenloai, tenhang, giaban, picHinhAnh, ghichu, data, giamGia);
 		}
 	}
 }

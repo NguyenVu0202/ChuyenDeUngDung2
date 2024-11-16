@@ -55,10 +55,11 @@ namespace ChuyenDe
         {
             List<string> list = new List<string>();
             list = BUSHoaDon.Instance.LoadSanPham(txtMaSP);
-            if (list != null && list.Count >= 2)
+            if (list != null && list.Count >= 3)
             {
                 txtTenSP.Text = list[0].ToString();
                 txtGiaSP.Text = list[1].ToString();
+                txtGiamGia.Text = list[2].ToString();
             }
             else
             {
@@ -111,11 +112,6 @@ namespace ChuyenDe
         private void txtMaSP_Leave(object sender, EventArgs e)
         {
             LoadSP();
-        }
-
-        private void txtGiamGia_Leave(object sender, EventArgs e)
-        {
-            TongTienSauKhiGiam();
         }
 
         private void frmHoaDon_FormClosing(object sender, FormClosingEventArgs e)
@@ -349,11 +345,49 @@ namespace ChuyenDe
         }
 
         private void btnIn_Click(object sender, EventArgs e)
-        {
+        {           
             frmReportHoaDon frm = new frmReportHoaDon();
+            BUSHoaDon.Instance.XoaHoaDon();
             this.Hide();
             frm.ShowDialog();
             this.Close();
+        }
+
+        private void txtSoLuong_Leave(object sender, EventArgs e)
+        {
+            // Assuming 'txtSoLuong' is the TextBox from which 'soluong' is obtained
+            string soluong = txtSoLuong.Text;
+
+            if (string.IsNullOrWhiteSpace(soluong) || soluong == "0")
+            {
+                MessageBox.Show("Số lượng phải lớn hơn 0!");
+                txtSoLuong.Text = "";
+                return;
+            }
+
+            if (!int.TryParse(soluong, out int parsedSoluong) || parsedSoluong <= 0)
+            {
+                MessageBox.Show("Số lượng phải là một số nguyên dương!");
+                txtSoLuong.Text = "";
+                return;
+            }
+
+            if (Regex.IsMatch(soluong, @"\s{2,}"))
+            {
+                MessageBox.Show("Số lượng không được có hai khoảng trắng liên tiếp.");
+                txtSoLuong.Text = "";
+                return;
+            }
+
+            if (soluong != soluong.Trim())
+            {
+                MessageBox.Show("Số lượng không được có khoảng trắng ở đầu hoặc cuối.");
+                txtSoLuong.Text = "";
+                return;
+            }
+
+            // Passed all validations
+            TongTienSauKhiGiam();
         }
     }
 }

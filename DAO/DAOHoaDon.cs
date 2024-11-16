@@ -52,6 +52,7 @@ namespace DAO
             {
                 lst.Add(sp.TenSP.ToString());
                 lst.Add(sp.GiaBan.ToString());
+                lst.Add(sp.GiamGia.ToString());
             }
             return lst;
         }
