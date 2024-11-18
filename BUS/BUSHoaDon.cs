@@ -25,7 +25,7 @@ namespace BUS
         }
 
         private BUSHoaDon() { }
-        public List<string> LoadKhachHang(TextBox maKH)
+        public List<string> LoadKhachHang(ComboBox maKH)
         {
             List<string> list = new List<string>();
             list = DAOHoaDon.Instance.LoadKhachHang(maKH.Text);
@@ -49,7 +49,7 @@ namespace BUS
         {
             data.DataSource = DAOHoaDon.Instance.LoadChiTietHoaDon();
         }
-        public void ThemSanPham(TextBox masp, TextBox soluong, TextBox giasp, TextBox giamgia, TextBox thanhtien, TextBox makh)
+        public void ThemSanPham(TextBox masp, TextBox soluong, TextBox giasp, TextBox giamgia, TextBox thanhtien, ComboBox makh)
         {
             ChiTietHoaDon cthd = new ChiTietHoaDon
             {
@@ -84,6 +84,14 @@ namespace BUS
         public decimal KiemtraslSanPham(string manv, TextBox masp)
         {
             return DAOHoaDon.Instance.KiemtraslSanPham(manv, masp.Text);
+        }
+        public void loadMaKH(ComboBox cb)
+        {
+            DAOHoaDon.Instance.loadMaKH(cb);
+        }
+        public void AutoTimKiemMaKH(ComboBox cb)
+        {
+            DAOHoaDon.Instance.AutoTimKiemMaKH(cb);
         }
     }
 }

@@ -22,6 +22,8 @@ namespace ChuyenDe
 			LoadSanPham();
 			LoadTenLoai();
 			LoadTenNCC();
+            cboTenHang.SelectedIndex = -1;
+            cboTenLoai.SelectedIndex = -1;
 		}
 
 		bool isGenerate = false;
@@ -135,8 +137,18 @@ namespace ChuyenDe
 			if (kq == DialogResult.Yes)
 			{
 				BUSSanPham.Instance.Xoa(txtMaSP);
-				LoadSanPham();
-			}
+                LoadSanPham();
+                txtMaSP.Text = null;
+                txtTenSP.Text = null;
+                cboTenLoai.SelectedIndex = -1;
+                cboTenHang.SelectedIndex = -1;
+                txtGiaBan.Text = null;
+                txtGiamGia.Text = null;
+                txtHinhAnh.Text = null;
+                txtGhiChu.Text = null;
+                picHinhAnh.Image = null;
+                picBarcode.Image = null;
+            }
 		}
 
 		private void btnSua_Click_1(object sender, EventArgs e)
@@ -175,11 +187,14 @@ namespace ChuyenDe
 			LoadSanPham();
             txtMaSP.Text = null;
             txtTenSP.Text = null;
-            cboTenLoai.SelectedIndex = 0;
-            cboTenHang.SelectedIndex = 0;
+            cboTenLoai.SelectedIndex = -1;
+            cboTenHang.SelectedIndex = -1;
             txtGiaBan.Text = null;
+            txtGiamGia.Text = null;
             txtHinhAnh.Text = null;
             txtGhiChu.Text = null;
+            picHinhAnh.Image = null;
+            picBarcode.Image = null;
         }
 
 		private void dgvSanPham_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -247,11 +262,23 @@ namespace ChuyenDe
             LoadSanPham();
             txtMaSP.Text = null;
             txtTenSP.Text = null;
-            cboTenLoai.SelectedIndex = 0;
-            cboTenHang.SelectedIndex = 0;
+            cboTenLoai.SelectedIndex = -1;
+            cboTenHang.SelectedIndex = -1;
             txtGiaBan.Text = null;
             txtHinhAnh.Text = null;
             txtGhiChu.Text = null;
+            picHinhAnh.Image = null;
+            picBarcode.Image = null;
         }
-	}
+
+        private void cboTenHang_KeyUp(object sender, KeyEventArgs e)
+        {
+            BUSSanPham.Instance.AutoTimKiemTenNCC(cboTenHang);
+        }
+
+        private void cboTenLoai_KeyUp(object sender, KeyEventArgs e)
+        {
+            BUSSanPham.Instance.AutoTimKiemTenLoai(cboTenLoai);
+        }
+    }
 }

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace DAO
 {
@@ -247,6 +248,38 @@ namespace DAO
 				return (decimal)sl;
 			}
             return 0;
+        }
+        public void loadMaKH(System.Windows.Forms.ComboBox cb)
+        {
+            List<string> list = new List<string>();
+            var makh = from kh in db.KhachHangs
+                       select kh.MaKH;
+            foreach (var item in makh)
+            {
+                list.Add(item);
+            }
+            cb.DataSource = new BindingSource(list, null);
+            cb.AutoCompleteMode = AutoCompleteMode.None;
+            cb.AutoCompleteSource = AutoCompleteSource.None;
+        }
+        public void AutoTimKiemMaKH(System.Windows.Forms.ComboBox cb)
+        {
+            var makh = from kh in db.KhachHangs
+                       select kh.MaKH;
+
+            string filter = cb.Text.ToLower();
+
+            var filteredItems = makh.Where(item => item.ToLower().Contains(filter)).ToList();
+
+            cb.DataSource = null;
+
+            cb.DataSource = filteredItems;
+
+            cb.DroppedDown = true;
+
+            cb.Text = filter;
+
+            cb.SelectionStart = filter.Length;
         }
     }
 }

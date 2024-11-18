@@ -687,14 +687,14 @@
                 </TablixCell>
                 <TablixCell>
                   <CellContents>
-                    <Textbox Name="GiaBan1">
+                    <Textbox Name="GiamGia">
                       <CanGrow>true</CanGrow>
                       <KeepTogether>true</KeepTogether>
                       <Paragraphs>
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>=Fields!GiaBan.Value</Value>
+                              <Value>=Fields!GiamGia.Value</Value>
                               <Style />
                             </TextRun>
                           </TextRuns>
@@ -703,7 +703,7 @@
                           </Style>
                         </Paragraph>
                       </Paragraphs>
-                      <rd:DefaultName>GiaBan1</rd:DefaultName>
+                      <rd:DefaultName>GiamGia</rd:DefaultName>
                       <Style>
                         <Border>
                           <Color>LightGrey</Color>

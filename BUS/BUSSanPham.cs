@@ -135,5 +135,13 @@ namespace BUS
 		{
 			DAOSanPham.Instance.LoadDgvLenForm(masp, tensp, tenloai, tenhang, giaban, picHinhAnh, ghichu, data, giamGia);
 		}
-	}
+		public void AutoTimKiemTenNCC(ComboBox cb)
+		{
+			DAOSanPham.Instance.AutoTimKiemTenNCC(cb);
+		}
+        public void AutoTimKiemTenLoai(ComboBox cb)
+        {
+            DAOSanPham.Instance.AutoTimKiemTenLoai(cb);
+        }
+    }
 }

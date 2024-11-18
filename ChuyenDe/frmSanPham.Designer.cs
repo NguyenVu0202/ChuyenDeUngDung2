@@ -53,13 +53,13 @@
             this.dgvSanPham = new System.Windows.Forms.DataGridView();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.grpThongTinSP = new System.Windows.Forms.GroupBox();
+            this.txtGiamGia = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.ofdOpenFile = new System.Windows.Forms.OpenFileDialog();
             this.btnLuuMa = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.picBarcode = new System.Windows.Forms.PictureBox();
             this.btnTaoMa = new System.Windows.Forms.Button();
-            this.txtGiamGia = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.picHinhAnh)).BeginInit();
             this.grpHinhAnh.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvSanPham)).BeginInit();
@@ -91,13 +91,13 @@
             // 
             // cboTenLoai
             // 
-            this.cboTenLoai.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboTenLoai.FormattingEnabled = true;
             this.cboTenLoai.Location = new System.Drawing.Point(172, 142);
             this.cboTenLoai.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cboTenLoai.Name = "cboTenLoai";
             this.cboTenLoai.Size = new System.Drawing.Size(249, 28);
             this.cboTenLoai.TabIndex = 25;
+            this.cboTenLoai.KeyUp += new System.Windows.Forms.KeyEventHandler(this.cboTenLoai_KeyUp);
             // 
             // label1
             // 
@@ -163,13 +163,13 @@
             // 
             // cboTenHang
             // 
-            this.cboTenHang.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboTenHang.FormattingEnabled = true;
             this.cboTenHang.Location = new System.Drawing.Point(172, 194);
             this.cboTenHang.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cboTenHang.Name = "cboTenHang";
             this.cboTenHang.Size = new System.Drawing.Size(249, 28);
             this.cboTenHang.TabIndex = 24;
+            this.cboTenHang.KeyUp += new System.Windows.Forms.KeyEventHandler(this.cboTenHang_KeyUp);
             // 
             // txtGhiChu
             // 
@@ -352,6 +352,23 @@
             this.grpThongTinSP.TabStop = false;
             this.grpThongTinSP.Text = "Thông Tin Sản Phẩm";
             // 
+            // txtGiamGia
+            // 
+            this.txtGiamGia.Location = new System.Drawing.Point(172, 307);
+            this.txtGiamGia.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtGiamGia.Name = "txtGiamGia";
+            this.txtGiamGia.Size = new System.Drawing.Size(249, 27);
+            this.txtGiamGia.TabIndex = 29;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(19, 307);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(85, 20);
+            this.label3.TabIndex = 28;
+            this.label3.Text = "Giảm Giá:";
+            // 
             // ofdOpenFile
             // 
             this.ofdOpenFile.FileName = "openFileDialog1";
@@ -403,23 +420,6 @@
             this.btnTaoMa.Text = "TẠO MÃ";
             this.btnTaoMa.UseVisualStyleBackColor = true;
             this.btnTaoMa.Click += new System.EventHandler(this.btnTaoMa_Click);
-            // 
-            // txtGiamGia
-            // 
-            this.txtGiamGia.Location = new System.Drawing.Point(172, 307);
-            this.txtGiamGia.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.txtGiamGia.Name = "txtGiamGia";
-            this.txtGiamGia.Size = new System.Drawing.Size(249, 27);
-            this.txtGiamGia.TabIndex = 29;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(19, 307);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(85, 20);
-            this.label3.TabIndex = 28;
-            this.label3.Text = "Giảm Giá:";
             // 
             // frmSanPham
             // 

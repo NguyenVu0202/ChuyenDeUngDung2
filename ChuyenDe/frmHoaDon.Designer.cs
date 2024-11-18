@@ -38,6 +38,7 @@
             this.btnXoa = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.cboMaKH = new System.Windows.Forms.ComboBox();
             this.txtError = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
@@ -56,7 +57,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.txtTongTienHD = new System.Windows.Forms.TextBox();
-            this.txtMaKH = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.cboCamera = new System.Windows.Forms.ComboBox();
             this.btnThanhToan = new System.Windows.Forms.Button();
@@ -183,6 +183,7 @@
             // 
             this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox1.Controls.Add(this.cboMaKH);
             this.groupBox1.Controls.Add(this.txtError);
             this.groupBox1.Controls.Add(this.label14);
             this.groupBox1.Controls.Add(this.label13);
@@ -201,7 +202,6 @@
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.txtTongTienHD);
-            this.groupBox1.Controls.Add(this.txtMaKH);
             this.groupBox1.Controls.Add(this.txtSDTKH);
             this.groupBox1.Controls.Add(this.label8);
             this.groupBox1.Controls.Add(this.txtTenKH);
@@ -216,6 +216,16 @@
             this.groupBox1.TabIndex = 49;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông Tin Chung";
+            // 
+            // cboMaKH
+            // 
+            this.cboMaKH.FormattingEnabled = true;
+            this.cboMaKH.Location = new System.Drawing.Point(801, 63);
+            this.cboMaKH.Name = "cboMaKH";
+            this.cboMaKH.Size = new System.Drawing.Size(315, 28);
+            this.cboMaKH.TabIndex = 43;
+            this.cboMaKH.SelectedIndexChanged += new System.EventHandler(this.cboMaKH_SelectedIndexChanged);
+            this.cboMaKH.KeyUp += new System.Windows.Forms.KeyEventHandler(this.cboMaKH_KeyUp);
             // 
             // txtError
             // 
@@ -385,15 +395,6 @@
             this.txtTongTienHD.Size = new System.Drawing.Size(315, 27);
             this.txtTongTienHD.TabIndex = 27;
             // 
-            // txtMaKH
-            // 
-            this.txtMaKH.Location = new System.Drawing.Point(801, 63);
-            this.txtMaKH.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.txtMaKH.Name = "txtMaKH";
-            this.txtMaKH.Size = new System.Drawing.Size(315, 27);
-            this.txtMaKH.TabIndex = 4;
-            this.txtMaKH.Leave += new System.EventHandler(this.txtMaKH_Leave);
-            // 
             // label8
             // 
             this.label8.AutoSize = true;
@@ -536,7 +537,6 @@
 		private System.Windows.Forms.GroupBox groupBox1;
 		private System.Windows.Forms.Label label8;
 		private System.Windows.Forms.Button btnThanhToan;
-		private System.Windows.Forms.TextBox txtMaKH;
 		private System.Windows.Forms.Label label2;
 		private System.Windows.Forms.TextBox txtGiamGia;
 		private System.Windows.Forms.Label label10;
@@ -561,5 +561,6 @@
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label txtError;
         private System.Windows.Forms.Button btnThoat;
+        private System.Windows.Forms.ComboBox cboMaKH;
     }
 }

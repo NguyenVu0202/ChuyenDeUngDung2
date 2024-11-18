@@ -36,10 +36,14 @@ namespace ChuyenDe
             InitializeComponent();
 			this.manv = manv;
         }
+        public void loadMaKH()
+        {
+            BUSHoaDon.Instance.loadMaKH(cboMaKH);
+        }
 		public void LoadKH()
 		{
 			List<string> list = new List<string>();
-			list = BUSHoaDon.Instance.LoadKhachHang(txtMaKH);
+			list = BUSHoaDon.Instance.LoadKhachHang(cboMaKH);
 			if (list != null && list.Count >= 2)
 			{
                 txtTenKH.Text = list[0].ToString();
@@ -48,7 +52,7 @@ namespace ChuyenDe
             else
             {
                 txtError.Text = "Khách Hàng Không Tồn Tại, Vui Lòng Nhập Lại!";
-                txtMaKH.Text = "";
+                cboMaKH.SelectedIndex = -1;
             }
         }
         public void LoadSP()
@@ -64,7 +68,7 @@ namespace ChuyenDe
             else
             {
                 txtError.Text = "Sản Phẩm Không Tồn Tại, Vui Lòng Nhập Lại!";
-                txtMaKH.Text = "";
+                txtMaSP.Text = "";
             }
         }
         public void TongTienSauKhiGiam()
@@ -95,18 +99,16 @@ namespace ChuyenDe
         {
             BUSHoaDon.Instance.TaoHoaDon(manv);
         }
-
-        private void txtMaKH_Leave(object sender, EventArgs e)
-        {
-			LoadKH();
-        }
-
         private void frmHoaDon_Load(object sender, EventArgs e)
         {
             TaoHoaDon();
             LoadChiTietHoaDon();
             TinhTongTien();
             LoadCamera();
+            loadMaKH();
+            cboMaKH.SelectedIndex = -1;
+            txtTenKH.Text = "";
+            txtSDTKH.Text = "";
         }
 
         private void txtMaSP_Leave(object sender, EventArgs e)
@@ -129,7 +131,7 @@ namespace ChuyenDe
             string masp = txtMaSP.Text;
             string soluong = txtSoLuong.Text;
             string giamgia = txtGiamGia.Text;
-            makh = txtMaKH.Text;
+            makh = cboMaKH.Text;
             decimal sl = KiemtraslSanPham();
 
             if (string.IsNullOrWhiteSpace(masp) || string.IsNullOrWhiteSpace(soluong))
@@ -220,14 +222,14 @@ namespace ChuyenDe
                if(sl != 0)
                 {
                     txtGiamGia.Text = "0";
-                    BUSHoaDon.Instance.ThemSanPham(txtMaSP, txtSoLuong, txtGiaSP, txtGiamGia, txtTienSauKhiGiam, txtMaKH);
+                    BUSHoaDon.Instance.ThemSanPham(txtMaSP, txtSoLuong, txtGiaSP, txtGiamGia, txtTienSauKhiGiam, cboMaKH);
                 }    
             }  
             else
             {
                 if (sl != 0)
                 {
-                    BUSHoaDon.Instance.ThemSanPham(txtMaSP, txtSoLuong, txtGiaSP, txtGiamGia, txtTienSauKhiGiam, txtMaKH);
+                    BUSHoaDon.Instance.ThemSanPham(txtMaSP, txtSoLuong, txtGiaSP, txtGiamGia, txtTienSauKhiGiam, cboMaKH);
                 }
             }             
             LoadChiTietHoaDon();
@@ -258,7 +260,7 @@ namespace ChuyenDe
             txtTienSauKhiGiam.Text = "";
             txtTongTienHD.Text = "";
             txtSDTKH.Text = "";
-            txtMaKH.Text = "";
+            cboMaKH.Text = "";
             txtTenKH.Text = "";
             txtMaSP.Focus();
         }
@@ -388,6 +390,14 @@ namespace ChuyenDe
 
             // Passed all validations
             TongTienSauKhiGiam();
+        }
+        private void cboMaKH_KeyUp(object sender, KeyEventArgs e)
+        {
+            DAOHoaDon.Instance.AutoTimKiemMaKH(cboMaKH);
+        }
+        private void cboMaKH_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            LoadKH();
         }
     }
 }

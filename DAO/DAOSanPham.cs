@@ -222,5 +222,65 @@ namespace DAO
 				picHinhAnh.Image = anh;
 				ghichu.Text = row.Cells[7].Value.ToString().Trim();
 		}
-	}
+        public void AutoTimKiemTenNCC(ComboBox cb)
+        {
+            // Lấy danh sách nhà cung cấp cùng sản phẩm từ database
+            var data = from ncc in db.NCCs
+                       select new
+                       {
+                           TenNCC = ncc.TenNCC,
+                           MaNCC = ncc.MaNCC // Giả định bạn có thuộc tính này
+                       };
+
+            string filter = cb.Text.ToLower();
+
+            // Lọc danh sách theo tên nhà cung cấp
+            var filteredItems = data
+                .Where(item => item.TenNCC.ToLower().Contains(filter))
+                .ToList();
+
+            cb.DataSource = null;
+
+            // Gán danh sách lọc vào ComboBox
+            cb.DataSource = filteredItems;
+            cb.DisplayMember = "TenNCC";  // Hiển thị tên nhà cung cấp
+            cb.ValueMember = "MaNCC"; // Giá trị là tên sản phẩm
+
+            cb.DroppedDown = true;
+
+            // Giữ lại phần văn bản người dùng đã nhập
+            cb.Text = filter;
+            cb.SelectionStart = filter.Length;
+        }
+        public void AutoTimKiemTenLoai(ComboBox cb)
+        {
+            // Lấy danh sách nhà cung cấp cùng sản phẩm từ database
+            var data = from ncc in db.Loais
+                       select new
+                       {
+                           TenLoai = ncc.TenLoai,
+                           MaLoai = ncc.MaLoai // Giả định bạn có thuộc tính này
+                       };
+
+            string filter = cb.Text.ToLower();
+
+            // Lọc danh sách theo tên nhà cung cấp
+            var filteredItems = data
+                .Where(item => item.TenLoai.ToLower().Contains(filter))
+                .ToList();
+
+            cb.DataSource = null;
+
+            // Gán danh sách lọc vào ComboBox
+            cb.DataSource = filteredItems;
+            cb.DisplayMember = "TenLoai";  // Hiển thị tên nhà cung cấp
+            cb.ValueMember = "MaLoai"; // Giá trị là tên sản phẩm
+
+            cb.DroppedDown = true;
+
+            // Giữ lại phần văn bản người dùng đã nhập
+            cb.Text = filter;
+            cb.SelectionStart = filter.Length;
+        }
+    }
 }

@@ -20,14 +20,9 @@ namespace ChuyenDe
 
         private void RpHoaDon_Load(object sender, EventArgs e)
         {
-            // TODO: This line of code loads data into the 'bachHoaXanhDataSet.ReportHoaDon' table. You can move, or remove it, as needed.
-            this.reportHoaDonTableAdapter.Fill(this.bachHoaXanhDataSet.ReportHoaDon);
-            // TODO: This line of code loads data into the 'bachHoaXanhDataSet.ReportHoaDon' table. You can move, or remove it, as needed.
-            this.reportHoaDonTableAdapter.Fill(this.bachHoaXanhDataSet.ReportHoaDon);
             BachHoaXanhDataSetTableAdapters.ReportHoaDonTableAdapter tableAdapter = new BachHoaXanhDataSetTableAdapters.ReportHoaDonTableAdapter();
             tableAdapter.Connection.ConnectionString = BUSDoiChuoiKetNoi.Instance.ThayDoiChuoiKetNoi();
             tableAdapter.Fill(bachHoaXanhDataSet.ReportHoaDon);
-            this.rptvHoaDon.RefreshReport();
             this.rptvHoaDon.RefreshReport();
         }
     }
