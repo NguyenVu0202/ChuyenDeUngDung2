@@ -1,0 +1,145 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tonga\\OneDrive\\M\u00E1y t\u00EDnh\\ChuyenDe\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|c:\\users\\tonga\\onedrive\\m\u00E1y t\u00EDnh\\chuyende\\chuyende\\frmreportspdaban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|solutionrelative:chuyende\\frmreportspdaban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|C:\\Users\\tonga\\OneDrive\\M\u00E1y t\u00EDnh\\ChuyenDe\\chuyende\\frmthongkesanphamdaban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|solutionrelative:chuyende\\frmthongkesanphamdaban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|C:\\Users\\tonga\\OneDrive\\M\u00E1y t\u00EDnh\\ChuyenDe\\chuyende\\sanphamdaban.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}",
+      "RelativeMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|solutionrelative:chuyende\\sanphamdaban.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|C:\\Users\\tonga\\OneDrive\\M\u00E1y t\u00EDnh\\ChuyenDe\\chuyende\\bachhoaxanhdataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
+      "RelativeMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|solutionrelative:chuyende\\bachhoaxanhdataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|C:\\Users\\tonga\\OneDrive\\M\u00E1y t\u00EDnh\\ChuyenDe\\chuyende\\frmreportspdaban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|solutionrelative:chuyende\\frmreportspdaban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|C:\\Users\\tonga\\OneDrive\\M\u00E1y t\u00EDnh\\ChuyenDe\\chuyende\\frmthongkesanphamdaban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|solutionrelative:chuyende\\frmthongkesanphamdaban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BachHoaXanhDataSet.xsd",
+              "DocumentMoniker": "C:\\Users\\tonga\\OneDrive\\M\u00E1y t\u00EDnh\\ChuyenDe\\ChuyenDe\\BachHoaXanhDataSet.xsd",
+              "RelativeDocumentMoniker": "ChuyenDe\\BachHoaXanhDataSet.xsd",
+              "ToolTip": "C:\\Users\\tonga\\OneDrive\\M\u00E1y t\u00EDnh\\ChuyenDe\\ChuyenDe\\BachHoaXanhDataSet.xsd",
+              "RelativeToolTip": "ChuyenDe\\BachHoaXanhDataSet.xsd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
+              "WhenOpened": "2024-11-21T11:22:38.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmReportSPDaBan.cs",
+              "DocumentMoniker": "C:\\Users\\tonga\\OneDrive\\M\u00E1y t\u00EDnh\\ChuyenDe\\ChuyenDe\\frmReportSPDaBan.cs",
+              "RelativeDocumentMoniker": "ChuyenDe\\frmReportSPDaBan.cs",
+              "ToolTip": "C:\\Users\\tonga\\OneDrive\\M\u00E1y t\u00EDnh\\ChuyenDe\\ChuyenDe\\frmReportSPDaBan.cs",
+              "RelativeToolTip": "ChuyenDe\\frmReportSPDaBan.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAAABUAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T04:35:02.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmReportSPDaBan.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\tonga\\OneDrive\\M\u00E1y t\u00EDnh\\ChuyenDe\\ChuyenDe\\frmReportSPDaBan.cs",
+              "RelativeDocumentMoniker": "ChuyenDe\\frmReportSPDaBan.cs",
+              "ToolTip": "C:\\Users\\tonga\\OneDrive\\M\u00E1y t\u00EDnh\\ChuyenDe\\ChuyenDe\\frmReportSPDaBan.cs [Design]",
+              "RelativeToolTip": "ChuyenDe\\frmReportSPDaBan.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T04:35:01.021Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SanPhamDaBan.rdlc [Design]",
+              "DocumentMoniker": "C:\\Users\\tonga\\OneDrive\\M\u00E1y t\u00EDnh\\ChuyenDe\\ChuyenDe\\SanPhamDaBan.rdlc",
+              "RelativeDocumentMoniker": "ChuyenDe\\SanPhamDaBan.rdlc",
+              "ToolTip": "C:\\Users\\tonga\\OneDrive\\M\u00E1y t\u00EDnh\\ChuyenDe\\ChuyenDe\\SanPhamDaBan.rdlc [Design]",
+              "RelativeToolTip": "ChuyenDe\\SanPhamDaBan.rdlc [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001755|",
+              "WhenOpened": "2024-11-19T04:33:06.451Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmThongKeSanPhamDaBan.cs",
+              "DocumentMoniker": "C:\\Users\\tonga\\OneDrive\\M\u00E1y t\u00EDnh\\ChuyenDe\\ChuyenDe\\frmThongKeSanPhamDaBan.cs",
+              "RelativeDocumentMoniker": "ChuyenDe\\frmThongKeSanPhamDaBan.cs",
+              "ToolTip": "C:\\Users\\tonga\\OneDrive\\M\u00E1y t\u00EDnh\\ChuyenDe\\ChuyenDe\\frmThongKeSanPhamDaBan.cs",
+              "RelativeToolTip": "ChuyenDe\\frmThongKeSanPhamDaBan.cs",
+              "ViewState": "AQIAAHkAAAAAAAAAAAAwwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T04:32:32.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmThongKeSanPhamDaBan.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\tonga\\OneDrive\\M\u00E1y t\u00EDnh\\ChuyenDe\\ChuyenDe\\frmThongKeSanPhamDaBan.cs",
+              "RelativeDocumentMoniker": "ChuyenDe\\frmThongKeSanPhamDaBan.cs",
+              "ToolTip": "C:\\Users\\tonga\\OneDrive\\M\u00E1y t\u00EDnh\\ChuyenDe\\ChuyenDe\\frmThongKeSanPhamDaBan.cs [Design]",
+              "RelativeToolTip": "ChuyenDe\\frmThongKeSanPhamDaBan.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T04:32:30.651Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

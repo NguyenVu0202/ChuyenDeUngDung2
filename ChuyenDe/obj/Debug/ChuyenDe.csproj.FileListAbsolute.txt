@@ -1,0 +1,1371 @@
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\ChuyenDe.exe.config
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\ChuyenDe.exe
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\ChuyenDe.pdb
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\obj\Debug\ChuyenDe.csproj.AssemblyReference.cache
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\obj\Debug\ChuyenDe.frmNhaCungCap.resources
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\obj\Debug\ChuyenDe.Properties.Resources.resources
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\obj\Debug\ChuyenDe.csproj.GenerateResource.cache
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\obj\Debug\ChuyenDe.csproj.CoreCompileInputs.cache
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\obj\Debug\ChuyenDe.exe
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\obj\Debug\ChuyenDe.pdb
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\obj\Debug\ChuyenDe.frmLoai.resources
+G:\ChuyenDe\ChuyenDe\bin\Debug\ChuyenDe.exe.config
+G:\ChuyenDe\ChuyenDe\bin\Debug\ChuyenDe.exe
+G:\ChuyenDe\ChuyenDe\bin\Debug\ChuyenDe.pdb
+G:\ChuyenDe\ChuyenDe\obj\Debug\ChuyenDe.csproj.AssemblyReference.cache
+G:\ChuyenDe\ChuyenDe\obj\Debug\ChuyenDe.frmLoai.resources
+G:\ChuyenDe\ChuyenDe\obj\Debug\ChuyenDe.frmHoaDon.resources
+G:\ChuyenDe\ChuyenDe\obj\Debug\ChuyenDe.frmCuaHang.resources
+G:\ChuyenDe\ChuyenDe\obj\Debug\ChuyenDe.frmKho.resources
+G:\ChuyenDe\ChuyenDe\obj\Debug\ChuyenDe.frmNhanVien.resources
+G:\ChuyenDe\ChuyenDe\obj\Debug\ChuyenDe.frmNhaCungCap.resources
+G:\ChuyenDe\ChuyenDe\obj\Debug\ChuyenDe.frmDangKy.resources
+G:\ChuyenDe\ChuyenDe\obj\Debug\ChuyenDe.frmDangNhap.resources
+G:\ChuyenDe\ChuyenDe\obj\Debug\ChuyenDe.Properties.Resources.resources
+G:\ChuyenDe\ChuyenDe\obj\Debug\ChuyenDe.csproj.GenerateResource.cache
+G:\ChuyenDe\ChuyenDe\obj\Debug\ChuyenDe.csproj.CoreCompileInputs.cache
+G:\ChuyenDe\ChuyenDe\obj\Debug\ChuyenDe.exe
+G:\ChuyenDe\ChuyenDe\obj\Debug\ChuyenDe.pdb
+G:\ChuyenDe\ChuyenDe\bin\Debug\DevExpress.Data.Desktop.v21.2.dll
+G:\ChuyenDe\ChuyenDe\bin\Debug\DevExpress.Data.v21.2.dll
+G:\ChuyenDe\ChuyenDe\bin\Debug\DevExpress.Printing.v21.2.Core.dll
+G:\ChuyenDe\ChuyenDe\bin\Debug\DevExpress.Utils.v21.2.dll
+G:\ChuyenDe\ChuyenDe\bin\Debug\DevExpress.Pdf.v21.2.Core.dll
+G:\ChuyenDe\ChuyenDe\bin\Debug\DevExpress.Pdf.v21.2.Drawing.dll
+G:\ChuyenDe\ChuyenDe\bin\Debug\DevExpress.Data.Desktop.v21.2.xml
+G:\ChuyenDe\ChuyenDe\bin\Debug\DevExpress.Data.v21.2.xml
+G:\ChuyenDe\ChuyenDe\bin\Debug\DevExpress.Printing.v21.2.Core.xml
+G:\ChuyenDe\ChuyenDe\bin\Debug\DevExpress.Utils.v21.2.xml
+G:\ChuyenDe\ChuyenDe\bin\Debug\DevExpress.Pdf.v21.2.Core.xml
+G:\ChuyenDe\ChuyenDe\bin\Debug\DevExpress.Pdf.v21.2.Drawing.xml
+G:\ChuyenDe\ChuyenDe\bin\Debug\de\DevExpress.Data.v21.2.resources.dll
+G:\ChuyenDe\ChuyenDe\bin\Debug\es\DevExpress.Data.v21.2.resources.dll
+G:\ChuyenDe\ChuyenDe\bin\Debug\ja\DevExpress.Data.v21.2.resources.dll
+G:\ChuyenDe\ChuyenDe\bin\Debug\ru\DevExpress.Data.v21.2.resources.dll
+G:\ChuyenDe\ChuyenDe\bin\Debug\de\DevExpress.Printing.v21.2.Core.resources.dll
+G:\ChuyenDe\ChuyenDe\bin\Debug\es\DevExpress.Printing.v21.2.Core.resources.dll
+G:\ChuyenDe\ChuyenDe\bin\Debug\ja\DevExpress.Printing.v21.2.Core.resources.dll
+G:\ChuyenDe\ChuyenDe\bin\Debug\ru\DevExpress.Printing.v21.2.Core.resources.dll
+G:\ChuyenDe\ChuyenDe\bin\Debug\de\DevExpress.Utils.v21.2.resources.dll
+G:\ChuyenDe\ChuyenDe\bin\Debug\es\DevExpress.Utils.v21.2.resources.dll
+G:\ChuyenDe\ChuyenDe\bin\Debug\ja\DevExpress.Utils.v21.2.resources.dll
+G:\ChuyenDe\ChuyenDe\bin\Debug\ru\DevExpress.Utils.v21.2.resources.dll
+G:\ChuyenDe\ChuyenDe\bin\Debug\de\DevExpress.Pdf.v21.2.Core.resources.dll
+G:\ChuyenDe\ChuyenDe\bin\Debug\es\DevExpress.Pdf.v21.2.Core.resources.dll
+G:\ChuyenDe\ChuyenDe\bin\Debug\ja\DevExpress.Pdf.v21.2.Core.resources.dll
+G:\ChuyenDe\ChuyenDe\bin\Debug\ru\DevExpress.Pdf.v21.2.Core.resources.dll
+G:\ChuyenDe\ChuyenDe\obj\Debug\ChuyenDe.csproj.Up2Date
+G:\ChuyenDe\ChuyenDe\obj\Debug\ChuyenDe.frmKhachHang.resources
+G:\ChuyenDe\ChuyenDe\obj\Debug\ChuyenDe.frmThongKeDoanhThu.resources
+G:\ChuyenDe\ChuyenDe\obj\Debug\ChuyenDe.frmThongKeLuongNhanVien.resources
+G:\ChuyenDe\ChuyenDe\obj\Debug\ChuyenDe.frmTimKiemHoaDon.resources
+G:\ChuyenDe\ChuyenDe\obj\Debug\ChuyenDe.frmThongKeSanPhamDaBan.resources
+G:\ChuyenDe\ChuyenDe\obj\Debug\ChuyenDe.frmChinh.resources
+G:\ChuyenDe\ChuyenDe\obj\Debug\ChuyenDe.frmDanhMucSanPham.resources
+G:\ChuyenDe\ChuyenDe\obj\Debug\ChuyenDe.frmSanPham.resources
+G:\ChuyenDe\ChuyenDe\obj\Debug\ChuyenDe.frmTimKiemSanPham.resources
+G:\ChuyenDe\ChuyenDe\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+G:\ChuyenDe\ChuyenDe\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+G:\ChuyenDe\ChuyenDe\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+G:\ChuyenDe\ChuyenDe\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+G:\ChuyenDe\ChuyenDe\bin\Debug\BUS.exe
+G:\ChuyenDe\ChuyenDe\bin\Debug\DAO.exe
+G:\ChuyenDe\ChuyenDe\bin\Debug\Microsoft.ReportViewer.Common.dll
+G:\ChuyenDe\ChuyenDe\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+G:\ChuyenDe\ChuyenDe\bin\Debug\Microsoft.ReportViewer.Design.dll
+G:\ChuyenDe\ChuyenDe\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+G:\ChuyenDe\ChuyenDe\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+G:\ChuyenDe\ChuyenDe\bin\Debug\Microsoft.SqlServer.Types.dll
+G:\ChuyenDe\ChuyenDe\bin\Debug\EnvDTE.dll
+G:\ChuyenDe\ChuyenDe\bin\Debug\stdole.dll
+G:\ChuyenDe\ChuyenDe\bin\Debug\BUS.pdb
+G:\ChuyenDe\ChuyenDe\bin\Debug\BUS.exe.config
+G:\ChuyenDe\ChuyenDe\bin\Debug\DAO.pdb
+G:\ChuyenDe\ChuyenDe\bin\Debug\DAO.exe.config
+G:\ChuyenDe\ChuyenDe\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+G:\ChuyenDe\ChuyenDe\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+G:\ChuyenDe\ChuyenDe\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+G:\ChuyenDe\ChuyenDe\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+G:\ChuyenDe\ChuyenDe\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+G:\ChuyenDe\ChuyenDe\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+G:\ChuyenDe\ChuyenDe\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+G:\ChuyenDe\ChuyenDe\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+G:\ChuyenDe\ChuyenDe\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+G:\ChuyenDe\ChuyenDe\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+G:\ChuyenDe\ChuyenDe\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+G:\ChuyenDe\ChuyenDe\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+G:\ChuyenDe\ChuyenDe\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+G:\ChuyenDe\ChuyenDe\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+G:\ChuyenDe\ChuyenDe\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+G:\ChuyenDe\ChuyenDe\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+G:\ChuyenDe\ChuyenDe\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+G:\ChuyenDe\ChuyenDe\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+G:\ChuyenDe\ChuyenDe\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+G:\ChuyenDe\ChuyenDe\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+G:\ChuyenDe\ChuyenDe\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+G:\ChuyenDe\ChuyenDe\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+G:\ChuyenDe\ChuyenDe\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+G:\ChuyenDe\ChuyenDe\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+G:\ChuyenDe\ChuyenDe\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+G:\ChuyenDe\ChuyenDe\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+G:\ChuyenDe\ChuyenDe\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+G:\ChuyenDe\ChuyenDe\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+G:\ChuyenDe\ChuyenDe\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+G:\ChuyenDe\ChuyenDe\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+G:\ChuyenDe\ChuyenDe\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+G:\ChuyenDe\ChuyenDe\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+G:\ChuyenDe\ChuyenDe\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+G:\ChuyenDe\ChuyenDe\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+G:\ChuyenDe\ChuyenDe\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+G:\ChuyenDe\ChuyenDe\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+G:\ChuyenDe\ChuyenDe\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+G:\ChuyenDe\ChuyenDe\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+G:\ChuyenDe\ChuyenDe\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+G:\ChuyenDe\ChuyenDe\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+G:\ChuyenDe\ChuyenDe\bin\Debug\Zen.Barcode.Core.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\obj\Debug\ChuyenDe.frmKhachHang.resources
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\obj\Debug\ChuyenDe.frmChinh.resources
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\obj\Debug\ChuyenDe.frmHoaDon.resources
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\obj\Debug\ChuyenDe.frmCuaHang.resources
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\obj\Debug\ChuyenDe.frmKho.resources
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\obj\Debug\ChuyenDe.frmNhanVien.resources
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\obj\Debug\ChuyenDe.frmDanhMucSanPham.resources
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\obj\Debug\ChuyenDe.frmDangKy.resources
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\obj\Debug\ChuyenDe.frmDangNhap.resources
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\obj\Debug\ChuyenDe.frmThongKeDoanhThu.resources
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\obj\Debug\ChuyenDe.frmThongKeLuongNhanVien.resources
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\obj\Debug\ChuyenDe.frmThongKeSanPhamDaBan.resources
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\obj\Debug\ChuyenDe.frmTimKiemHoaDon.resources
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\obj\Debug\ChuyenDe.frmSanPham.resources
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\obj\Debug\ChuyenDe.frmTimKiemSanPham.resources
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\BUS.exe
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\DAO.exe
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\Zen.Barcode.Core.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\DevExpress.Pdf.v21.2.Core.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\DevExpress.Pdf.v21.2.Drawing.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\EnvDTE.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\stdole.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\BUS.pdb
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\BUS.exe.config
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\DAO.pdb
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\DAO.exe.config
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\DevExpress.Data.Desktop.v21.2.xml
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\DevExpress.Data.v21.2.xml
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\DevExpress.Printing.v21.2.Core.xml
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\DevExpress.Utils.v21.2.xml
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\DevExpress.Pdf.v21.2.Core.xml
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\DevExpress.Pdf.v21.2.Drawing.xml
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\de\DevExpress.Data.v21.2.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\es\DevExpress.Data.v21.2.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\ja\DevExpress.Data.v21.2.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\ru\DevExpress.Data.v21.2.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\de\DevExpress.Printing.v21.2.Core.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\es\DevExpress.Printing.v21.2.Core.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\ja\DevExpress.Printing.v21.2.Core.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\ru\DevExpress.Printing.v21.2.Core.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\de\DevExpress.Utils.v21.2.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\es\DevExpress.Utils.v21.2.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\ja\DevExpress.Utils.v21.2.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\ru\DevExpress.Utils.v21.2.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\de\DevExpress.Pdf.v21.2.Core.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\es\DevExpress.Pdf.v21.2.Core.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\ja\DevExpress.Pdf.v21.2.Core.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\ru\DevExpress.Pdf.v21.2.Core.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\obj\Debug\ChuyenDe.csproj.Up2Date
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\ChuyenDe.exe.config
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\ChuyenDe.exe
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\ChuyenDe.pdb
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\BUS.exe
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\DAO.exe
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\Zen.Barcode.Core.dll
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\DevExpress.Pdf.v21.2.Core.dll
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\DevExpress.Pdf.v21.2.Drawing.dll
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\EnvDTE.dll
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\stdole.dll
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\BUS.pdb
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\BUS.exe.config
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\DAO.pdb
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\DAO.exe.config
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\DevExpress.Data.Desktop.v21.2.xml
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\DevExpress.Data.v21.2.xml
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\DevExpress.Printing.v21.2.Core.xml
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\DevExpress.Utils.v21.2.xml
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\DevExpress.Pdf.v21.2.Core.xml
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\DevExpress.Pdf.v21.2.Drawing.xml
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\de\DevExpress.Data.v21.2.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\es\DevExpress.Data.v21.2.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\ja\DevExpress.Data.v21.2.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\ru\DevExpress.Data.v21.2.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\de\DevExpress.Printing.v21.2.Core.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\es\DevExpress.Printing.v21.2.Core.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\ja\DevExpress.Printing.v21.2.Core.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\ru\DevExpress.Printing.v21.2.Core.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\de\DevExpress.Utils.v21.2.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\es\DevExpress.Utils.v21.2.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\ja\DevExpress.Utils.v21.2.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\ru\DevExpress.Utils.v21.2.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\de\DevExpress.Pdf.v21.2.Core.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\es\DevExpress.Pdf.v21.2.Core.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\ja\DevExpress.Pdf.v21.2.Core.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\ru\DevExpress.Pdf.v21.2.Core.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.csproj.AssemblyReference.cache
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmKhachHang.resources
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmLoai.resources
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmChinh.resources
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmHoaDon.resources
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmCuaHang.resources
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmKho.resources
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmNhanVien.resources
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmDanhMucSanPham.resources
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmNhaCungCap.resources
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmDangKy.resources
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmDangNhap.resources
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmThongKeDoanhThu.resources
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmThongKeLuongNhanVien.resources
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmThongKeSanPhamDaBan.resources
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmTimKiemHoaDon.resources
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.Properties.Resources.resources
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmSanPham.resources
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmTimKiemSanPham.resources
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.csproj.GenerateResource.cache
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.csproj.CoreCompileInputs.cache
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.csproj.Up2Date
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.exe
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.pdb
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\ChuyenDe.exe.config
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\ChuyenDe.exe
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\ChuyenDe.pdb
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\BUS.exe
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\DAO.exe
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\Zen.Barcode.Core.dll
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\DevExpress.Pdf.v21.2.Core.dll
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\DevExpress.Pdf.v21.2.Drawing.dll
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\EnvDTE.dll
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\stdole.dll
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\BUS.pdb
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\BUS.exe.config
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\DAO.pdb
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\DAO.exe.config
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\DevExpress.Data.Desktop.v21.2.xml
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\DevExpress.Data.v21.2.xml
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\DevExpress.Printing.v21.2.Core.xml
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\DevExpress.Utils.v21.2.xml
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\DevExpress.Pdf.v21.2.Core.xml
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\DevExpress.Pdf.v21.2.Drawing.xml
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\de\DevExpress.Data.v21.2.resources.dll
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\es\DevExpress.Data.v21.2.resources.dll
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\ja\DevExpress.Data.v21.2.resources.dll
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\ru\DevExpress.Data.v21.2.resources.dll
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\de\DevExpress.Printing.v21.2.Core.resources.dll
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\es\DevExpress.Printing.v21.2.Core.resources.dll
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\ja\DevExpress.Printing.v21.2.Core.resources.dll
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\ru\DevExpress.Printing.v21.2.Core.resources.dll
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\de\DevExpress.Utils.v21.2.resources.dll
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\es\DevExpress.Utils.v21.2.resources.dll
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\ja\DevExpress.Utils.v21.2.resources.dll
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\ru\DevExpress.Utils.v21.2.resources.dll
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\de\DevExpress.Pdf.v21.2.Core.resources.dll
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\es\DevExpress.Pdf.v21.2.Core.resources.dll
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\ja\DevExpress.Pdf.v21.2.Core.resources.dll
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\bin\Debug\ru\DevExpress.Pdf.v21.2.Core.resources.dll
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.csproj.SuggestedBindingRedirects.cache
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmKhachHang.resources
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmLoai.resources
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmChinh.resources
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmHoaDon.resources
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmCuaHang.resources
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmKho.resources
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmNhanVien.resources
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmDanhMucSanPham.resources
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmNhaCungCap.resources
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmDangKy.resources
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmDangNhap.resources
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmThongKeDoanhThu.resources
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmThongKeLuongNhanVien.resources
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmThongKeSanPhamDaBan.resources
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmTimKiemHoaDon.resources
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.Properties.Resources.resources
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmSanPham.resources
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmTimKiemSanPham.resources
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.csproj.CopyComplete
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.exe
+C:\Users\Administrator\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.pdb
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\ChuyenDe.exe.config
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\ChuyenDe.exe
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\ChuyenDe.pdb
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\BUS.exe
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\DAO.exe
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\DevExpress.Data.Desktop.v21.2.dll
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\DevExpress.Data.v21.2.dll
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\DevExpress.Printing.v21.2.Core.dll
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\DevExpress.Utils.v21.2.dll
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\Microsoft.ReportViewer.Design.dll
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\Zen.Barcode.Core.dll
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\DevExpress.Pdf.v21.2.Core.dll
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\DevExpress.Pdf.v21.2.Drawing.dll
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\EnvDTE.dll
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\stdole.dll
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\BUS.pdb
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\BUS.exe.config
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\DAO.pdb
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\DAO.exe.config
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\DevExpress.Data.Desktop.v21.2.xml
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\DevExpress.Data.v21.2.xml
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\DevExpress.Printing.v21.2.Core.xml
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\DevExpress.Utils.v21.2.xml
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\DevExpress.Pdf.v21.2.Core.xml
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\DevExpress.Pdf.v21.2.Drawing.xml
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\de\DevExpress.Data.v21.2.resources.dll
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\es\DevExpress.Data.v21.2.resources.dll
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\ja\DevExpress.Data.v21.2.resources.dll
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\ru\DevExpress.Data.v21.2.resources.dll
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\de\DevExpress.Printing.v21.2.Core.resources.dll
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\es\DevExpress.Printing.v21.2.Core.resources.dll
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\ja\DevExpress.Printing.v21.2.Core.resources.dll
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\ru\DevExpress.Printing.v21.2.Core.resources.dll
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\de\DevExpress.Utils.v21.2.resources.dll
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\es\DevExpress.Utils.v21.2.resources.dll
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\ja\DevExpress.Utils.v21.2.resources.dll
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\ru\DevExpress.Utils.v21.2.resources.dll
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\de\DevExpress.Pdf.v21.2.Core.resources.dll
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\es\DevExpress.Pdf.v21.2.Core.resources.dll
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\ja\DevExpress.Pdf.v21.2.Core.resources.dll
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\bin\Debug\ru\DevExpress.Pdf.v21.2.Core.resources.dll
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\obj\Debug\ChuyenDe.csproj.AssemblyReference.cache
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmKhachHang.resources
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmLoai.resources
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmChinh.resources
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmHoaDon.resources
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmCuaHang.resources
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmKho.resources
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmNhanVien.resources
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmDanhMucSanPham.resources
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmNhaCungCap.resources
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmDangKy.resources
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmDangNhap.resources
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmThongKeDoanhThu.resources
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmThongKeLuongNhanVien.resources
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmThongKeSanPhamDaBan.resources
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmTimKiemHoaDon.resources
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\obj\Debug\ChuyenDe.Properties.Resources.resources
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmSanPham.resources
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmTimKiemSanPham.resources
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\obj\Debug\ChuyenDe.csproj.GenerateResource.cache
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\obj\Debug\ChuyenDe.csproj.CoreCompileInputs.cache
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\obj\Debug\ChuyenDe.csproj.Up2Date
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\obj\Debug\ChuyenDe.exe
+D:\HocKi-5\SQL chuyên đề 2\New folder\ChuyenDe\obj\Debug\ChuyenDe.pdb
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\ChuyenDe.exe.config
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\ChuyenDe.exe
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\ChuyenDe.pdb
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\BUS.exe
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\DAO.exe
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\DevExpress.Data.Desktop.v21.2.dll
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\DevExpress.Data.v21.2.dll
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\DevExpress.Printing.v21.2.Core.dll
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\DevExpress.Utils.v21.2.dll
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\Zen.Barcode.Core.dll
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\DevExpress.Pdf.v21.2.Core.dll
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\DevExpress.Pdf.v21.2.Drawing.dll
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\EnvDTE.dll
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\stdole.dll
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\BUS.pdb
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\BUS.exe.config
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\DAO.pdb
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\DAO.exe.config
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\DevExpress.Data.Desktop.v21.2.xml
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\DevExpress.Data.v21.2.xml
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\DevExpress.Printing.v21.2.Core.xml
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\DevExpress.Utils.v21.2.xml
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\DevExpress.Pdf.v21.2.Core.xml
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\DevExpress.Pdf.v21.2.Drawing.xml
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\de\DevExpress.Data.v21.2.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\es\DevExpress.Data.v21.2.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\ja\DevExpress.Data.v21.2.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\ru\DevExpress.Data.v21.2.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\de\DevExpress.Printing.v21.2.Core.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\es\DevExpress.Printing.v21.2.Core.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\ja\DevExpress.Printing.v21.2.Core.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\ru\DevExpress.Printing.v21.2.Core.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\de\DevExpress.Utils.v21.2.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\es\DevExpress.Utils.v21.2.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\ja\DevExpress.Utils.v21.2.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\ru\DevExpress.Utils.v21.2.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\de\DevExpress.Pdf.v21.2.Core.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\es\DevExpress.Pdf.v21.2.Core.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\ja\DevExpress.Pdf.v21.2.Core.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\bin\Debug\ru\DevExpress.Pdf.v21.2.Core.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\obj\Debug\ChuyenDe.csproj.AssemblyReference.cache
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmKhachHang.resources
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmLoai.resources
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmChinh.resources
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmHoaDon.resources
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmCuaHang.resources
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmKho.resources
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmNhanVien.resources
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmDanhMucSanPham.resources
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmNhaCungCap.resources
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmDangKy.resources
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmDangNhap.resources
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmThongKeDoanhThu.resources
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmThongKeLuongNhanVien.resources
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmThongKeSanPhamDaBan.resources
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmTimKiemHoaDon.resources
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\obj\Debug\ChuyenDe.Properties.Resources.resources
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmSanPham.resources
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmTimKiemSanPham.resources
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\obj\Debug\ChuyenDe.csproj.GenerateResource.cache
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\obj\Debug\ChuyenDe.csproj.CoreCompileInputs.cache
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\obj\Debug\ChuyenDe.csproj.Up2Date
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\obj\Debug\ChuyenDe.exe
+C:\Users\NGUYEN VU\Desktop\New folder\New folder\ChuyenDe\obj\Debug\ChuyenDe.pdb
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\ChuyenDe.exe.config
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\ChuyenDe.exe
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\ChuyenDe.pdb
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\BUS.exe
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\DAO.exe
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\Microsoft.ReportViewer.Design.dll
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\Zen.Barcode.Core.dll
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\DevExpress.Pdf.v21.2.Core.dll
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\DevExpress.Pdf.v21.2.Drawing.dll
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\EnvDTE.dll
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\stdole.dll
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\BUS.pdb
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\BUS.exe.config
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\DAO.pdb
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\DAO.exe.config
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\DevExpress.Data.Desktop.v21.2.xml
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\DevExpress.Data.v21.2.xml
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\DevExpress.Printing.v21.2.Core.xml
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\DevExpress.Utils.v21.2.xml
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\DevExpress.Pdf.v21.2.Core.xml
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\DevExpress.Pdf.v21.2.Drawing.xml
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\de\DevExpress.Data.v21.2.resources.dll
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\es\DevExpress.Data.v21.2.resources.dll
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\ja\DevExpress.Data.v21.2.resources.dll
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\ru\DevExpress.Data.v21.2.resources.dll
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\de\DevExpress.Printing.v21.2.Core.resources.dll
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\es\DevExpress.Printing.v21.2.Core.resources.dll
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\ja\DevExpress.Printing.v21.2.Core.resources.dll
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\ru\DevExpress.Printing.v21.2.Core.resources.dll
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\de\DevExpress.Utils.v21.2.resources.dll
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\es\DevExpress.Utils.v21.2.resources.dll
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\ja\DevExpress.Utils.v21.2.resources.dll
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\ru\DevExpress.Utils.v21.2.resources.dll
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\de\DevExpress.Pdf.v21.2.Core.resources.dll
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\es\DevExpress.Pdf.v21.2.Core.resources.dll
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\ja\DevExpress.Pdf.v21.2.Core.resources.dll
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\bin\Debug\ru\DevExpress.Pdf.v21.2.Core.resources.dll
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\obj\Debug\ChuyenDe.csproj.AssemblyReference.cache
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\obj\Debug\ChuyenDe.frmKhachHang.resources
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\obj\Debug\ChuyenDe.frmLoai.resources
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\obj\Debug\ChuyenDe.frmChinh.resources
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\obj\Debug\ChuyenDe.frmHoaDon.resources
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\obj\Debug\ChuyenDe.frmCuaHang.resources
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\obj\Debug\ChuyenDe.frmKho.resources
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\obj\Debug\ChuyenDe.frmNhanVien.resources
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\obj\Debug\ChuyenDe.frmDanhMucSanPham.resources
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\obj\Debug\ChuyenDe.frmNhaCungCap.resources
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\obj\Debug\ChuyenDe.frmDangKy.resources
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\obj\Debug\ChuyenDe.frmDangNhap.resources
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\obj\Debug\ChuyenDe.frmThongKeDoanhThu.resources
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\obj\Debug\ChuyenDe.frmThongKeLuongNhanVien.resources
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\obj\Debug\ChuyenDe.frmThongKeSanPhamDaBan.resources
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\obj\Debug\ChuyenDe.frmTimKiemHoaDon.resources
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\obj\Debug\ChuyenDe.Properties.Resources.resources
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\obj\Debug\ChuyenDe.frmSanPham.resources
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\obj\Debug\ChuyenDe.frmTimKiemSanPham.resources
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\obj\Debug\ChuyenDe.csproj.GenerateResource.cache
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\obj\Debug\ChuyenDe.csproj.CoreCompileInputs.cache
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\obj\Debug\ChuyenDe.csproj.Up2Date
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\obj\Debug\ChuyenDe.exe
+D:\HK6\Chuyên Đề Ứng Dụng 1\Bách Hóa Xanh\ChuyenDe\ChuyenDe\obj\Debug\ChuyenDe.pdb
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\DevExpress.Sparkline.v21.2.Core.xml
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\DevExpress.XtraEditors.v21.2.xml
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\de\DevExpress.Sparkline.v21.2.Core.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\es\DevExpress.Sparkline.v21.2.Core.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\ja\DevExpress.Sparkline.v21.2.Core.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\ru\DevExpress.Sparkline.v21.2.Core.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\de\DevExpress.XtraEditors.v21.2.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\es\DevExpress.XtraEditors.v21.2.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\ja\DevExpress.XtraEditors.v21.2.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\ru\DevExpress.XtraEditors.v21.2.resources.dll
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\AForge.dll
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\AForge.Video.dll
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\zxing.dll
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\zxing.presentation.dll
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\AForge.xml
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\AForge.Video.xml
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\zxing.xml
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\bin\Debug\zxing.presentation.xml
+D:\ChuyenDeUngDung2-main\ChuyenDe\obj\Debug\ChuyenDe.csproj.AssemblyReference.cache
+D:\ChuyenDeUngDung2-main\ChuyenDe\obj\Debug\ChuyenDe.csproj.SuggestedBindingRedirects.cache
+D:\ChuyenDeUngDung2-main\ChuyenDe\obj\Debug\ChuyenDe.frmKhachHang.resources
+D:\ChuyenDeUngDung2-main\ChuyenDe\obj\Debug\ChuyenDe.frmLoai.resources
+D:\ChuyenDeUngDung2-main\ChuyenDe\obj\Debug\ChuyenDe.frmChinh.resources
+D:\ChuyenDeUngDung2-main\ChuyenDe\obj\Debug\ChuyenDe.frmHoaDon.resources
+D:\ChuyenDeUngDung2-main\ChuyenDe\obj\Debug\ChuyenDe.frmCuaHang.resources
+D:\ChuyenDeUngDung2-main\ChuyenDe\obj\Debug\ChuyenDe.frmKho.resources
+D:\ChuyenDeUngDung2-main\ChuyenDe\obj\Debug\ChuyenDe.frmNhanVien.resources
+D:\ChuyenDeUngDung2-main\ChuyenDe\obj\Debug\ChuyenDe.frmDanhMucSanPham.resources
+D:\ChuyenDeUngDung2-main\ChuyenDe\obj\Debug\ChuyenDe.frmNhaCungCap.resources
+D:\ChuyenDeUngDung2-main\ChuyenDe\obj\Debug\ChuyenDe.frmDangKy.resources
+D:\ChuyenDeUngDung2-main\ChuyenDe\obj\Debug\ChuyenDe.frmDangNhap.resources
+D:\ChuyenDeUngDung2-main\ChuyenDe\obj\Debug\ChuyenDe.frmThongKeDoanhThu.resources
+D:\ChuyenDeUngDung2-main\ChuyenDe\obj\Debug\ChuyenDe.frmThongKeLuongNhanVien.resources
+D:\ChuyenDeUngDung2-main\ChuyenDe\obj\Debug\ChuyenDe.frmThongKeSanPhamDaBan.resources
+D:\ChuyenDeUngDung2-main\ChuyenDe\obj\Debug\ChuyenDe.frmTimKiemHoaDon.resources
+D:\ChuyenDeUngDung2-main\ChuyenDe\obj\Debug\ChuyenDe.Properties.Resources.resources
+D:\ChuyenDeUngDung2-main\ChuyenDe\obj\Debug\ChuyenDe.frmSanPham.resources
+D:\ChuyenDeUngDung2-main\ChuyenDe\obj\Debug\ChuyenDe.frmTimKiemSanPham.resources
+D:\ChuyenDeUngDung2-main\ChuyenDe\obj\Debug\ChuyenDe.csproj.GenerateResource.cache
+D:\ChuyenDeUngDung2-main\ChuyenDe\obj\Debug\ChuyenDe.csproj.CoreCompileInputs.cache
+D:\ChuyenDeUngDung2-main\ChuyenDe\obj\Debug\ChuyenDe.exe
+D:\ChuyenDeUngDung2-main\ChuyenDe\obj\Debug\ChuyenDe.pdb
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\ChuyenDe.exe.config
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\ChuyenDe.exe
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\ChuyenDe.pdb
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\AForge.dll
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\AForge.Video.DirectShow.dll
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\AForge.Video.dll
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\BUS.exe
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\DAO.exe
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\Microsoft.ReportViewer.Design.dll
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\Zen.Barcode.Core.dll
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\zxing.dll
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\zxing.presentation.dll
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\DevExpress.Pdf.v21.2.Core.dll
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\DevExpress.Pdf.v21.2.Drawing.dll
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\EnvDTE.dll
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\stdole.dll
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\BUS.pdb
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\BUS.exe.config
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\DAO.pdb
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\DAO.exe.config
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\AForge.xml
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\AForge.Video.xml
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\AForge.Video.DirectShow.xml
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\DevExpress.Data.Desktop.v21.2.xml
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\DevExpress.Data.v21.2.xml
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\DevExpress.Printing.v21.2.Core.xml
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\DevExpress.Sparkline.v21.2.Core.xml
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\DevExpress.Utils.v21.2.xml
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\DevExpress.XtraEditors.v21.2.xml
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\zxing.xml
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\zxing.presentation.xml
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\DevExpress.Pdf.v21.2.Core.xml
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\DevExpress.Pdf.v21.2.Drawing.xml
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\de\DevExpress.Data.v21.2.resources.dll
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\es\DevExpress.Data.v21.2.resources.dll
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\ja\DevExpress.Data.v21.2.resources.dll
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\ru\DevExpress.Data.v21.2.resources.dll
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\de\DevExpress.Printing.v21.2.Core.resources.dll
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\es\DevExpress.Printing.v21.2.Core.resources.dll
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\ja\DevExpress.Printing.v21.2.Core.resources.dll
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\ru\DevExpress.Printing.v21.2.Core.resources.dll
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\de\DevExpress.Sparkline.v21.2.Core.resources.dll
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\es\DevExpress.Sparkline.v21.2.Core.resources.dll
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\ja\DevExpress.Sparkline.v21.2.Core.resources.dll
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\ru\DevExpress.Sparkline.v21.2.Core.resources.dll
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\de\DevExpress.Utils.v21.2.resources.dll
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\es\DevExpress.Utils.v21.2.resources.dll
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\ja\DevExpress.Utils.v21.2.resources.dll
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\ru\DevExpress.Utils.v21.2.resources.dll
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\de\DevExpress.XtraEditors.v21.2.resources.dll
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\es\DevExpress.XtraEditors.v21.2.resources.dll
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\ja\DevExpress.XtraEditors.v21.2.resources.dll
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\ru\DevExpress.XtraEditors.v21.2.resources.dll
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\de\DevExpress.Pdf.v21.2.Core.resources.dll
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\es\DevExpress.Pdf.v21.2.Core.resources.dll
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\ja\DevExpress.Pdf.v21.2.Core.resources.dll
+D:\ChuyenDeUngDung2-main\ChuyenDe\bin\Debug\ru\DevExpress.Pdf.v21.2.Core.resources.dll
+D:\ChuyenDeUngDung2-main\ChuyenDe\obj\Debug\ChuyenDe.csproj.CopyComplete
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\ChuyenDe.exe.config
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\ChuyenDe.exe
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\ChuyenDe.pdb
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\AForge.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\AForge.Video.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\BUS.exe
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\DAO.exe
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\Zen.Barcode.Core.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\zxing.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\zxing.presentation.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\DevExpress.Pdf.v21.2.Core.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\DevExpress.Pdf.v21.2.Drawing.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\EnvDTE.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\stdole.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\BUS.pdb
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\BUS.exe.config
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\DAO.pdb
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\DAO.exe.config
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\AForge.xml
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\AForge.Video.xml
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\DevExpress.Data.Desktop.v21.2.xml
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\DevExpress.Data.v21.2.xml
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\DevExpress.Printing.v21.2.Core.xml
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\DevExpress.Sparkline.v21.2.Core.xml
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\DevExpress.Utils.v21.2.xml
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\DevExpress.XtraEditors.v21.2.xml
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\zxing.xml
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\zxing.presentation.xml
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\DevExpress.Pdf.v21.2.Core.xml
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\DevExpress.Pdf.v21.2.Drawing.xml
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\de\DevExpress.Data.v21.2.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\es\DevExpress.Data.v21.2.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\ja\DevExpress.Data.v21.2.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\ru\DevExpress.Data.v21.2.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\de\DevExpress.Printing.v21.2.Core.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\es\DevExpress.Printing.v21.2.Core.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\ja\DevExpress.Printing.v21.2.Core.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\ru\DevExpress.Printing.v21.2.Core.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\de\DevExpress.Sparkline.v21.2.Core.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\es\DevExpress.Sparkline.v21.2.Core.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\ja\DevExpress.Sparkline.v21.2.Core.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\ru\DevExpress.Sparkline.v21.2.Core.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\de\DevExpress.Utils.v21.2.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\es\DevExpress.Utils.v21.2.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\ja\DevExpress.Utils.v21.2.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\ru\DevExpress.Utils.v21.2.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\de\DevExpress.XtraEditors.v21.2.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\es\DevExpress.XtraEditors.v21.2.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\ja\DevExpress.XtraEditors.v21.2.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\ru\DevExpress.XtraEditors.v21.2.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\de\DevExpress.Pdf.v21.2.Core.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\es\DevExpress.Pdf.v21.2.Core.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\ja\DevExpress.Pdf.v21.2.Core.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\bin\Debug\ru\DevExpress.Pdf.v21.2.Core.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\obj\Debug\ChuyenDe.csproj.AssemblyReference.cache
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\obj\Debug\ChuyenDe.frmKhachHang.resources
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\obj\Debug\ChuyenDe.frmLoai.resources
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\obj\Debug\ChuyenDe.frmChinh.resources
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\obj\Debug\ChuyenDe.frmHoaDon.resources
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\obj\Debug\ChuyenDe.frmCuaHang.resources
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\obj\Debug\ChuyenDe.frmKho.resources
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\obj\Debug\ChuyenDe.frmNhanVien.resources
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\obj\Debug\ChuyenDe.frmDanhMucSanPham.resources
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\obj\Debug\ChuyenDe.frmNhaCungCap.resources
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\obj\Debug\ChuyenDe.frmDangKy.resources
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\obj\Debug\ChuyenDe.frmDangNhap.resources
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\obj\Debug\ChuyenDe.frmThongKeDoanhThu.resources
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\obj\Debug\ChuyenDe.frmThongKeLuongNhanVien.resources
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\obj\Debug\ChuyenDe.frmThongKeSanPhamDaBan.resources
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\obj\Debug\ChuyenDe.frmTimKiemHoaDon.resources
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\obj\Debug\ChuyenDe.Properties.Resources.resources
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\obj\Debug\ChuyenDe.frmSanPham.resources
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\obj\Debug\ChuyenDe.frmTimKiemSanPham.resources
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\obj\Debug\ChuyenDe.csproj.GenerateResource.cache
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\obj\Debug\ChuyenDe.csproj.CoreCompileInputs.cache
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\obj\Debug\ChuyenDe.csproj.Up2Date
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\obj\Debug\ChuyenDe.exe
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe2\ChuyenDe\obj\Debug\ChuyenDe.pdb
+F:\New folder\ChuyenDe\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+F:\New folder\ChuyenDe\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+F:\New folder\ChuyenDe\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+F:\New folder\ChuyenDe\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+F:\New folder\ChuyenDe\bin\Debug\ChuyenDe.exe.config
+F:\New folder\ChuyenDe\bin\Debug\ChuyenDe.exe
+F:\New folder\ChuyenDe\bin\Debug\ChuyenDe.pdb
+F:\New folder\ChuyenDe\bin\Debug\AForge.dll
+F:\New folder\ChuyenDe\bin\Debug\AForge.Video.DirectShow.dll
+F:\New folder\ChuyenDe\bin\Debug\AForge.Video.dll
+F:\New folder\ChuyenDe\bin\Debug\BUS.exe
+F:\New folder\ChuyenDe\bin\Debug\DAO.exe
+F:\New folder\ChuyenDe\bin\Debug\Microsoft.ReportViewer.Common.dll
+F:\New folder\ChuyenDe\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+F:\New folder\ChuyenDe\bin\Debug\Microsoft.ReportViewer.Design.dll
+F:\New folder\ChuyenDe\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+F:\New folder\ChuyenDe\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+F:\New folder\ChuyenDe\bin\Debug\Microsoft.SqlServer.Types.dll
+F:\New folder\ChuyenDe\bin\Debug\Zen.Barcode.Core.dll
+F:\New folder\ChuyenDe\bin\Debug\zxing.dll
+F:\New folder\ChuyenDe\bin\Debug\zxing.presentation.dll
+F:\New folder\ChuyenDe\bin\Debug\DevExpress.Pdf.v21.2.Core.dll
+F:\New folder\ChuyenDe\bin\Debug\DevExpress.Pdf.v21.2.Drawing.dll
+F:\New folder\ChuyenDe\bin\Debug\EnvDTE.dll
+F:\New folder\ChuyenDe\bin\Debug\stdole.dll
+F:\New folder\ChuyenDe\bin\Debug\BUS.pdb
+F:\New folder\ChuyenDe\bin\Debug\BUS.exe.config
+F:\New folder\ChuyenDe\bin\Debug\DAO.pdb
+F:\New folder\ChuyenDe\bin\Debug\DAO.exe.config
+F:\New folder\ChuyenDe\bin\Debug\AForge.xml
+F:\New folder\ChuyenDe\bin\Debug\AForge.Video.xml
+F:\New folder\ChuyenDe\bin\Debug\AForge.Video.DirectShow.xml
+F:\New folder\ChuyenDe\bin\Debug\DevExpress.Data.Desktop.v21.2.xml
+F:\New folder\ChuyenDe\bin\Debug\DevExpress.Data.v21.2.xml
+F:\New folder\ChuyenDe\bin\Debug\DevExpress.Printing.v21.2.Core.xml
+F:\New folder\ChuyenDe\bin\Debug\DevExpress.Sparkline.v21.2.Core.xml
+F:\New folder\ChuyenDe\bin\Debug\DevExpress.Utils.v21.2.xml
+F:\New folder\ChuyenDe\bin\Debug\DevExpress.XtraEditors.v21.2.xml
+F:\New folder\ChuyenDe\bin\Debug\zxing.xml
+F:\New folder\ChuyenDe\bin\Debug\zxing.presentation.xml
+F:\New folder\ChuyenDe\bin\Debug\DevExpress.Pdf.v21.2.Core.xml
+F:\New folder\ChuyenDe\bin\Debug\DevExpress.Pdf.v21.2.Drawing.xml
+F:\New folder\ChuyenDe\bin\Debug\de\DevExpress.Data.v21.2.resources.dll
+F:\New folder\ChuyenDe\bin\Debug\es\DevExpress.Data.v21.2.resources.dll
+F:\New folder\ChuyenDe\bin\Debug\ja\DevExpress.Data.v21.2.resources.dll
+F:\New folder\ChuyenDe\bin\Debug\ru\DevExpress.Data.v21.2.resources.dll
+F:\New folder\ChuyenDe\bin\Debug\de\DevExpress.Printing.v21.2.Core.resources.dll
+F:\New folder\ChuyenDe\bin\Debug\es\DevExpress.Printing.v21.2.Core.resources.dll
+F:\New folder\ChuyenDe\bin\Debug\ja\DevExpress.Printing.v21.2.Core.resources.dll
+F:\New folder\ChuyenDe\bin\Debug\ru\DevExpress.Printing.v21.2.Core.resources.dll
+F:\New folder\ChuyenDe\bin\Debug\de\DevExpress.Sparkline.v21.2.Core.resources.dll
+F:\New folder\ChuyenDe\bin\Debug\es\DevExpress.Sparkline.v21.2.Core.resources.dll
+F:\New folder\ChuyenDe\bin\Debug\ja\DevExpress.Sparkline.v21.2.Core.resources.dll
+F:\New folder\ChuyenDe\bin\Debug\ru\DevExpress.Sparkline.v21.2.Core.resources.dll
+F:\New folder\ChuyenDe\bin\Debug\de\DevExpress.Utils.v21.2.resources.dll
+F:\New folder\ChuyenDe\bin\Debug\es\DevExpress.Utils.v21.2.resources.dll
+F:\New folder\ChuyenDe\bin\Debug\ja\DevExpress.Utils.v21.2.resources.dll
+F:\New folder\ChuyenDe\bin\Debug\ru\DevExpress.Utils.v21.2.resources.dll
+F:\New folder\ChuyenDe\bin\Debug\de\DevExpress.XtraEditors.v21.2.resources.dll
+F:\New folder\ChuyenDe\bin\Debug\es\DevExpress.XtraEditors.v21.2.resources.dll
+F:\New folder\ChuyenDe\bin\Debug\ja\DevExpress.XtraEditors.v21.2.resources.dll
+F:\New folder\ChuyenDe\bin\Debug\ru\DevExpress.XtraEditors.v21.2.resources.dll
+F:\New folder\ChuyenDe\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+F:\New folder\ChuyenDe\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+F:\New folder\ChuyenDe\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+F:\New folder\ChuyenDe\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+F:\New folder\ChuyenDe\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+F:\New folder\ChuyenDe\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+F:\New folder\ChuyenDe\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+F:\New folder\ChuyenDe\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+F:\New folder\ChuyenDe\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+F:\New folder\ChuyenDe\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+F:\New folder\ChuyenDe\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\New folder\ChuyenDe\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\New folder\ChuyenDe\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\New folder\ChuyenDe\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\New folder\ChuyenDe\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\New folder\ChuyenDe\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\New folder\ChuyenDe\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\New folder\ChuyenDe\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\New folder\ChuyenDe\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\New folder\ChuyenDe\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\New folder\ChuyenDe\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+F:\New folder\ChuyenDe\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+F:\New folder\ChuyenDe\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+F:\New folder\ChuyenDe\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+F:\New folder\ChuyenDe\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+F:\New folder\ChuyenDe\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+F:\New folder\ChuyenDe\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+F:\New folder\ChuyenDe\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+F:\New folder\ChuyenDe\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+F:\New folder\ChuyenDe\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+F:\New folder\ChuyenDe\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+F:\New folder\ChuyenDe\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+F:\New folder\ChuyenDe\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+F:\New folder\ChuyenDe\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+F:\New folder\ChuyenDe\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+F:\New folder\ChuyenDe\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+F:\New folder\ChuyenDe\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+F:\New folder\ChuyenDe\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+F:\New folder\ChuyenDe\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+F:\New folder\ChuyenDe\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+F:\New folder\ChuyenDe\bin\Debug\de\DevExpress.Pdf.v21.2.Core.resources.dll
+F:\New folder\ChuyenDe\bin\Debug\es\DevExpress.Pdf.v21.2.Core.resources.dll
+F:\New folder\ChuyenDe\bin\Debug\ja\DevExpress.Pdf.v21.2.Core.resources.dll
+F:\New folder\ChuyenDe\bin\Debug\ru\DevExpress.Pdf.v21.2.Core.resources.dll
+F:\New folder\ChuyenDe\obj\Debug\ChuyenDe.csproj.AssemblyReference.cache
+F:\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmKhachHang.resources
+F:\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmLoai.resources
+F:\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmChinh.resources
+F:\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmHoaDon.resources
+F:\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmCuaHang.resources
+F:\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmKho.resources
+F:\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmNhanVien.resources
+F:\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmDanhMucSanPham.resources
+F:\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmNhaCungCap.resources
+F:\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmDangKy.resources
+F:\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmDangNhap.resources
+F:\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmThongKeDoanhThu.resources
+F:\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmThongKeLuongNhanVien.resources
+F:\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmThongKeSanPhamDaBan.resources
+F:\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmTimKiemHoaDon.resources
+F:\New folder\ChuyenDe\obj\Debug\ChuyenDe.Properties.Resources.resources
+F:\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmSanPham.resources
+F:\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmTimKiemSanPham.resources
+F:\New folder\ChuyenDe\obj\Debug\ChuyenDe.csproj.GenerateResource.cache
+F:\New folder\ChuyenDe\obj\Debug\ChuyenDe.csproj.CoreCompileInputs.cache
+F:\New folder\ChuyenDe\obj\Debug\ChuyenDe.csproj.Up2Date
+F:\New folder\ChuyenDe\obj\Debug\ChuyenDe.exe
+F:\New folder\ChuyenDe\obj\Debug\ChuyenDe.pdb
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\ChuyenDe.exe.config
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\ChuyenDe.exe
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\ChuyenDe.pdb
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\AForge.dll
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\AForge.Video.dll
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\BUS.exe
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\DAO.exe
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\Zen.Barcode.Core.dll
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\zxing.dll
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\zxing.presentation.dll
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\DevExpress.Pdf.v21.2.Core.dll
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\DevExpress.Pdf.v21.2.Drawing.dll
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\EnvDTE.dll
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\stdole.dll
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\BUS.pdb
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\BUS.exe.config
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\DAO.pdb
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\DAO.exe.config
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\AForge.xml
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\AForge.Video.xml
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\DevExpress.Data.Desktop.v21.2.xml
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\DevExpress.Data.v21.2.xml
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\DevExpress.Printing.v21.2.Core.xml
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\DevExpress.Sparkline.v21.2.Core.xml
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\DevExpress.Utils.v21.2.xml
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\DevExpress.XtraEditors.v21.2.xml
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\zxing.xml
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\zxing.presentation.xml
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\DevExpress.Pdf.v21.2.Core.xml
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\DevExpress.Pdf.v21.2.Drawing.xml
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\de\DevExpress.Data.v21.2.resources.dll
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\es\DevExpress.Data.v21.2.resources.dll
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\ja\DevExpress.Data.v21.2.resources.dll
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\ru\DevExpress.Data.v21.2.resources.dll
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\de\DevExpress.Printing.v21.2.Core.resources.dll
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\es\DevExpress.Printing.v21.2.Core.resources.dll
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\ja\DevExpress.Printing.v21.2.Core.resources.dll
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\ru\DevExpress.Printing.v21.2.Core.resources.dll
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\de\DevExpress.Sparkline.v21.2.Core.resources.dll
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\es\DevExpress.Sparkline.v21.2.Core.resources.dll
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\ja\DevExpress.Sparkline.v21.2.Core.resources.dll
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\ru\DevExpress.Sparkline.v21.2.Core.resources.dll
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\de\DevExpress.Utils.v21.2.resources.dll
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\es\DevExpress.Utils.v21.2.resources.dll
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\ja\DevExpress.Utils.v21.2.resources.dll
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\ru\DevExpress.Utils.v21.2.resources.dll
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\de\DevExpress.XtraEditors.v21.2.resources.dll
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\es\DevExpress.XtraEditors.v21.2.resources.dll
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\ja\DevExpress.XtraEditors.v21.2.resources.dll
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\ru\DevExpress.XtraEditors.v21.2.resources.dll
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\de\DevExpress.Pdf.v21.2.Core.resources.dll
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\es\DevExpress.Pdf.v21.2.Core.resources.dll
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\ja\DevExpress.Pdf.v21.2.Core.resources.dll
+C:\Users\Hp\Desktop\New folder\ChuyenDe\bin\Debug\ru\DevExpress.Pdf.v21.2.Core.resources.dll
+C:\Users\Hp\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.csproj.AssemblyReference.cache
+C:\Users\Hp\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmKhachHang.resources
+C:\Users\Hp\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmLoai.resources
+C:\Users\Hp\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmChinh.resources
+C:\Users\Hp\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmHoaDon.resources
+C:\Users\Hp\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmCuaHang.resources
+C:\Users\Hp\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmKho.resources
+C:\Users\Hp\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmNhanVien.resources
+C:\Users\Hp\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmDanhMucSanPham.resources
+C:\Users\Hp\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmNhaCungCap.resources
+C:\Users\Hp\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmDangKy.resources
+C:\Users\Hp\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmDangNhap.resources
+C:\Users\Hp\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmThongKeDoanhThu.resources
+C:\Users\Hp\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmThongKeLuongNhanVien.resources
+C:\Users\Hp\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmThongKeSanPhamDaBan.resources
+C:\Users\Hp\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmTimKiemHoaDon.resources
+C:\Users\Hp\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.Properties.Resources.resources
+C:\Users\Hp\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmSanPham.resources
+C:\Users\Hp\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmTimKiemSanPham.resources
+C:\Users\Hp\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.csproj.GenerateResource.cache
+C:\Users\Hp\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.csproj.CoreCompileInputs.cache
+C:\Users\Hp\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.csproj.Up2Date
+C:\Users\Hp\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.exe
+C:\Users\Hp\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.pdb
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmReportHoaDon.resources
+C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmReportTimKiemHoaDon.resources
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\AForge.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\AForge.Video.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\zxing.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\zxing.presentation.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\AForge.xml
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\AForge.Video.xml
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\DevExpress.Sparkline.v21.2.Core.xml
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\DevExpress.XtraEditors.v21.2.xml
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\zxing.xml
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\zxing.presentation.xml
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\de\DevExpress.Sparkline.v21.2.Core.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\es\DevExpress.Sparkline.v21.2.Core.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\ja\DevExpress.Sparkline.v21.2.Core.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\ru\DevExpress.Sparkline.v21.2.Core.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\de\DevExpress.XtraEditors.v21.2.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\es\DevExpress.XtraEditors.v21.2.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\ja\DevExpress.XtraEditors.v21.2.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\ru\DevExpress.XtraEditors.v21.2.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\obj\Debug\ChuyenDe.frmReportTimKiemHoaDon.resources
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\obj\Debug\ChuyenDe.frmReportHoaDon.resources
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\Microsoft.ReportViewer.WebDesign.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\Microsoft.ReportViewer.WebForms.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\de\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\es\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\fr\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\it\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\ja\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\ko\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\pt\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\ru\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\zh-CHS\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\zh-CHT\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\de\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\es\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\fr\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\it\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\ja\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\ko\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\pt\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\ru\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\zh-CHS\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\zh-CHT\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\obj\Debug\ChuyenDe.frmReportSPDaBan.resources
