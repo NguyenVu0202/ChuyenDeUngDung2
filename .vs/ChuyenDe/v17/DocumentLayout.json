@@ -1,0 +1,141 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\NGUYEN VU\\Desktop\\New folder\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|c:\\users\\nguyen vu\\desktop\\new folder\\chuyende\\frmtimkiemhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|solutionrelative:chuyende\\frmtimkiemhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9428D986-429C-40C9-BFCA-21FCA92C5A08}|BUS\\BUS.csproj|c:\\users\\nguyen vu\\desktop\\new folder\\bus\\bustimkiemhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9428D986-429C-40C9-BFCA-21FCA92C5A08}|BUS\\BUS.csproj|solutionrelative:bus\\bustimkiemhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|c:\\users\\nguyen vu\\desktop\\new folder\\chuyende\\frmtimkiemhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|solutionrelative:chuyende\\frmtimkiemhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B28102B4-A63A-4D91-93A7-3058447513E1}|DAO\\DAO.csproj|c:\\users\\nguyen vu\\desktop\\new folder\\dao\\daotimkiemhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B28102B4-A63A-4D91-93A7-3058447513E1}|DAO\\DAO.csproj|solutionrelative:dao\\daotimkiemhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9428D986-429C-40C9-BFCA-21FCA92C5A08}|BUS\\BUS.csproj|c:\\users\\nguyen vu\\desktop\\new folder\\bus\\bushoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9428D986-429C-40C9-BFCA-21FCA92C5A08}|BUS\\BUS.csproj|solutionrelative:bus\\bushoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B28102B4-A63A-4D91-93A7-3058447513E1}|DAO\\DAO.csproj|c:\\users\\nguyen vu\\desktop\\new folder\\dao\\daohoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B28102B4-A63A-4D91-93A7-3058447513E1}|DAO\\DAO.csproj|solutionrelative:dao\\daohoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|c:\\users\\nguyen vu\\desktop\\new folder\\chuyende\\frmhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|solutionrelative:chuyende\\frmhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BUSHoaDon.cs",
+              "DocumentMoniker": "C:\\Users\\NGUYEN VU\\Desktop\\New folder\\BUS\\BUSHoaDon.cs",
+              "RelativeDocumentMoniker": "BUS\\BUSHoaDon.cs",
+              "ToolTip": "C:\\Users\\NGUYEN VU\\Desktop\\New folder\\BUS\\BUSHoaDon.cs",
+              "RelativeToolTip": "BUS\\BUSHoaDon.cs",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAmwF4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T11:41:55.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DAOHoaDon.cs",
+              "DocumentMoniker": "C:\\Users\\NGUYEN VU\\Desktop\\New folder\\DAO\\DAOHoaDon.cs",
+              "RelativeDocumentMoniker": "DAO\\DAOHoaDon.cs",
+              "ToolTip": "C:\\Users\\NGUYEN VU\\Desktop\\New folder\\DAO\\DAOHoaDon.cs",
+              "RelativeToolTip": "DAO\\DAOHoaDon.cs",
+              "ViewState": "AQIAAIwAAAAAAAAAAAArwHoAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T11:40:14.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DAOTimKiemHoaDon.cs",
+              "DocumentMoniker": "C:\\Users\\NGUYEN VU\\Desktop\\New folder\\DAO\\DAOTimKiemHoaDon.cs",
+              "RelativeDocumentMoniker": "DAO\\DAOTimKiemHoaDon.cs",
+              "ToolTip": "C:\\Users\\NGUYEN VU\\Desktop\\New folder\\DAO\\DAOTimKiemHoaDon.cs",
+              "RelativeToolTip": "DAO\\DAOTimKiemHoaDon.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAjwEoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T11:39:43.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmTimKiemHoaDon.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\NGUYEN VU\\Desktop\\New folder\\ChuyenDe\\frmTimKiemHoaDon.cs",
+              "RelativeDocumentMoniker": "ChuyenDe\\frmTimKiemHoaDon.cs",
+              "ToolTip": "C:\\Users\\NGUYEN VU\\Desktop\\New folder\\ChuyenDe\\frmTimKiemHoaDon.cs [Design]",
+              "RelativeToolTip": "ChuyenDe\\frmTimKiemHoaDon.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T11:39:28.149Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmTimKiemHoaDon.cs",
+              "DocumentMoniker": "C:\\Users\\NGUYEN VU\\Desktop\\New folder\\ChuyenDe\\frmTimKiemHoaDon.cs",
+              "RelativeDocumentMoniker": "ChuyenDe\\frmTimKiemHoaDon.cs",
+              "ToolTip": "C:\\Users\\NGUYEN VU\\Desktop\\New folder\\ChuyenDe\\frmTimKiemHoaDon.cs",
+              "RelativeToolTip": "ChuyenDe\\frmTimKiemHoaDon.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAnwB0AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T11:43:40.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BUSTimKiemHoaDon.cs",
+              "DocumentMoniker": "C:\\Users\\NGUYEN VU\\Desktop\\New folder\\BUS\\BUSTimKiemHoaDon.cs",
+              "RelativeDocumentMoniker": "BUS\\BUSTimKiemHoaDon.cs",
+              "ToolTip": "C:\\Users\\NGUYEN VU\\Desktop\\New folder\\BUS\\BUSTimKiemHoaDon.cs",
+              "RelativeToolTip": "BUS\\BUSTimKiemHoaDon.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAEwDIAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T11:42:17.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frmHoaDon.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\NGUYEN VU\\Desktop\\New folder\\ChuyenDe\\frmHoaDon.cs",
+              "RelativeDocumentMoniker": "ChuyenDe\\frmHoaDon.cs",
+              "ToolTip": "C:\\Users\\NGUYEN VU\\Desktop\\New folder\\ChuyenDe\\frmHoaDon.cs [Design]",
+              "RelativeToolTip": "ChuyenDe\\frmHoaDon.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T12:05:10.871Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
