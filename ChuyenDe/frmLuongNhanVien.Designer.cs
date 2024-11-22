@@ -141,6 +141,7 @@
 			this.txtNghiPhep.Name = "txtNghiPhep";
 			this.txtNghiPhep.Size = new System.Drawing.Size(321, 34);
 			this.txtNghiPhep.TabIndex = 98;
+			this.txtNghiPhep.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtNghiPhep_KeyUp);
 			// 
 			// label15
 			// 
