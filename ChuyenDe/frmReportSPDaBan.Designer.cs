@@ -85,8 +85,8 @@
         #endregion
 
         private Microsoft.Reporting.WinForms.ReportViewer rpvSanPhamDaBan;
-        private BachHoaXanhDataSet bachHoaXanhDataSet;
         private System.Windows.Forms.BindingSource thongKeSanPhamDaBanCuaCuaHangBindingSource;
+        private BachHoaXanhDataSet bachHoaXanhDataSet;
         private BachHoaXanhDataSetTableAdapters.ThongKeSanPhamDaBanCuaCuaHangTableAdapter thongKeSanPhamDaBanCuaCuaHangTableAdapter;
     }
 }

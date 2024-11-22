@@ -21,6 +21,7 @@ namespace ChuyenDe
             InitializeComponent();
             View();
             Check();
+            txtMaKH.Enabled = false;
         }
 
         public void View()
@@ -221,7 +222,7 @@ namespace ChuyenDe
                 txtSDT.Text = string.Empty;
                 txtDiaChi.Text = string.Empty;
                 listBox2.Visible = false;
-                txtMaKH.ReadOnly = false;
+                txtMaKH.Enabled = true;
                 txtMaKH.Focus();
             }
             else
@@ -359,6 +360,7 @@ namespace ChuyenDe
             radMa.Checked = false;
             listBox1.Visible = false;
             listBox2.Visible = false;
+            txtMaKH.Enabled = false;
             dgvDanhSachKH.DataSource = null;
             View();
         }

@@ -29,6 +29,7 @@
 		private void InitializeComponent()
 		{
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.txtMa = new System.Windows.Forms.ComboBox();
             this.btnThoat = new System.Windows.Forms.Button();
             this.btnIn = new System.Windows.Forms.Button();
@@ -41,7 +42,6 @@
             this.dgvBanSP = new System.Windows.Forms.DataGridView();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvBanSP)).BeginInit();
             this.groupBox2.SuspendLayout();
@@ -71,13 +71,23 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông Tin Thống Kê";
             // 
+            // label4
+            // 
+            this.label4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(207, 101);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(143, 25);
+            this.label4.TabIndex = 45;
+            this.label4.Text = "Mã cửa hàng:";
+            // 
             // txtMa
             // 
             this.txtMa.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtMa.FormattingEnabled = true;
-            this.txtMa.Location = new System.Drawing.Point(379, 98);
+            this.txtMa.Location = new System.Drawing.Point(356, 98);
             this.txtMa.Name = "txtMa";
-            this.txtMa.Size = new System.Drawing.Size(499, 33);
+            this.txtMa.Size = new System.Drawing.Size(514, 33);
             this.txtMa.TabIndex = 44;
             // 
             // btnThoat
@@ -86,7 +96,7 @@
             this.btnThoat.Location = new System.Drawing.Point(1136, 212);
             this.btnThoat.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnThoat.Name = "btnThoat";
-            this.btnThoat.Size = new System.Drawing.Size(126, 51);
+            this.btnThoat.Size = new System.Drawing.Size(126, 67);
             this.btnThoat.TabIndex = 41;
             this.btnThoat.Text = "Thoát";
             this.btnThoat.UseVisualStyleBackColor = true;
@@ -98,7 +108,7 @@
             this.btnIn.Location = new System.Drawing.Point(945, 212);
             this.btnIn.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnIn.Name = "btnIn";
-            this.btnIn.Size = new System.Drawing.Size(126, 51);
+            this.btnIn.Size = new System.Drawing.Size(126, 67);
             this.btnIn.TabIndex = 40;
             this.btnIn.Text = "In";
             this.btnIn.UseVisualStyleBackColor = true;
@@ -150,7 +160,7 @@
             this.btnLamMoi.Location = new System.Drawing.Point(1136, 88);
             this.btnLamMoi.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnLamMoi.Name = "btnLamMoi";
-            this.btnLamMoi.Size = new System.Drawing.Size(126, 51);
+            this.btnLamMoi.Size = new System.Drawing.Size(126, 68);
             this.btnLamMoi.TabIndex = 24;
             this.btnLamMoi.Text = "Làm Mới";
             this.btnLamMoi.UseVisualStyleBackColor = true;
@@ -162,7 +172,7 @@
             this.btnThongKeTheoSP.Location = new System.Drawing.Point(945, 88);
             this.btnThongKeTheoSP.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnThongKeTheoSP.Name = "btnThongKeTheoSP";
-            this.btnThongKeTheoSP.Size = new System.Drawing.Size(126, 51);
+            this.btnThongKeTheoSP.Size = new System.Drawing.Size(126, 68);
             this.btnThongKeTheoSP.TabIndex = 23;
             this.btnThongKeTheoSP.Text = "Thống Kê";
             this.btnThongKeTheoSP.UseVisualStyleBackColor = true;
@@ -200,23 +210,13 @@
             // 
             this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.label1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(0, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(1502, 71);
             this.label1.TabIndex = 42;
             this.label1.Text = "THỐNG KÊ SẢN PHẨM ĐÃ BÁN";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label4
-            // 
-            this.label4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(230, 101);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(143, 25);
-            this.label4.TabIndex = 45;
-            this.label4.Text = "Mã cửa hàng:";
             // 
             // frmThongKeSanPhamDaBan
             // 

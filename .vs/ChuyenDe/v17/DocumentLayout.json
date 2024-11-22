@@ -1,33 +1,93 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\NGUYEN VU\\Desktop\\New folder\\",
+  "WorkspaceRootPath": "D:\\HocKi-5\\ChuyenDeUngDung2.git\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|c:\\users\\nguyen vu\\desktop\\new folder\\chuyende\\frmtimkiemhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|d:\\hocki-5\\chuyendeungdung2.git\\chuyende\\frmthongkesanphamdaban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|solutionrelative:chuyende\\frmthongkesanphamdaban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|D:\\HocKi-5\\ChuyenDeUngDung2.git\\chuyende\\doanhthucuahang.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}",
+      "RelativeMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|solutionrelative:chuyende\\doanhthucuahang.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|D:\\HocKi-5\\ChuyenDeUngDung2.git\\chuyende\\frmtimkiemsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|solutionrelative:chuyende\\frmtimkiemsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|D:\\HocKi-5\\ChuyenDeUngDung2.git\\chuyende\\frmkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|solutionrelative:chuyende\\frmkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|D:\\HocKi-5\\ChuyenDeUngDung2.git\\chuyende\\frmtimkiemsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|solutionrelative:chuyende\\frmtimkiemsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|D:\\HocKi-5\\ChuyenDeUngDung2.git\\chuyende\\frmkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|solutionrelative:chuyende\\frmkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|D:\\HocKi-5\\ChuyenDeUngDung2.git\\chuyende\\bachhoaxanhdataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
+      "RelativeMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|solutionrelative:chuyende\\bachhoaxanhdataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|D:\\HocKi-5\\ChuyenDeUngDung2.git\\chuyende\\frmtimkiemsanpham.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|solutionrelative:chuyende\\frmtimkiemsanpham.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|D:\\HocKi-5\\ChuyenDeUngDung2.git\\chuyende\\frmnhacungcap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|solutionrelative:chuyende\\frmnhacungcap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9428D986-429C-40C9-BFCA-21FCA92C5A08}|BUS\\BUS.csproj|D:\\HocKi-5\\ChuyenDeUngDung2.git\\bus\\buskhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9428D986-429C-40C9-BFCA-21FCA92C5A08}|BUS\\BUS.csproj|solutionrelative:bus\\buskhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|D:\\HocKi-5\\ChuyenDeUngDung2.git\\chuyende\\frmloai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|solutionrelative:chuyende\\frmloai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|D:\\HocKi-5\\ChuyenDeUngDung2.git\\chuyende\\sanphamdaban.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}",
+      "RelativeMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|solutionrelative:chuyende\\sanphamdaban.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|D:\\HocKi-5\\ChuyenDeUngDung2.git\\chuyende\\bachhoaxanhdataset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|solutionrelative:chuyende\\bachhoaxanhdataset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|D:\\HocKi-5\\ChuyenDeUngDung2.git\\chuyende\\frmreportspdaban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|solutionrelative:chuyende\\frmreportspdaban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|D:\\HocKi-5\\ChuyenDeUngDung2.git\\chuyende\\frmreportspdaban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|solutionrelative:chuyende\\frmreportspdaban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|D:\\HocKi-5\\ChuyenDeUngDung2.git\\chuyende\\frmtimkiemhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|solutionrelative:chuyende\\frmtimkiemhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9428D986-429C-40C9-BFCA-21FCA92C5A08}|BUS\\BUS.csproj|c:\\users\\nguyen vu\\desktop\\new folder\\bus\\bustimkiemhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9428D986-429C-40C9-BFCA-21FCA92C5A08}|BUS\\BUS.csproj|D:\\HocKi-5\\ChuyenDeUngDung2.git\\bus\\bustimkiemhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9428D986-429C-40C9-BFCA-21FCA92C5A08}|BUS\\BUS.csproj|solutionrelative:bus\\bustimkiemhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|c:\\users\\nguyen vu\\desktop\\new folder\\chuyende\\frmtimkiemhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|D:\\HocKi-5\\ChuyenDeUngDung2.git\\chuyende\\frmtimkiemhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|solutionrelative:chuyende\\frmtimkiemhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B28102B4-A63A-4D91-93A7-3058447513E1}|DAO\\DAO.csproj|c:\\users\\nguyen vu\\desktop\\new folder\\dao\\daotimkiemhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B28102B4-A63A-4D91-93A7-3058447513E1}|DAO\\DAO.csproj|D:\\HocKi-5\\ChuyenDeUngDung2.git\\dao\\daotimkiemhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B28102B4-A63A-4D91-93A7-3058447513E1}|DAO\\DAO.csproj|solutionrelative:dao\\daotimkiemhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9428D986-429C-40C9-BFCA-21FCA92C5A08}|BUS\\BUS.csproj|c:\\users\\nguyen vu\\desktop\\new folder\\bus\\bushoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9428D986-429C-40C9-BFCA-21FCA92C5A08}|BUS\\BUS.csproj|D:\\HocKi-5\\ChuyenDeUngDung2.git\\bus\\bushoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9428D986-429C-40C9-BFCA-21FCA92C5A08}|BUS\\BUS.csproj|solutionrelative:bus\\bushoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B28102B4-A63A-4D91-93A7-3058447513E1}|DAO\\DAO.csproj|c:\\users\\nguyen vu\\desktop\\new folder\\dao\\daohoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B28102B4-A63A-4D91-93A7-3058447513E1}|DAO\\DAO.csproj|D:\\HocKi-5\\ChuyenDeUngDung2.git\\dao\\daohoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B28102B4-A63A-4D91-93A7-3058447513E1}|DAO\\DAO.csproj|solutionrelative:dao\\daohoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|c:\\users\\nguyen vu\\desktop\\new folder\\chuyende\\frmhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|D:\\HocKi-5\\ChuyenDeUngDung2.git\\chuyende\\frmhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{99394921-1C60-4060-BF86-6565D3FF6C11}|ChuyenDe\\ChuyenDe.csproj|solutionrelative:chuyende\\frmhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -38,45 +98,236 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DoanhThuCuaHang.rdlc [Design]",
+              "DocumentMoniker": "D:\\HocKi-5\\ChuyenDeUngDung2.git\\ChuyenDe\\DoanhThuCuaHang.rdlc",
+              "RelativeDocumentMoniker": "ChuyenDe\\DoanhThuCuaHang.rdlc",
+              "ToolTip": "C:\\Users\\tonga\\OneDrive\\M\u00E1y t\u00EDnh\\ChuyenDe\\ChuyenDe\\DoanhThuCuaHang.rdlc [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001755|",
+              "WhenOpened": "2024-11-22T13:12:46.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmThongKeSanPhamDaBan.cs [Design]",
+              "DocumentMoniker": "D:\\HocKi-5\\ChuyenDeUngDung2.git\\ChuyenDe\\frmThongKeSanPhamDaBan.cs",
+              "RelativeDocumentMoniker": "ChuyenDe\\frmThongKeSanPhamDaBan.cs",
+              "ToolTip": "D:\\HocKi-5\\ChuyenDeUngDung2.git\\ChuyenDe\\frmThongKeSanPhamDaBan.cs [Design]",
+              "RelativeToolTip": "ChuyenDe\\frmThongKeSanPhamDaBan.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T13:10:45.544Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "frmTimKiemSanPham.Designer.cs",
+              "DocumentMoniker": "D:\\HocKi-5\\ChuyenDeUngDung2.git\\ChuyenDe\\frmTimKiemSanPham.Designer.cs",
+              "RelativeDocumentMoniker": "ChuyenDe\\frmTimKiemSanPham.Designer.cs",
+              "ToolTip": "D:\\HocKi-5\\ChuyenDeUngDung2.git\\ChuyenDe\\frmTimKiemSanPham.Designer.cs",
+              "RelativeToolTip": "ChuyenDe\\frmTimKiemSanPham.Designer.cs",
+              "ViewState": "AQIAAIUAAAAAAAAAAAAqwJIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T13:09:43.053Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "BUSHoaDon.cs",
-              "DocumentMoniker": "C:\\Users\\NGUYEN VU\\Desktop\\New folder\\BUS\\BUSHoaDon.cs",
-              "RelativeDocumentMoniker": "BUS\\BUSHoaDon.cs",
-              "ToolTip": "C:\\Users\\NGUYEN VU\\Desktop\\New folder\\BUS\\BUSHoaDon.cs",
-              "RelativeToolTip": "BUS\\BUSHoaDon.cs",
-              "ViewState": "AQIAAFEAAAAAAAAAAAAmwF4AAAAJAAAA",
+              "Title": "frmTimKiemSanPham.cs",
+              "DocumentMoniker": "D:\\HocKi-5\\ChuyenDeUngDung2.git\\ChuyenDe\\frmTimKiemSanPham.cs",
+              "RelativeDocumentMoniker": "ChuyenDe\\frmTimKiemSanPham.cs",
+              "ToolTip": "D:\\HocKi-5\\ChuyenDeUngDung2.git\\ChuyenDe\\frmTimKiemSanPham.cs",
+              "RelativeToolTip": "ChuyenDe\\frmTimKiemSanPham.cs",
+              "ViewState": "AQIAALcAAAAAAAAAAAAiwL0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T11:41:55.2Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-22T13:09:36.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmTimKiemSanPham.cs [Design]",
+              "DocumentMoniker": "D:\\HocKi-5\\ChuyenDeUngDung2.git\\ChuyenDe\\frmTimKiemSanPham.cs",
+              "RelativeDocumentMoniker": "ChuyenDe\\frmTimKiemSanPham.cs",
+              "ToolTip": "C:\\Users\\tonga\\OneDrive\\M\u00E1y t\u00EDnh\\ChuyenDe\\ChuyenDe\\frmTimKiemSanPham.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T13:07:58.14Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "DAOHoaDon.cs",
-              "DocumentMoniker": "C:\\Users\\NGUYEN VU\\Desktop\\New folder\\DAO\\DAOHoaDon.cs",
-              "RelativeDocumentMoniker": "DAO\\DAOHoaDon.cs",
-              "ToolTip": "C:\\Users\\NGUYEN VU\\Desktop\\New folder\\DAO\\DAOHoaDon.cs",
-              "RelativeToolTip": "DAO\\DAOHoaDon.cs",
-              "ViewState": "AQIAAIwAAAAAAAAAAAArwHoAAAARAAAA",
+              "Title": "frmKhachHang.cs",
+              "DocumentMoniker": "D:\\HocKi-5\\ChuyenDeUngDung2.git\\ChuyenDe\\frmKhachHang.cs",
+              "RelativeDocumentMoniker": "ChuyenDe\\frmKhachHang.cs",
+              "ToolTip": "D:\\HocKi-5\\ChuyenDeUngDung2.git\\ChuyenDe\\frmKhachHang.cs",
+              "RelativeToolTip": "ChuyenDe\\frmKhachHang.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAAAAwCgAAABxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T11:40:14.595Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-22T13:06:41.136Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "frmKhachHang.cs [Design]",
+              "DocumentMoniker": "D:\\HocKi-5\\ChuyenDeUngDung2.git\\ChuyenDe\\frmKhachHang.cs",
+              "RelativeDocumentMoniker": "ChuyenDe\\frmKhachHang.cs",
+              "ToolTip": "C:\\Users\\tonga\\OneDrive\\M\u00E1y t\u00EDnh\\ChuyenDe\\ChuyenDe\\frmKhachHang.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T13:06:34.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BUSKhachHang.cs",
+              "DocumentMoniker": "D:\\HocKi-5\\ChuyenDeUngDung2.git\\BUS\\BUSKhachHang.cs",
+              "RelativeDocumentMoniker": "BUS\\BUSKhachHang.cs",
+              "ToolTip": "D:\\HocKi-5\\ChuyenDeUngDung2.git\\BUS\\BUSKhachHang.cs",
+              "RelativeToolTip": "BUS\\BUSKhachHang.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T13:06:29.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "frmNhaCungCap.cs [Design]",
+              "DocumentMoniker": "D:\\HocKi-5\\ChuyenDeUngDung2.git\\ChuyenDe\\frmNhaCungCap.cs",
+              "RelativeDocumentMoniker": "ChuyenDe\\frmNhaCungCap.cs",
+              "ToolTip": "C:\\Users\\tonga\\OneDrive\\M\u00E1y t\u00EDnh\\ChuyenDe\\ChuyenDe\\frmNhaCungCap.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T13:05:15.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "frmLoai.cs [Design]",
+              "DocumentMoniker": "D:\\HocKi-5\\ChuyenDeUngDung2.git\\ChuyenDe\\frmLoai.cs",
+              "RelativeDocumentMoniker": "ChuyenDe\\frmLoai.cs",
+              "ToolTip": "C:\\Users\\tonga\\OneDrive\\M\u00E1y t\u00EDnh\\ChuyenDe\\ChuyenDe\\frmLoai.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T13:03:16.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BachHoaXanhDataSet.cs",
+              "DocumentMoniker": "D:\\HocKi-5\\ChuyenDeUngDung2.git\\ChuyenDe\\BachHoaXanhDataSet.cs",
+              "RelativeDocumentMoniker": "ChuyenDe\\BachHoaXanhDataSet.cs",
+              "ToolTip": "D:\\HocKi-5\\ChuyenDeUngDung2.git\\ChuyenDe\\BachHoaXanhDataSet.cs",
+              "RelativeToolTip": "ChuyenDe\\BachHoaXanhDataSet.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T13:01:12.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BachHoaXanhDataSet.xsd",
+              "DocumentMoniker": "D:\\HocKi-5\\ChuyenDeUngDung2.git\\ChuyenDe\\BachHoaXanhDataSet.xsd",
+              "RelativeDocumentMoniker": "ChuyenDe\\BachHoaXanhDataSet.xsd",
+              "ToolTip": "D:\\HocKi-5\\ChuyenDeUngDung2.git\\ChuyenDe\\BachHoaXanhDataSet.xsd",
+              "RelativeToolTip": "ChuyenDe\\BachHoaXanhDataSet.xsd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
+              "WhenOpened": "2024-11-22T13:01:02.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "frmReportSPDaBan.cs",
+              "DocumentMoniker": "D:\\HocKi-5\\ChuyenDeUngDung2.git\\ChuyenDe\\frmReportSPDaBan.cs",
+              "RelativeDocumentMoniker": "ChuyenDe\\frmReportSPDaBan.cs",
+              "ToolTip": "D:\\HocKi-5\\ChuyenDeUngDung2.git\\ChuyenDe\\frmReportSPDaBan.cs",
+              "RelativeToolTip": "ChuyenDe\\frmReportSPDaBan.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T12:59:30.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "frmReportSPDaBan.cs [Design]",
+              "DocumentMoniker": "D:\\HocKi-5\\ChuyenDeUngDung2.git\\ChuyenDe\\frmReportSPDaBan.cs",
+              "RelativeDocumentMoniker": "ChuyenDe\\frmReportSPDaBan.cs",
+              "ToolTip": "C:\\Users\\tonga\\OneDrive\\M\u00E1y t\u00EDnh\\ChuyenDe\\ChuyenDe\\frmReportSPDaBan.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T12:59:28.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SanPhamDaBan.rdlc [Design]",
+              "DocumentMoniker": "D:\\HocKi-5\\ChuyenDeUngDung2.git\\ChuyenDe\\SanPhamDaBan.rdlc",
+              "RelativeDocumentMoniker": "ChuyenDe\\SanPhamDaBan.rdlc",
+              "ToolTip": "C:\\Users\\tonga\\OneDrive\\M\u00E1y t\u00EDnh\\ChuyenDe\\ChuyenDe\\SanPhamDaBan.rdlc [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001755|",
+              "WhenOpened": "2024-11-22T12:59:10.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BUSHoaDon.cs",
+              "DocumentMoniker": "D:\\HocKi-5\\ChuyenDeUngDung2.git\\BUS\\BUSHoaDon.cs",
+              "RelativeDocumentMoniker": "BUS\\BUSHoaDon.cs",
+              "ToolTip": "D:\\HocKi-5\\ChuyenDeUngDung2.git\\BUS\\BUSHoaDon.cs",
+              "RelativeToolTip": "BUS\\BUSHoaDon.cs",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAmwF4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T11:41:55.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DAOHoaDon.cs",
+              "DocumentMoniker": "D:\\HocKi-5\\ChuyenDeUngDung2.git\\DAO\\DAOHoaDon.cs",
+              "RelativeDocumentMoniker": "DAO\\DAOHoaDon.cs",
+              "ToolTip": "D:\\HocKi-5\\ChuyenDeUngDung2.git\\DAO\\DAOHoaDon.cs",
+              "RelativeToolTip": "DAO\\DAOHoaDon.cs",
+              "ViewState": "AQIAAIwAAAAAAAAAAAArwHoAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T11:40:14.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "DAOTimKiemHoaDon.cs",
-              "DocumentMoniker": "C:\\Users\\NGUYEN VU\\Desktop\\New folder\\DAO\\DAOTimKiemHoaDon.cs",
+              "DocumentMoniker": "D:\\HocKi-5\\ChuyenDeUngDung2.git\\DAO\\DAOTimKiemHoaDon.cs",
               "RelativeDocumentMoniker": "DAO\\DAOTimKiemHoaDon.cs",
-              "ToolTip": "C:\\Users\\NGUYEN VU\\Desktop\\New folder\\DAO\\DAOTimKiemHoaDon.cs",
+              "ToolTip": "D:\\HocKi-5\\ChuyenDeUngDung2.git\\DAO\\DAOTimKiemHoaDon.cs",
               "RelativeToolTip": "DAO\\DAOTimKiemHoaDon.cs",
               "ViewState": "AQIAAD4AAAAAAAAAAAAjwEoAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -85,53 +336,47 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 15,
               "Title": "frmTimKiemHoaDon.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\NGUYEN VU\\Desktop\\New folder\\ChuyenDe\\frmTimKiemHoaDon.cs",
+              "DocumentMoniker": "D:\\HocKi-5\\ChuyenDeUngDung2.git\\ChuyenDe\\frmTimKiemHoaDon.cs",
               "RelativeDocumentMoniker": "ChuyenDe\\frmTimKiemHoaDon.cs",
-              "ToolTip": "C:\\Users\\NGUYEN VU\\Desktop\\New folder\\ChuyenDe\\frmTimKiemHoaDon.cs [Design]",
-              "RelativeToolTip": "ChuyenDe\\frmTimKiemHoaDon.cs [Design]",
+              "ToolTip": "C:\\Users\\tonga\\OneDrive\\M\u00E1y t\u00EDnh\\ChuyenDe\\ChuyenDe\\frmTimKiemHoaDon.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T11:39:28.149Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-22T11:39:28.149Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 17,
               "Title": "frmTimKiemHoaDon.cs",
-              "DocumentMoniker": "C:\\Users\\NGUYEN VU\\Desktop\\New folder\\ChuyenDe\\frmTimKiemHoaDon.cs",
+              "DocumentMoniker": "D:\\HocKi-5\\ChuyenDeUngDung2.git\\ChuyenDe\\frmTimKiemHoaDon.cs",
               "RelativeDocumentMoniker": "ChuyenDe\\frmTimKiemHoaDon.cs",
-              "ToolTip": "C:\\Users\\NGUYEN VU\\Desktop\\New folder\\ChuyenDe\\frmTimKiemHoaDon.cs",
+              "ToolTip": "D:\\HocKi-5\\ChuyenDeUngDung2.git\\ChuyenDe\\frmTimKiemHoaDon.cs",
               "RelativeToolTip": "ChuyenDe\\frmTimKiemHoaDon.cs",
               "ViewState": "AQIAACIAAAAAAAAAAAAnwB0AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T11:43:40.214Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-22T11:43:40.214Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 16,
               "Title": "BUSTimKiemHoaDon.cs",
-              "DocumentMoniker": "C:\\Users\\NGUYEN VU\\Desktop\\New folder\\BUS\\BUSTimKiemHoaDon.cs",
+              "DocumentMoniker": "D:\\HocKi-5\\ChuyenDeUngDung2.git\\BUS\\BUSTimKiemHoaDon.cs",
               "RelativeDocumentMoniker": "BUS\\BUSTimKiemHoaDon.cs",
-              "ToolTip": "C:\\Users\\NGUYEN VU\\Desktop\\New folder\\BUS\\BUSTimKiemHoaDon.cs",
+              "ToolTip": "D:\\HocKi-5\\ChuyenDeUngDung2.git\\BUS\\BUSTimKiemHoaDon.cs",
               "RelativeToolTip": "BUS\\BUSTimKiemHoaDon.cs",
               "ViewState": "AQIAACYAAAAAAAAAAAAEwDIAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T11:42:17.563Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-22T11:42:17.563Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 21,
               "Title": "frmHoaDon.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\NGUYEN VU\\Desktop\\New folder\\ChuyenDe\\frmHoaDon.cs",
+              "DocumentMoniker": "D:\\HocKi-5\\ChuyenDeUngDung2.git\\ChuyenDe\\frmHoaDon.cs",
               "RelativeDocumentMoniker": "ChuyenDe\\frmHoaDon.cs",
               "ToolTip": "C:\\Users\\NGUYEN VU\\Desktop\\New folder\\ChuyenDe\\frmHoaDon.cs [Design]",
-              "RelativeToolTip": "ChuyenDe\\frmHoaDon.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T12:05:10.871Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-22T12:05:10.871Z"
             }
           ]
         }

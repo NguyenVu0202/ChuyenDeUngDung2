@@ -153,24 +153,6 @@ namespace ChuyenDe
             }
         }
 
-        private void txtMaSP_TextChanged(object sender, EventArgs e)
-        {
-            string searchTerm = txtMa.Text.Trim();
-            if (!string.IsNullOrWhiteSpace(searchTerm))
-            {
-                var suggestions = BUSTimSanPham.Instance.TimKiemSanPhamByMa(searchTerm);
-                listBox1.Items.Clear();
-                foreach (var sp in suggestions)
-                {
-                    listBox1.Items.Add(sp.MaSP + " - " + sp.TenSP);
-                }
-                listBox1.Visible = listBox1.Items.Count > 0;
-            }
-            else
-            {
-                listBox1.Visible = false;
-            }
-        }
 
         private void txtTenSP_TextChanged(object sender, EventArgs e)
         {
@@ -204,6 +186,25 @@ namespace ChuyenDe
         {
             MessageBox.Show($"Data error: {e.Exception.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             e.ThrowException = false; // Prevent the exception from being thrown
+        }
+
+        private void txtMa_TextChanged(object sender, EventArgs e)
+        {
+            string searchTerm = txtMa.Text.Trim();
+            if (!string.IsNullOrWhiteSpace(searchTerm))
+            {
+                var suggestions = BUSTimSanPham.Instance.TimKiemSanPhamByMa(searchTerm);
+                listBox1.Items.Clear();
+                foreach (var sp in suggestions)
+                {
+                    listBox1.Items.Add(sp.MaSP + " - " + sp.TenSP);
+                }
+                listBox1.Visible = listBox1.Items.Count > 0;
+            }
+            else
+            {
+                listBox1.Visible = false;
+            }
         }
     }
 }

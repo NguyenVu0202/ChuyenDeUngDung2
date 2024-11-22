@@ -5,14 +5,14 @@ namespace ChuyenDe
 {
 
 
-	partial class BachHoaXanhDataSet
-	{
-		partial class ReportHoaDonDataTable
-		{
-		}
+    partial class BachHoaXanhDataSet
+    {
+        partial class ReportHoaDonDataTable
+        {
+        }
 
-		partial class ThongKeSanPhamDaBanCuaCuaHangDataTable
-		{
-		}
-	}
+        partial class ThongKeSanPhamDaBanCuaCuaHangDataTable
+        {
+        }
+    }
 }

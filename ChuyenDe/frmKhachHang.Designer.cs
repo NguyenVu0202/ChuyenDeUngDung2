@@ -79,7 +79,7 @@
             // 
             this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.label1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(0, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(1290, 68);
@@ -173,7 +173,7 @@
             this.txtTenKH.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtTenKH.Name = "txtTenKH";
             this.txtTenKH.Size = new System.Drawing.Size(327, 31);
-            this.txtTenKH.TabIndex = 8;
+            this.txtTenKH.TabIndex = 1;
             this.txtTenKH.TextChanged += new System.EventHandler(this.txtTenKH_TextChanged);
             // 
             // txtSDT

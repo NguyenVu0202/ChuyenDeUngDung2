@@ -144,10 +144,6 @@ C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\SqlServerTypes\x8
 C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
 C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\BUS.exe
 C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\DAO.exe
-C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\DevExpress.Data.Desktop.v21.2.dll
-C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\DevExpress.Data.v21.2.dll
-C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\DevExpress.Printing.v21.2.Core.dll
-C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\DevExpress.Utils.v21.2.dll
 C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\Microsoft.ReportViewer.Common.dll
 C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
 C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\Microsoft.ReportViewer.Design.dll
@@ -1741,3 +1737,30 @@ C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmLuongNhanVi
 C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmReportLuongNhanVienTheoCH.resources
 C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmReportSPDaBan.resources
 C:\Users\NGUYEN VU\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmReportThongKeDoanhThu.resources
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\AForge.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\AForge.Video.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\zxing.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\zxing.presentation.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\AForge.xml
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\AForge.Video.xml
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\DevExpress.Sparkline.v21.2.Core.xml
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\DevExpress.XtraEditors.v21.2.xml
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\zxing.xml
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\zxing.presentation.xml
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\de\DevExpress.Sparkline.v21.2.Core.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\es\DevExpress.Sparkline.v21.2.Core.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\ja\DevExpress.Sparkline.v21.2.Core.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\ru\DevExpress.Sparkline.v21.2.Core.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\de\DevExpress.XtraEditors.v21.2.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\es\DevExpress.XtraEditors.v21.2.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\ja\DevExpress.XtraEditors.v21.2.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\bin\Debug\ru\DevExpress.XtraEditors.v21.2.resources.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\obj\Debug\ChuyenDe.frmInLuongNhanVien.resources
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\obj\Debug\ChuyenDe.frmLuongNhanVien.resources
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\obj\Debug\ChuyenDe.frmReportLuongNhanVienTheoCH.resources
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\obj\Debug\ChuyenDe.frmReportSPDaBan.resources
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\obj\Debug\ChuyenDe.frmReportThongKeDoanhThu.resources
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\obj\Debug\ChuyenDe.frmReportTimKiemHoaDon.resources
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\obj\Debug\ChuyenDe.frmReportHoaDon.resources

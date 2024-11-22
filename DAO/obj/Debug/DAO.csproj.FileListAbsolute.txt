@@ -889,3 +889,13 @@ D:\HK6\Chuyên Đề Ứng Dụng 1\ChuyenDe2\DAO\obj\Debug\DAO.csproj.CoreCompi
 D:\HK6\Chuyên Đề Ứng Dụng 1\ChuyenDe2\DAO\obj\Debug\DAO.csproj.Up2Date
 D:\HK6\Chuyên Đề Ứng Dụng 1\ChuyenDe2\DAO\obj\Debug\DAO.exe
 D:\HK6\Chuyên Đề Ứng Dụng 1\ChuyenDe2\DAO\obj\Debug\DAO.pdb
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\DAO\bin\Debug\AForge.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\DAO\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\DAO\bin\Debug\AForge.Video.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\DAO\bin\Debug\zxing.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\DAO\bin\Debug\zxing.presentation.dll
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\DAO\bin\Debug\AForge.xml
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\DAO\bin\Debug\AForge.Video.xml
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\DAO\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\DAO\bin\Debug\zxing.xml
+C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\DAO\bin\Debug\zxing.presentation.xml
