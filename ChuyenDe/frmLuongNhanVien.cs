@@ -306,55 +306,7 @@ namespace ChuyenDe
 
 		private void txtLuongThucLinh_Leave(object sender, EventArgs e)
 		{
-			try
-			{
-				// Lấy các giá trị từ giao diện
-				decimal luongCoBan = decimal.Parse(txtLuongCB.Text);
-				decimal? phuCap = string.IsNullOrEmpty(txtPhuCap.Text) ? (decimal?)null : decimal.Parse(txtPhuCap.Text);
-				decimal? thuong = string.IsNullOrEmpty(txtThuong.Text) ? (decimal?)null : decimal.Parse(txtThuong.Text);
-
-				// Xử lý ngày nghỉ phép và không phép
-				int? ngayNghiPhep = string.IsNullOrEmpty(txtNghiPhep.Text) ? (int?)null : int.Parse(txtNghiPhep.Text);
-				int? ngayNghiKhongPhep = string.IsNullOrEmpty(txtNghiKhongPhep.Text) ? (int?)null : int.Parse(txtNghiKhongPhep.Text);
-
-				// Lấy giá trị ngày nghỉ phép còn lại từ giao diện (hoặc từ dữ liệu ban đầu)
-				// Lấy số ngày nghỉ phép còn lại (12 nếu không có giá trị nhập vào)
-				int ngayNghiPhepConLai = string.IsNullOrEmpty(txtNgayNghiConLai.Text) ? 12 : int.Parse(txtNgayNghiConLai.Text);
-
-				// Lấy số ngày nghỉ phép đã nhập
-				int ngayNghiPhepDaNhap = string.IsNullOrEmpty(txtNghiPhep.Text) ? 0 : int.Parse(txtNghiPhep.Text);
-
-				// Trừ số ngày nghỉ phép đã nhập từ số ngày nghỉ phép còn lại
-				int ngayNghiPhepConLaiSauKhiTru = ngayNghiPhepConLai - ngayNghiPhepDaNhap;
-
-				// Kiểm tra nếu ngày nghỉ phép còn lại sau khi trừ là âm, thì gán về 0
-				ngayNghiPhepConLaiSauKhiTru = Math.Max(0, ngayNghiPhepConLaiSauKhiTru);
-
-				// Hiển thị hoặc sử dụng giá trị đã trừ
-				Console.WriteLine("Ngày nghỉ phép còn lại: " + ngayNghiPhepConLaiSauKhiTru);
-
-
-				// Gọi phương thức tính lương thực lãnh và nhận giá trị ngày nghỉ phép còn lại từ phương thức trả về
-				decimal luongThucLinh = BUS_LuongNhanVien.Instance.TinhLuongThucLinh(
-					luongCoBan,
-					phuCap,
-					thuong,
-					ngayNghiPhep,
-					ngayNghiKhongPhep,
-					ngayNghiPhepConLai  // Không sử dụng ref
-				);
-
-				// Cập nhật ngày nghỉ phép còn lại sau khi tính toán
-				txtNgayNghiConLai.Text = ngayNghiPhepConLaiSauKhiTru.ToString();
-
-				// Hiển thị kết quả lương thực lãnh dưới dạng VND
-				txtLuongThucLinh.Text = luongThucLinh.ToString();
-			}
-			catch (Exception ex)
-			{
-				// Xử lý lỗi và hiển thị thông báo nếu có lỗi
-				MessageBox.Show("Đã xảy ra lỗi: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
-			}
+			
 		}
 
 		private void btnCapNhat_Click(object sender, EventArgs e)
@@ -407,7 +359,7 @@ namespace ChuyenDe
 				{
 					MaTinhLuong = int.Parse(txtMaTinhLuong.Text),
 					MaNV = cbMaNV.SelectedValue.ToString(),
-					MaCH = cbMaCH.SelectedValue.ToString(),
+					MaCH = cbMaCH.Text,
 					LuongCoBan = decimal.Parse(txtLuongCB.Text.Trim()),
 					PhuCap = decimal.Parse(txtPhuCap.Text.Trim()),
 					Thuong = decimal.Parse(txtThuong.Text.Trim()),
@@ -498,6 +450,110 @@ namespace ChuyenDe
 			this.Hide();
 			frm.ShowDialog();
 			this.Close();
+		}
+
+		private void txtNghiPhep_KeyUp(object sender, KeyEventArgs e)
+		{		
+			int nghiphep = 0;
+			if(txtNghiPhep.Text.Length == 0)
+			{
+				txtNghiPhep.Text = "0";
+				nghiphep = int.Parse(txtNghiPhep.Text);
+				
+			}
+			else
+			{
+				nghiphep = int.Parse(txtNghiPhep.Text);
+				if (nghiphep > 12)
+				{
+					txtNghiKhongPhep.Text = (nghiphep - 12).ToString();
+					txtNghiPhep.Text = "12";
+					decimal luongCoBan = decimal.Parse(txtLuongCB.Text);
+					decimal? phuCap = string.IsNullOrEmpty(txtPhuCap.Text) ? (decimal?)null : decimal.Parse(txtPhuCap.Text);
+					decimal? thuong = string.IsNullOrEmpty(txtThuong.Text) ? (decimal?)null : decimal.Parse(txtThuong.Text);
+
+					// Xử lý ngày nghỉ phép và không phép
+					int? ngayNghiPhep = string.IsNullOrEmpty(txtNghiPhep.Text) ? (int?)null : int.Parse(txtNghiPhep.Text);
+					int? ngayNghiKhongPhep = string.IsNullOrEmpty(txtNghiKhongPhep.Text) ? (int?)null : int.Parse(txtNghiKhongPhep.Text);
+
+					// Lấy giá trị ngày nghỉ phép còn lại từ giao diện (hoặc từ dữ liệu ban đầu)
+					// Lấy số ngày nghỉ phép còn lại (12 nếu không có giá trị nhập vào)
+					int ngayNghiPhepConLai = string.IsNullOrEmpty(txtNgayNghiConLai.Text) ? 12 : int.Parse(txtNgayNghiConLai.Text);
+
+					// Lấy số ngày nghỉ phép đã nhập
+					int ngayNghiPhepDaNhap = string.IsNullOrEmpty(txtNghiPhep.Text) ? 0 : int.Parse(txtNghiPhep.Text);
+
+					// Trừ số ngày nghỉ phép đã nhập từ số ngày nghỉ phép còn lại
+					int ngayNghiPhepConLaiSauKhiTru = ngayNghiPhepConLai - ngayNghiPhepDaNhap;
+
+					// Kiểm tra nếu ngày nghỉ phép còn lại sau khi trừ là âm, thì gán về 0
+					ngayNghiPhepConLaiSauKhiTru = Math.Max(0, ngayNghiPhepConLaiSauKhiTru);
+
+					// Hiển thị hoặc sử dụng giá trị đã trừ
+					Console.WriteLine("Ngày nghỉ phép còn lại: " + ngayNghiPhepConLaiSauKhiTru);
+
+
+					// Gọi phương thức tính lương thực lãnh và nhận giá trị ngày nghỉ phép còn lại từ phương thức trả về
+					decimal luongThucLinh = BUS_LuongNhanVien.Instance.TinhLuongThucLinh(
+						luongCoBan,
+						phuCap,
+						thuong,
+						ngayNghiPhep,
+						ngayNghiKhongPhep,
+						ngayNghiPhepConLai  // Không sử dụng ref
+					);
+
+					// Cập nhật ngày nghỉ phép còn lại sau khi tính toán
+					txtNgayNghiConLai.Text = ngayNghiPhepConLaiSauKhiTru.ToString();
+
+					// Hiển thị kết quả lương thực lãnh dưới dạng VND
+					txtLuongThucLinh.Text = luongThucLinh.ToString();
+				}
+				else
+				{
+					txtNghiKhongPhep.Text = "0";
+					decimal luongCoBan = decimal.Parse(txtLuongCB.Text);
+					decimal? phuCap = string.IsNullOrEmpty(txtPhuCap.Text) ? (decimal?)null : decimal.Parse(txtPhuCap.Text);
+					decimal? thuong = string.IsNullOrEmpty(txtThuong.Text) ? (decimal?)null : decimal.Parse(txtThuong.Text);
+
+					// Xử lý ngày nghỉ phép và không phép
+					int? ngayNghiPhep = string.IsNullOrEmpty(txtNghiPhep.Text) ? (int?)null : int.Parse(txtNghiPhep.Text);
+					int? ngayNghiKhongPhep = string.IsNullOrEmpty(txtNghiKhongPhep.Text) ? (int?)null : int.Parse(txtNghiKhongPhep.Text);
+
+					// Lấy giá trị ngày nghỉ phép còn lại từ giao diện (hoặc từ dữ liệu ban đầu)
+					// Lấy số ngày nghỉ phép còn lại (12 nếu không có giá trị nhập vào)
+					int ngayNghiPhepConLai = string.IsNullOrEmpty(txtNgayNghiConLai.Text) ? 12 : int.Parse(txtNgayNghiConLai.Text);
+
+					// Lấy số ngày nghỉ phép đã nhập
+					int ngayNghiPhepDaNhap = string.IsNullOrEmpty(txtNghiPhep.Text) ? 0 : int.Parse(txtNghiPhep.Text);
+
+					// Trừ số ngày nghỉ phép đã nhập từ số ngày nghỉ phép còn lại
+					int ngayNghiPhepConLaiSauKhiTru = ngayNghiPhepConLai - ngayNghiPhepDaNhap;
+
+					// Kiểm tra nếu ngày nghỉ phép còn lại sau khi trừ là âm, thì gán về 0
+					ngayNghiPhepConLaiSauKhiTru = Math.Max(0, ngayNghiPhepConLaiSauKhiTru);
+
+					// Hiển thị hoặc sử dụng giá trị đã trừ
+					Console.WriteLine("Ngày nghỉ phép còn lại: " + ngayNghiPhepConLaiSauKhiTru);
+
+
+					// Gọi phương thức tính lương thực lãnh và nhận giá trị ngày nghỉ phép còn lại từ phương thức trả về
+					decimal luongThucLinh = BUS_LuongNhanVien.Instance.TinhLuongThucLinh(
+						luongCoBan,
+						phuCap,
+						thuong,
+						ngayNghiPhep,
+						ngayNghiKhongPhep,
+						ngayNghiPhepConLai  // Không sử dụng ref
+					);
+
+					// Cập nhật ngày nghỉ phép còn lại sau khi tính toán
+					txtNgayNghiConLai.Text = ngayNghiPhepConLaiSauKhiTru.ToString();
+
+					// Hiển thị kết quả lương thực lãnh dưới dạng VND
+					txtLuongThucLinh.Text = luongThucLinh.ToString();
+				}
+			}
 		}
 	}
 }

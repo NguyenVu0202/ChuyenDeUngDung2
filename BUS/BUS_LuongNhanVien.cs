@@ -117,6 +117,7 @@ namespace BUS
 			return DAO_LuongNhanVien.Instance.SuaLuongNV(tinhLuong);
 		}
 
+
 		//Xóa lương
 		public void XoaLuong(TextBox manv)
 		{
