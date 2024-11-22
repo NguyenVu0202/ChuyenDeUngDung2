@@ -56,7 +56,7 @@
                 <Value>THỐNG KÊ DOANH THU THEO CỬA HÀNG</Value>
                 <Style>
                   <FontFamily>TIMEs New Roman</FontFamily>
-                  <FontSize>15pt</FontSize>
+                  <FontSize>20pt</FontSize>
                   <FontWeight>Bold</FontWeight>
                   <Color>Green</Color>
                 </Style>
@@ -66,10 +66,10 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox4</rd:DefaultName>
-        <Top>0.95139in</Top>
-        <Left>1.97667in</Left>
+        <Top>1.07639in</Top>
+        <Left>1.34332in</Left>
         <Height>0.33333in</Height>
-        <Width>4.50454in</Width>
+        <Width>5.92654in</Width>
         <ZIndex>1</ZIndex>
         <Style>
           <Border>
@@ -117,7 +117,9 @@
                               </Style>
                             </TextRun>
                           </TextRuns>
-                          <Style />
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
                         </Paragraph>
                       </Paragraphs>
                       <rd:DefaultName>Textbox13</rd:DefaultName>
@@ -150,7 +152,9 @@
                               </Style>
                             </TextRun>
                           </TextRuns>
-                          <Style />
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
                         </Paragraph>
                       </Paragraphs>
                       <rd:DefaultName>Textbox15</rd:DefaultName>
@@ -184,7 +188,9 @@
                               </Style>
                             </TextRun>
                           </TextRuns>
-                          <Style />
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
                         </Paragraph>
                       </Paragraphs>
                       <rd:DefaultName>Textbox17</rd:DefaultName>
@@ -217,7 +223,9 @@
                               </Style>
                             </TextRun>
                           </TextRuns>
-                          <Style />
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
                         </Paragraph>
                       </Paragraphs>
                       <rd:DefaultName>Textbox19</rd:DefaultName>
@@ -311,10 +319,14 @@
                           <TextRuns>
                             <TextRun>
                               <Value>=Fields!TuNgay.Value</Value>
-                              <Style />
+                              <Style>
+                                <Format>d</Format>
+                              </Style>
                             </TextRun>
                           </TextRuns>
-                          <Style />
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
                         </Paragraph>
                       </Paragraphs>
                       <rd:DefaultName>TuNgay</rd:DefaultName>
@@ -328,6 +340,7 @@
                         <PaddingBottom>2pt</PaddingBottom>
                       </Style>
                     </Textbox>
+                    <rd:Selected>true</rd:Selected>
                   </CellContents>
                 </TablixCell>
                 <TablixCell>
@@ -361,7 +374,6 @@
                         <PaddingBottom>2pt</PaddingBottom>
                       </Style>
                     </Textbox>
-                    <rd:Selected>true</rd:Selected>
                   </CellContents>
                 </TablixCell>
               </TablixCells>
@@ -387,8 +399,8 @@
           </TablixMembers>
         </TablixRowHierarchy>
         <DataSetName>DataSet1</DataSetName>
-        <Top>3.18056in</Top>
-        <Left>1.32993in</Left>
+        <Top>3.44444in</Top>
+        <Left>1.31654in</Left>
         <Height>0.5in</Height>
         <Width>5.70421in</Width>
         <ZIndex>2</ZIndex>
@@ -415,8 +427,8 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox25</rd:DefaultName>
-        <Top>2.91668in</Top>
-        <Left>1.34332in</Left>
+        <Top>3.18056in</Top>
+        <Left>1.32993in</Left>
         <Height>0.19444in</Height>
         <Width>1.31944in</Width>
         <ZIndex>3</ZIndex>
@@ -527,8 +539,8 @@
           </TablixMembers>
         </TablixRowHierarchy>
         <DataSetName>DataSet1</DataSetName>
-        <Top>4.55208in</Top>
-        <Left>4.93047in</Left>
+        <Top>4.1979in</Top>
+        <Left>4.91708in</Left>
         <Height>0.26736in</Height>
         <Width>2.12009in</Width>
         <ZIndex>4</ZIndex>
@@ -646,8 +658,8 @@
           </TablixMembers>
         </TablixRowHierarchy>
         <DataSetName>DataSet1</DataSetName>
-        <Top>1.56251in</Top>
-        <Left>2.50222in</Left>
+        <Top>1.82639in</Top>
+        <Left>2.48883in</Left>
         <Height>0.26736in</Height>
         <Width>2.14324in</Width>
         <ZIndex>6</ZIndex>
@@ -754,8 +766,8 @@
           </TablixMembers>
         </TablixRowHierarchy>
         <DataSetName>DataSet1</DataSetName>
-        <Top>1.96591in</Top>
-        <Left>2.50222in</Left>
+        <Top>2.22979in</Top>
+        <Left>2.48883in</Left>
         <Height>0.26736in</Height>
         <Width>2.14324in</Width>
         <ZIndex>7</ZIndex>
@@ -862,8 +874,8 @@
           </TablixMembers>
         </TablixRowHierarchy>
         <DataSetName>DataSet1</DataSetName>
-        <Top>2.36174in</Top>
-        <Left>2.50222in</Left>
+        <Top>2.62562in</Top>
+        <Left>2.48883in</Left>
         <Height>0.26736in</Height>
         <Width>2.14324in</Width>
         <ZIndex>8</ZIndex>
@@ -874,7 +886,7 @@
         </Style>
       </Tablix>
     </ReportItems>
-    <Height>4.81944in</Height>
+    <Height>4.68055in</Height>
     <Style />
   </Body>
   <Width>8.17099in</Width>
@@ -925,7 +937,7 @@
       </Fields>
       <rd:DataSetInfo>
         <rd:DataSetName>BachHoaXanhDataSet</rd:DataSetName>
-        <rd:SchemaPath>C:\Users\tonga\OneDrive\Máy tính\New folder\ChuyenDe\BachHoaXanhDataSet.xsd</rd:SchemaPath>
+        <rd:SchemaPath>C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\BachHoaXanhDataSet.xsd</rd:SchemaPath>
         <rd:TableName>ThongKeDoanhThuTheoCH</rd:TableName>
         <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
         <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>

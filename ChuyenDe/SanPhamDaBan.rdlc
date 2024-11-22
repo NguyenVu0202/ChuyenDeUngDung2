@@ -66,9 +66,9 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox4</rd:DefaultName>
-        <Top>0.95139in</Top>
+        <Top>0.86806in</Top>
         <Left>1.74096in</Left>
-        <Height>0.33333in</Height>
+        <Height>0.41666in</Height>
         <Width>5.11101in</Width>
         <ZIndex>1</ZIndex>
         <Style>
@@ -533,7 +533,7 @@
         <DataSetName>DataSet1</DataSetName>
         <Top>3.18056in</Top>
         <Height>0.5in</Height>
-        <Width>8.17102in</Width>
+        <Width>8.17101in</Width>
         <ZIndex>2</ZIndex>
         <Style>
           <Border>
@@ -739,7 +739,7 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>=Fields!Column3.Value</Value>
+                              <Value>=Fields!NgayThucHien.Value</Value>
                               <Style>
                                 <Format>d</Format>
                               </Style>
@@ -966,7 +966,7 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>=Fields!Column1.Value</Value>
+                              <Value>=Fields!TuNgay.Value</Value>
                               <Style>
                                 <Format>d</Format>
                               </Style>
@@ -1074,7 +1074,7 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>=Fields!Column2.Value</Value>
+                              <Value>=Fields!ToiNgay.Value</Value>
                               <Style>
                                 <Format>d</Format>
                               </Style>
@@ -1182,7 +1182,7 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>=Sum(Fields!TongSoLuongDaBan.Value)</Value>
+                              <Value>=Sum(Fields!TongSoLuong.Value)</Value>
                               <Style />
                             </TextRun>
                           </TextRuns>
@@ -1281,6 +1281,10 @@
           <DataField>DaBan</DataField>
           <rd:TypeName>System.Decimal</rd:TypeName>
         </Field>
+        <Field Name="TongSoLuong">
+          <DataField>TongSoLuong</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
         <Field Name="ThanhTien">
           <DataField>ThanhTien</DataField>
           <rd:TypeName>System.Decimal</rd:TypeName>
@@ -1293,26 +1297,22 @@
           <DataField>STT</DataField>
           <rd:TypeName>System.Int64</rd:TypeName>
         </Field>
-        <Field Name="TongSoLuongDaBan">
-          <DataField>TongSoLuongDaBan</DataField>
-          <rd:TypeName>System.Decimal</rd:TypeName>
-        </Field>
-        <Field Name="Column1">
-          <DataField>Column1</DataField>
+        <Field Name="NgayThucHien">
+          <DataField>NgayThucHien</DataField>
           <rd:TypeName>System.DateTime</rd:TypeName>
         </Field>
-        <Field Name="Column2">
-          <DataField>Column2</DataField>
+        <Field Name="TuNgay">
+          <DataField>TuNgay</DataField>
           <rd:TypeName>System.DateTime</rd:TypeName>
         </Field>
-        <Field Name="Column3">
-          <DataField>Column3</DataField>
+        <Field Name="ToiNgay">
+          <DataField>ToiNgay</DataField>
           <rd:TypeName>System.DateTime</rd:TypeName>
         </Field>
       </Fields>
       <rd:DataSetInfo>
         <rd:DataSetName>BachHoaXanhDataSet</rd:DataSetName>
-        <rd:SchemaPath>C:\Users\tonga\OneDrive\Máy tính\New folder\ChuyenDe\BachHoaXanhDataSet.xsd</rd:SchemaPath>
+        <rd:SchemaPath>C:\Users\tonga\OneDrive\Máy tính\ChuyenDe\ChuyenDe\BachHoaXanhDataSet.xsd</rd:SchemaPath>
         <rd:TableName>ThongKeSanPhamDaBanCuaCuaHang</rd:TableName>
         <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
         <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>

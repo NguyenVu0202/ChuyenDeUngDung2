@@ -38,9 +38,9 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.listBox2 = new System.Windows.Forms.ListBox();
-            this.listBox1 = new System.Windows.Forms.ListBox();
             this.txtMa = new System.Windows.Forms.TextBox();
+            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.listBox2 = new System.Windows.Forms.ListBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvTimKiemSP)).BeginInit();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -49,10 +49,10 @@
             // btnThoat
             // 
             this.btnThoat.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnThoat.Location = new System.Drawing.Point(825, 249);
+            this.btnThoat.Location = new System.Drawing.Point(970, 235);
             this.btnThoat.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnThoat.Name = "btnThoat";
-            this.btnThoat.Size = new System.Drawing.Size(115, 51);
+            this.btnThoat.Size = new System.Drawing.Size(125, 66);
             this.btnThoat.TabIndex = 21;
             this.btnThoat.Text = "Thoát";
             this.btnThoat.UseVisualStyleBackColor = true;
@@ -61,10 +61,10 @@
             // btnTimKiem
             // 
             this.btnTimKiem.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnTimKiem.Location = new System.Drawing.Point(825, 47);
+            this.btnTimKiem.Location = new System.Drawing.Point(970, 47);
             this.btnTimKiem.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnTimKiem.Name = "btnTimKiem";
-            this.btnTimKiem.Size = new System.Drawing.Size(115, 51);
+            this.btnTimKiem.Size = new System.Drawing.Size(125, 68);
             this.btnTimKiem.TabIndex = 20;
             this.btnTimKiem.Text = "Tìm Kiếm";
             this.btnTimKiem.UseVisualStyleBackColor = true;
@@ -73,10 +73,10 @@
             // btnLamMoi
             // 
             this.btnLamMoi.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnLamMoi.Location = new System.Drawing.Point(825, 145);
+            this.btnLamMoi.Location = new System.Drawing.Point(970, 142);
             this.btnLamMoi.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnLamMoi.Name = "btnLamMoi";
-            this.btnLamMoi.Size = new System.Drawing.Size(115, 51);
+            this.btnLamMoi.Size = new System.Drawing.Size(125, 65);
             this.btnLamMoi.TabIndex = 19;
             this.btnLamMoi.Text = "Làm Mới";
             this.btnLamMoi.UseVisualStyleBackColor = true;
@@ -85,10 +85,11 @@
             // txtTenSP
             // 
             this.txtTenSP.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtTenSP.Location = new System.Drawing.Point(304, 143);
+            this.txtTenSP.Location = new System.Drawing.Point(360, 196);
             this.txtTenSP.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtTenSP.Multiline = true;
             this.txtTenSP.Name = "txtTenSP";
-            this.txtTenSP.Size = new System.Drawing.Size(474, 31);
+            this.txtTenSP.Size = new System.Drawing.Size(583, 49);
             this.txtTenSP.TabIndex = 7;
             this.txtTenSP.TextChanged += new System.EventHandler(this.txtTenSP_TextChanged);
             // 
@@ -112,7 +113,7 @@
             // 
             this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.label1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(0, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(1275, 74);
@@ -138,7 +139,7 @@
             // 
             this.label4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(91, 146);
+            this.label4.Location = new System.Drawing.Point(147, 210);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(155, 25);
             this.label4.TabIndex = 2;
@@ -148,7 +149,7 @@
             // 
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(91, 83);
+            this.label2.Location = new System.Drawing.Point(147, 90);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(148, 25);
             this.label2.TabIndex = 0;
@@ -168,45 +169,48 @@
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(116, 113);
+            this.groupBox1.Location = new System.Drawing.Point(73, 113);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.groupBox1.Size = new System.Drawing.Size(1034, 351);
+            this.groupBox1.Size = new System.Drawing.Size(1146, 351);
             this.groupBox1.TabIndex = 34;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông Tin Tìm Kiếm";
             // 
-            // listBox2
+            // txtMa
             // 
-            this.listBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.listBox2.FormattingEnabled = true;
-            this.listBox2.ItemHeight = 25;
-            this.listBox2.Location = new System.Drawing.Point(304, 181);
-            this.listBox2.Name = "listBox2";
-            this.listBox2.Size = new System.Drawing.Size(474, 129);
-            this.listBox2.TabIndex = 23;
-            this.listBox2.Visible = false;
-            this.listBox2.SelectedIndexChanged += new System.EventHandler(this.listBox2_SelectedIndexChanged);
+            this.txtMa.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txtMa.Location = new System.Drawing.Point(360, 77);
+            this.txtMa.Multiline = true;
+            this.txtMa.Name = "txtMa";
+            this.txtMa.Size = new System.Drawing.Size(583, 49);
+            this.txtMa.TabIndex = 24;
+            this.txtMa.TextChanged += new System.EventHandler(this.txtMa_TextChanged);
             // 
             // listBox1
             // 
             this.listBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 25;
-            this.listBox1.Location = new System.Drawing.Point(304, 118);
+            this.listBox1.Location = new System.Drawing.Point(360, 132);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(474, 129);
+            this.listBox1.Size = new System.Drawing.Size(583, 179);
             this.listBox1.TabIndex = 22;
             this.listBox1.Visible = false;
             this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
-            // txtMa
+            // listBox2
             // 
-            this.txtMa.Location = new System.Drawing.Point(304, 77);
-            this.txtMa.Name = "txtMa";
-            this.txtMa.Size = new System.Drawing.Size(474, 31);
-            this.txtMa.TabIndex = 24;
+            this.listBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.listBox2.FormattingEnabled = true;
+            this.listBox2.ItemHeight = 25;
+            this.listBox2.Location = new System.Drawing.Point(360, 252);
+            this.listBox2.Name = "listBox2";
+            this.listBox2.Size = new System.Drawing.Size(583, 129);
+            this.listBox2.TabIndex = 23;
+            this.listBox2.Visible = false;
+            this.listBox2.SelectedIndexChanged += new System.EventHandler(this.listBox2_SelectedIndexChanged);
             // 
             // frmTimKiemSanPham
             // 

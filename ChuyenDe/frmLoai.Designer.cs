@@ -71,8 +71,9 @@
             this.txtTenLoai.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtTenLoai.Location = new System.Drawing.Point(345, 112);
             this.txtTenLoai.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtTenLoai.Multiline = true;
             this.txtTenLoai.Name = "txtTenLoai";
-            this.txtTenLoai.Size = new System.Drawing.Size(583, 31);
+            this.txtTenLoai.Size = new System.Drawing.Size(583, 49);
             this.txtTenLoai.TabIndex = 1;
             this.txtTenLoai.TextChanged += new System.EventHandler(this.txtTenLoai_TextChanged);
             // 
@@ -81,9 +82,10 @@
             this.txtMaLoai.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtMaLoai.Location = new System.Drawing.Point(345, 49);
             this.txtMaLoai.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtMaLoai.Multiline = true;
             this.txtMaLoai.Name = "txtMaLoai";
             this.txtMaLoai.ReadOnly = true;
-            this.txtMaLoai.Size = new System.Drawing.Size(583, 31);
+            this.txtMaLoai.Size = new System.Drawing.Size(583, 49);
             this.txtMaLoai.TabIndex = 2;
             this.txtMaLoai.TextChanged += new System.EventHandler(this.txtMaLoai_TextChanged);
             // 
@@ -91,27 +93,27 @@
             // 
             this.label3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(176, 112);
+            this.label3.Location = new System.Drawing.Point(181, 128);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(96, 25);
+            this.label3.Size = new System.Drawing.Size(102, 25);
             this.label3.TabIndex = 1;
-            this.label3.Text = "Tên Loại";
+            this.label3.Text = "Tên Loại:";
             // 
             // label2
             // 
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(176, 49);
+            this.label2.Location = new System.Drawing.Point(187, 64);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(89, 25);
+            this.label2.Size = new System.Drawing.Size(95, 25);
             this.label2.TabIndex = 0;
-            this.label2.Text = "Mã Loại";
+            this.label2.Text = "Mã Loại:";
             // 
             // label1
             // 
             this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.label1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(0, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(1275, 80);
