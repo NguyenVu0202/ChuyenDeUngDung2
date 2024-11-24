@@ -204,6 +204,12 @@
     <Compile Include="frmReportTimKiemHoaDon.Designer.cs">
       <DependentUpon>frmReportTimKiemHoaDon.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmTatCaLuongNhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTatCaLuongNhanVien.Designer.cs">
+      <DependentUpon>frmTatCaLuongNhanVien.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmThongKeDoanhThu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -301,6 +307,9 @@
     <EmbeddedResource Include="frmReportTimKiemHoaDon.resx">
       <DependentUpon>frmReportTimKiemHoaDon.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmTatCaLuongNhanVien.resx">
+      <DependentUpon>frmTatCaLuongNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmThongKeDoanhThu.resx">
       <DependentUpon>frmThongKeDoanhThu.cs</DependentUpon>
     </EmbeddedResource>
@@ -335,6 +344,7 @@
     <EmbeddedResource Include="rptHoaDon.rdlc" />
     <EmbeddedResource Include="rptLuongNhanVien.rdlc" />
     <EmbeddedResource Include="rptLuongNhanVienCuaHang.rdlc" />
+    <EmbeddedResource Include="rptTatCaLuongNhanVien.rdlc" />
     <EmbeddedResource Include="RptTimKiemHoaDon.rdlc" />
     <EmbeddedResource Include="SanPhamDaBan.rdlc" />
     <None Include="BachHoaXanhDataSet.xsc">

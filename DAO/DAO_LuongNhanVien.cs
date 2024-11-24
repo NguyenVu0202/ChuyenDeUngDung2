@@ -73,26 +73,41 @@ namespace DAO
 			DataTable table = new DataTable();
 
 			// Định nghĩa các cột của DataTable
+			table.Columns.Add("MaTinhLuong", typeof(int));
 			table.Columns.Add("MaNV", typeof(string));
 			table.Columns.Add("MaCH", typeof(string));
-			table.Columns.Add("TenNV", typeof(string));
-			table.Columns.Add("DiaChi", typeof(string));
-			table.Columns.Add("Luong", typeof(decimal));
+			table.Columns.Add("LuongCoBan", typeof(decimal));
+			table.Columns.Add("PhuCap", typeof(decimal));
+			table.Columns.Add("Thuong", typeof(decimal));
+			table.Columns.Add("NgayNghiPhep", typeof(int));
+			table.Columns.Add("NgayNghiKhongPhep", typeof(int));
+			table.Columns.Add("LuongThucLinh", typeof(decimal));
+			table.Columns.Add("NgayNghiConLai", typeof(int));
+			table.Columns.Add("NgayTinhLuong", typeof(DateTime));
 
+			
 			using (DataBHXDataContext db = new DataBHXDataContext(DAODoiChuoiKetNoi.Instance.ThayDoiChuoiKetNoi()))
 			{
 				// Truy vấn dữ liệu
-				var result = (from k in db.CuaHangs
-							  join sp in db.NhanViens on k.MaCH equals sp.MaCH
-							  where sp.MaCH == maCH
+				var result = (from s in db.BangTinhLuongs
+							  join ch in db.CuaHangs on s.MaCH equals ch.MaCH
+							  where ch.MaCH == maCH
 							  select new
 							  {
-								  sp.MaNV,
-								  k.MaCH,
-								  sp.TenNV,
-								  k.DiaChi,
-								  sp.Luong
+								  s.MaTinhLuong,
+								  s.MaNV,
+								  ch.MaCH,
+								  s.LuongCoBan,
+								  s.PhuCap,
+								  s.Thuong,
+								  s.NgayNghiPhep,
+								  s.NgayNghiKhongPhep,
+								  s.LuongThucLinh,
+								  s.NgayNghiConLai,
+								  s.NgayTinhLuong
+
 							  }).ToList();
+
 
 				// Đổ dữ liệu vào DataTable
 				if (result.Any())
@@ -100,11 +115,17 @@ namespace DAO
 					foreach (var item in result)
 					{
 						DataRow row = table.NewRow();
+						row["MaTinhLuong"] = item.MaTinhLuong;
 						row["MaNV"] = item.MaNV;
 						row["MaCH"] = item.MaCH;
-						row["TenNV"] = item.TenNV;
-						row["DiaChi"] = item.DiaChi;
-						row["Luong"] = item.Luong;
+						row["LuongCoBan"] = item.LuongCoBan;
+						row["PhuCap"] = item.PhuCap;
+						row["Thuong"] = item.Thuong;
+						row["NgayNghiPhep"] = item.NgayNghiPhep;
+						row["NgayNghiKhongPhep"] = item.NgayNghiKhongPhep;
+						row["LuongThucLinh"] = item.LuongThucLinh;
+						row["NgayNghiConLai"] = item.NgayNghiConLai;
+						row["NgayTinhLuong"] = item.NgayTinhLuong;
 						table.Rows.Add(row);
 					}
 				}

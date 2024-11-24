@@ -32,7 +32,7 @@ namespace ChuyenDe
 			if (!string.IsNullOrEmpty(maCH))
 			{
 				// Lấy danh sách kết quả từ phương thức ThongKeLuongNVTheoCH
-				var result = BUS_ThongKeLuongNhanVienTheoCH.Instance.ThongKeLuongNVTheoCH(maCH);
+				var result = BUS_ThongKeLuongNhanVienTheoCH.Instance.ThongKeLuongNVTheoCH(maCH, dtpTuNgay, dtpDenNgay);
 
 				if (result != null && result.Any())
 				{
@@ -61,7 +61,7 @@ namespace ChuyenDe
 
         private void btnIn_Click(object sender, EventArgs e)
         {
-			frmReportLuongNhanVienTheoCH frm = new frmReportLuongNhanVienTheoCH(cbMaCH.Text);
+			frmReportLuongNhanVienTheoCH frm = new frmReportLuongNhanVienTheoCH(cbMaCH.Text, dtpTuNgay.Text, dtpDenNgay.Text);
 			this.Hide();
 			frm.ShowDialog();
 			this.Close();

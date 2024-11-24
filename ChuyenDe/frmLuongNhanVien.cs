@@ -43,6 +43,7 @@ namespace ChuyenDe
 			AutoCompleteStringCollection dataMaNV = new AutoCompleteStringCollection();
 			dataMaNV.AddRange(LayDanhSachMaNV()); // Lấy danh sách mã nhân viên và thêm vào AutoComplete
 			cbMaNV.AutoCompleteCustomSource = dataMaNV;
+			LoadCboChonIn();
 		}
 		private string[] LayDanhSachMaNV()
 		{
@@ -446,10 +447,16 @@ namespace ChuyenDe
 
 		private void btnIn_Click(object sender, EventArgs e)
 		{
-			frmInLuongNhanVien frm = new frmInLuongNhanVien(int.Parse(txtMaTinhLuong.Text));
-			this.Hide();
-			frm.ShowDialog();
-			this.Close();
+			if(cboChonIn.Text == "In một bảng lương")
+			{
+				frmInLuongNhanVien frm = new frmInLuongNhanVien(int.Parse(txtMaTinhLuong.Text));
+				frm.ShowDialog();
+			}
+			else
+			{
+				frmTatCaLuongNhanVien frm = new frmTatCaLuongNhanVien(cbMaNV.Text);
+				frm.ShowDialog();
+			}	
 		}
 
 		private void txtNghiPhep_KeyUp(object sender, KeyEventArgs e)
@@ -554,6 +561,13 @@ namespace ChuyenDe
 					txtLuongThucLinh.Text = luongThucLinh.ToString();
 				}
 			}
+		}
+		private void LoadCboChonIn()
+		{
+			List<string> lst = new List<string>();
+			lst.Add("In tất cả bảng lương nhân viên");
+			lst.Add("In một bảng lương");
+			cboChonIn.DataSource = lst;
 		}
 	}
 }

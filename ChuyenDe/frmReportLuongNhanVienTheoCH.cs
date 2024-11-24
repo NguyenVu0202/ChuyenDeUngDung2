@@ -14,20 +14,24 @@ namespace ChuyenDe
 	public partial class frmReportLuongNhanVienTheoCH : Form
 	{
 		string maCH = "";
+		string tungay = "";
+		string denngay = "";
 		public frmReportLuongNhanVienTheoCH()
 		{
 			InitializeComponent();
 		}
-		public frmReportLuongNhanVienTheoCH(string maCH)
+		public frmReportLuongNhanVienTheoCH(string maCH, string tungay, string denngay)
 		{
 			InitializeComponent();
 			this.maCH = maCH;
+			this.tungay = tungay;
+			this.denngay = denngay;
 		}
 		private void frmReportLuongNhanVienTheoCH_Load(object sender, EventArgs e)
 		{
 			BachHoaXanhDataSetTableAdapters.ThongkeLuongNhanVienTheoCuaHangTableAdapter tableAdapter = new BachHoaXanhDataSetTableAdapters.ThongkeLuongNhanVienTheoCuaHangTableAdapter();
 			tableAdapter.Connection.ConnectionString = BUSDoiChuoiKetNoi.Instance.ThayDoiChuoiKetNoi();
-			tableAdapter.Fill(bachHoaXanhDataSet.ThongkeLuongNhanVienTheoCuaHang, maCH);
+			tableAdapter.Fill(bachHoaXanhDataSet.ThongkeLuongNhanVienTheoCuaHang, maCH, DateTime.Parse(tungay), DateTime.Parse(denngay));
 			this.rptLuongNVCH.RefreshReport();
 		}
     }

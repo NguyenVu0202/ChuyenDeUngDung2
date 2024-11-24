@@ -65,6 +65,8 @@
 			this.label5 = new System.Windows.Forms.Label();
 			this.label3 = new System.Windows.Forms.Label();
 			this.label2 = new System.Windows.Forms.Label();
+			this.cboChonIn = new System.Windows.Forms.ComboBox();
+			this.label17 = new System.Windows.Forms.Label();
 			((System.ComponentModel.ISupportInitialize)(this.dgvLuongNV)).BeginInit();
 			this.SuspendLayout();
 			// 
@@ -441,11 +443,32 @@
 			this.label2.TabIndex = 70;
 			this.label2.Text = "Mã NV:";
 			// 
+			// cboChonIn
+			// 
+			this.cboChonIn.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.cboChonIn.FormattingEnabled = true;
+			this.cboChonIn.Location = new System.Drawing.Point(256, 334);
+			this.cboChonIn.Name = "cboChonIn";
+			this.cboChonIn.Size = new System.Drawing.Size(376, 37);
+			this.cboChonIn.TabIndex = 107;
+			// 
+			// label17
+			// 
+			this.label17.AutoSize = true;
+			this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label17.Location = new System.Drawing.Point(116, 340);
+			this.label17.Name = "label17";
+			this.label17.Size = new System.Drawing.Size(101, 29);
+			this.label17.TabIndex = 106;
+			this.label17.Text = "Chọn In:";
+			// 
 			// frmLuongNhanVien
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(1801, 686);
+			this.Controls.Add(this.cboChonIn);
+			this.Controls.Add(this.label17);
 			this.Controls.Add(this.txtNgayNghiConLai);
 			this.Controls.Add(this.label16);
 			this.Controls.Add(this.txtMaTinhLuong);
@@ -532,5 +555,7 @@
 		private System.Windows.Forms.Label label5;
 		private System.Windows.Forms.Label label3;
 		private System.Windows.Forms.Label label2;
+		private System.Windows.Forms.ComboBox cboChonIn;
+		private System.Windows.Forms.Label label17;
 	}
 }
