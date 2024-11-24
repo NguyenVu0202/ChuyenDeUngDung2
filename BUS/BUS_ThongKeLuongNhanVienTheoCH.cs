@@ -24,10 +24,10 @@ namespace BUS
 		}
 		private BUS_ThongKeLuongNhanVienTheoCH() { }
 
-		public List<DTO_ThongKeDoanhThu> ThongKeLuongNVTheoCH(string maCH)
+		public List<DTO_ThongKeDoanhThu> ThongKeLuongNVTheoCH(string maCH, DateTimePicker tungay, DateTimePicker denngay)
 		{
 			// Call the DAO method to get data
-			var salesData = DAO_ThongKeLuongNhanVienTheoCH.Instance.ThongKeLuongNVTheoCH(maCH);
+			var salesData = DAO_ThongKeLuongNhanVienTheoCH.Instance.ThongKeLuongNVTheoCH(maCH, tungay.Text, denngay.Text);
 
 			// Here you can add additional business logic if needed
 			// For example, you could apply filters, calculations, or other transformations

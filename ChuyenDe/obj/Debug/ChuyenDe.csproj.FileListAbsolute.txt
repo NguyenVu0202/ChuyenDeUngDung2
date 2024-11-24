@@ -1901,3 +1901,11 @@ D:\HK6\Chuyên Đề Ứng Dụng 1\BHX\ChuyenDe\obj\Debug\ChuyenDe.csproj.CoreC
 D:\HK6\Chuyên Đề Ứng Dụng 1\BHX\ChuyenDe\obj\Debug\ChuyenDe.csproj.Up2Date
 D:\HK6\Chuyên Đề Ứng Dụng 1\BHX\ChuyenDe\obj\Debug\ChuyenDe.exe
 D:\HK6\Chuyên Đề Ứng Dụng 1\BHX\ChuyenDe\obj\Debug\ChuyenDe.pdb
+C:\Users\Hp\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmInLuongNhanVien.resources
+C:\Users\Hp\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmLuongNhanVien.resources
+C:\Users\Hp\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmReportLuongNhanVienTheoCH.resources
+C:\Users\Hp\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmReportSPDaBan.resources
+C:\Users\Hp\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmReportThongKeDoanhThu.resources
+C:\Users\Hp\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmReportTimKiemHoaDon.resources
+C:\Users\Hp\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmReportHoaDon.resources
+C:\Users\Hp\Desktop\New folder\ChuyenDe\obj\Debug\ChuyenDe.frmTatCaLuongNhanVien.resources

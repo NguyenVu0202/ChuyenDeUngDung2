@@ -62,7 +62,7 @@ namespace DAO
 			return list;
 		}
 
-		public List<DTO_ThongKeDoanhThu> ThongKeLuongNVTheoCH(string maCH)
+		public List<DTO_ThongKeDoanhThu> ThongKeLuongNVTheoCH(string maCH, string tungay, string denngay)
 		{
 			List<DTO_ThongKeDoanhThu> list = new List<DTO_ThongKeDoanhThu>();
 
@@ -71,10 +71,10 @@ namespace DAO
 				using (DataBHXDataContext db = new DataBHXDataContext(DAODoiChuoiKetNoi.Instance.ThayDoiChuoiKetNoi()))
 				{
 					// Querying and projecting data directly with LINQ
-					var salesData = (from ch in db.CuaHangs
-									 join nv in db.NhanViens on ch.MaCH equals nv.MaCH
-									 join tl in db.BangTinhLuongs on ch.MaCH equals tl.MaCH
-									 where ch.MaCH == maCH
+					var salesData = (from tl in db.BangTinhLuongs
+									 join nv in db.NhanViens on tl.MaNV equals nv.MaNV
+									 join ch in db.CuaHangs on tl.MaCH equals ch.MaCH
+									 where ch.MaCH == maCH && tl.NgayTinhLuong > DateTime.Parse(tungay) && tl.NgayTinhLuong < DateTime.Parse(denngay)
 									 select new DTO_ThongKeDoanhThu
 									 {
 										 MaNV = nv.MaNV,
